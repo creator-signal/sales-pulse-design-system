@@ -108,6 +108,137 @@
       ],
       "import": "import { ElementsOverview } from \"@creator-signal/design-system-reference\";"
     },
+    "dls-components": {
+      "id": "dls-components",
+      "name": "ComponentOverview",
+      "path": "./src/stories/dls/Components.stories.tsx",
+      "jsDocTags": {},
+      "error": {
+        "name": "No component import found",
+        "message": "No component file found for the \"ComponentOverview\" component.\n  187 | }\n  188 |\n> 189 | const meta = {\n      | ^\n  190 |   title: \"DLS/Components\",\n  191 |   component: ComponentOverview,\n  192 |   tags: [\"autodocs\"],\n\n./src/stories/dls/Components.stories.tsx:\nimport type { ReactNode } from \"react\";\nimport type { Meta, StoryObj } from \"@storybook/react-vite\";\nimport {\n  Badge, Button, Card, CardContent, CardDescription, CardHeader, CardTitle, ChartLegend, ChartLegendItem,\n  Checkbox, Disclosure, DisclosureTrigger, EmptyState, ErrorState, Field, FieldDescription, FieldError,\n  FieldLabel, FormStatus, IconButton, KeyValueItem, KeyValueList, LinkButton, LoadingIndicator, Menu,\n  MenuItem, Notice, Pagination, PaginationLink, PaginationList, Panel, Radio, ResponsiveTable, Select,\n  Skeleton, Stat, StatGroup, StatusIndicator, Switch, Table, TableBody, TableCaption, TableCell, TableHead,\n  TableHeader, TableRow, Textarea, TextInput, Tooltip\n} from \"@creator-signal/ui\";\nimport componentSource from \"@creator-signal/ui/components.json\";\n\ntype Classification = \"component\" | \"widget\" | \"subcomponent\" | \"runtime-utility\";\ntype Concept = {\n  id: string;\n  label: string;\n  classification: Exclude<Classification, \"subcomponent\">;\n  summary: string;\n  purpose: string;\n  use: string[];\n  avoid: string[];\n  anatomy: string[];\n  elements: string[];\n  options: string[];\n  states: string[];\n  content: string[];\n  accessibility: string[];\n  behaviour: string[];\n  owner: string;\n  entrypoint: string;\n  sourcePath: string;\n  storyId: string;\n  exampleCode: string;\n  exports: Array<{ name: string; classification: Classification; role: string }>;\n};\n\nconst registry = componentSource as {\n  definition: string;\n  classifications: Record<Classification, string>;\n  concepts: Concept[];\n};\nconst components = registry.concepts.filter((concept) => concept.classification === \"component\");\nconst conceptById = new Map(registry.concepts.map((concept) => [concept.id, concept]));\nconst sourceBase = \"https://github.com/creator-signal/sales-pulse/blob/develop/\";\n\nfunction concept(id: string) {\n  const entry = conceptById.get(id);\n  if (!entry) throw new Error(`Unknown Component concept: ${id}`);\n  return entry;\n}\n\nfunction ComponentOverview() {\n  const publicExports = registry.concepts.flatMap((entry) => entry.exports);\n  const count = (classification: Classification) => publicExports.filter((entry) => entry.classification === classification).length;\n  return (\n    <main className=\"cs-dls-shell cs-components-reference\">\n      <header className=\"cs-components-hero\">\n        <p className=\"cs-dls-kicker\">DLS · Components</p>\n        <h1>Owned building blocks, not disconnected demos.</h1>\n        <p>{registry.definition}</p>\n        <dl className=\"cs-elements-counts\">\n          <div><dt>Public APIs</dt><dd>{publicExports.length}</dd></div>\n          <div><dt>Component concepts</dt><dd>{components.length}</dd></div>\n          <div><dt>Components</dt><dd>{count(\"component\")}</dd></div>\n          <div><dt>Subcomponents</dt><dd>{count(\"subcomponent\")}</dd></div>\n          <div><dt>Widgets</dt><dd>{count(\"widget\")}</dd></div>\n          <div><dt>Runtime utilities</dt><dd>{count(\"runtime-utility\")}</dd></div>\n        </dl>\n      </header>\n\n      <section className=\"cs-components-levels\" aria-labelledby=\"component-level-title\">\n        <div><p className=\"cs-dls-card-label\">Language boundary</p><h2 id=\"component-level-title\">Every export has exactly one level</h2></div>\n        <dl>\n          {Object.entries(registry.classifications).map(([name, description]) => (\n            <div key={name}><dt>{name}</dt><dd>{description}</dd></div>\n          ))}\n        </dl>\n      </section>\n\n      <section className=\"cs-components-inventory\" aria-labelledby=\"component-inventory-title\">\n        <div className=\"cs-dls-section-heading\">\n          <div><p className=\"cs-dls-card-label\">Component index</p><h2 id=\"component-inventory-title\">Start with the semantic job</h2></div>\n          <p>Each page renders the real package, its public API, copyable source, states, options, content rules and accessibility contract.</p>\n        </div>\n        <div className=\"cs-components-grid\">\n          {components.map((entry, index) => (\n            <article key={entry.id}>\n              <span aria-hidden=\"true\">{String(index + 1).padStart(2, \"0\")}</span>\n              <p className=\"cs-component-kind\">{entry.classification}</p>\n              <h3><a href={`?path=/story/${entry.storyId}`}>{entry.label}</a></h3>\n              <p>{entry.summary}</p>\n              <footer>{entry.exports.map((item) => <code key={item.name}>{item.name}</code>)}</footer>\n            </article>\n          ))}\n        </div>\n      </section>\n\n      <section className=\"cs-components-boundary\" aria-labelledby=\"component-boundary-title\">\n        <div><p className=\"cs-dls-card-label\">Composition boundary</p><h2 id=\"component-boundary-title\">What comes after Components</h2></div>\n        <div className=\"cs-components-boundary-grid\">\n          <article><strong>Widgets</strong><p>{registry.concepts.filter((entry) => entry.classification === \"widget\").map((entry) => entry.label).join(\", \")} coordinate state or focus around one task. They are classified here, then documented as Widgets.</p></article>\n          <article><strong>Patterns</strong><p>Patterns combine owned parts into repeatable recipes such as form layout, confirmation or data-table analytics.</p></article>\n          <article><strong>Experiences</strong><p>Experiences show an outcome-led journey. They never redefine the public API or become application runtime authority.</p></article>\n        </div>\n      </section>\n    </main>\n  );\n}\n\nfunction LiveExample({ id }: { id: string }) {\n  switch (id) {\n    case \"button\": return <div className=\"cs-ui-review-row\"><Button>Save report</Button><Button variant=\"secondary\">Preview</Button><Button variant=\"danger\">Delete</Button><Button busy>Saving</Button><LinkButton href=\"#reports\">View reports</LinkButton><IconButton icon=\"?\" label=\"Help\" variant=\"ghost\" /></div>;\n    case \"disclosure\": return <Disclosure><DisclosureTrigger>Report options</DisclosureTrigger><p>Duplicate or archive this synthetic report.</p></Disclosure>;\n    case \"menu\": return <nav aria-label=\"Report destinations\"><Menu><MenuItem href=\"#overview\">Overview</MenuItem><MenuItem href=\"#orders\">Orders</MenuItem><MenuItem href=\"#customers\">Customers</MenuItem></Menu></nav>;\n    case \"pagination\": return <Pagination aria-label=\"Report pages\"><PaginationList><PaginationLink aria-label=\"Previous page\" href=\"#previous\">‹</PaginationLink><PaginationLink current href=\"#page-1\">1</PaginationLink><PaginationLink href=\"#page-2\">2</PaginationLink><PaginationLink aria-label=\"Next page\" href=\"#next\">›</PaginationLink></PaginationList></Pagination>;\n    case \"field\": return <div className=\"cs-ui-review-grid\"><Field><FieldLabel htmlFor=\"component-name\">Creator name</FieldLabel><FieldDescription id=\"component-name-help\">Shown on shared reports.</FieldDescription><TextInput aria-describedby=\"component-name-help\" defaultValue=\"Aster Studio\" id=\"component-name\" /></Field><Field><FieldLabel htmlFor=\"component-error\">Report note</FieldLabel><Textarea aria-describedby=\"component-error-message\" aria-invalid=\"true\" id=\"component-error\" /><FieldError id=\"component-error-message\">Enter at least ten characters.</FieldError></Field></div>;\n    case \"text-input\": return <Field><FieldLabel htmlFor=\"component-email\">Email</FieldLabel><TextInput autoComplete=\"email\" id=\"component-email\" placeholder=\"creator@example.test\" type=\"email\" /></Field>;\n    case \"textarea\": return <Field><FieldLabel htmlFor=\"component-note\">Report note</FieldLabel><Textarea defaultValue=\"Synthetic reference content.\" id=\"component-note\" rows={4} /></Field>;\n    case \"select\": return <Field><FieldLabel htmlFor=\"component-period\">Reporting period</FieldLabel><Select defaultValue=\"30\" id=\"component-period\"><option value=\"7\">Last 7 days</option><option value=\"30\">Last 30 days</option><option value=\"90\">Last 90 days</option></Select></Field>;\n    case \"choice-controls\": return <div className=\"cs-ui-review-grid\"><Checkbox defaultChecked description=\"Uses synthetic data only.\" label=\"Include repeat customers\" /><fieldset><legend>Cadence</legend><Radio defaultChecked label=\"Weekly\" name=\"component-cadence\" value=\"weekly\" /><Radio label=\"Monthly\" name=\"component-cadence\" value=\"monthly\" /></fieldset></div>;\n    case \"switch\": return <Switch defaultChecked description=\"Send after each synthetic import.\" label=\"Email summary\" />;\n    case \"form-status\": return <div className=\"cs-ui-review-stack\"><FormStatus tone=\"success\">Draft saved locally.</FormStatus><FormStatus tone=\"error\">Could not save. Check the highlighted fields.</FormStatus></div>;\n    case \"card\": return <Card><CardHeader><CardTitle>Creator overview</CardTitle><CardDescription>One coherent synthetic summary.</CardDescription></CardHeader><CardContent><p>Current status and related actions stay together.</p></CardContent></Card>;\n    case \"panel\": return <Panel><h2>Report details</h2><p>Panels contain dense or interactive sections without implying a portable object.</p></Panel>;\n    case \"status\": return <div className=\"cs-ui-review-row\"><Badge>Draft</Badge><Badge tone=\"success\">Synced</Badge><StatusIndicator tone=\"warning\">Needs review</StatusIndicator><StatusIndicator tone=\"error\">Failed</StatusIndicator></div>;\n    case \"notice\": return <div className=\"cs-ui-review-stack\"><Notice heading=\"Import complete\" tone=\"success\"><p>135 synthetic rows are ready.</p></Notice><Notice heading=\"Review required\" tone=\"warning\"><p>Two products have no collection.</p></Notice></div>;\n    case \"loading\": return <div className=\"cs-ui-review-stack\"><LoadingIndicator label=\"Loading report\" /><Skeleton style={{ inlineSize: \"45%\" }} /><Skeleton style={{ inlineSize: \"75%\" }} /></div>;\n    case \"terminal-state\": return <div className=\"cs-ui-review-grid\"><EmptyState actions={<Button>Create report</Button>} description=\"Create the first report.\" title=\"No reports\" /><ErrorState description=\"Saved reports are safe.\" retry={<Button variant=\"secondary\">Try again</Button>} title=\"Could not load\" /></div>;\n    case \"tooltip\": return <Tooltip content=\"Calculated after refunds and marketplace fees.\" triggerLabel=\"Explain net revenue\">What is net revenue?</Tooltip>;\n    case \"table\": return <ResponsiveTable aria-label=\"Synthetic design performance\"><Table><TableCaption>Synthetic design performance</TableCaption><TableHead><TableRow><TableHeader scope=\"col\">Design</TableHeader><TableHeader scope=\"col\">Status</TableHeader><TableHeader scope=\"col\">Revenue</TableHeader></TableRow></TableHead><TableBody><TableRow><TableHeader scope=\"row\">Blue fern with a deliberately long translated title</TableHeader><TableCell><StatusIndicator tone=\"success\">Growing</StatusIndicator></TableCell><TableCell>$1,240</TableCell></TableRow></TableBody></Table></ResponsiveTable>;\n    case \"key-value\": return <KeyValueList><KeyValueItem label=\"Shop\" value=\"Aster Studio\" /><KeyValueItem label=\"Updated\" value=\"Today at 09:42\" /><KeyValueItem label=\"Data\" value=\"Synthetic\" /></KeyValueList>;\n    case \"stat\": return <StatGroup><Stat context=\"Synthetic\" label=\"Revenue\" value=\"$4,820\" /><Stat label=\"Orders\" value=\"184\" /><Stat context=\"Last 30 days\" label=\"Conversion\" value=\"4.8%\" /></StatGroup>;\n    case \"chart-legend\": return <ChartLegend><ChartLegendItem label=\"Organic\" tone=\"series-1\" value=\"48%\" /><ChartLegendItem label=\"Email\" tone=\"series-2\" value=\"32%\" /><ChartLegendItem label=\"Direct\" tone=\"series-3\" value=\"20%\" /></ChartLegend>;\n    default: return null;\n  }\n}\n\nfunction List({ children }: { children: string[] }) {\n  return <ul>{children.map((item) => <li key={item}>{item}</li>)}</ul>;\n}\n\nfunction GuidanceBlock({ label, children }: { label: string; children: ReactNode }) {\n  return <section><h2>{label}</h2>{children}</section>;\n}\n\nfunction ComponentReference({ id }: { id: string }) {\n  const entry = concept(id);\n  return (\n    <main className=\"cs-dls-shell cs-component-page\" data-component-id={entry.id} dir={entry.id === \"pagination\" ? \"auto\" : undefined}>\n      <header className=\"cs-component-hero\">\n        <p className=\"cs-dls-kicker\">DLS · Components · {entry.label}</p>\n        <h1>{entry.label}</h1>\n        <p>{entry.summary}</p>\n        <div className=\"cs-component-meta\"><span>{entry.entrypoint}</span><span>{entry.exports.length} public {entry.exports.length === 1 ? \"API\" : \"APIs\"}</span><span>Issue #1409</span></div>\n      </header>\n\n      <section className=\"cs-component-purpose\" aria-labelledby={`${id}-purpose`}>\n        <div><p className=\"cs-dls-card-label\">Purpose</p><h2 id={`${id}-purpose`}>{entry.purpose}</h2></div>\n        <div className=\"cs-component-do-dont\"><article><strong>Use</strong><List>{entry.use}</List></article><article><strong>Do not use</strong><List>{entry.avoid}</List></article></div>\n      </section>\n\n      <section className=\"cs-component-specimen\" aria-labelledby={`${id}-specimen`}>\n        <div className=\"cs-component-section-heading\"><div><p className=\"cs-dls-card-label\">Live implementation</p><h2 id={`${id}-specimen`}>Rendered from the real package</h2></div><p>Resize, change theme, zoom and use the keyboard. This is executable documentation, not a screenshot or a copied imitation.</p></div>\n        <div className=\"cs-component-live\"><LiveExample id={entry.id} /></div>\n        <details className=\"cs-component-code\"><summary>Copy the real API example</summary><pre><code>{entry.exampleCode}</code></pre></details>\n      </section>\n\n      <section className=\"cs-component-guidance\" aria-label={`${entry.label} guidance`}>\n        <GuidanceBlock label=\"Anatomy\"><List>{entry.anatomy}</List></GuidanceBlock>\n        <GuidanceBlock label=\"HTML elements\"><List>{entry.elements}</List></GuidanceBlock>\n        <GuidanceBlock label=\"Options\"><List>{entry.options}</List></GuidanceBlock>\n        <GuidanceBlock label=\"States\"><List>{entry.states}</List></GuidanceBlock>\n        <GuidanceBlock label=\"Content\"><List>{entry.content}</List></GuidanceBlock>\n        <GuidanceBlock label=\"Accessibility\"><List>{entry.accessibility}</List></GuidanceBlock>\n        <GuidanceBlock label=\"Responsive, RTL and theme\"><List>{entry.behaviour}</List></GuidanceBlock>\n      </section>\n\n      <section className=\"cs-component-api\" aria-labelledby={`${id}-api`}>\n        <div><p className=\"cs-dls-card-label\">Public API</p><h2 id={`${id}-api`}>Owned and traceable</h2><p>Props come from the exported TypeScript implementation. Storybook controls cannot introduce another contract.</p></div>\n        <div>\n          <table><caption>{entry.label} public exports</caption><thead><tr><th scope=\"col\">Export</th><th scope=\"col\">Level</th><th scope=\"col\">Role</th></tr></thead><tbody>{entry.exports.map((item) => <tr key={item.name}><th scope=\"row\"><code>{item.name}</code></th><td>{item.classification}</td><td>{item.role}</td></tr>)}</tbody></table>\n          <p className=\"cs-component-source\"><strong>Owner:</strong> {entry.owner}<br /><strong>Entry:</strong> <code>{entry.entrypoint}</code><br /><a href={`${sourceBase}${entry.sourcePath}`} rel=\"noreferrer\" target=\"_blank\">View {entry.sourcePath}</a></p>\n        </div>\n      </section>\n    </main>\n  );\n}\n\nconst meta = {\n  title: \"DLS/Components\",\n  component: ComponentOverview,\n  tags: [\"autodocs\"],\n  parameters: { docs: { description: { component: \"Registry-driven reference for every public @creator-signal/ui Component. Widgets and runtime utilities are classified but do not masquerade as Component coverage.\" } } }\n} satisfies Meta<typeof ComponentOverview>;\n\nexport default meta;\ntype Story = StoryObj<typeof meta>;\n\nexport const Overview: Story = {};\nexport const ButtonReference: Story = { name: \"Button\", render: () => <ComponentReference id=\"button\" /> };\nexport const DisclosureReference: Story = { name: \"Disclosure\", render: () => <ComponentReference id=\"disclosure\" /> };\nexport const MenuReference: Story = { name: \"Menu\", render: () => <ComponentReference id=\"menu\" /> };\nexport const PaginationReference: Story = { name: \"Pagination\", render: () => <ComponentReference id=\"pagination\" /> };\nexport const FieldReference: Story = { name: \"Field\", render: () => <ComponentReference id=\"field\" /> };\nexport const TextInputReference: Story = { name: \"Text input\", render: () => <ComponentReference id=\"text-input\" /> };\nexport const TextareaReference: Story = { name: \"Textarea\", render: () => <ComponentReference id=\"textarea\" /> };\nexport const SelectReference: Story = { name: \"Select\", render: () => <ComponentReference id=\"select\" /> };\nexport const ChoiceControls: Story = { name: \"Choice controls\", render: () => <ComponentReference id=\"choice-controls\" /> };\nexport const SwitchReference: Story = { name: \"Switch\", render: () => <ComponentReference id=\"switch\" /> };\nexport const FormStatusReference: Story = { name: \"Form status\", render: () => <ComponentReference id=\"form-status\" /> };\nexport const CardReference: Story = { name: \"Card\", render: () => <ComponentReference id=\"card\" /> };\nexport const PanelReference: Story = { name: \"Panel\", render: () => <ComponentReference id=\"panel\" /> };\nexport const Status: Story = { name: \"Status labels\", render: () => <ComponentReference id=\"status\" /> };\nexport const NoticeReference: Story = { name: \"Notice\", render: () => <ComponentReference id=\"notice\" /> };\nexport const Loading: Story = { render: () => <ComponentReference id=\"loading\" /> };\nexport const TerminalState: Story = { name: \"Empty and error states\", render: () => <ComponentReference id=\"terminal-state\" /> };\nexport const TooltipReference: Story = { name: \"Tooltip\", render: () => <ComponentReference id=\"tooltip\" /> };\nexport const TableReference: Story = { name: \"Table\", render: () => <ComponentReference id=\"table\" /> };\nexport const KeyValue: Story = { name: \"Key-value list\", render: () => <ComponentReference id=\"key-value\" /> };\nexport const StatReference: Story = { name: \"Stat\", render: () => <ComponentReference id=\"stat\" /> };\nexport const ChartLegendReference: Story = { name: \"Chart legend\", render: () => <ComponentReference id=\"chart-legend\" /> };\n"
+      },
+      "stories": [
+        {
+          "id": "dls-components--overview",
+          "name": "Overview",
+          "error": {
+            "name": "Error",
+            "message": "Could not generate snippet without component name."
+          }
+        },
+        {
+          "id": "dls-components--button-reference",
+          "name": "Button",
+          "snippet": "const ButtonReference = () => <ComponentReference id=\"button\" />;"
+        },
+        {
+          "id": "dls-components--disclosure-reference",
+          "name": "Disclosure",
+          "snippet": "const DisclosureReference = () => <ComponentReference id=\"disclosure\" />;"
+        },
+        {
+          "id": "dls-components--menu-reference",
+          "name": "Menu",
+          "snippet": "const MenuReference = () => <ComponentReference id=\"menu\" />;"
+        },
+        {
+          "id": "dls-components--pagination-reference",
+          "name": "Pagination",
+          "snippet": "const PaginationReference = () => <ComponentReference id=\"pagination\" />;"
+        },
+        {
+          "id": "dls-components--field-reference",
+          "name": "Field",
+          "snippet": "const FieldReference = () => <ComponentReference id=\"field\" />;"
+        },
+        {
+          "id": "dls-components--text-input-reference",
+          "name": "Text input",
+          "snippet": "const TextInputReference = () => <ComponentReference id=\"text-input\" />;"
+        },
+        {
+          "id": "dls-components--textarea-reference",
+          "name": "Textarea",
+          "snippet": "const TextareaReference = () => <ComponentReference id=\"textarea\" />;"
+        },
+        {
+          "id": "dls-components--select-reference",
+          "name": "Select",
+          "snippet": "const SelectReference = () => <ComponentReference id=\"select\" />;"
+        },
+        {
+          "id": "dls-components--choice-controls",
+          "name": "Choice controls",
+          "snippet": "const ChoiceControls = () => <ComponentReference id=\"choice-controls\" />;"
+        },
+        {
+          "id": "dls-components--switch-reference",
+          "name": "Switch",
+          "snippet": "const SwitchReference = () => <ComponentReference id=\"switch\" />;"
+        },
+        {
+          "id": "dls-components--form-status-reference",
+          "name": "Form status",
+          "snippet": "const FormStatusReference = () => <ComponentReference id=\"form-status\" />;"
+        },
+        {
+          "id": "dls-components--card-reference",
+          "name": "Card",
+          "snippet": "const CardReference = () => <ComponentReference id=\"card\" />;"
+        },
+        {
+          "id": "dls-components--panel-reference",
+          "name": "Panel",
+          "snippet": "const PanelReference = () => <ComponentReference id=\"panel\" />;"
+        },
+        {
+          "id": "dls-components--status",
+          "name": "Status labels",
+          "snippet": "const Status = () => <ComponentReference id=\"status\" />;"
+        },
+        {
+          "id": "dls-components--notice-reference",
+          "name": "Notice",
+          "snippet": "const NoticeReference = () => <ComponentReference id=\"notice\" />;"
+        },
+        {
+          "id": "dls-components--loading",
+          "name": "Loading",
+          "snippet": "const Loading = () => <ComponentReference id=\"loading\" />;"
+        },
+        {
+          "id": "dls-components--terminal-state",
+          "name": "Empty and error states",
+          "snippet": "const TerminalState = () => <ComponentReference id=\"terminal-state\" />;"
+        },
+        {
+          "id": "dls-components--tooltip-reference",
+          "name": "Tooltip",
+          "snippet": "const TooltipReference = () => <ComponentReference id=\"tooltip\" />;"
+        },
+        {
+          "id": "dls-components--table-reference",
+          "name": "Table",
+          "snippet": "const TableReference = () => <ComponentReference id=\"table\" />;"
+        },
+        {
+          "id": "dls-components--key-value",
+          "name": "Key-value list",
+          "snippet": "const KeyValue = () => <ComponentReference id=\"key-value\" />;"
+        },
+        {
+          "id": "dls-components--stat-reference",
+          "name": "Stat",
+          "snippet": "const StatReference = () => <ComponentReference id=\"stat\" />;"
+        },
+        {
+          "id": "dls-components--chart-legend-reference",
+          "name": "Chart legend",
+          "snippet": "const ChartLegendReference = () => <ComponentReference id=\"chart-legend\" />;"
+        }
+      ],
+      "import": "import {\n    Badge,\n    Button,\n    Card,\n    CardContent,\n    CardDescription,\n    CardHeader,\n    CardTitle,\n    ChartLegend,\n    ChartLegendItem,\n    Checkbox,\n    Disclosure,\n    DisclosureTrigger,\n    EmptyState,\n    ErrorState,\n    Field,\n    FieldDescription,\n    FieldError,\n    FieldLabel,\n    FormStatus,\n    IconButton,\n    KeyValueItem,\n    KeyValueList,\n    LinkButton,\n    LoadingIndicator,\n    Menu,\n    MenuItem,\n    Notice,\n    Pagination,\n    PaginationLink,\n    PaginationList,\n    Panel,\n    Radio,\n    ResponsiveTable,\n    Select,\n    Skeleton,\n    Stat,\n    StatGroup,\n    StatusIndicator,\n    Switch,\n    Table,\n    TableBody,\n    TableCaption,\n    TableCell,\n    TableHead,\n    TableHeader,\n    TableRow,\n    Textarea,\n    TextInput,\n    Tooltip,\n} from \"@creator-signal/design-system-reference\";"
+    },
     "foundations-brand-assets": {
       "id": "foundations-brand-assets",
       "name": "BrandAssetGallery",
@@ -295,7 +426,7 @@
           "snippet": "const InteractivePatterns = () => <InteractiveReview />;"
         }
       ],
-      "import": "import {\r\n    Badge,\r\n    Button,\r\n    Card,\r\n    ChartLegend,\r\n    ChartLegendItem,\r\n    Checkbox,\r\n    Dialog,\r\n    Disclosure,\r\n    DisclosureTrigger,\r\n    EmptyState,\r\n    ErrorState,\r\n    Field,\r\n    FieldDescription,\r\n    FieldError,\r\n    FieldLabel,\r\n    FormStatus,\r\n    IconButton,\r\n    KeyValueItem,\r\n    KeyValueList,\r\n    LinkButton,\r\n    LoadingIndicator,\r\n    Menu,\r\n    MenuItem,\r\n    Notice,\r\n    Pagination,\r\n    PaginationLink,\r\n    PaginationList,\r\n    Panel,\r\n    Radio,\r\n    ResponsiveTable,\r\n    Select,\r\n    Skeleton,\r\n    Stat,\r\n    StatGroup,\r\n    StatusIndicator,\r\n    Switch,\r\n    Tab,\r\n    Table,\r\n    TableBody,\r\n    TableCaption,\r\n    TableCell,\r\n    TableHead,\r\n    TableHeader,\r\n    TableRow,\r\n    TabList,\r\n    TabPanel,\r\n    Tabs,\r\n    Textarea,\r\n    TextInput,\r\n    Tooltip,\r\n} from \"@creator-signal/design-system-reference\";"
+      "import": "import {\n    Badge,\n    Button,\n    Card,\n    ChartLegend,\n    ChartLegendItem,\n    Checkbox,\n    Dialog,\n    Disclosure,\n    DisclosureTrigger,\n    EmptyState,\n    ErrorState,\n    Field,\n    FieldDescription,\n    FieldError,\n    FieldLabel,\n    FormStatus,\n    IconButton,\n    KeyValueItem,\n    KeyValueList,\n    LinkButton,\n    LoadingIndicator,\n    Menu,\n    MenuItem,\n    Notice,\n    Pagination,\n    PaginationLink,\n    PaginationList,\n    Panel,\n    Radio,\n    ResponsiveTable,\n    Select,\n    Skeleton,\n    Stat,\n    StatGroup,\n    StatusIndicator,\n    Switch,\n    Tab,\n    Table,\n    TableBody,\n    TableCaption,\n    TableCell,\n    TableHead,\n    TableHeader,\n    TableRow,\n    TabList,\n    TabPanel,\n    Tabs,\n    Textarea,\n    TextInput,\n    Tooltip,\n} from \"@creator-signal/design-system-reference\";"
     },
     "components-actions-button": {
       "id": "components-actions-button",
@@ -306,7 +437,7 @@
         "description": "",
         "methods": [],
         "displayName": "Button",
-        "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\server.tsx",
+        "definedInFile": "/workspace/packages/ui/src/server.tsx",
         "actualName": "Button",
         "exportName": "Button",
         "props": {
@@ -380,14 +511,14 @@
       "subcomponents": {
         "LinkButton": {
           "name": "LinkButton",
-          "path": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\index.ts",
+          "path": "/workspace/packages/ui/src/index.ts",
           "import": "import { LinkButton } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "LinkButton",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/workspace/packages/ui/src/server.tsx",
             "actualName": "LinkButton",
             "exportName": "LinkButton",
             "props": {
@@ -461,14 +592,14 @@
         },
         "IconButton": {
           "name": "IconButton",
-          "path": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\index.ts",
+          "path": "/workspace/packages/ui/src/index.ts",
           "import": "import { IconButton } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "IconButton",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/workspace/packages/ui/src/server.tsx",
             "actualName": "IconButton",
             "exportName": "IconButton",
             "props": {
@@ -541,7 +672,7 @@
         "description": "",
         "methods": [],
         "displayName": "ResponsiveTable",
-        "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\server.tsx",
+        "definedInFile": "/workspace/packages/ui/src/server.tsx",
         "actualName": "ResponsiveTable",
         "exportName": "ResponsiveTable",
         "props": {
@@ -557,126 +688,126 @@
       "subcomponents": {
         "Table": {
           "name": "Table",
-          "path": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\index.ts",
+          "path": "/workspace/packages/ui/src/index.ts",
           "import": "import { Table } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Table",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/workspace/packages/ui/src/server.tsx",
             "actualName": "Table",
             "exportName": "Table"
           }
         },
         "TableCaption": {
           "name": "TableCaption",
-          "path": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\index.ts",
+          "path": "/workspace/packages/ui/src/index.ts",
           "import": "import { TableCaption } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "TableCaption",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/workspace/packages/ui/src/server.tsx",
             "actualName": "TableCaption",
             "exportName": "TableCaption"
           }
         },
         "TableHead": {
           "name": "TableHead",
-          "path": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\index.ts",
+          "path": "/workspace/packages/ui/src/index.ts",
           "import": "import { TableHead } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "TableHead",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/workspace/packages/ui/src/server.tsx",
             "actualName": "TableHead",
             "exportName": "TableHead"
           }
         },
         "TableBody": {
           "name": "TableBody",
-          "path": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\index.ts",
+          "path": "/workspace/packages/ui/src/index.ts",
           "import": "import { TableBody } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "TableBody",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/workspace/packages/ui/src/server.tsx",
             "actualName": "TableBody",
             "exportName": "TableBody"
           }
         },
         "TableRow": {
           "name": "TableRow",
-          "path": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\index.ts",
+          "path": "/workspace/packages/ui/src/index.ts",
           "import": "import { TableRow } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "TableRow",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/workspace/packages/ui/src/server.tsx",
             "actualName": "TableRow",
             "exportName": "TableRow"
           }
         },
         "TableHeader": {
           "name": "TableHeader",
-          "path": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\index.ts",
+          "path": "/workspace/packages/ui/src/index.ts",
           "import": "import { TableHeader } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "TableHeader",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/workspace/packages/ui/src/server.tsx",
             "actualName": "TableHeader",
             "exportName": "TableHeader"
           }
         },
         "TableCell": {
           "name": "TableCell",
-          "path": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\index.ts",
+          "path": "/workspace/packages/ui/src/index.ts",
           "import": "import { TableCell } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "TableCell",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/workspace/packages/ui/src/server.tsx",
             "actualName": "TableCell",
             "exportName": "TableCell"
           }
         },
         "KeyValueList": {
           "name": "KeyValueList",
-          "path": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\index.ts",
+          "path": "/workspace/packages/ui/src/index.ts",
           "import": "import { KeyValueList } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "KeyValueList",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/workspace/packages/ui/src/server.tsx",
             "actualName": "KeyValueList",
             "exportName": "KeyValueList"
           }
         },
         "KeyValueItem": {
           "name": "KeyValueItem",
-          "path": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\index.ts",
+          "path": "/workspace/packages/ui/src/index.ts",
           "import": "import { KeyValueItem } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "KeyValueItem",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/workspace/packages/ui/src/server.tsx",
             "actualName": "KeyValueItem",
             "exportName": "KeyValueItem",
             "props": {
@@ -699,28 +830,28 @@
         },
         "StatGroup": {
           "name": "StatGroup",
-          "path": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\index.ts",
+          "path": "/workspace/packages/ui/src/index.ts",
           "import": "import { StatGroup } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "StatGroup",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/workspace/packages/ui/src/server.tsx",
             "actualName": "StatGroup",
             "exportName": "StatGroup"
           }
         },
         "Stat": {
           "name": "Stat",
-          "path": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\index.ts",
+          "path": "/workspace/packages/ui/src/index.ts",
           "import": "import { Stat } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Stat",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/workspace/packages/ui/src/server.tsx",
             "actualName": "Stat",
             "exportName": "Stat",
             "props": {
@@ -753,28 +884,28 @@
         },
         "ChartLegend": {
           "name": "ChartLegend",
-          "path": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\index.ts",
+          "path": "/workspace/packages/ui/src/index.ts",
           "import": "import { ChartLegend } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "ChartLegend",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/workspace/packages/ui/src/server.tsx",
             "actualName": "ChartLegend",
             "exportName": "ChartLegend"
           }
         },
         "ChartLegendItem": {
           "name": "ChartLegendItem",
-          "path": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\index.ts",
+          "path": "/workspace/packages/ui/src/index.ts",
           "import": "import { ChartLegendItem } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "ChartLegendItem",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/workspace/packages/ui/src/server.tsx",
             "actualName": "ChartLegendItem",
             "exportName": "ChartLegendItem",
             "props": {
@@ -843,7 +974,7 @@
           "snippet": "const ChartLegendHelpers = () => <ChartLegend><ChartLegendItem label=\"Organic\" tone=\"series-1\" value=\"48%\" /><ChartLegendItem label=\"Email\" tone=\"series-2\" value=\"32%\" /><ChartLegendItem label=\"Direct\" tone=\"series-3\" value=\"20%\" /></ChartLegend>;"
         }
       ],
-      "import": "import {\r\n    ChartLegend,\r\n    ChartLegendItem,\r\n    KeyValueItem,\r\n    KeyValueList,\r\n    ResponsiveTable,\r\n    Stat,\r\n    StatGroup,\r\n    StatusIndicator,\r\n    Table,\r\n    TableBody,\r\n    TableCaption,\r\n    TableCell,\r\n    TableHead,\r\n    TableHeader,\r\n    TableRow,\r\n} from \"@creator-signal/ui\";"
+      "import": "import {\n    ChartLegend,\n    ChartLegendItem,\n    KeyValueItem,\n    KeyValueList,\n    ResponsiveTable,\n    Stat,\n    StatGroup,\n    StatusIndicator,\n    Table,\n    TableBody,\n    TableCaption,\n    TableCell,\n    TableHead,\n    TableHeader,\n    TableRow,\n} from \"@creator-signal/ui\";"
     },
     "components-interaction-dialog": {
       "id": "components-interaction-dialog",
@@ -854,7 +985,7 @@
         "description": "",
         "methods": [],
         "displayName": "Dialog",
-        "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\client.tsx",
+        "definedInFile": "/workspace/packages/ui/src/client.tsx",
         "actualName": "Dialog",
         "exportName": "Dialog",
         "props": {
@@ -904,7 +1035,7 @@
         {
           "id": "components-interaction-dialog--confirmation",
           "name": "Confirmation",
-          "snippet": "const Confirmation = () => <main className=\"cs-story-shell\"><h1>Dialog</h1><Dialog\r\n        title=\"Archive this report?\"\r\n        trigger=\"Archive report\"\r\n        description=\"The report leaves your dashboard but can be restored later.\"\r\n        actions={<Button variant=\"danger\">Archive</Button>}><p>No source marketplace data will be deleted.</p></Dialog></main>;"
+          "snippet": "const Confirmation = () => <main className=\"cs-story-shell\"><h1>Dialog</h1><Dialog\n        title=\"Archive this report?\"\n        trigger=\"Archive report\"\n        description=\"The report leaves your dashboard but can be restored later.\"\n        actions={<Button variant=\"danger\">Archive</Button>}><p>No source marketplace data will be deleted.</p></Dialog></main>;"
         }
       ],
       "import": "import { Button, Dialog } from \"@creator-signal/ui\";"
@@ -918,7 +1049,7 @@
         "description": "",
         "methods": [],
         "displayName": "Notice",
-        "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\server.tsx",
+        "definedInFile": "/workspace/packages/ui/src/server.tsx",
         "actualName": "Notice",
         "exportName": "Notice",
         "props": {
@@ -981,14 +1112,14 @@
       "subcomponents": {
         "Badge": {
           "name": "Badge",
-          "path": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\index.ts",
+          "path": "/workspace/packages/ui/src/index.ts",
           "import": "import { Badge } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Badge",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/workspace/packages/ui/src/server.tsx",
             "actualName": "Badge",
             "exportName": "Badge",
             "props": {
@@ -1034,14 +1165,14 @@
         },
         "StatusIndicator": {
           "name": "StatusIndicator",
-          "path": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\index.ts",
+          "path": "/workspace/packages/ui/src/index.ts",
           "import": "import { StatusIndicator } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "StatusIndicator",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/workspace/packages/ui/src/server.tsx",
             "actualName": "StatusIndicator",
             "exportName": "StatusIndicator",
             "props": {
@@ -1093,14 +1224,14 @@
         },
         "FormStatus": {
           "name": "FormStatus",
-          "path": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\index.ts",
+          "path": "/workspace/packages/ui/src/index.ts",
           "import": "import { FormStatus } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "FormStatus",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/workspace/packages/ui/src/server.tsx",
             "actualName": "FormStatus",
             "exportName": "FormStatus",
             "props": {
@@ -1146,14 +1277,14 @@
         },
         "LoadingIndicator": {
           "name": "LoadingIndicator",
-          "path": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\index.ts",
+          "path": "/workspace/packages/ui/src/index.ts",
           "import": "import { LoadingIndicator } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "LoadingIndicator",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/workspace/packages/ui/src/server.tsx",
             "actualName": "LoadingIndicator",
             "exportName": "LoadingIndicator",
             "props": {
@@ -1176,28 +1307,28 @@
         },
         "Skeleton": {
           "name": "Skeleton",
-          "path": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\index.ts",
+          "path": "/workspace/packages/ui/src/index.ts",
           "import": "import { Skeleton } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Skeleton",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/workspace/packages/ui/src/server.tsx",
             "actualName": "Skeleton",
             "exportName": "Skeleton"
           }
         },
         "EmptyState": {
           "name": "EmptyState",
-          "path": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\index.ts",
+          "path": "/workspace/packages/ui/src/index.ts",
           "import": "import { EmptyState } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "EmptyState",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/workspace/packages/ui/src/server.tsx",
             "actualName": "EmptyState",
             "exportName": "EmptyState",
             "props": {
@@ -1237,14 +1368,14 @@
         },
         "ErrorState": {
           "name": "ErrorState",
-          "path": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\index.ts",
+          "path": "/workspace/packages/ui/src/index.ts",
           "import": "import { ErrorState } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "ErrorState",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/workspace/packages/ui/src/server.tsx",
             "actualName": "ErrorState",
             "exportName": "ErrorState",
             "props": {
@@ -1299,7 +1430,7 @@
           "snippet": "const EmptyAndErrorStates = () => <div className=\"cs-ui-review-grid\"><EmptyState title=\"No reports\" description=\"Create the first report.\" actions={<Button>Create report</Button>} /><ErrorState title=\"Could not load\" description=\"Saved reports are safe.\" retry={<Button variant=\"secondary\">Try again</Button>} /></div>;"
         }
       ],
-      "import": "import {\r\n    Badge,\r\n    Button,\r\n    EmptyState,\r\n    ErrorState,\r\n    FormStatus,\r\n    LoadingIndicator,\r\n    Notice,\r\n    Skeleton,\r\n    StatusIndicator,\r\n} from \"@creator-signal/ui\";"
+      "import": "import {\n    Badge,\n    Button,\n    EmptyState,\n    ErrorState,\n    FormStatus,\n    LoadingIndicator,\n    Notice,\n    Skeleton,\n    StatusIndicator,\n} from \"@creator-signal/ui\";"
     },
     "components-forms-field": {
       "id": "components-forms-field",
@@ -1310,105 +1441,105 @@
         "description": "",
         "methods": [],
         "displayName": "Field",
-        "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\server.tsx",
+        "definedInFile": "/workspace/packages/ui/src/server.tsx",
         "actualName": "Field",
         "exportName": "Field"
       },
       "subcomponents": {
         "FieldLabel": {
           "name": "FieldLabel",
-          "path": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\index.ts",
+          "path": "/workspace/packages/ui/src/index.ts",
           "import": "import { FieldLabel } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "FieldLabel",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/workspace/packages/ui/src/server.tsx",
             "actualName": "FieldLabel",
             "exportName": "FieldLabel"
           }
         },
         "FieldDescription": {
           "name": "FieldDescription",
-          "path": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\index.ts",
+          "path": "/workspace/packages/ui/src/index.ts",
           "import": "import { FieldDescription } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "FieldDescription",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/workspace/packages/ui/src/server.tsx",
             "actualName": "FieldDescription",
             "exportName": "FieldDescription"
           }
         },
         "FieldError": {
           "name": "FieldError",
-          "path": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\index.ts",
+          "path": "/workspace/packages/ui/src/index.ts",
           "import": "import { FieldError } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "FieldError",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/workspace/packages/ui/src/server.tsx",
             "actualName": "FieldError",
             "exportName": "FieldError"
           }
         },
         "TextInput": {
           "name": "TextInput",
-          "path": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\index.ts",
+          "path": "/workspace/packages/ui/src/index.ts",
           "import": "import { TextInput } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "TextInput",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/workspace/packages/ui/src/server.tsx",
             "actualName": "TextInput",
             "exportName": "TextInput"
           }
         },
         "Textarea": {
           "name": "Textarea",
-          "path": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\index.ts",
+          "path": "/workspace/packages/ui/src/index.ts",
           "import": "import { Textarea } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Textarea",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/workspace/packages/ui/src/server.tsx",
             "actualName": "Textarea",
             "exportName": "Textarea"
           }
         },
         "Select": {
           "name": "Select",
-          "path": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\index.ts",
+          "path": "/workspace/packages/ui/src/index.ts",
           "import": "import { Select } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Select",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/workspace/packages/ui/src/server.tsx",
             "actualName": "Select",
             "exportName": "Select"
           }
         },
         "Checkbox": {
           "name": "Checkbox",
-          "path": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\index.ts",
+          "path": "/workspace/packages/ui/src/index.ts",
           "import": "import { Checkbox } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Checkbox",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/workspace/packages/ui/src/server.tsx",
             "actualName": "Checkbox",
             "exportName": "Checkbox",
             "props": {
@@ -1434,14 +1565,14 @@
         },
         "Radio": {
           "name": "Radio",
-          "path": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\index.ts",
+          "path": "/workspace/packages/ui/src/index.ts",
           "import": "import { Radio } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Radio",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/workspace/packages/ui/src/server.tsx",
             "actualName": "Radio",
             "exportName": "Radio",
             "props": {
@@ -1467,14 +1598,14 @@
         },
         "Switch": {
           "name": "Switch",
-          "path": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\index.ts",
+          "path": "/workspace/packages/ui/src/index.ts",
           "import": "import { Switch } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Switch",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/workspace/packages/ui/src/server.tsx",
             "actualName": "Switch",
             "exportName": "Switch",
             "props": {
@@ -1514,14 +1645,14 @@
         },
         "FormStatus": {
           "name": "FormStatus",
-          "path": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\index.ts",
+          "path": "/workspace/packages/ui/src/index.ts",
           "import": "import { FormStatus } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "FormStatus",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/workspace/packages/ui/src/server.tsx",
             "actualName": "FormStatus",
             "exportName": "FormStatus",
             "props": {
@@ -1593,7 +1724,7 @@
           "snippet": "const SelectAndStatus = () => <form className=\"cs-ui-review-form\" onSubmit={(event) => event.preventDefault()}><Field><FieldLabel htmlFor=\"field-period\">Reporting period</FieldLabel><Select id=\"field-period\" defaultValue=\"30\"><option value=\"7\">Last 7 days</option><option value=\"30\">Last 30 days</option></Select></Field><FormStatus tone=\"success\">Draft saved locally.</FormStatus><Button type=\"submit\">Continue</Button></form>;"
         }
       ],
-      "import": "import {\r\n    Button,\r\n    Checkbox,\r\n    Field,\r\n    FieldDescription,\r\n    FieldError,\r\n    FieldLabel,\r\n    FormStatus,\r\n    Radio,\r\n    Select,\r\n    Switch,\r\n    Textarea,\r\n    TextInput,\r\n} from \"@creator-signal/ui\";"
+      "import": "import {\n    Button,\n    Checkbox,\n    Field,\n    FieldDescription,\n    FieldError,\n    FieldLabel,\n    FormStatus,\n    Radio,\n    Select,\n    Switch,\n    Textarea,\n    TextInput,\n} from \"@creator-signal/ui\";"
     },
     "components-navigation-disclosure": {
       "id": "components-navigation-disclosure",
@@ -1604,63 +1735,63 @@
         "description": "",
         "methods": [],
         "displayName": "Disclosure",
-        "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\server.tsx",
+        "definedInFile": "/workspace/packages/ui/src/server.tsx",
         "actualName": "Disclosure",
         "exportName": "Disclosure"
       },
       "subcomponents": {
         "DisclosureTrigger": {
           "name": "DisclosureTrigger",
-          "path": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\index.ts",
+          "path": "/workspace/packages/ui/src/index.ts",
           "import": "import { DisclosureTrigger } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "DisclosureTrigger",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/workspace/packages/ui/src/server.tsx",
             "actualName": "DisclosureTrigger",
             "exportName": "DisclosureTrigger"
           }
         },
         "Menu": {
           "name": "Menu",
-          "path": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\index.ts",
+          "path": "/workspace/packages/ui/src/index.ts",
           "import": "import { Menu } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Menu",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/workspace/packages/ui/src/server.tsx",
             "actualName": "Menu",
             "exportName": "Menu"
           }
         },
         "MenuItem": {
           "name": "MenuItem",
-          "path": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\index.ts",
+          "path": "/workspace/packages/ui/src/index.ts",
           "import": "import { MenuItem } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "MenuItem",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/workspace/packages/ui/src/server.tsx",
             "actualName": "MenuItem",
             "exportName": "MenuItem"
           }
         },
         "Pagination": {
           "name": "Pagination",
-          "path": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\index.ts",
+          "path": "/workspace/packages/ui/src/index.ts",
           "import": "import { Pagination } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Pagination",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/workspace/packages/ui/src/server.tsx",
             "actualName": "Pagination",
             "exportName": "Pagination",
             "props": {
@@ -1676,28 +1807,28 @@
         },
         "PaginationList": {
           "name": "PaginationList",
-          "path": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\index.ts",
+          "path": "/workspace/packages/ui/src/index.ts",
           "import": "import { PaginationList } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "PaginationList",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/workspace/packages/ui/src/server.tsx",
             "actualName": "PaginationList",
             "exportName": "PaginationList"
           }
         },
         "PaginationLink": {
           "name": "PaginationLink",
-          "path": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\index.ts",
+          "path": "/workspace/packages/ui/src/index.ts",
           "import": "import { PaginationLink } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "PaginationLink",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/workspace/packages/ui/src/server.tsx",
             "actualName": "PaginationLink",
             "exportName": "PaginationLink",
             "props": {
@@ -1720,14 +1851,14 @@
         },
         "Tooltip": {
           "name": "Tooltip",
-          "path": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\index.ts",
+          "path": "/workspace/packages/ui/src/index.ts",
           "import": "import { Tooltip } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Tooltip",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/workspace/packages/ui/src/server.tsx",
             "actualName": "Tooltip",
             "exportName": "Tooltip",
             "props": {
@@ -1769,7 +1900,7 @@
           "snippet": "const FocusableTooltip = () => <Tooltip content=\"Calculated after refunds and marketplace fees.\" triggerLabel=\"Explain net revenue\">What is net revenue?</Tooltip>;"
         }
       ],
-      "import": "import {\r\n    Disclosure,\r\n    DisclosureTrigger,\r\n    Menu,\r\n    MenuItem,\r\n    Pagination,\r\n    PaginationLink,\r\n    PaginationList,\r\n    Tooltip,\r\n} from \"@creator-signal/ui\";"
+      "import": "import {\n    Disclosure,\n    DisclosureTrigger,\n    Menu,\n    MenuItem,\n    Pagination,\n    PaginationLink,\n    PaginationList,\n    Tooltip,\n} from \"@creator-signal/ui\";"
     },
     "components-surfaces-card": {
       "id": "components-surfaces-card",
@@ -1780,7 +1911,7 @@
         "description": "",
         "methods": [],
         "displayName": "Card",
-        "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\server.tsx",
+        "definedInFile": "/workspace/packages/ui/src/server.tsx",
         "actualName": "Card",
         "exportName": "Card",
         "props": {
@@ -1818,70 +1949,70 @@
       "subcomponents": {
         "CardHeader": {
           "name": "CardHeader",
-          "path": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\index.ts",
+          "path": "/workspace/packages/ui/src/index.ts",
           "import": "import { CardHeader } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "CardHeader",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/workspace/packages/ui/src/server.tsx",
             "actualName": "CardHeader",
             "exportName": "CardHeader"
           }
         },
         "CardTitle": {
           "name": "CardTitle",
-          "path": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\index.ts",
+          "path": "/workspace/packages/ui/src/index.ts",
           "import": "import { CardTitle } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "CardTitle",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/workspace/packages/ui/src/server.tsx",
             "actualName": "CardTitle",
             "exportName": "CardTitle"
           }
         },
         "CardDescription": {
           "name": "CardDescription",
-          "path": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\index.ts",
+          "path": "/workspace/packages/ui/src/index.ts",
           "import": "import { CardDescription } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "CardDescription",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/workspace/packages/ui/src/server.tsx",
             "actualName": "CardDescription",
             "exportName": "CardDescription"
           }
         },
         "CardContent": {
           "name": "CardContent",
-          "path": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\index.ts",
+          "path": "/workspace/packages/ui/src/index.ts",
           "import": "import { CardContent } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "CardContent",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/workspace/packages/ui/src/server.tsx",
             "actualName": "CardContent",
             "exportName": "CardContent"
           }
         },
         "Panel": {
           "name": "Panel",
-          "path": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\index.ts",
+          "path": "/workspace/packages/ui/src/index.ts",
           "import": "import { Panel } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Panel",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/workspace/packages/ui/src/server.tsx",
             "actualName": "Panel",
             "exportName": "Panel",
             "props": {
@@ -1922,7 +2053,7 @@
         {
           "id": "components-surfaces-card--raised-card",
           "name": "Raised Card",
-          "snippet": "const RaisedCard = () => <Card><>\r\n      <CardHeader>\r\n        <CardTitle>Creator overview</CardTitle>\r\n        <CardDescription>Cards group one related concept without replacing semantic page structure.</CardDescription>\r\n      </CardHeader>\r\n      <CardContent><p>Current status and related actions stay together.</p></CardContent>\r\n    </></Card>;"
+          "snippet": "const RaisedCard = () => <Card><>\n      <CardHeader>\n        <CardTitle>Creator overview</CardTitle>\n        <CardDescription>Cards group one related concept without replacing semantic page structure.</CardDescription>\n      </CardHeader>\n      <CardContent><p>Current status and related actions stay together.</p></CardContent>\n    </></Card>;"
         },
         {
           "id": "components-surfaces-card--inset-panel",
@@ -1941,7 +2072,7 @@
         "description": "",
         "methods": [],
         "displayName": "Tabs",
-        "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\client.tsx",
+        "definedInFile": "/workspace/packages/ui/src/client.tsx",
         "actualName": "Tabs",
         "exportName": "Tabs",
         "props": {
@@ -1986,14 +2117,14 @@
       "subcomponents": {
         "TabList": {
           "name": "TabList",
-          "path": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\client.tsx",
+          "path": "/workspace/packages/ui/src/client.tsx",
           "import": "import { TabList } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "TabList",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\client.tsx",
+            "definedInFile": "/workspace/packages/ui/src/client.tsx",
             "actualName": "TabList",
             "exportName": "TabList",
             "props": {
@@ -2009,14 +2140,14 @@
         },
         "Tab": {
           "name": "Tab",
-          "path": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\client.tsx",
+          "path": "/workspace/packages/ui/src/client.tsx",
           "import": "import { Tab } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Tab",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\client.tsx",
+            "definedInFile": "/workspace/packages/ui/src/client.tsx",
             "actualName": "Tab",
             "exportName": "Tab",
             "props": {
@@ -2032,14 +2163,14 @@
         },
         "TabPanel": {
           "name": "TabPanel",
-          "path": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\client.tsx",
+          "path": "/workspace/packages/ui/src/client.tsx",
           "import": "import { TabPanel } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "TabPanel",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\client.tsx",
+            "definedInFile": "/workspace/packages/ui/src/client.tsx",
             "actualName": "TabPanel",
             "exportName": "TabPanel",
             "props": {
@@ -2072,7 +2203,7 @@
         "description": "",
         "methods": [],
         "displayName": "Tabs",
-        "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\client.tsx",
+        "definedInFile": "/workspace/packages/ui/src/client.tsx",
         "actualName": "Tabs",
         "exportName": "Tabs",
         "props": {
@@ -2117,14 +2248,14 @@
       "subcomponents": {
         "ThemeProvider": {
           "name": "ThemeProvider",
-          "path": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\client.tsx",
+          "path": "/workspace/packages/ui/src/client.tsx",
           "import": "import { ThemeProvider } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Tabs",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\client.tsx",
+            "definedInFile": "/workspace/packages/ui/src/client.tsx",
             "actualName": "Tabs",
             "exportName": "Tabs",
             "props": {
@@ -2173,6 +2304,11 @@
           "id": "components-interaction-theme-control--system-light-dark",
           "name": "System Light Dark",
           "snippet": "const SystemLightDark = () => <ThemeState />;"
+        },
+        {
+          "id": "components-interaction-theme-control--browser-extension-icon-toggle",
+          "name": "Browser Extension Icon Toggle",
+          "snippet": "const BrowserExtensionIconToggle = () => <ThemeState variant=\"icon\" />;"
         }
       ],
       "import": "import { ThemeControl, ThemeProvider } from \"@creator-signal/ui\";"
@@ -2270,7 +2406,7 @@
           }
         }
       ],
-      "import": "import {\r\n    Button,\r\n    DashboardChartFrame,\r\n    DashboardDataRegion,\r\n    DashboardFilterBar,\r\n    DashboardImage,\r\n    DashboardKpis,\r\n    DashboardPage,\r\n    DashboardPeriodControl,\r\n    DashboardSection,\r\n    Field,\r\n    FieldLabel,\r\n    Select,\r\n} from \"@creator-signal/design-system-reference\";"
+      "import": "import {\n    Button,\n    DashboardChartFrame,\n    DashboardDataRegion,\n    DashboardFilterBar,\n    DashboardImage,\n    DashboardKpis,\n    DashboardPage,\n    DashboardPeriodControl,\n    DashboardSection,\n    Field,\n    FieldLabel,\n    Select,\n} from \"@creator-signal/design-system-reference\";"
     },
     "patterns-reusable-combinations": {
       "id": "patterns-reusable-combinations",
@@ -2313,7 +2449,7 @@
           "snippet": "const DataTableAnalyticsRecommendation = () => <AnalyticsAndRecommendation />;"
         }
       ],
-      "import": "import {\r\n    Badge,\r\n    Button,\r\n    Card,\r\n    Checkbox,\r\n    Dialog,\r\n    EmptyState,\r\n    ErrorState,\r\n    Field,\r\n    FieldDescription,\r\n    FieldError,\r\n    FieldLabel,\r\n    FormStatus,\r\n    KeyValueItem,\r\n    KeyValueList,\r\n    Notice,\r\n    Panel,\r\n    ResponsiveTable,\r\n    Stat,\r\n    StatGroup,\r\n    StatusIndicator,\r\n    Table,\r\n    TableBody,\r\n    TableCaption,\r\n    TableCell,\r\n    TableHead,\r\n    TableHeader,\r\n    TableRow,\r\n    TextInput,\r\n} from \"@creator-signal/design-system-reference\";"
+      "import": "import {\n    Badge,\n    Button,\n    Card,\n    Checkbox,\n    Dialog,\n    EmptyState,\n    ErrorState,\n    Field,\n    FieldDescription,\n    FieldError,\n    FieldLabel,\n    FormStatus,\n    KeyValueItem,\n    KeyValueList,\n    Notice,\n    Panel,\n    ResponsiveTable,\n    Stat,\n    StatGroup,\n    StatusIndicator,\n    Table,\n    TableBody,\n    TableCaption,\n    TableCell,\n    TableHead,\n    TableHeader,\n    TableRow,\n    TextInput,\n} from \"@creator-signal/design-system-reference\";"
     },
     "consumers-instatic-component-library": {
       "id": "consumers-instatic-component-library",
@@ -2342,7 +2478,7 @@
         "description": "",
         "methods": [],
         "displayName": "InstaticSpecimenStory",
-        "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\apps\\design-system\\src\\instatic\\InstaticSpecimen.tsx",
+        "definedInFile": "/workspace/apps/design-system/src/instatic/InstaticSpecimen.tsx",
         "actualName": "InstaticSpecimenStory",
         "exportName": "InstaticSpecimenStory",
         "props": {
@@ -2387,17 +2523,17 @@
         {
           "id": "consumers-instatic-component-library-built-in-content--creator-signal-site-catalogue-shared-content-fragment",
           "name": "Shared Content Fragment · creator-signal.site.catalogue.shared-content-fragment",
-          "snippet": "const CreatorSignalSiteCatalogueSharedContentFragment = () => <InstaticSpecimenStory\r\n    entryId=\"creator-signal.site.catalogue.shared-content-fragment\"\r\n    scenarioId=\"default\" />;"
+          "snippet": "const CreatorSignalSiteCatalogueSharedContentFragment = () => <InstaticSpecimenStory\n    entryId=\"creator-signal.site.catalogue.shared-content-fragment\"\n    scenarioId=\"default\" />;"
         },
         {
           "id": "consumers-instatic-component-library-built-in-content--creator-signal-site-catalogue-structured-content",
           "name": "Structured Content · creator-signal.site.catalogue.structured-content",
-          "snippet": "const CreatorSignalSiteCatalogueStructuredContent = () => <InstaticSpecimenStory\r\n    entryId=\"creator-signal.site.catalogue.structured-content\"\r\n    scenarioId=\"default\" />;"
+          "snippet": "const CreatorSignalSiteCatalogueStructuredContent = () => <InstaticSpecimenStory\n    entryId=\"creator-signal.site.catalogue.structured-content\"\n    scenarioId=\"default\" />;"
         },
         {
           "id": "consumers-instatic-component-library-built-in-content--creator-signal-site-catalogue-structured-content-list",
           "name": "Structured Content List · creator-signal.site.catalogue.structured-content-list",
-          "snippet": "const CreatorSignalSiteCatalogueStructuredContentList = () => <InstaticSpecimenStory\r\n    entryId=\"creator-signal.site.catalogue.structured-content-list\"\r\n    scenarioId=\"default\" />;"
+          "snippet": "const CreatorSignalSiteCatalogueStructuredContentList = () => <InstaticSpecimenStory\n    entryId=\"creator-signal.site.catalogue.structured-content-list\"\n    scenarioId=\"default\" />;"
         },
         {
           "id": "consumers-instatic-component-library-built-in-content--creator-signal-site-catalogue-table",
@@ -2416,7 +2552,7 @@
         "description": "",
         "methods": [],
         "displayName": "InstaticSpecimenStory",
-        "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\apps\\design-system\\src\\instatic\\InstaticSpecimen.tsx",
+        "definedInFile": "/workspace/apps/design-system/src/instatic/InstaticSpecimen.tsx",
         "actualName": "InstaticSpecimenStory",
         "exportName": "InstaticSpecimenStory",
         "props": {
@@ -2456,7 +2592,7 @@
         {
           "id": "consumers-instatic-component-library-built-in-design--creator-signal-site-catalogue-comparison-table",
           "name": "Comparison Table · creator-signal.site.catalogue.comparison-table",
-          "snippet": "const CreatorSignalSiteCatalogueComparisonTable = () => <InstaticSpecimenStory\r\n    entryId=\"creator-signal.site.catalogue.comparison-table\"\r\n    scenarioId=\"default\" />;"
+          "snippet": "const CreatorSignalSiteCatalogueComparisonTable = () => <InstaticSpecimenStory\n    entryId=\"creator-signal.site.catalogue.comparison-table\"\n    scenarioId=\"default\" />;"
         },
         {
           "id": "consumers-instatic-component-library-built-in-design--creator-signal-site-catalogue-empty-state",
@@ -2510,7 +2646,7 @@
         "description": "",
         "methods": [],
         "displayName": "InstaticSpecimenStory",
-        "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\apps\\design-system\\src\\instatic\\InstaticSpecimen.tsx",
+        "definedInFile": "/workspace/apps/design-system/src/instatic/InstaticSpecimen.tsx",
         "actualName": "InstaticSpecimenStory",
         "exportName": "InstaticSpecimenStory",
         "props": {
@@ -2575,7 +2711,7 @@
         {
           "id": "consumers-instatic-component-library-built-in-editorial--creator-signal-site-catalogue-person-profile",
           "name": "Person Profile · creator-signal.site.catalogue.person-profile",
-          "snippet": "const CreatorSignalSiteCataloguePersonProfile = () => <InstaticSpecimenStory\r\n    entryId=\"creator-signal.site.catalogue.person-profile\"\r\n    scenarioId=\"default\" />;"
+          "snippet": "const CreatorSignalSiteCataloguePersonProfile = () => <InstaticSpecimenStory\n    entryId=\"creator-signal.site.catalogue.person-profile\"\n    scenarioId=\"default\" />;"
         },
         {
           "id": "consumers-instatic-component-library-built-in-editorial--creator-signal-site-catalogue-quote",
@@ -2599,7 +2735,7 @@
         "description": "",
         "methods": [],
         "displayName": "InstaticSpecimenStory",
-        "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\apps\\design-system\\src\\instatic\\InstaticSpecimen.tsx",
+        "definedInFile": "/workspace/apps/design-system/src/instatic/InstaticSpecimen.tsx",
         "actualName": "InstaticSpecimenStory",
         "exportName": "InstaticSpecimenStory",
         "props": {
@@ -2648,7 +2784,7 @@
         "description": "",
         "methods": [],
         "displayName": "InstaticSpecimenStory",
-        "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\apps\\design-system\\src\\instatic\\InstaticSpecimen.tsx",
+        "definedInFile": "/workspace/apps/design-system/src/instatic/InstaticSpecimen.tsx",
         "actualName": "InstaticSpecimenStory",
         "exportName": "InstaticSpecimenStory",
         "props": {
@@ -2683,17 +2819,17 @@
         {
           "id": "consumers-instatic-component-library-built-in-forms--creator-signal-site-catalogue-captcha",
           "name": "CAPTCHA · creator-signal.site.catalogue.captcha",
-          "snippet": "const CreatorSignalSiteCatalogueCaptcha = () => <InstaticSpecimenStory\r\n    entryId=\"creator-signal.site.catalogue.captcha\"\r\n    scenarioId=\"provider-unavailable\" />;"
+          "snippet": "const CreatorSignalSiteCatalogueCaptcha = () => <InstaticSpecimenStory\n    entryId=\"creator-signal.site.catalogue.captcha\"\n    scenarioId=\"provider-unavailable\" />;"
         },
         {
           "id": "consumers-instatic-component-library-built-in-forms--creator-signal-site-catalogue-checkbox",
           "name": "Checkbox · creator-signal.site.catalogue.checkbox",
-          "snippet": "const CreatorSignalSiteCatalogueCheckbox = () => <InstaticSpecimenStory\r\n    entryId=\"creator-signal.site.catalogue.checkbox\"\r\n    scenarioId=\"required-checked\" />;"
+          "snippet": "const CreatorSignalSiteCatalogueCheckbox = () => <InstaticSpecimenStory\n    entryId=\"creator-signal.site.catalogue.checkbox\"\n    scenarioId=\"required-checked\" />;"
         },
         {
           "id": "consumers-instatic-component-library-built-in-forms--creator-signal-site-catalogue-checkbox-group",
           "name": "Checkbox Group · creator-signal.site.catalogue.checkbox-group",
-          "snippet": "const CreatorSignalSiteCatalogueCheckboxGroup = () => <InstaticSpecimenStory\r\n    entryId=\"creator-signal.site.catalogue.checkbox-group\"\r\n    scenarioId=\"default\" />;"
+          "snippet": "const CreatorSignalSiteCatalogueCheckboxGroup = () => <InstaticSpecimenStory\n    entryId=\"creator-signal.site.catalogue.checkbox-group\"\n    scenarioId=\"default\" />;"
         },
         {
           "id": "consumers-instatic-component-library-built-in-forms--creator-signal-site-catalogue-date-input",
@@ -2713,27 +2849,27 @@
         {
           "id": "consumers-instatic-component-library-built-in-forms--creator-signal-site-catalogue-file-attachment",
           "name": "File Attachment · creator-signal.site.catalogue.file-attachment",
-          "snippet": "const CreatorSignalSiteCatalogueFileAttachment = () => <InstaticSpecimenStory\r\n    entryId=\"creator-signal.site.catalogue.file-attachment\"\r\n    scenarioId=\"required-local-scan\" />;"
+          "snippet": "const CreatorSignalSiteCatalogueFileAttachment = () => <InstaticSpecimenStory\n    entryId=\"creator-signal.site.catalogue.file-attachment\"\n    scenarioId=\"required-local-scan\" />;"
         },
         {
           "id": "consumers-instatic-component-library-built-in-forms--creator-signal-site-catalogue-form-accordion",
           "name": "Form Accordion · creator-signal.site.catalogue.form-accordion",
-          "snippet": "const CreatorSignalSiteCatalogueFormAccordion = () => <InstaticSpecimenStory\r\n    entryId=\"creator-signal.site.catalogue.form-accordion\"\r\n    scenarioId=\"default\" />;"
+          "snippet": "const CreatorSignalSiteCatalogueFormAccordion = () => <InstaticSpecimenStory\n    entryId=\"creator-signal.site.catalogue.form-accordion\"\n    scenarioId=\"default\" />;"
         },
         {
           "id": "consumers-instatic-component-library-built-in-forms--creator-signal-site-catalogue-form-actions",
           "name": "Form Actions · creator-signal.site.catalogue.form-actions",
-          "snippet": "const CreatorSignalSiteCatalogueFormActions = () => <InstaticSpecimenStory\r\n    entryId=\"creator-signal.site.catalogue.form-actions\"\r\n    scenarioId=\"default-disabled-pending\" />;"
+          "snippet": "const CreatorSignalSiteCatalogueFormActions = () => <InstaticSpecimenStory\n    entryId=\"creator-signal.site.catalogue.form-actions\"\n    scenarioId=\"default-disabled-pending\" />;"
         },
         {
           "id": "consumers-instatic-component-library-built-in-forms--creator-signal-site-catalogue-form-container",
           "name": "Form Container · creator-signal.site.catalogue.form-container",
-          "snippet": "const CreatorSignalSiteCatalogueFormContainer = () => <InstaticSpecimenStory\r\n    entryId=\"creator-signal.site.catalogue.form-container\"\r\n    scenarioId=\"default-session-recovery\" />;"
+          "snippet": "const CreatorSignalSiteCatalogueFormContainer = () => <InstaticSpecimenStory\n    entryId=\"creator-signal.site.catalogue.form-container\"\n    scenarioId=\"default-session-recovery\" />;"
         },
         {
           "id": "consumers-instatic-component-library-built-in-forms--creator-signal-site-catalogue-form-embed",
           "name": "Form Embed · creator-signal.site.catalogue.form-embed",
-          "snippet": "const CreatorSignalSiteCatalogueFormEmbed = () => <InstaticSpecimenStory\r\n    entryId=\"creator-signal.site.catalogue.form-embed\"\r\n    scenarioId=\"responsive\" />;"
+          "snippet": "const CreatorSignalSiteCatalogueFormEmbed = () => <InstaticSpecimenStory\n    entryId=\"creator-signal.site.catalogue.form-embed\"\n    scenarioId=\"responsive\" />;"
         },
         {
           "id": "consumers-instatic-component-library-built-in-forms--creator-signal-site-catalogue-form-error",
@@ -2743,7 +2879,7 @@
         {
           "id": "consumers-instatic-component-library-built-in-forms--creator-signal-site-catalogue-form-field-group",
           "name": "Form Field Group · creator-signal.site.catalogue.form-field-group",
-          "snippet": "const CreatorSignalSiteCatalogueFormFieldGroup = () => <InstaticSpecimenStory\r\n    entryId=\"creator-signal.site.catalogue.form-field-group\"\r\n    scenarioId=\"label-help-error\" />;"
+          "snippet": "const CreatorSignalSiteCatalogueFormFieldGroup = () => <InstaticSpecimenStory\n    entryId=\"creator-signal.site.catalogue.form-field-group\"\n    scenarioId=\"label-help-error\" />;"
         },
         {
           "id": "consumers-instatic-component-library-built-in-forms--creator-signal-site-catalogue-form-help",
@@ -2773,7 +2909,7 @@
         {
           "id": "consumers-instatic-component-library-built-in-forms--creator-signal-site-catalogue-form-summary-review",
           "name": "Summary / Review · creator-signal.site.catalogue.form-summary-review",
-          "snippet": "const CreatorSignalSiteCatalogueFormSummaryReview = () => <InstaticSpecimenStory\r\n    entryId=\"creator-signal.site.catalogue.form-summary-review\"\r\n    scenarioId=\"default\" />;"
+          "snippet": "const CreatorSignalSiteCatalogueFormSummaryReview = () => <InstaticSpecimenStory\n    entryId=\"creator-signal.site.catalogue.form-summary-review\"\n    scenarioId=\"default\" />;"
         },
         {
           "id": "consumers-instatic-component-library-built-in-forms--creator-signal-site-catalogue-form-tabs",
@@ -2793,7 +2929,7 @@
         {
           "id": "consumers-instatic-component-library-built-in-forms--creator-signal-site-catalogue-number-input",
           "name": "Number Input · creator-signal.site.catalogue.number-input",
-          "snippet": "const CreatorSignalSiteCatalogueNumberInput = () => <InstaticSpecimenStory\r\n    entryId=\"creator-signal.site.catalogue.number-input\"\r\n    scenarioId=\"required\" />;"
+          "snippet": "const CreatorSignalSiteCatalogueNumberInput = () => <InstaticSpecimenStory\n    entryId=\"creator-signal.site.catalogue.number-input\"\n    scenarioId=\"required\" />;"
         },
         {
           "id": "consumers-instatic-component-library-built-in-forms--creator-signal-site-catalogue-option",
@@ -2808,17 +2944,17 @@
         {
           "id": "consumers-instatic-component-library-built-in-forms--creator-signal-site-catalogue-previous-next-actions",
           "name": "Previous / Next Actions · creator-signal.site.catalogue.previous-next-actions",
-          "snippet": "const CreatorSignalSiteCataloguePreviousNextActions = () => <InstaticSpecimenStory\r\n    entryId=\"creator-signal.site.catalogue.previous-next-actions\"\r\n    scenarioId=\"default\" />;"
+          "snippet": "const CreatorSignalSiteCataloguePreviousNextActions = () => <InstaticSpecimenStory\n    entryId=\"creator-signal.site.catalogue.previous-next-actions\"\n    scenarioId=\"default\" />;"
         },
         {
           "id": "consumers-instatic-component-library-built-in-forms--creator-signal-site-catalogue-previous-step",
           "name": "Previous Step · creator-signal.site.catalogue.previous-step",
-          "snippet": "const CreatorSignalSiteCataloguePreviousStep = () => <InstaticSpecimenStory\r\n    entryId=\"creator-signal.site.catalogue.previous-step\"\r\n    scenarioId=\"default\" />;"
+          "snippet": "const CreatorSignalSiteCataloguePreviousStep = () => <InstaticSpecimenStory\n    entryId=\"creator-signal.site.catalogue.previous-step\"\n    scenarioId=\"default\" />;"
         },
         {
           "id": "consumers-instatic-component-library-built-in-forms--creator-signal-site-catalogue-radio",
           "name": "Radio · creator-signal.site.catalogue.radio",
-          "snippet": "const CreatorSignalSiteCatalogueRadio = () => <InstaticSpecimenStory\r\n    entryId=\"creator-signal.site.catalogue.radio\"\r\n    scenarioId=\"required-checked\" />;"
+          "snippet": "const CreatorSignalSiteCatalogueRadio = () => <InstaticSpecimenStory\n    entryId=\"creator-signal.site.catalogue.radio\"\n    scenarioId=\"required-checked\" />;"
         },
         {
           "id": "consumers-instatic-component-library-built-in-forms--creator-signal-site-catalogue-radio-group",
@@ -2833,7 +2969,7 @@
         {
           "id": "consumers-instatic-component-library-built-in-forms--creator-signal-site-catalogue-reusable-form-fragment",
           "name": "Reusable Form Fragment · creator-signal.site.catalogue.reusable-form-fragment",
-          "snippet": "const CreatorSignalSiteCatalogueReusableFormFragment = () => <InstaticSpecimenStory\r\n    entryId=\"creator-signal.site.catalogue.reusable-form-fragment\"\r\n    scenarioId=\"binding-prefix\" />;"
+          "snippet": "const CreatorSignalSiteCatalogueReusableFormFragment = () => <InstaticSpecimenStory\n    entryId=\"creator-signal.site.catalogue.reusable-form-fragment\"\n    scenarioId=\"binding-prefix\" />;"
         },
         {
           "id": "consumers-instatic-component-library-built-in-forms--creator-signal-site-catalogue-save-draft",
@@ -2853,17 +2989,17 @@
         {
           "id": "consumers-instatic-component-library-built-in-forms--creator-signal-site-catalogue-switch",
           "name": "Switch · creator-signal.site.catalogue.switch",
-          "snippet": "const CreatorSignalSiteCatalogueSwitch = () => <InstaticSpecimenStory\r\n    entryId=\"creator-signal.site.catalogue.switch\"\r\n    scenarioId=\"required-checked\" />;"
+          "snippet": "const CreatorSignalSiteCatalogueSwitch = () => <InstaticSpecimenStory\n    entryId=\"creator-signal.site.catalogue.switch\"\n    scenarioId=\"required-checked\" />;"
         },
         {
           "id": "consumers-instatic-component-library-built-in-forms--creator-signal-site-catalogue-telephone-input",
           "name": "Telephone Input · creator-signal.site.catalogue.telephone-input",
-          "snippet": "const CreatorSignalSiteCatalogueTelephoneInput = () => <InstaticSpecimenStory\r\n    entryId=\"creator-signal.site.catalogue.telephone-input\"\r\n    scenarioId=\"required\" />;"
+          "snippet": "const CreatorSignalSiteCatalogueTelephoneInput = () => <InstaticSpecimenStory\n    entryId=\"creator-signal.site.catalogue.telephone-input\"\n    scenarioId=\"required\" />;"
         },
         {
           "id": "consumers-instatic-component-library-built-in-forms--creator-signal-site-catalogue-terms-and-conditions",
           "name": "Terms and Conditions · creator-signal.site.catalogue.terms-and-conditions",
-          "snippet": "const CreatorSignalSiteCatalogueTermsAndConditions = () => <InstaticSpecimenStory\r\n    entryId=\"creator-signal.site.catalogue.terms-and-conditions\"\r\n    scenarioId=\"default\" />;"
+          "snippet": "const CreatorSignalSiteCatalogueTermsAndConditions = () => <InstaticSpecimenStory\n    entryId=\"creator-signal.site.catalogue.terms-and-conditions\"\n    scenarioId=\"default\" />;"
         },
         {
           "id": "consumers-instatic-component-library-built-in-forms--creator-signal-site-catalogue-text-area",
@@ -2897,7 +3033,7 @@
         "description": "",
         "methods": [],
         "displayName": "InstaticSpecimenStory",
-        "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\apps\\design-system\\src\\instatic\\InstaticSpecimen.tsx",
+        "definedInFile": "/workspace/apps/design-system/src/instatic/InstaticSpecimen.tsx",
         "actualName": "InstaticSpecimenStory",
         "exportName": "InstaticSpecimenStory",
         "props": {
@@ -2937,7 +3073,7 @@
         {
           "id": "consumers-instatic-component-library-built-in-interactive--creator-signal-site-catalogue-accordion-item",
           "name": "Accordion Item · creator-signal.site.catalogue.accordion-item",
-          "snippet": "const CreatorSignalSiteCatalogueAccordionItem = () => <InstaticSpecimenStory\r\n    entryId=\"creator-signal.site.catalogue.accordion-item\"\r\n    scenarioId=\"default\" />;"
+          "snippet": "const CreatorSignalSiteCatalogueAccordionItem = () => <InstaticSpecimenStory\n    entryId=\"creator-signal.site.catalogue.accordion-item\"\n    scenarioId=\"default\" />;"
         },
         {
           "id": "consumers-instatic-component-library-built-in-interactive--creator-signal-site-catalogue-button",
@@ -2991,7 +3127,7 @@
         "description": "",
         "methods": [],
         "displayName": "InstaticSpecimenStory",
-        "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\apps\\design-system\\src\\instatic\\InstaticSpecimen.tsx",
+        "definedInFile": "/workspace/apps/design-system/src/instatic/InstaticSpecimen.tsx",
         "actualName": "InstaticSpecimenStory",
         "exportName": "InstaticSpecimenStory",
         "props": {
@@ -3051,7 +3187,7 @@
         {
           "id": "consumers-instatic-component-library-built-in-media--creator-signal-site-catalogue-youtube-embed",
           "name": "YouTube Embed · creator-signal.site.catalogue.youtube-embed",
-          "snippet": "const CreatorSignalSiteCatalogueYoutubeEmbed = () => <InstaticSpecimenStory\r\n    entryId=\"creator-signal.site.catalogue.youtube-embed\"\r\n    scenarioId=\"default\" />;"
+          "snippet": "const CreatorSignalSiteCatalogueYoutubeEmbed = () => <InstaticSpecimenStory\n    entryId=\"creator-signal.site.catalogue.youtube-embed\"\n    scenarioId=\"default\" />;"
         }
       ],
       "import": "import { InstaticSpecimenStory } from \"@creator-signal/design-system-reference\";"
@@ -3065,7 +3201,7 @@
         "description": "",
         "methods": [],
         "displayName": "InstaticSpecimenStory",
-        "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\apps\\design-system\\src\\instatic\\InstaticSpecimen.tsx",
+        "definedInFile": "/workspace/apps/design-system/src/instatic/InstaticSpecimen.tsx",
         "actualName": "InstaticSpecimenStory",
         "exportName": "InstaticSpecimenStory",
         "props": {
@@ -3105,7 +3241,7 @@
         {
           "id": "consumers-instatic-component-library-built-in-navigation--creator-signal-site-catalogue-language-navigation",
           "name": "Language Navigation · creator-signal.site.catalogue.language-navigation",
-          "snippet": "const CreatorSignalSiteCatalogueLanguageNavigation = () => <InstaticSpecimenStory\r\n    entryId=\"creator-signal.site.catalogue.language-navigation\"\r\n    scenarioId=\"default\" />;"
+          "snippet": "const CreatorSignalSiteCatalogueLanguageNavigation = () => <InstaticSpecimenStory\n    entryId=\"creator-signal.site.catalogue.language-navigation\"\n    scenarioId=\"default\" />;"
         },
         {
           "id": "consumers-instatic-component-library-built-in-navigation--creator-signal-site-catalogue-navigation",
@@ -3120,7 +3256,7 @@
         {
           "id": "consumers-instatic-component-library-built-in-navigation--creator-signal-site-catalogue-table-of-contents",
           "name": "Table of Contents · creator-signal.site.catalogue.table-of-contents",
-          "snippet": "const CreatorSignalSiteCatalogueTableOfContents = () => <InstaticSpecimenStory\r\n    entryId=\"creator-signal.site.catalogue.table-of-contents\"\r\n    scenarioId=\"default\" />;"
+          "snippet": "const CreatorSignalSiteCatalogueTableOfContents = () => <InstaticSpecimenStory\n    entryId=\"creator-signal.site.catalogue.table-of-contents\"\n    scenarioId=\"default\" />;"
         }
       ],
       "import": "import { InstaticSpecimenStory } from \"@creator-signal/design-system-reference\";"
@@ -3134,7 +3270,7 @@
         "description": "",
         "methods": [],
         "displayName": "InstaticSpecimenStory",
-        "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\apps\\design-system\\src\\instatic\\InstaticSpecimen.tsx",
+        "definedInFile": "/workspace/apps/design-system/src/instatic/InstaticSpecimen.tsx",
         "actualName": "InstaticSpecimenStory",
         "exportName": "InstaticSpecimenStory",
         "props": {
@@ -3179,7 +3315,7 @@
         {
           "id": "consumers-instatic-component-library-built-in-structure--creator-signal-site-catalogue-reusable-section",
           "name": "Reusable Section · creator-signal.site.catalogue.reusable-section",
-          "snippet": "const CreatorSignalSiteCatalogueReusableSection = () => <InstaticSpecimenStory\r\n    entryId=\"creator-signal.site.catalogue.reusable-section\"\r\n    scenarioId=\"default\" />;"
+          "snippet": "const CreatorSignalSiteCatalogueReusableSection = () => <InstaticSpecimenStory\n    entryId=\"creator-signal.site.catalogue.reusable-section\"\n    scenarioId=\"default\" />;"
         },
         {
           "id": "consumers-instatic-component-library-built-in-structure--creator-signal-site-catalogue-section",
@@ -3203,7 +3339,7 @@
         "description": "",
         "methods": [],
         "displayName": "InstaticSpecimenStory",
-        "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\apps\\design-system\\src\\instatic\\InstaticSpecimen.tsx",
+        "definedInFile": "/workspace/apps/design-system/src/instatic/InstaticSpecimen.tsx",
         "actualName": "InstaticSpecimenStory",
         "exportName": "InstaticSpecimenStory",
         "props": {
@@ -3238,17 +3374,17 @@
         {
           "id": "consumers-instatic-component-library-built-in-template--creator-signal-site-catalogue-template-footer",
           "name": "Footer · creator-signal.site.catalogue.template-footer",
-          "snippet": "const CreatorSignalSiteCatalogueTemplateFooter = () => <InstaticSpecimenStory\r\n    entryId=\"creator-signal.site.catalogue.template-footer\"\r\n    scenarioId=\"default\" />;"
+          "snippet": "const CreatorSignalSiteCatalogueTemplateFooter = () => <InstaticSpecimenStory\n    entryId=\"creator-signal.site.catalogue.template-footer\"\n    scenarioId=\"default\" />;"
         },
         {
           "id": "consumers-instatic-component-library-built-in-template--creator-signal-site-catalogue-template-header",
           "name": "Header · creator-signal.site.catalogue.template-header",
-          "snippet": "const CreatorSignalSiteCatalogueTemplateHeader = () => <InstaticSpecimenStory\r\n    entryId=\"creator-signal.site.catalogue.template-header\"\r\n    scenarioId=\"default\" />;"
+          "snippet": "const CreatorSignalSiteCatalogueTemplateHeader = () => <InstaticSpecimenStory\n    entryId=\"creator-signal.site.catalogue.template-header\"\n    scenarioId=\"default\" />;"
         },
         {
           "id": "consumers-instatic-component-library-built-in-template--creator-signal-site-catalogue-template-skip-link",
           "name": "Skip Link · creator-signal.site.catalogue.template-skip-link",
-          "snippet": "const CreatorSignalSiteCatalogueTemplateSkipLink = () => <InstaticSpecimenStory\r\n    entryId=\"creator-signal.site.catalogue.template-skip-link\"\r\n    scenarioId=\"default\" />;"
+          "snippet": "const CreatorSignalSiteCatalogueTemplateSkipLink = () => <InstaticSpecimenStory\n    entryId=\"creator-signal.site.catalogue.template-skip-link\"\n    scenarioId=\"default\" />;"
         }
       ],
       "import": "import { InstaticSpecimenStory } from \"@creator-signal/design-system-reference\";"
@@ -3262,7 +3398,7 @@
         "description": "",
         "methods": [],
         "displayName": "InstaticSpecimenStory",
-        "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\apps\\design-system\\src\\instatic\\InstaticSpecimen.tsx",
+        "definedInFile": "/workspace/apps/design-system/src/instatic/InstaticSpecimen.tsx",
         "actualName": "InstaticSpecimenStory",
         "exportName": "InstaticSpecimenStory",
         "props": {
@@ -3317,7 +3453,7 @@
         {
           "id": "consumers-instatic-component-library-built-in-typography--creator-signal-site-catalogue-semantic-list",
           "name": "Simple List · creator-signal.site.catalogue.semantic-list",
-          "snippet": "const CreatorSignalSiteCatalogueSemanticList = () => <InstaticSpecimenStory\r\n    entryId=\"creator-signal.site.catalogue.semantic-list\"\r\n    scenarioId=\"default\" />;"
+          "snippet": "const CreatorSignalSiteCatalogueSemanticList = () => <InstaticSpecimenStory\n    entryId=\"creator-signal.site.catalogue.semantic-list\"\n    scenarioId=\"default\" />;"
         }
       ],
       "import": "import { InstaticSpecimenStory } from \"@creator-signal/design-system-reference\";"
@@ -3331,7 +3467,7 @@
         "description": "",
         "methods": [],
         "displayName": "InstaticSpecimenStory",
-        "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\apps\\design-system\\src\\instatic\\InstaticSpecimen.tsx",
+        "definedInFile": "/workspace/apps/design-system/src/instatic/InstaticSpecimen.tsx",
         "actualName": "InstaticSpecimenStory",
         "exportName": "InstaticSpecimenStory",
         "props": {
@@ -3485,7 +3621,7 @@
         "description": "",
         "methods": [],
         "displayName": "InstaticSpecimenStory",
-        "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\apps\\design-system\\src\\instatic\\InstaticSpecimen.tsx",
+        "definedInFile": "/workspace/apps/design-system/src/instatic/InstaticSpecimen.tsx",
         "actualName": "InstaticSpecimenStory",
         "exportName": "InstaticSpecimenStory",
         "props": {
@@ -3520,12 +3656,12 @@
         {
           "id": "consumers-instatic-component-library-creator-signal-patterns--creator-signal-site-pattern-article-content-page",
           "name": "Article or Content Page · creator-signal.site.pattern.article-content-page",
-          "snippet": "const CreatorSignalSitePatternArticleContentPage = () => <InstaticSpecimenStory\r\n    entryId=\"creator-signal.site.pattern.article-content-page\"\r\n    scenarioId=\"default\" />;"
+          "snippet": "const CreatorSignalSitePatternArticleContentPage = () => <InstaticSpecimenStory\n    entryId=\"creator-signal.site.pattern.article-content-page\"\n    scenarioId=\"default\" />;"
         },
         {
           "id": "consumers-instatic-component-library-creator-signal-patterns--creator-signal-site-pattern-comparison-section",
           "name": "Comparison Section · creator-signal.site.pattern.comparison-section",
-          "snippet": "const CreatorSignalSitePatternComparisonSection = () => <InstaticSpecimenStory\r\n    entryId=\"creator-signal.site.pattern.comparison-section\"\r\n    scenarioId=\"default\" />;"
+          "snippet": "const CreatorSignalSitePatternComparisonSection = () => <InstaticSpecimenStory\n    entryId=\"creator-signal.site.pattern.comparison-section\"\n    scenarioId=\"default\" />;"
         },
         {
           "id": "consumers-instatic-component-library-creator-signal-patterns--creator-signal-site-pattern-contact-page",
@@ -3540,7 +3676,7 @@
         {
           "id": "consumers-instatic-component-library-creator-signal-patterns--creator-signal-site-pattern-early-access-page",
           "name": "Early Access Page · creator-signal.site.pattern.early-access-page",
-          "snippet": "const CreatorSignalSitePatternEarlyAccessPage = () => <InstaticSpecimenStory\r\n    entryId=\"creator-signal.site.pattern.early-access-page\"\r\n    scenarioId=\"default\" />;"
+          "snippet": "const CreatorSignalSitePatternEarlyAccessPage = () => <InstaticSpecimenStory\n    entryId=\"creator-signal.site.pattern.early-access-page\"\n    scenarioId=\"default\" />;"
         },
         {
           "id": "consumers-instatic-component-library-creator-signal-patterns--creator-signal-site-pattern-empty-state",
@@ -3570,12 +3706,12 @@
         {
           "id": "consumers-instatic-component-library-creator-signal-patterns--creator-signal-site-pattern-legal-trust-page",
           "name": "Legal or Trust Page · creator-signal.site.pattern.legal-trust-page",
-          "snippet": "const CreatorSignalSitePatternLegalTrustPage = () => <InstaticSpecimenStory\r\n    entryId=\"creator-signal.site.pattern.legal-trust-page\"\r\n    scenarioId=\"default\" />;"
+          "snippet": "const CreatorSignalSitePatternLegalTrustPage = () => <InstaticSpecimenStory\n    entryId=\"creator-signal.site.pattern.legal-trust-page\"\n    scenarioId=\"default\" />;"
         },
         {
           "id": "consumers-instatic-component-library-creator-signal-patterns--creator-signal-site-pattern-not-found-state",
           "name": "Not Found Page · creator-signal.site.pattern.not-found-state",
-          "snippet": "const CreatorSignalSitePatternNotFoundState = () => <InstaticSpecimenStory\r\n    entryId=\"creator-signal.site.pattern.not-found-state\"\r\n    scenarioId=\"default\" />;"
+          "snippet": "const CreatorSignalSitePatternNotFoundState = () => <InstaticSpecimenStory\n    entryId=\"creator-signal.site.pattern.not-found-state\"\n    scenarioId=\"default\" />;"
         },
         {
           "id": "consumers-instatic-component-library-creator-signal-patterns--creator-signal-site-pattern-offline-state",
@@ -3629,7 +3765,7 @@
           "snippet": "const MonitoringUnavailable = () => <UnavailablePreview />;"
         }
       ],
-      "import": "import {\r\n    Badge,\r\n    Button,\r\n    Card,\r\n    CardContent,\r\n    CardDescription,\r\n    CardHeader,\r\n    CardTitle,\r\n    Field,\r\n    FieldDescription,\r\n    FieldLabel,\r\n    LinkButton,\r\n    Notice,\r\n    ResponsiveTable,\r\n    Table,\r\n    TableBody,\r\n    TableCaption,\r\n    TableCell,\r\n    TableHead,\r\n    TableHeader,\r\n    TableRow,\r\n    TextInput,\r\n    ThemeControl,\r\n} from \"@creator-signal/design-system-reference\";"
+      "import": "import {\n    Badge,\n    Button,\n    Card,\n    CardContent,\n    CardDescription,\n    CardHeader,\n    CardTitle,\n    Field,\n    FieldDescription,\n    FieldLabel,\n    LinkButton,\n    Notice,\n    ResponsiveTable,\n    Table,\n    TableBody,\n    TableCaption,\n    TableCell,\n    TableHead,\n    TableHeader,\n    TableRow,\n    TextInput,\n    ThemeControl,\n} from \"@creator-signal/design-system-reference\";"
     },
     "product-previews-surface-translations": {
       "id": "product-previews-surface-translations",
@@ -3677,7 +3813,7 @@
           "snippet": "const StripeLikeProviderSample = () => <ConstrainedProvider />;"
         }
       ],
-      "import": "import {\r\n    Badge,\r\n    Button,\r\n    Card,\r\n    Checkbox,\r\n    Field,\r\n    FieldDescription,\r\n    FieldLabel,\r\n    KeyValueItem,\r\n    KeyValueList,\r\n    Notice,\r\n    Panel,\r\n    Stat,\r\n    StatGroup,\r\n    TextInput,\r\n} from \"@creator-signal/design-system-reference\";"
+      "import": "import {\n    Badge,\n    Button,\n    Card,\n    Checkbox,\n    Field,\n    FieldDescription,\n    FieldLabel,\n    KeyValueItem,\n    KeyValueList,\n    Notice,\n    Panel,\n    Stat,\n    StatGroup,\n    TextInput,\n} from \"@creator-signal/design-system-reference\";"
     },
     "product-previews-sales-pulse-state-matrix": {
       "id": "product-previews-sales-pulse-state-matrix",
@@ -3775,7 +3911,7 @@
           }
         }
       ],
-      "import": "import {\r\n    Badge,\r\n    ResponsiveTable,\r\n    Table,\r\n    TableBody,\r\n    TableCaption,\r\n    TableCell,\r\n    TableHead,\r\n    TableHeader,\r\n    TableRow,\r\n} from \"@creator-signal/design-system-reference\";"
+      "import": "import {\n    Badge,\n    ResponsiveTable,\n    Table,\n    TableBody,\n    TableCaption,\n    TableCell,\n    TableHead,\n    TableHeader,\n    TableRow,\n} from \"@creator-signal/design-system-reference\";"
     },
     "guidance-dashboard-explainability": {
       "id": "guidance-dashboard-explainability",
@@ -3841,7 +3977,7 @@
           "snippet": "const Stale = () => <WidgetReference {...registeredCustomers!} state=\"stale\" />;"
         }
       ],
-      "import": "import {\r\n    Badge,\r\n    EmptyState,\r\n    ErrorState,\r\n    KeyValueItem,\r\n    KeyValueList,\r\n    LoadingIndicator,\r\n    Notice,\r\n    Panel,\r\n    Skeleton,\r\n    Stat,\r\n    StatGroup,\r\n} from \"@creator-signal/design-system-reference\";"
+      "import": "import {\n    Badge,\n    EmptyState,\n    ErrorState,\n    KeyValueItem,\n    KeyValueList,\n    LoadingIndicator,\n    Notice,\n    Panel,\n    Skeleton,\n    Stat,\n    StatGroup,\n} from \"@creator-signal/design-system-reference\";"
     },
     "guidance-using-the-design-system": {
       "id": "guidance-using-the-design-system",
@@ -4061,7 +4197,7 @@
           "snippet": "const AdminExclusion = () => <ProviderContract id=\"sales-pulse.admin-privileged-controls\" title=\"Admin privileged control exclusion\" />;"
         }
       ],
-      "import": "import {\r\n    Badge,\r\n    Button,\r\n    Checkbox,\r\n    Field,\r\n    FieldDescription,\r\n    FieldError,\r\n    FieldLabel,\r\n    FormStatus,\r\n    KeyValueItem,\r\n    KeyValueList,\r\n    Notice,\r\n    Panel,\r\n    Radio,\r\n    Select,\r\n    TextInput,\r\n} from \"@creator-signal/design-system-reference\";"
+      "import": "import {\n    Badge,\n    Button,\n    Checkbox,\n    Field,\n    FieldDescription,\n    FieldError,\n    FieldLabel,\n    FormStatus,\n    KeyValueItem,\n    KeyValueList,\n    Notice,\n    Panel,\n    Radio,\n    Select,\n    TextInput,\n} from \"@creator-signal/design-system-reference\";"
     },
     "products-sales-pulse-pro-dashboard": {
       "id": "products-sales-pulse-pro-dashboard",
@@ -4393,6 +4529,6 @@
   },
   "meta": {
     "docgen": "react-docgen",
-    "durationMs": 2822
+    "durationMs": 1505
   }
 }

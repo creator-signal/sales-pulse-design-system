@@ -11,11 +11,11 @@
   },
   "source": {
     "repository": "https://github.com/creator-signal/fork-CoreBunch-Instatic.git",
-    "revision": "6e10528d3ced3234f8b5da0650ad62a468d394b3",
-    "instaticVersion": "0.0.43",
+    "revision": "accf4be8723daad88db69967b7da718eebf0309f",
+    "instaticVersion": "0.0.44",
     "pluginVersion": "0.8.2",
-    "manifestChecksum": "sha256:d2aa43225743c480e539ddbd2e9f6bb9aa836e1c6de0c40ba759bfce743fa2e9",
-    "bundleChecksum": "sha256:a16f2c7faaa420252ff99d09c7baee84eeea4b89b25f4993ada4827d805ce4a4"
+    "manifestChecksum": "sha256:c684cb8d21be5c2a4630336a891f87ff0e8ac18237bb552bafd91b271b5e500f",
+    "bundleChecksum": "sha256:f3f999c20796cda9293a5b20133115786da6a2a2724028ed6ef6a4882904b5a8"
   },
   "storybook": {
     "familyTitle": "Consumers/Instatic Component Library",
