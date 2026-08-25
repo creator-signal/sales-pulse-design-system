@@ -1,6 +1,27 @@
 {
   "v": 0,
   "components": {
+    "dls-start-here": {
+      "id": "dls-start-here",
+      "name": "StartHere",
+      "path": "./src/stories/dls/StartHere.stories.tsx",
+      "jsDocTags": {},
+      "error": {
+        "name": "No component import found",
+        "message": "No component file found for the \"StartHere\" component.\n  110 | }\n  111 |\n> 112 | const meta = {\n      | ^\n  113 |   title: \"DLS/Start here\",\n  114 |   component: StartHere,\n  115 |   tags: [\"autodocs\"],\n\n./src/stories/dls/StartHere.stories.tsx:\nimport type { Meta, StoryObj } from \"@storybook/react-vite\";\nimport { Badge } from \"@creator-signal/ui\";\nimport languageSystem from \"../../../../../design-system/language-system.json\";\n\nfunction statusTone(status: string): \"success\" | \"warning\" {\n  return status === \"source-integrated\" ? \"success\" : \"warning\";\n}\n\nfunction StartHere() {\n  const integrated = languageSystem.sections.filter(({ status }) => status === \"source-integrated\").length;\n\n  return (\n    <main className=\"cs-dls-shell\">\n      <section className=\"cs-dls-hero\" aria-labelledby=\"dls-title\">\n        <div className=\"cs-dls-hero-copy\">\n          <p className=\"cs-dls-kicker\">Creator Signal · Design Language System</p>\n          <h1 id=\"dls-title\">One language from brand intent to working experience.</h1>\n          <p className=\"cs-dls-intro\">{languageSystem.definition}</p>\n          <div className=\"cs-dls-summary\" aria-label=\"DLS delivery status\">\n            <span><strong>{languageSystem.sections.length}</strong> core sections</span>\n            <span><strong>{integrated}</strong> source-integrated</span>\n            <span><strong>#{languageSystem.epic}</strong> programme authority</span>\n          </div>\n        </div>\n        <aside className=\"cs-dls-callout\" aria-labelledby=\"source-of-truth-title\">\n          <p className=\"cs-dls-card-label\">Source of truth</p>\n          <h2 id=\"source-of-truth-title\">Storybook explains the system. Owned packages implement it.</h2>\n          <p>The reference is executable documentation with synthetic examples. Product and provider runtimes never import it.</p>\n          <dl>\n            <div><dt>Design</dt><dd>Brand intent and visual decisions</dd></div>\n            <div><dt>Language</dt><dd>Shared names for elements and options</dd></div>\n            <div><dt>System</dt><dd>Owned implementation and behaviour</dd></div>\n          </dl>\n        </aside>\n      </section>\n\n      <section className=\"cs-dls-section\" aria-labelledby=\"audience-title\">\n        <div className=\"cs-dls-section-heading\">\n          <div>\n            <p className=\"cs-dls-card-label\">Choose your route</p>\n            <h2 id=\"audience-title\">Start with what you need to decide</h2>\n          </div>\n          <p>The same authority is presented for three disciplines, so hand-offs retain meaning.</p>\n        </div>\n        <div className=\"cs-dls-audience-grid\">\n          {languageSystem.audiences.map((audience, index) => (\n            <article className=\"cs-dls-audience-card\" key={audience.id}>\n              <span className=\"cs-dls-index\" aria-hidden=\"true\">0{index + 1}</span>\n              <h3>{audience.label}</h3>\n              <p>{audience.description}</p>\n            </article>\n          ))}\n        </div>\n      </section>\n\n      <section className=\"cs-dls-section\" aria-labelledby=\"vocabulary-title\">\n        <div className=\"cs-dls-section-heading\">\n          <div>\n            <p className=\"cs-dls-card-label\">Shared vocabulary</p>\n            <h2 id=\"vocabulary-title\">Name the level before choosing the solution</h2>\n          </div>\n          <p>These terms are discrete. A consumer projection cannot become a core element, component or widget by appearing in Storybook.</p>\n        </div>\n        <ol className=\"cs-dls-language-flow\">\n          {languageSystem.taxonomy.map((entry) => (\n            <li key={entry.id}>\n              <div className=\"cs-dls-language-name\"><strong>{entry.label}</strong><span>{entry.owner}</span></div>\n              <p>{entry.description}</p>\n              <small>Delivery issue #{entry.issue}</small>\n            </li>\n          ))}\n        </ol>\n      </section>\n\n      <section className=\"cs-dls-section\" aria-labelledby=\"map-title\">\n        <div className=\"cs-dls-section-heading\">\n          <div>\n            <p className=\"cs-dls-card-label\">System map</p>\n            <h2 id=\"map-title\">A complete DLS, with honest delivery status</h2>\n          </div>\n          <p>Pending means the section has an owner and authority path, but it does not yet claim complete reference coverage.</p>\n        </div>\n        <div className=\"cs-dls-map\">\n          {languageSystem.sections.map((section) => (\n            <article className=\"cs-dls-map-card\" key={section.id}>\n              <div className=\"cs-dls-map-topline\">\n                <h3>{section.label}</h3>\n                <Badge tone={statusTone(section.status)}>{section.status === \"source-integrated\" ? \"Integrated\" : \"Pending\"}</Badge>\n              </div>\n              <p>{section.description}</p>\n              <footer><span>#{section.issue}</span><code>{section.id}</code></footer>\n            </article>\n          ))}\n        </div>\n      </section>\n\n      <section className=\"cs-dls-boundary\" aria-labelledby=\"boundary-title\">\n        <div>\n          <p className=\"cs-dls-card-label\">Reference boundary</p>\n          <h2 id=\"boundary-title\">What belongs here—and what does not</h2>\n        </div>\n        <div className=\"cs-dls-boundary-grid\">\n          <div><strong>Core DLS</strong><p>Principles, foundations, elements, components, widgets, patterns, experiences, content and guidelines.</p></div>\n          <div><strong>Supporting evidence</strong><p>Consumer and governance projections stay visible for review but cannot satisfy core DLS coverage.</p></div>\n          <div><strong>Runtime ownership</strong><p>Packages own reusable implementation. Applications and provider adapters own complete workflow composition.</p></div>\n        </div>\n      </section>\n    </main>\n  );\n}\n\nconst meta = {\n  title: \"DLS/Start here\",\n  component: StartHere,\n  tags: [\"autodocs\"],\n  parameters: {\n    docs: {\n      description: {\n        component: \"The governed entry point for the Creator Signal Design Language System. Content is synthetic reference material; authority and delivery status come from design-system/language-system.json.\"\n      }\n    }\n  }\n} satisfies Meta<typeof StartHere>;\n\nexport default meta;\ntype Story = StoryObj<typeof meta>;\n\nexport const Overview: Story = {};\n"
+      },
+      "stories": [
+        {
+          "id": "dls-start-here--overview",
+          "name": "Overview",
+          "error": {
+            "name": "Error",
+            "message": "Could not generate snippet without component name."
+          }
+        }
+      ],
+      "import": "import { Badge } from \"@creator-signal/design-system-reference\";"
+    },
     "foundations-brand-assets": {
       "id": "foundations-brand-assets",
       "name": "BrandAssetGallery",
@@ -199,7 +220,7 @@
         "description": "",
         "methods": [],
         "displayName": "Button",
-        "definedInFile": "/workspace/packages/ui/src/server.tsx",
+        "definedInFile": "/app/packages/ui/src/server.tsx",
         "actualName": "Button",
         "exportName": "Button",
         "props": {
@@ -273,14 +294,14 @@
       "subcomponents": {
         "LinkButton": {
           "name": "LinkButton",
-          "path": "/workspace/packages/ui/src/index.ts",
+          "path": "/app/packages/ui/src/index.ts",
           "import": "import { LinkButton } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "LinkButton",
-            "definedInFile": "/workspace/packages/ui/src/server.tsx",
+            "definedInFile": "/app/packages/ui/src/server.tsx",
             "actualName": "LinkButton",
             "exportName": "LinkButton",
             "props": {
@@ -354,14 +375,14 @@
         },
         "IconButton": {
           "name": "IconButton",
-          "path": "/workspace/packages/ui/src/index.ts",
+          "path": "/app/packages/ui/src/index.ts",
           "import": "import { IconButton } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "IconButton",
-            "definedInFile": "/workspace/packages/ui/src/server.tsx",
+            "definedInFile": "/app/packages/ui/src/server.tsx",
             "actualName": "IconButton",
             "exportName": "IconButton",
             "props": {
@@ -434,7 +455,7 @@
         "description": "",
         "methods": [],
         "displayName": "ResponsiveTable",
-        "definedInFile": "/workspace/packages/ui/src/server.tsx",
+        "definedInFile": "/app/packages/ui/src/server.tsx",
         "actualName": "ResponsiveTable",
         "exportName": "ResponsiveTable",
         "props": {
@@ -450,126 +471,126 @@
       "subcomponents": {
         "Table": {
           "name": "Table",
-          "path": "/workspace/packages/ui/src/index.ts",
+          "path": "/app/packages/ui/src/index.ts",
           "import": "import { Table } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Table",
-            "definedInFile": "/workspace/packages/ui/src/server.tsx",
+            "definedInFile": "/app/packages/ui/src/server.tsx",
             "actualName": "Table",
             "exportName": "Table"
           }
         },
         "TableCaption": {
           "name": "TableCaption",
-          "path": "/workspace/packages/ui/src/index.ts",
+          "path": "/app/packages/ui/src/index.ts",
           "import": "import { TableCaption } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "TableCaption",
-            "definedInFile": "/workspace/packages/ui/src/server.tsx",
+            "definedInFile": "/app/packages/ui/src/server.tsx",
             "actualName": "TableCaption",
             "exportName": "TableCaption"
           }
         },
         "TableHead": {
           "name": "TableHead",
-          "path": "/workspace/packages/ui/src/index.ts",
+          "path": "/app/packages/ui/src/index.ts",
           "import": "import { TableHead } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "TableHead",
-            "definedInFile": "/workspace/packages/ui/src/server.tsx",
+            "definedInFile": "/app/packages/ui/src/server.tsx",
             "actualName": "TableHead",
             "exportName": "TableHead"
           }
         },
         "TableBody": {
           "name": "TableBody",
-          "path": "/workspace/packages/ui/src/index.ts",
+          "path": "/app/packages/ui/src/index.ts",
           "import": "import { TableBody } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "TableBody",
-            "definedInFile": "/workspace/packages/ui/src/server.tsx",
+            "definedInFile": "/app/packages/ui/src/server.tsx",
             "actualName": "TableBody",
             "exportName": "TableBody"
           }
         },
         "TableRow": {
           "name": "TableRow",
-          "path": "/workspace/packages/ui/src/index.ts",
+          "path": "/app/packages/ui/src/index.ts",
           "import": "import { TableRow } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "TableRow",
-            "definedInFile": "/workspace/packages/ui/src/server.tsx",
+            "definedInFile": "/app/packages/ui/src/server.tsx",
             "actualName": "TableRow",
             "exportName": "TableRow"
           }
         },
         "TableHeader": {
           "name": "TableHeader",
-          "path": "/workspace/packages/ui/src/index.ts",
+          "path": "/app/packages/ui/src/index.ts",
           "import": "import { TableHeader } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "TableHeader",
-            "definedInFile": "/workspace/packages/ui/src/server.tsx",
+            "definedInFile": "/app/packages/ui/src/server.tsx",
             "actualName": "TableHeader",
             "exportName": "TableHeader"
           }
         },
         "TableCell": {
           "name": "TableCell",
-          "path": "/workspace/packages/ui/src/index.ts",
+          "path": "/app/packages/ui/src/index.ts",
           "import": "import { TableCell } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "TableCell",
-            "definedInFile": "/workspace/packages/ui/src/server.tsx",
+            "definedInFile": "/app/packages/ui/src/server.tsx",
             "actualName": "TableCell",
             "exportName": "TableCell"
           }
         },
         "KeyValueList": {
           "name": "KeyValueList",
-          "path": "/workspace/packages/ui/src/index.ts",
+          "path": "/app/packages/ui/src/index.ts",
           "import": "import { KeyValueList } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "KeyValueList",
-            "definedInFile": "/workspace/packages/ui/src/server.tsx",
+            "definedInFile": "/app/packages/ui/src/server.tsx",
             "actualName": "KeyValueList",
             "exportName": "KeyValueList"
           }
         },
         "KeyValueItem": {
           "name": "KeyValueItem",
-          "path": "/workspace/packages/ui/src/index.ts",
+          "path": "/app/packages/ui/src/index.ts",
           "import": "import { KeyValueItem } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "KeyValueItem",
-            "definedInFile": "/workspace/packages/ui/src/server.tsx",
+            "definedInFile": "/app/packages/ui/src/server.tsx",
             "actualName": "KeyValueItem",
             "exportName": "KeyValueItem",
             "props": {
@@ -592,28 +613,28 @@
         },
         "StatGroup": {
           "name": "StatGroup",
-          "path": "/workspace/packages/ui/src/index.ts",
+          "path": "/app/packages/ui/src/index.ts",
           "import": "import { StatGroup } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "StatGroup",
-            "definedInFile": "/workspace/packages/ui/src/server.tsx",
+            "definedInFile": "/app/packages/ui/src/server.tsx",
             "actualName": "StatGroup",
             "exportName": "StatGroup"
           }
         },
         "Stat": {
           "name": "Stat",
-          "path": "/workspace/packages/ui/src/index.ts",
+          "path": "/app/packages/ui/src/index.ts",
           "import": "import { Stat } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Stat",
-            "definedInFile": "/workspace/packages/ui/src/server.tsx",
+            "definedInFile": "/app/packages/ui/src/server.tsx",
             "actualName": "Stat",
             "exportName": "Stat",
             "props": {
@@ -646,28 +667,28 @@
         },
         "ChartLegend": {
           "name": "ChartLegend",
-          "path": "/workspace/packages/ui/src/index.ts",
+          "path": "/app/packages/ui/src/index.ts",
           "import": "import { ChartLegend } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "ChartLegend",
-            "definedInFile": "/workspace/packages/ui/src/server.tsx",
+            "definedInFile": "/app/packages/ui/src/server.tsx",
             "actualName": "ChartLegend",
             "exportName": "ChartLegend"
           }
         },
         "ChartLegendItem": {
           "name": "ChartLegendItem",
-          "path": "/workspace/packages/ui/src/index.ts",
+          "path": "/app/packages/ui/src/index.ts",
           "import": "import { ChartLegendItem } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "ChartLegendItem",
-            "definedInFile": "/workspace/packages/ui/src/server.tsx",
+            "definedInFile": "/app/packages/ui/src/server.tsx",
             "actualName": "ChartLegendItem",
             "exportName": "ChartLegendItem",
             "props": {
@@ -747,7 +768,7 @@
         "description": "",
         "methods": [],
         "displayName": "Dialog",
-        "definedInFile": "/workspace/packages/ui/src/client.tsx",
+        "definedInFile": "/app/packages/ui/src/client.tsx",
         "actualName": "Dialog",
         "exportName": "Dialog",
         "props": {
@@ -811,7 +832,7 @@
         "description": "",
         "methods": [],
         "displayName": "Notice",
-        "definedInFile": "/workspace/packages/ui/src/server.tsx",
+        "definedInFile": "/app/packages/ui/src/server.tsx",
         "actualName": "Notice",
         "exportName": "Notice",
         "props": {
@@ -874,14 +895,14 @@
       "subcomponents": {
         "Badge": {
           "name": "Badge",
-          "path": "/workspace/packages/ui/src/index.ts",
+          "path": "/app/packages/ui/src/index.ts",
           "import": "import { Badge } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Badge",
-            "definedInFile": "/workspace/packages/ui/src/server.tsx",
+            "definedInFile": "/app/packages/ui/src/server.tsx",
             "actualName": "Badge",
             "exportName": "Badge",
             "props": {
@@ -927,14 +948,14 @@
         },
         "StatusIndicator": {
           "name": "StatusIndicator",
-          "path": "/workspace/packages/ui/src/index.ts",
+          "path": "/app/packages/ui/src/index.ts",
           "import": "import { StatusIndicator } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "StatusIndicator",
-            "definedInFile": "/workspace/packages/ui/src/server.tsx",
+            "definedInFile": "/app/packages/ui/src/server.tsx",
             "actualName": "StatusIndicator",
             "exportName": "StatusIndicator",
             "props": {
@@ -986,14 +1007,14 @@
         },
         "FormStatus": {
           "name": "FormStatus",
-          "path": "/workspace/packages/ui/src/index.ts",
+          "path": "/app/packages/ui/src/index.ts",
           "import": "import { FormStatus } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "FormStatus",
-            "definedInFile": "/workspace/packages/ui/src/server.tsx",
+            "definedInFile": "/app/packages/ui/src/server.tsx",
             "actualName": "FormStatus",
             "exportName": "FormStatus",
             "props": {
@@ -1039,14 +1060,14 @@
         },
         "LoadingIndicator": {
           "name": "LoadingIndicator",
-          "path": "/workspace/packages/ui/src/index.ts",
+          "path": "/app/packages/ui/src/index.ts",
           "import": "import { LoadingIndicator } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "LoadingIndicator",
-            "definedInFile": "/workspace/packages/ui/src/server.tsx",
+            "definedInFile": "/app/packages/ui/src/server.tsx",
             "actualName": "LoadingIndicator",
             "exportName": "LoadingIndicator",
             "props": {
@@ -1069,28 +1090,28 @@
         },
         "Skeleton": {
           "name": "Skeleton",
-          "path": "/workspace/packages/ui/src/index.ts",
+          "path": "/app/packages/ui/src/index.ts",
           "import": "import { Skeleton } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Skeleton",
-            "definedInFile": "/workspace/packages/ui/src/server.tsx",
+            "definedInFile": "/app/packages/ui/src/server.tsx",
             "actualName": "Skeleton",
             "exportName": "Skeleton"
           }
         },
         "EmptyState": {
           "name": "EmptyState",
-          "path": "/workspace/packages/ui/src/index.ts",
+          "path": "/app/packages/ui/src/index.ts",
           "import": "import { EmptyState } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "EmptyState",
-            "definedInFile": "/workspace/packages/ui/src/server.tsx",
+            "definedInFile": "/app/packages/ui/src/server.tsx",
             "actualName": "EmptyState",
             "exportName": "EmptyState",
             "props": {
@@ -1130,14 +1151,14 @@
         },
         "ErrorState": {
           "name": "ErrorState",
-          "path": "/workspace/packages/ui/src/index.ts",
+          "path": "/app/packages/ui/src/index.ts",
           "import": "import { ErrorState } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "ErrorState",
-            "definedInFile": "/workspace/packages/ui/src/server.tsx",
+            "definedInFile": "/app/packages/ui/src/server.tsx",
             "actualName": "ErrorState",
             "exportName": "ErrorState",
             "props": {
@@ -1203,105 +1224,105 @@
         "description": "",
         "methods": [],
         "displayName": "Field",
-        "definedInFile": "/workspace/packages/ui/src/server.tsx",
+        "definedInFile": "/app/packages/ui/src/server.tsx",
         "actualName": "Field",
         "exportName": "Field"
       },
       "subcomponents": {
         "FieldLabel": {
           "name": "FieldLabel",
-          "path": "/workspace/packages/ui/src/index.ts",
+          "path": "/app/packages/ui/src/index.ts",
           "import": "import { FieldLabel } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "FieldLabel",
-            "definedInFile": "/workspace/packages/ui/src/server.tsx",
+            "definedInFile": "/app/packages/ui/src/server.tsx",
             "actualName": "FieldLabel",
             "exportName": "FieldLabel"
           }
         },
         "FieldDescription": {
           "name": "FieldDescription",
-          "path": "/workspace/packages/ui/src/index.ts",
+          "path": "/app/packages/ui/src/index.ts",
           "import": "import { FieldDescription } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "FieldDescription",
-            "definedInFile": "/workspace/packages/ui/src/server.tsx",
+            "definedInFile": "/app/packages/ui/src/server.tsx",
             "actualName": "FieldDescription",
             "exportName": "FieldDescription"
           }
         },
         "FieldError": {
           "name": "FieldError",
-          "path": "/workspace/packages/ui/src/index.ts",
+          "path": "/app/packages/ui/src/index.ts",
           "import": "import { FieldError } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "FieldError",
-            "definedInFile": "/workspace/packages/ui/src/server.tsx",
+            "definedInFile": "/app/packages/ui/src/server.tsx",
             "actualName": "FieldError",
             "exportName": "FieldError"
           }
         },
         "TextInput": {
           "name": "TextInput",
-          "path": "/workspace/packages/ui/src/index.ts",
+          "path": "/app/packages/ui/src/index.ts",
           "import": "import { TextInput } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "TextInput",
-            "definedInFile": "/workspace/packages/ui/src/server.tsx",
+            "definedInFile": "/app/packages/ui/src/server.tsx",
             "actualName": "TextInput",
             "exportName": "TextInput"
           }
         },
         "Textarea": {
           "name": "Textarea",
-          "path": "/workspace/packages/ui/src/index.ts",
+          "path": "/app/packages/ui/src/index.ts",
           "import": "import { Textarea } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Textarea",
-            "definedInFile": "/workspace/packages/ui/src/server.tsx",
+            "definedInFile": "/app/packages/ui/src/server.tsx",
             "actualName": "Textarea",
             "exportName": "Textarea"
           }
         },
         "Select": {
           "name": "Select",
-          "path": "/workspace/packages/ui/src/index.ts",
+          "path": "/app/packages/ui/src/index.ts",
           "import": "import { Select } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Select",
-            "definedInFile": "/workspace/packages/ui/src/server.tsx",
+            "definedInFile": "/app/packages/ui/src/server.tsx",
             "actualName": "Select",
             "exportName": "Select"
           }
         },
         "Checkbox": {
           "name": "Checkbox",
-          "path": "/workspace/packages/ui/src/index.ts",
+          "path": "/app/packages/ui/src/index.ts",
           "import": "import { Checkbox } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Checkbox",
-            "definedInFile": "/workspace/packages/ui/src/server.tsx",
+            "definedInFile": "/app/packages/ui/src/server.tsx",
             "actualName": "Checkbox",
             "exportName": "Checkbox",
             "props": {
@@ -1327,14 +1348,14 @@
         },
         "Radio": {
           "name": "Radio",
-          "path": "/workspace/packages/ui/src/index.ts",
+          "path": "/app/packages/ui/src/index.ts",
           "import": "import { Radio } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Radio",
-            "definedInFile": "/workspace/packages/ui/src/server.tsx",
+            "definedInFile": "/app/packages/ui/src/server.tsx",
             "actualName": "Radio",
             "exportName": "Radio",
             "props": {
@@ -1360,14 +1381,14 @@
         },
         "Switch": {
           "name": "Switch",
-          "path": "/workspace/packages/ui/src/index.ts",
+          "path": "/app/packages/ui/src/index.ts",
           "import": "import { Switch } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Switch",
-            "definedInFile": "/workspace/packages/ui/src/server.tsx",
+            "definedInFile": "/app/packages/ui/src/server.tsx",
             "actualName": "Switch",
             "exportName": "Switch",
             "props": {
@@ -1407,14 +1428,14 @@
         },
         "FormStatus": {
           "name": "FormStatus",
-          "path": "/workspace/packages/ui/src/index.ts",
+          "path": "/app/packages/ui/src/index.ts",
           "import": "import { FormStatus } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "FormStatus",
-            "definedInFile": "/workspace/packages/ui/src/server.tsx",
+            "definedInFile": "/app/packages/ui/src/server.tsx",
             "actualName": "FormStatus",
             "exportName": "FormStatus",
             "props": {
@@ -1497,63 +1518,63 @@
         "description": "",
         "methods": [],
         "displayName": "Disclosure",
-        "definedInFile": "/workspace/packages/ui/src/server.tsx",
+        "definedInFile": "/app/packages/ui/src/server.tsx",
         "actualName": "Disclosure",
         "exportName": "Disclosure"
       },
       "subcomponents": {
         "DisclosureTrigger": {
           "name": "DisclosureTrigger",
-          "path": "/workspace/packages/ui/src/index.ts",
+          "path": "/app/packages/ui/src/index.ts",
           "import": "import { DisclosureTrigger } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "DisclosureTrigger",
-            "definedInFile": "/workspace/packages/ui/src/server.tsx",
+            "definedInFile": "/app/packages/ui/src/server.tsx",
             "actualName": "DisclosureTrigger",
             "exportName": "DisclosureTrigger"
           }
         },
         "Menu": {
           "name": "Menu",
-          "path": "/workspace/packages/ui/src/index.ts",
+          "path": "/app/packages/ui/src/index.ts",
           "import": "import { Menu } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Menu",
-            "definedInFile": "/workspace/packages/ui/src/server.tsx",
+            "definedInFile": "/app/packages/ui/src/server.tsx",
             "actualName": "Menu",
             "exportName": "Menu"
           }
         },
         "MenuItem": {
           "name": "MenuItem",
-          "path": "/workspace/packages/ui/src/index.ts",
+          "path": "/app/packages/ui/src/index.ts",
           "import": "import { MenuItem } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "MenuItem",
-            "definedInFile": "/workspace/packages/ui/src/server.tsx",
+            "definedInFile": "/app/packages/ui/src/server.tsx",
             "actualName": "MenuItem",
             "exportName": "MenuItem"
           }
         },
         "Pagination": {
           "name": "Pagination",
-          "path": "/workspace/packages/ui/src/index.ts",
+          "path": "/app/packages/ui/src/index.ts",
           "import": "import { Pagination } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Pagination",
-            "definedInFile": "/workspace/packages/ui/src/server.tsx",
+            "definedInFile": "/app/packages/ui/src/server.tsx",
             "actualName": "Pagination",
             "exportName": "Pagination",
             "props": {
@@ -1569,28 +1590,28 @@
         },
         "PaginationList": {
           "name": "PaginationList",
-          "path": "/workspace/packages/ui/src/index.ts",
+          "path": "/app/packages/ui/src/index.ts",
           "import": "import { PaginationList } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "PaginationList",
-            "definedInFile": "/workspace/packages/ui/src/server.tsx",
+            "definedInFile": "/app/packages/ui/src/server.tsx",
             "actualName": "PaginationList",
             "exportName": "PaginationList"
           }
         },
         "PaginationLink": {
           "name": "PaginationLink",
-          "path": "/workspace/packages/ui/src/index.ts",
+          "path": "/app/packages/ui/src/index.ts",
           "import": "import { PaginationLink } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "PaginationLink",
-            "definedInFile": "/workspace/packages/ui/src/server.tsx",
+            "definedInFile": "/app/packages/ui/src/server.tsx",
             "actualName": "PaginationLink",
             "exportName": "PaginationLink",
             "props": {
@@ -1613,14 +1634,14 @@
         },
         "Tooltip": {
           "name": "Tooltip",
-          "path": "/workspace/packages/ui/src/index.ts",
+          "path": "/app/packages/ui/src/index.ts",
           "import": "import { Tooltip } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Tooltip",
-            "definedInFile": "/workspace/packages/ui/src/server.tsx",
+            "definedInFile": "/app/packages/ui/src/server.tsx",
             "actualName": "Tooltip",
             "exportName": "Tooltip",
             "props": {
@@ -1673,7 +1694,7 @@
         "description": "",
         "methods": [],
         "displayName": "Card",
-        "definedInFile": "/workspace/packages/ui/src/server.tsx",
+        "definedInFile": "/app/packages/ui/src/server.tsx",
         "actualName": "Card",
         "exportName": "Card",
         "props": {
@@ -1711,70 +1732,70 @@
       "subcomponents": {
         "CardHeader": {
           "name": "CardHeader",
-          "path": "/workspace/packages/ui/src/index.ts",
+          "path": "/app/packages/ui/src/index.ts",
           "import": "import { CardHeader } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "CardHeader",
-            "definedInFile": "/workspace/packages/ui/src/server.tsx",
+            "definedInFile": "/app/packages/ui/src/server.tsx",
             "actualName": "CardHeader",
             "exportName": "CardHeader"
           }
         },
         "CardTitle": {
           "name": "CardTitle",
-          "path": "/workspace/packages/ui/src/index.ts",
+          "path": "/app/packages/ui/src/index.ts",
           "import": "import { CardTitle } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "CardTitle",
-            "definedInFile": "/workspace/packages/ui/src/server.tsx",
+            "definedInFile": "/app/packages/ui/src/server.tsx",
             "actualName": "CardTitle",
             "exportName": "CardTitle"
           }
         },
         "CardDescription": {
           "name": "CardDescription",
-          "path": "/workspace/packages/ui/src/index.ts",
+          "path": "/app/packages/ui/src/index.ts",
           "import": "import { CardDescription } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "CardDescription",
-            "definedInFile": "/workspace/packages/ui/src/server.tsx",
+            "definedInFile": "/app/packages/ui/src/server.tsx",
             "actualName": "CardDescription",
             "exportName": "CardDescription"
           }
         },
         "CardContent": {
           "name": "CardContent",
-          "path": "/workspace/packages/ui/src/index.ts",
+          "path": "/app/packages/ui/src/index.ts",
           "import": "import { CardContent } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "CardContent",
-            "definedInFile": "/workspace/packages/ui/src/server.tsx",
+            "definedInFile": "/app/packages/ui/src/server.tsx",
             "actualName": "CardContent",
             "exportName": "CardContent"
           }
         },
         "Panel": {
           "name": "Panel",
-          "path": "/workspace/packages/ui/src/index.ts",
+          "path": "/app/packages/ui/src/index.ts",
           "import": "import { Panel } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Panel",
-            "definedInFile": "/workspace/packages/ui/src/server.tsx",
+            "definedInFile": "/app/packages/ui/src/server.tsx",
             "actualName": "Panel",
             "exportName": "Panel",
             "props": {
@@ -1834,7 +1855,7 @@
         "description": "",
         "methods": [],
         "displayName": "Tabs",
-        "definedInFile": "/workspace/packages/ui/src/client.tsx",
+        "definedInFile": "/app/packages/ui/src/client.tsx",
         "actualName": "Tabs",
         "exportName": "Tabs",
         "props": {
@@ -1879,14 +1900,14 @@
       "subcomponents": {
         "TabList": {
           "name": "TabList",
-          "path": "/workspace/packages/ui/src/client.tsx",
+          "path": "/app/packages/ui/src/client.tsx",
           "import": "import { TabList } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "TabList",
-            "definedInFile": "/workspace/packages/ui/src/client.tsx",
+            "definedInFile": "/app/packages/ui/src/client.tsx",
             "actualName": "TabList",
             "exportName": "TabList",
             "props": {
@@ -1902,14 +1923,14 @@
         },
         "Tab": {
           "name": "Tab",
-          "path": "/workspace/packages/ui/src/client.tsx",
+          "path": "/app/packages/ui/src/client.tsx",
           "import": "import { Tab } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Tab",
-            "definedInFile": "/workspace/packages/ui/src/client.tsx",
+            "definedInFile": "/app/packages/ui/src/client.tsx",
             "actualName": "Tab",
             "exportName": "Tab",
             "props": {
@@ -1925,14 +1946,14 @@
         },
         "TabPanel": {
           "name": "TabPanel",
-          "path": "/workspace/packages/ui/src/client.tsx",
+          "path": "/app/packages/ui/src/client.tsx",
           "import": "import { TabPanel } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "TabPanel",
-            "definedInFile": "/workspace/packages/ui/src/client.tsx",
+            "definedInFile": "/app/packages/ui/src/client.tsx",
             "actualName": "TabPanel",
             "exportName": "TabPanel",
             "props": {
@@ -1965,7 +1986,7 @@
         "description": "",
         "methods": [],
         "displayName": "Tabs",
-        "definedInFile": "/workspace/packages/ui/src/client.tsx",
+        "definedInFile": "/app/packages/ui/src/client.tsx",
         "actualName": "Tabs",
         "exportName": "Tabs",
         "props": {
@@ -2010,14 +2031,14 @@
       "subcomponents": {
         "ThemeProvider": {
           "name": "ThemeProvider",
-          "path": "/workspace/packages/ui/src/client.tsx",
+          "path": "/app/packages/ui/src/client.tsx",
           "import": "import { ThemeProvider } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Tabs",
-            "definedInFile": "/workspace/packages/ui/src/client.tsx",
+            "definedInFile": "/app/packages/ui/src/client.tsx",
             "actualName": "Tabs",
             "exportName": "Tabs",
             "props": {
@@ -2235,7 +2256,7 @@
         "description": "",
         "methods": [],
         "displayName": "InstaticSpecimenStory",
-        "definedInFile": "/workspace/apps/design-system/src/instatic/InstaticSpecimen.tsx",
+        "definedInFile": "/app/apps/design-system/src/instatic/InstaticSpecimen.tsx",
         "actualName": "InstaticSpecimenStory",
         "exportName": "InstaticSpecimenStory",
         "props": {
@@ -2309,7 +2330,7 @@
         "description": "",
         "methods": [],
         "displayName": "InstaticSpecimenStory",
-        "definedInFile": "/workspace/apps/design-system/src/instatic/InstaticSpecimen.tsx",
+        "definedInFile": "/app/apps/design-system/src/instatic/InstaticSpecimen.tsx",
         "actualName": "InstaticSpecimenStory",
         "exportName": "InstaticSpecimenStory",
         "props": {
@@ -2403,7 +2424,7 @@
         "description": "",
         "methods": [],
         "displayName": "InstaticSpecimenStory",
-        "definedInFile": "/workspace/apps/design-system/src/instatic/InstaticSpecimen.tsx",
+        "definedInFile": "/app/apps/design-system/src/instatic/InstaticSpecimen.tsx",
         "actualName": "InstaticSpecimenStory",
         "exportName": "InstaticSpecimenStory",
         "props": {
@@ -2492,7 +2513,7 @@
         "description": "",
         "methods": [],
         "displayName": "InstaticSpecimenStory",
-        "definedInFile": "/workspace/apps/design-system/src/instatic/InstaticSpecimen.tsx",
+        "definedInFile": "/app/apps/design-system/src/instatic/InstaticSpecimen.tsx",
         "actualName": "InstaticSpecimenStory",
         "exportName": "InstaticSpecimenStory",
         "props": {
@@ -2541,7 +2562,7 @@
         "description": "",
         "methods": [],
         "displayName": "InstaticSpecimenStory",
-        "definedInFile": "/workspace/apps/design-system/src/instatic/InstaticSpecimen.tsx",
+        "definedInFile": "/app/apps/design-system/src/instatic/InstaticSpecimen.tsx",
         "actualName": "InstaticSpecimenStory",
         "exportName": "InstaticSpecimenStory",
         "props": {
@@ -2790,7 +2811,7 @@
         "description": "",
         "methods": [],
         "displayName": "InstaticSpecimenStory",
-        "definedInFile": "/workspace/apps/design-system/src/instatic/InstaticSpecimen.tsx",
+        "definedInFile": "/app/apps/design-system/src/instatic/InstaticSpecimen.tsx",
         "actualName": "InstaticSpecimenStory",
         "exportName": "InstaticSpecimenStory",
         "props": {
@@ -2884,7 +2905,7 @@
         "description": "",
         "methods": [],
         "displayName": "InstaticSpecimenStory",
-        "definedInFile": "/workspace/apps/design-system/src/instatic/InstaticSpecimen.tsx",
+        "definedInFile": "/app/apps/design-system/src/instatic/InstaticSpecimen.tsx",
         "actualName": "InstaticSpecimenStory",
         "exportName": "InstaticSpecimenStory",
         "props": {
@@ -2958,7 +2979,7 @@
         "description": "",
         "methods": [],
         "displayName": "InstaticSpecimenStory",
-        "definedInFile": "/workspace/apps/design-system/src/instatic/InstaticSpecimen.tsx",
+        "definedInFile": "/app/apps/design-system/src/instatic/InstaticSpecimen.tsx",
         "actualName": "InstaticSpecimenStory",
         "exportName": "InstaticSpecimenStory",
         "props": {
@@ -3027,7 +3048,7 @@
         "description": "",
         "methods": [],
         "displayName": "InstaticSpecimenStory",
-        "definedInFile": "/workspace/apps/design-system/src/instatic/InstaticSpecimen.tsx",
+        "definedInFile": "/app/apps/design-system/src/instatic/InstaticSpecimen.tsx",
         "actualName": "InstaticSpecimenStory",
         "exportName": "InstaticSpecimenStory",
         "props": {
@@ -3096,7 +3117,7 @@
         "description": "",
         "methods": [],
         "displayName": "InstaticSpecimenStory",
-        "definedInFile": "/workspace/apps/design-system/src/instatic/InstaticSpecimen.tsx",
+        "definedInFile": "/app/apps/design-system/src/instatic/InstaticSpecimen.tsx",
         "actualName": "InstaticSpecimenStory",
         "exportName": "InstaticSpecimenStory",
         "props": {
@@ -3155,7 +3176,7 @@
         "description": "",
         "methods": [],
         "displayName": "InstaticSpecimenStory",
-        "definedInFile": "/workspace/apps/design-system/src/instatic/InstaticSpecimen.tsx",
+        "definedInFile": "/app/apps/design-system/src/instatic/InstaticSpecimen.tsx",
         "actualName": "InstaticSpecimenStory",
         "exportName": "InstaticSpecimenStory",
         "props": {
@@ -3224,7 +3245,7 @@
         "description": "",
         "methods": [],
         "displayName": "InstaticSpecimenStory",
-        "definedInFile": "/workspace/apps/design-system/src/instatic/InstaticSpecimen.tsx",
+        "definedInFile": "/app/apps/design-system/src/instatic/InstaticSpecimen.tsx",
         "actualName": "InstaticSpecimenStory",
         "exportName": "InstaticSpecimenStory",
         "props": {
@@ -3378,7 +3399,7 @@
         "description": "",
         "methods": [],
         "displayName": "InstaticSpecimenStory",
-        "definedInFile": "/workspace/apps/design-system/src/instatic/InstaticSpecimen.tsx",
+        "definedInFile": "/app/apps/design-system/src/instatic/InstaticSpecimen.tsx",
         "actualName": "InstaticSpecimenStory",
         "exportName": "InstaticSpecimenStory",
         "props": {
@@ -4286,6 +4307,6 @@
   },
   "meta": {
     "docgen": "react-docgen",
-    "durationMs": 1488
+    "durationMs": 1346
   }
 }

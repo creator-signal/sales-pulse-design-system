@@ -1,0 +1,3 @@
+import{T as o,d as t,j as e,u as n}from"./iframe-BrU3uegW.js";import"./preload-helper-x6r9jKQR.js";function a(){const s=n();return e.jsxs("div",{className:"cs-ui-review-stack",children:[e.jsx(t,{label:"Appearance"}),e.jsxs("p",{children:["Preference: ",e.jsx("strong",{children:s.preference}),"; resolved: ",e.jsx("strong",{children:s.resolvedTheme})]})]})}const d={title:"Components/Interaction/Theme control",component:t,subcomponents:{ThemeProvider:o},tags:["autodocs"]},r={render:()=>e.jsx(a,{})};r.parameters={...r.parameters,docs:{...r.parameters?.docs,source:{originalSource:`{
+  render: () => <ThemeState />
+}`,...r.parameters?.docs?.source}}};const i=["SystemLightDark"];export{r as SystemLightDark,i as __namedExportsOrder,d as default};

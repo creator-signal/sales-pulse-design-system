@@ -1,7 +1,7 @@
 {
   "schema": "creator-signal.design-system-pages-publication/v1",
   "sourceRepository": "creator-signal/sales-pulse",
-  "sourceRevision": "8dcbafb58b2ef73675eaf29a4299d9cfcb28eaaa",
+  "sourceRevision": "86e5766c34f8d6fa319b6034d329a1af3d19f933",
   "sourceArtifact": "apps/design-system/storybook-static",
   "basePath": "/sales-pulse-design-system/",
   "syntheticReference": true
