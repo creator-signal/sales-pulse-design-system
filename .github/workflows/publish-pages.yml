@@ -1,0 +1,119 @@
+name: Publish Design System Pages
+
+on:
+  workflow_dispatch:
+    inputs:
+      source_sha:
+        description: Optional exact sales-pulse main SHA; blank selects the current main head
+        required: false
+        type: string
+
+concurrency:
+  group: design-system-pages
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    env:
+      STORYBOOK_BASE_PATH: /sales-pulse-design-system/
+    steps:
+      - name: Check out the publication repository
+        uses: actions/checkout@v5
+        with:
+          path: publication
+
+      - name: Resolve and verify the exact successful source main revision
+        id: source
+        shell: bash
+        env:
+          REQUESTED_SOURCE_SHA: ${{ inputs.source_sha }}
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          main_sha="$(git ls-remote https://github.com/creator-signal/sales-pulse.git refs/heads/main | cut -f1)"
+          test "$main_sha" != ""
+          source_sha="${REQUESTED_SOURCE_SHA:-$main_sha}"
+          [[ "$source_sha" =~ ^[0-9a-f]{40}$ ]]
+          test "$source_sha" = "$main_sha"
+
+          runs="$(gh api \
+            --method GET \
+            repos/creator-signal/sales-pulse/actions/workflows/ci.yml/runs \
+            -f branch=main \
+            -f head_sha="$source_sha" \
+            -f status=completed \
+            -F per_page=100)"
+          jq -e --arg sha "$source_sha" '
+            .workflow_runs
+            | any(
+                .head_sha == $sha
+                and .head_branch == "main"
+                and .conclusion == "success"
+                and (.event == "push" or .event == "workflow_dispatch")
+              )
+          ' <<< "$runs" > /dev/null
+
+          echo "source_sha=$source_sha" >> "$GITHUB_OUTPUT"
+          echo "Verified exact successful sales-pulse main revision $source_sha."
+
+      - name: Check out the verified Design System source
+        uses: actions/checkout@v5
+        with:
+          repository: creator-signal/sales-pulse
+          ref: ${{ steps.source.outputs.source_sha }}
+          path: source
+          persist-credentials: false
+
+      - name: Set up pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 10.15.1
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v5
+        with:
+          node-version: 22
+          cache: pnpm
+          cache-dependency-path: source/pnpm-lock.yaml
+
+      - name: Build and verify the Pages-shaped Storybook
+        working-directory: source
+        env:
+          STORYBOOK_SOURCE_REVISION: ${{ steps.source.outputs.source_sha }}
+        run: |
+          pnpm install --frozen-lockfile
+          pnpm --filter @creator-signal/design-system-reference build
+          node --test scripts/design-system-reference-contract.test.mjs
+          pnpm design-system-pages:acceptance:browser
+
+      - name: Prepare and push the gh-pages publication
+        shell: bash
+        env:
+          SOURCE_SHA: ${{ steps.source.outputs.source_sha }}
+        run: |
+          set -euo pipefail
+          if git -C publication fetch --depth=1 origin gh-pages; then
+            git -C publication checkout -B gh-pages FETCH_HEAD
+          else
+            git -C publication checkout --orphan gh-pages
+          fi
+
+          node source/scripts/prepare-design-system-pages-publication.mjs \
+            --source=source/apps/design-system/storybook-static \
+            --destination=publication \
+            --source-revision="$SOURCE_SHA" \
+            --base-path="$STORYBOOK_BASE_PATH"
+          git -C publication add --all
+          if git -C publication diff --cached --quiet; then
+            echo "gh-pages already contains Design System source $SOURCE_SHA."
+            exit 0
+          fi
+
+          git -C publication config user.name "creator-signal-pages[bot]"
+          git -C publication config user.email "creator-signal-pages[bot]@users.noreply.github.com"
+          git -C publication commit -m "Publish Design System ${SOURCE_SHA}"
+          git -C publication push origin HEAD:gh-pages
