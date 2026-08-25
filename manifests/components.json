@@ -22,6 +22,92 @@
       ],
       "import": "import { Badge } from \"@creator-signal/design-system-reference\";"
     },
+    "dls-elements": {
+      "id": "dls-elements",
+      "name": "ElementsOverview",
+      "path": "./src/stories/dls/Elements.stories.tsx",
+      "jsDocTags": {},
+      "error": {
+        "name": "No component import found",
+        "message": "No component file found for the \"ElementsOverview\" component.\n  345 | }\n  346 |\n> 347 | const meta = {\n      | ^\n  348 |   title: \"DLS/Elements\",\n  349 |   component: ElementsOverview,\n  350 |   tags: [\"autodocs\"],\n\n./src/stories/dls/Elements.stories.tsx:\nimport { createElement } from \"react\";\nimport type { Meta, StoryObj } from \"@storybook/react-vite\";\nimport elementsSource from \"@creator-signal/design-system/elements.json\";\n\ntype Disposition = \"styled\" | \"native-only\" | \"conditional\" | \"reference-only\";\ntype ElementEntry = {\n  name: string;\n  label: string;\n  disposition: Disposition;\n  summary: string;\n  accessibility: string;\n};\ntype Category = {\n  id: string;\n  label: string;\n  description: string;\n  use: string;\n  avoid: string;\n  content: string;\n  accessibility: string;\n  elements: ElementEntry[];\n};\n\nconst registry = elementsSource as {\n  definition: string;\n  owner: string;\n  stylesheet: string;\n  dispositions: Record<string, string>;\n  categories: Category[];\n  inputTypes: string[];\n  foreignContent: Array<{ name: string; disposition: \"not-applicable\"; summary: string }>;\n  obsoleteElements: Array<{ name: string; disposition: \"prohibited\"; replacement: string }>;\n};\n\nconst categoryById = new Map(registry.categories.map((category) => [category.id, category]));\nconst referenceOnly = new Set([\"html\", \"head\", \"title\", \"base\", \"link\", \"meta\", \"style\", \"body\", \"main\", \"script\", \"noscript\", \"template\", \"slot\"]);\n\nfunction escapeText(value: string) {\n  return value.replaceAll(\"&\", \"&amp;\").replaceAll(\"<\", \"&lt;\").replaceAll(\">\", \"&gt;\");\n}\n\nfunction exampleMarkup(name: string) {\n  const examples: Record<string, string> = {\n    address: \"<address>Creator Signal support<br><a href=\\\"mailto:hello@example.test\\\">hello@example.test</a></address>\",\n    article: \"<article><h3>Independent article</h3><p>This content can stand on its own.</p></article>\",\n    aside: \"<aside aria-label=\\\"Related guidance\\\"><strong>Related guidance</strong><p>Supporting, not primary, content.</p></aside>\",\n    header: \"<header><p><strong>Creator Signal</strong></p><p>Introductory content for this section.</p></header>\",\n    footer: \"<footer><small>Last reviewed <time datetime=\\\"2026-08-25\\\">25 August 2026</time></small></footer>\",\n    main: \"<main><h3>Main content</h3><p>One visible main landmark belongs in a document.</p></main>\",\n    nav: \"<nav aria-label=\\\"Example\\\"><a href=\\\"#first\\\">First</a> · <a href=\\\"#second\\\">Second</a></nav>\",\n    section: \"<section><h3>Thematic section</h3><p>A section normally has a heading.</p></section>\",\n    search: \"<search><form><label for=\\\"element-search\\\">Search examples</label><br><input id=\\\"element-search\\\" type=\\\"search\\\"></form></search>\",\n    hgroup: \"<hgroup><h3>Quarterly signals</h3><p>A practical subtitle</p></hgroup>\",\n    p: \"<p>A paragraph establishes the default measure, rhythm and body typography.</p>\",\n    hr: \"<p>First topic.</p><hr><p>A new topic begins.</p>\",\n    pre: \"<pre><code>const signal = { status: \\\"ready\\\" };</code></pre>\",\n    blockquote: \"<blockquote><p>Design meaning should survive implementation.</p><footer>— Synthetic reference quotation</footer></blockquote>\",\n    ol: \"<ol><li>Choose semantics</li><li>Apply the language</li><li>Prove the result</li></ol>\",\n    ul: \"<ul><li>Principles</li><li>Foundations</li><li>Elements</li></ul>\",\n    menu: \"<menu><li><button type=\\\"button\\\">Save draft</button></li><li><button type=\\\"button\\\">Preview</button></li></menu>\",\n    li: \"<ul><li>A list item in its valid parent</li></ul>\",\n    dl: \"<dl><dt>Element</dt><dd>Semantic HTML baseline</dd><dt>Component</dt><dd>Reusable owned behaviour</dd></dl>\",\n    dt: \"<dl><dt>Owner</dt><dd>@creator-signal/design-system</dd></dl>\",\n    dd: \"<dl><dt>Status</dt><dd>Source-integrated</dd></dl>\",\n    figure: \"<figure><div class=\\\"cs-element-placeholder-image\\\" role=\\\"img\\\" aria-label=\\\"Synthetic signal trend rising\\\"></div><figcaption>Synthetic trend used to demonstrate a caption.</figcaption></figure>\",\n    figcaption: \"<figure><div class=\\\"cs-element-placeholder-image\\\" role=\\\"img\\\" aria-label=\\\"Synthetic reference artwork\\\"></div><figcaption>A caption explains the figure's purpose.</figcaption></figure>\",\n    div: \"<div>A generic block carries no meaning of its own.</div>\",\n    a: \"<a href=\\\"#element-a\\\">Read the hyperlink guidance</a>\",\n    em: \"<p>This decision is <em>especially</em> important.</p>\",\n    strong: \"<p><strong>Important:</strong> semantics come before appearance.</p>\",\n    small: \"<p>Primary content <small>Supporting legal or attribution text</small></p>\",\n    s: \"<p><s>Old availability: Friday</s> New availability: Monday</p>\",\n    cite: \"<p>See <cite>Creator Signal Design Language</cite>.</p>\",\n    q: \"<p>The principle says <q>meaning survives implementation</q>.</p>\",\n    dfn: \"<p><dfn>Design language</dfn> is the vocabulary used to describe design.</p>\",\n    abbr: \"<p><abbr title=\\\"Design Language System\\\">DLS</abbr> is the reference implementation.</p>\",\n    ruby: \"<ruby>漢<rp>(</rp><rt>かん</rt><rp>)</rp></ruby>\",\n    rt: \"<ruby>語<rt>ご</rt></ruby>\",\n    rp: \"<ruby>字<rp>(</rp><rt>じ</rt><rp>)</rp></ruby>\",\n    data: \"<p>Plan: <data value=\\\"creator\\\">Creator</data></p>\",\n    time: \"<time datetime=\\\"2026-08-25T09:00:00+10:00\\\">25 August 2026, 9:00 am</time>\",\n    code: \"<p>Import <code>@creator-signal/design-system/elements.css</code>.</p>\",\n    var: \"<p><var>conversion rate</var> = responses ÷ visits</p>\",\n    samp: \"<p>System output: <samp>Validation complete</samp></p>\",\n    kbd: \"<p>Press <kbd>Tab</kbd>, then <kbd>Enter</kbd>.</p>\",\n    sub: \"<p>H<sub>2</sub>O</p>\",\n    sup: \"<p>Reference<sup><a href=\\\"#element-sup\\\">1</a></sup></p>\",\n    i: \"<p>The classification <i>Creator-led</i> uses an alternate voice.</p>\",\n    b: \"<p>Signals include <b>recent activity</b> and response intent.</p>\",\n    u: \"<p><u class=\\\"spelling\\\">Creatr</u> is marked as misspelled.</p>\",\n    mark: \"<p>Search result: Creator <mark>Signal</mark> platform.</p>\",\n    bdi: \"<p>Account <bdi>مريم-42</bdi>: 4 signals</p>\",\n    bdo: \"<p><bdo dir=\\\"rtl\\\">Known direction override</bdo></p>\",\n    span: \"<p>A <span>generic inline hook</span> adds no semantics.</p>\",\n    br: \"<address>Level 4<br>123 Example Street<br>Sydney NSW</address>\",\n    wbr: \"<p>creator-signal-design-language-system-<wbr>semantic-elements</p>\",\n    ins: \"<p>Review state: <ins>approved</ins></p>\",\n    del: \"<p>Release date: <del>20 August</del> 25 August</p>\",\n    picture: \"<picture><img alt=\\\"Abstract synthetic Creator Signal reference tile\\\" width=\\\"320\\\" height=\\\"160\\\" src=\\\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='320' height='160'%3E%3Crect width='320' height='160' fill='%23E895BE'/%3E%3Ccircle cx='250' cy='35' r='60' fill='%23EA6A28'/%3E%3C/svg%3E\\\"></picture>\",\n    source: \"<picture><source media=\\\"(min-width: 800px)\\\" srcset=\\\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='320' height='160'%3E%3Crect width='320' height='160' fill='%239AAEEF'/%3E%3C/svg%3E\\\"><img alt=\\\"Synthetic responsive source example\\\" width=\\\"320\\\" height=\\\"160\\\" src=\\\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='320' height='160'%3E%3Crect width='320' height='160' fill='%2374BE86'/%3E%3C/svg%3E\\\"></picture>\",\n    img: \"<img alt=\\\"Abstract synthetic Creator Signal reference tile\\\" width=\\\"320\\\" height=\\\"160\\\" src=\\\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='320' height='160'%3E%3Crect width='320' height='160' fill='%239AAEEF'/%3E%3Cpath d='M0 130L90 55l70 55 55-35 105 85H0z' fill='%23420F20'/%3E%3C/svg%3E\\\">\",\n    iframe: \"<iframe title=\\\"Synthetic embedded fallback\\\" sandbox srcdoc=\\\"<p style='font-family:sans-serif'>Synthetic isolated frame</p>\\\"></iframe>\",\n    embed: \"<p><code>&lt;embed&gt;</code> requires an approved capability and equivalent fallback.</p>\",\n    object: \"<object title=\\\"Synthetic embedded reference\\\" data=\\\"about:blank\\\" type=\\\"text/html\\\"><p>Embedded content unavailable. <a href=\\\"#element-object\\\">Read the fallback guidance.</a></p></object>\",\n    video: \"<video aria-label=\\\"Synthetic video control example\\\" controls width=\\\"320\\\"><track kind=\\\"captions\\\" srclang=\\\"en\\\" label=\\\"English\\\"><p>Video unavailable. A transcript is required.</p></video>\",\n    audio: \"<audio aria-label=\\\"Synthetic audio control example\\\" controls><p>Audio unavailable. A transcript is required.</p></audio>\",\n    track: \"<video aria-label=\\\"Synthetic timed-text track example\\\" controls width=\\\"320\\\"><track kind=\\\"captions\\\" srclang=\\\"en\\\" label=\\\"English\\\"><p>Timed media fallback.</p></video>\",\n    map: \"<p>Image maps are conditional. Prefer a visible list of ordinary links.</p>\",\n    area: \"<p><code>&lt;area alt=\\\"View Queensland results\\\" href=\\\"…\\\"&gt;</code></p>\",\n    table: \"<table><caption>Synthetic weekly signals</caption><thead><tr><th scope=\\\"col\\\">Week</th><th scope=\\\"col\\\">Signals</th></tr></thead><tbody><tr><th scope=\\\"row\\\">Current</th><td>42</td></tr><tr><th scope=\\\"row\\\">Previous</th><td>31</td></tr></tbody><tfoot><tr><th scope=\\\"row\\\">Change</th><td>+11</td></tr></tfoot></table>\",\n    caption: \"<table><caption>Synthetic weekly signals</caption><tbody><tr><th scope=\\\"row\\\">Current</th><td>42</td></tr></tbody></table>\",\n    colgroup: \"<table><colgroup><col><col></colgroup><tbody><tr><th scope=\\\"row\\\">Plan</th><td>Creator</td></tr></tbody></table>\",\n    col: \"<table><colgroup><col><col></colgroup><tbody><tr><th scope=\\\"row\\\">Status</th><td>Ready</td></tr></tbody></table>\",\n    thead: \"<table><thead><tr><th scope=\\\"col\\\">Signal</th><th scope=\\\"col\\\">Status</th></tr></thead><tbody><tr><td>Example</td><td>Ready</td></tr></tbody></table>\",\n    tbody: \"<table><tbody><tr><th scope=\\\"row\\\">Example</th><td>42</td></tr></tbody></table>\",\n    tfoot: \"<table><tbody><tr><th scope=\\\"row\\\">Example</th><td>42</td></tr></tbody><tfoot><tr><th scope=\\\"row\\\">Total</th><td>42</td></tr></tfoot></table>\",\n    tr: \"<table><tbody><tr><th scope=\\\"row\\\">A row</th><td>Related value</td></tr></tbody></table>\",\n    td: \"<table><tbody><tr><th scope=\\\"row\\\">Label</th><td>Data cell</td></tr></tbody></table>\",\n    th: \"<table><tbody><tr><th scope=\\\"row\\\">Header cell</th><td>Related data</td></tr></tbody></table>\",\n    form: \"<form><label for=\\\"form-name\\\">Display name</label><br><input id=\\\"form-name\\\" name=\\\"name\\\"><br><button type=\\\"button\\\">Save example</button></form>\",\n    label: \"<label for=\\\"label-example\\\">Account name</label><br><input id=\\\"label-example\\\" value=\\\"Synthetic account\\\">\",\n    input: \"<label for=\\\"input-example\\\">Email</label><br><input id=\\\"input-example\\\" type=\\\"email\\\" placeholder=\\\"name@example.test\\\">\",\n    button: \"<button type=\\\"button\\\">Run action</button> <button type=\\\"button\\\" disabled>Unavailable action</button>\",\n    select: \"<label for=\\\"select-example\\\">Plan</label><br><select id=\\\"select-example\\\"><option>Starter</option><option>Creator</option></select>\",\n    datalist: \"<label for=\\\"datalist-example\\\">Region</label><br><input id=\\\"datalist-example\\\" list=\\\"regions\\\"><datalist id=\\\"regions\\\"><option value=\\\"Australia\\\"><option value=\\\"New Zealand\\\"></datalist>\",\n    optgroup: \"<label for=\\\"group-example\\\">Workspace</label><br><select id=\\\"group-example\\\"><optgroup label=\\\"Active\\\"><option>Creator Signal</option></optgroup><optgroup label=\\\"Archived\\\"><option>Example archive</option></optgroup></select>\",\n    option: \"<label for=\\\"option-example\\\">Status</label><br><select id=\\\"option-example\\\"><option>Ready</option><option>Needs attention</option></select>\",\n    textarea: \"<label for=\\\"textarea-example\\\">Notes</label><br><textarea id=\\\"textarea-example\\\">Synthetic reference note</textarea>\",\n    output: \"<p>Estimated signals: <output name=\\\"signals\\\">42</output></p>\",\n    progress: \"<label for=\\\"progress-example\\\">Import progress</label><br><progress id=\\\"progress-example\\\" value=\\\"68\\\" max=\\\"100\\\">68%</progress>\",\n    meter: \"<label for=\\\"meter-example\\\">Profile completeness</label><br><meter id=\\\"meter-example\\\" min=\\\"0\\\" max=\\\"100\\\" low=\\\"40\\\" high=\\\"80\\\" optimum=\\\"100\\\" value=\\\"72\\\">72%</meter>\",\n    fieldset: \"<fieldset><legend>Notification preference</legend><label><input type=\\\"radio\\\" name=\\\"notify\\\" checked> Email</label><br><label><input type=\\\"radio\\\" name=\\\"notify\\\"> None</label></fieldset>\",\n    legend: \"<fieldset><legend>Choose one plan</legend><label><input type=\\\"radio\\\" name=\\\"plan\\\"> Starter</label><br><label><input type=\\\"radio\\\" name=\\\"plan\\\"> Creator</label></fieldset>\",\n    details: \"<details><summary>Why semantic HTML comes first</summary><p>It establishes structure and behaviour before components are composed.</p></details>\",\n    summary: \"<details><summary>Show implementation note</summary><p>The summary is the native disclosure trigger.</p></details>\",\n    dialog: \"<dialog open aria-labelledby=\\\"dialog-example-title\\\"><h3 id=\\\"dialog-example-title\\\">Example dialog</h3><p>This static preview demonstrates the native surface.</p><button type=\\\"button\\\">Close</button></dialog>\",\n    canvas: \"<canvas width=\\\"320\\\" height=\\\"120\\\">Synthetic chart: 42 current signals, 31 previous signals.</canvas>\"\n  };\n  if (examples[name]) return examples[name];\n  if (name === \"h4\") return \"<h3>Parent heading level 3</h3><h4>Heading level 4</h4>\";\n  if (name === \"h5\") return \"<h3>Parent heading level 3</h3><h4>Parent heading level 4</h4><h5>Heading level 5</h5>\";\n  if (name === \"h6\") return \"<h3>Parent heading level 3</h3><h4>Parent heading level 4</h4><h5>Parent heading level 5</h5><h6>Heading level 6</h6>\";\n  if (/^h[1-3]$/.test(name)) return `<${name}>Heading level ${name.slice(1)}</${name}>`;\n  return `<${name}>${escapeText(`Synthetic ${name} example`)}</${name}>`;\n}\n\nfunction DispositionBadge({ disposition }: { disposition: string }) {\n  return <span className={`cs-element-disposition cs-element-disposition--${disposition}`}>{disposition}</span>;\n}\n\nfunction ElementCard({ category, entry }: { category: Category; entry: ElementEntry }) {\n  const markup = exampleMarkup(entry.name);\n  const canRender = !referenceOnly.has(entry.name);\n  return (\n    <article className=\"cs-element-card\" id={`element-${entry.name}`}>\n      <header className=\"cs-element-card-header\">\n        <div>\n          <code>&lt;{entry.name}&gt;</code>\n          <h2>{entry.label}</h2>\n        </div>\n        <DispositionBadge disposition={entry.disposition} />\n      </header>\n      <p className=\"cs-element-definition\">{entry.summary}</p>\n      <section aria-label={`${entry.label} live example`} className=\"cs-element-live\">\n        <span className=\"cs-element-eyebrow\">{canRender ? \"Live HTML\" : \"Document infrastructure\"}</span>\n        {canRender\n          ? <div dangerouslySetInnerHTML={{ __html: markup }} />\n          : <p>This element belongs to the document or component infrastructure and is shown as source rather than nested invalid markup.</p>}\n      </section>\n      <div className=\"cs-element-guidance-grid\">\n        <div><strong>Use</strong><p>{category.use}</p></div>\n        <div><strong>Do not use</strong><p>{category.avoid}</p></div>\n        <div><strong>Content</strong><p>{category.content}</p></div>\n        <div><strong>Accessibility</strong><p>{entry.accessibility}</p></div>\n      </div>\n      <details className=\"cs-element-source\">\n        <summary>HTML source</summary>\n        <pre><code>{markup}</code></pre>\n      </details>\n      <footer className=\"cs-element-card-footer\">\n        <span>Owner: {registry.owner}</span>\n        <span>Style source: {registry.stylesheet}</span>\n      </footer>\n    </article>\n  );\n}\n\nfunction CoverageMatrix() {\n  const elements = registry.categories.flatMap((category) => category.elements);\n  const counts = Object.keys(registry.dispositions).map((disposition) => ({\n    disposition,\n    count: elements.filter((element) => element.disposition === disposition).length\n      + registry.obsoleteElements.filter((element) => element.disposition === disposition).length\n      + registry.foreignContent.filter((element) => element.disposition === disposition).length\n  }));\n  return (\n    <dl className=\"cs-elements-counts\">\n      <div><dt>Living HTML elements</dt><dd>{elements.length}</dd></div>\n      <div><dt>Input types</dt><dd>{registry.inputTypes.length}</dd></div>\n      <div><dt>Obsolete prohibited</dt><dd>{registry.obsoleteElements.length}</dd></div>\n      {counts.filter(({ count }) => count > 0).map(({ disposition, count }) => (\n        <div key={disposition}><dt>{disposition}</dt><dd>{count}</dd></div>\n      ))}\n    </dl>\n  );\n}\n\nfunction ElementsOverview() {\n  return (\n    <main className=\"cs-dls-shell cs-elements cs-elements-reference\">\n      <header className=\"cs-elements-hero\">\n        <p className=\"cs-dls-kicker\">DLS · Elements</p>\n        <h1>Semantic HTML before components.</h1>\n        <p>{registry.definition}</p>\n        <CoverageMatrix />\n      </header>\n\n      <section className=\"cs-elements-principle\" aria-labelledby=\"elements-order-title\">\n        <div><span>01</span><h2 id=\"elements-order-title\">Meaning</h2><p>Choose the native element whose semantics match the content or action.</p></div>\n        <div><span>02</span><h2>Presentation</h2><p>Opt into the Elements stylesheet for shared rhythm, focus and native-control treatment.</p></div>\n        <div><span>03</span><h2>Composition</h2><p>Reach for a Component or Widget only when reusable API, state or behaviour is required.</p></div>\n      </section>\n\n      <section className=\"cs-elements-inventory\" aria-labelledby=\"elements-inventory-title\">\n        <div className=\"cs-dls-section-heading\">\n          <div><p className=\"cs-dls-card-label\">Complete inventory</p><h2 id=\"elements-inventory-title\">Every category is explicit</h2></div>\n          <p>Nothing becomes a component merely because it appears here. Each category links semantics, source, content rules and accessibility.</p>\n        </div>\n        <div className=\"cs-elements-category-grid\">\n          {registry.categories.map((category) => (\n            <article key={category.id}>\n              <span>{String(category.elements.length).padStart(2, \"0\")}</span>\n              <h3>{category.label}</h3>\n              <p>{category.description}</p>\n              <p className=\"cs-elements-tag-list\">{category.elements.map(({ name }) => `<${name}>`).join(\" · \")}</p>\n            </article>\n          ))}\n        </div>\n      </section>\n\n      <section className=\"cs-elements-boundary\" aria-labelledby=\"element-boundary-title\">\n        <div><p className=\"cs-dls-card-label\">Authority boundary</p><h2 id=\"element-boundary-title\">Raw HTML is not the whole interface system</h2></div>\n        <dl>\n          <div><dt>Element</dt><dd>Native structure, semantics and baseline presentation.</dd></div>\n          <div><dt>Component</dt><dd>Reusable API and accessible behaviour owned by @creator-signal/ui.</dd></div>\n          <div><dt>Widget</dt><dd>Multiple elements or components coordinated around one task.</dd></div>\n          <div><dt>Experience</dt><dd>A complete outcome-led journey owned by its application or adapter.</dd></div>\n        </dl>\n      </section>\n    </main>\n  );\n}\n\nfunction CategoryPage({ id, direction }: { id: string; direction?: \"ltr\" | \"rtl\" }) {\n  const category = categoryById.get(id);\n  if (!category) throw new Error(`Unknown Elements category: ${id}`);\n  return (\n    <main className=\"cs-dls-shell cs-elements cs-elements-reference\" dir={direction ?? (id === \"inline\" ? \"auto\" : undefined)}>\n      <header className=\"cs-elements-category-header\">\n        <p className=\"cs-dls-kicker\">DLS · Elements · {category.label}</p>\n        <h1>{category.label}</h1>\n        <p>{category.description}</p>\n        <div className=\"cs-elements-acceptance\" aria-label=\"Reference acceptance coverage\">\n          <strong>Every specimen is reviewed for</strong>\n          <span>light · dark · system</span><span>keyboard + visible focus</span><span>RTL + long content</span>\n          <span>200% zoom + mobile reflow</span><span>reduced motion + forced colours</span><span>print + resource failure</span>\n        </div>\n      </header>\n      <nav className=\"cs-elements-page-index\" aria-label={`${category.label} element index`}>\n        {category.elements.map((entry) => <a href={`#element-${entry.name}`} key={entry.name}>&lt;{entry.name}&gt;</a>)}\n      </nav>\n      <div className=\"cs-element-card-stack\">\n        {category.elements.map((entry) => <ElementCard category={category} entry={entry} key={entry.name} />)}\n      </div>\n    </main>\n  );\n}\n\nfunction InputTypesPage() {\n  return (\n    <main className=\"cs-dls-shell cs-elements cs-elements-reference\">\n      <header className=\"cs-elements-category-header\">\n        <p className=\"cs-dls-kicker\">DLS · Elements · Forms</p>\n        <h1>Native input types</h1>\n        <p>The input element is one semantic API with type-specific browser behaviour. Use the correct type before adding component behaviour.</p>\n      </header>\n      <div className=\"cs-input-type-grid\">\n        {registry.inputTypes.map((type) => (\n          <article key={type}>\n            <header><code>type=&quot;{type}&quot;</code><DispositionBadge disposition={type === \"hidden\" ? \"native-only\" : \"styled\"} /></header>\n            {type === \"hidden\" ? <p>Hidden controls have no visual or interactive preview.</p> : <>\n              <label htmlFor={`input-type-${type}`}>{type} example</label>\n              {createElement(\"input\", {\n                id: `input-type-${type}`,\n                type,\n                name: `input-type-${type}`,\n                ...(type === \"range\" ? { defaultValue: \"60\" } : {}),\n                ...(type === \"button\" || type === \"submit\" || type === \"reset\" ? { value: `${type} example` } : {}),\n                ...(type === \"image\" ? {\n                  alt: \"Run image input example\",\n                  src: \"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='44'%3E%3Crect width='120' height='44' rx='8' fill='%23420F20'/%3E%3Ctext x='60' y='27' text-anchor='middle' fill='%23FFF9F3' font-family='sans-serif'%3ERun example%3C/text%3E%3C/svg%3E\"\n                } : {})\n              })}\n            </>}\n            <pre><code>{`<input type=\"${type}\" name=\"…\">`}</code></pre>\n          </article>\n        ))}\n      </div>\n    </main>\n  );\n}\n\nfunction DispositionsPage() {\n  return (\n    <main className=\"cs-dls-shell cs-elements cs-elements-reference\">\n      <header className=\"cs-elements-category-header\">\n        <p className=\"cs-dls-kicker\">DLS · Elements · Dispositions</p>\n        <h1>No silent gaps.</h1>\n        <p>Living HTML, neighbouring platform vocabularies and obsolete tags all receive an explicit disposition.</p>\n      </header>\n      <section className=\"cs-elements-disposition-list\" aria-labelledby=\"dispositions-title\">\n        <h2 id=\"dispositions-title\">Disposition definitions</h2>\n        {Object.entries(registry.dispositions).map(([name, description]) => (\n          <div key={name}><DispositionBadge disposition={name} /><p>{description}</p></div>\n        ))}\n      </section>\n      <section className=\"cs-elements-prohibited\" aria-labelledby=\"obsolete-title\">\n        <h2 id=\"obsolete-title\">Obsolete HTML is prohibited</h2>\n        <div>\n          {registry.obsoleteElements.map((entry) => (\n            <article key={entry.name}><code>&lt;{entry.name}&gt;</code><DispositionBadge disposition=\"prohibited\" /><p>{entry.replacement}</p></article>\n          ))}\n        </div>\n      </section>\n      <section className=\"cs-elements-prohibited\" aria-labelledby=\"foreign-title\">\n        <h2 id=\"foreign-title\">Neighbouring vocabularies</h2>\n        <div>\n          {registry.foreignContent.map((entry) => (\n            <article key={entry.name}><code>&lt;{entry.name}&gt;</code><DispositionBadge disposition={entry.disposition} /><p>{entry.summary}</p></article>\n          ))}\n        </div>\n      </section>\n    </main>\n  );\n}\n\nconst meta = {\n  title: \"DLS/Elements\",\n  component: ElementsOverview,\n  tags: [\"autodocs\"],\n  parameters: {\n    docs: {\n      description: {\n        component: \"The governed semantic HTML baseline rendered from @creator-signal/design-system/elements.json and styled by the opt-in Elements stylesheet. Synthetic examples only.\"\n      }\n    }\n  }\n} satisfies Meta<typeof ElementsOverview>;\n\nexport default meta;\ntype Story = StoryObj<typeof meta>;\n\nexport const Overview: Story = {};\nexport const DocumentAndMetadata: Story = { render: () => <CategoryPage id=\"document\" /> };\nexport const LandmarksAndSections: Story = { render: () => <CategoryPage id=\"sectioning\" /> };\nexport const TextBlocksAndGrouping: Story = { render: () => <CategoryPage id=\"grouping\" /> };\nexport const InlineTextSemantics: Story = { render: () => <CategoryPage id=\"inline\" /> };\nexport const BidirectionalAndLongContent: Story = { render: () => <CategoryPage id=\"inline\" direction=\"rtl\" /> };\nexport const DocumentEdits: Story = { render: () => <CategoryPage id=\"edits\" /> };\nexport const MediaAndEmbeddedContent: Story = { render: () => <CategoryPage id=\"media\" /> };\nexport const TabularData: Story = { render: () => <CategoryPage id=\"tables\" /> };\nexport const FormsAndNativeControls: Story = { render: () => <CategoryPage id=\"forms\" /> };\nexport const NativeInputTypes: Story = { render: () => <InputTypesPage /> };\nexport const NativeInteraction: Story = { render: () => <CategoryPage id=\"interactive\" /> };\nexport const ScriptingAndWebPlatform: Story = { render: () => <CategoryPage id=\"scripting\" /> };\nexport const DispositionsAndObsoleteHtml: Story = { render: () => <DispositionsPage /> };\n"
+      },
+      "stories": [
+        {
+          "id": "dls-elements--overview",
+          "name": "Overview",
+          "error": {
+            "name": "Error",
+            "message": "Could not generate snippet without component name."
+          }
+        },
+        {
+          "id": "dls-elements--document-and-metadata",
+          "name": "Document And Metadata",
+          "snippet": "const DocumentAndMetadata = () => <CategoryPage id=\"document\" />;"
+        },
+        {
+          "id": "dls-elements--landmarks-and-sections",
+          "name": "Landmarks And Sections",
+          "snippet": "const LandmarksAndSections = () => <CategoryPage id=\"sectioning\" />;"
+        },
+        {
+          "id": "dls-elements--text-blocks-and-grouping",
+          "name": "Text Blocks And Grouping",
+          "snippet": "const TextBlocksAndGrouping = () => <CategoryPage id=\"grouping\" />;"
+        },
+        {
+          "id": "dls-elements--inline-text-semantics",
+          "name": "Inline Text Semantics",
+          "snippet": "const InlineTextSemantics = () => <CategoryPage id=\"inline\" />;"
+        },
+        {
+          "id": "dls-elements--bidirectional-and-long-content",
+          "name": "Bidirectional And Long Content",
+          "snippet": "const BidirectionalAndLongContent = () => <CategoryPage id=\"inline\" direction=\"rtl\" />;"
+        },
+        {
+          "id": "dls-elements--document-edits",
+          "name": "Document Edits",
+          "snippet": "const DocumentEdits = () => <CategoryPage id=\"edits\" />;"
+        },
+        {
+          "id": "dls-elements--media-and-embedded-content",
+          "name": "Media And Embedded Content",
+          "snippet": "const MediaAndEmbeddedContent = () => <CategoryPage id=\"media\" />;"
+        },
+        {
+          "id": "dls-elements--tabular-data",
+          "name": "Tabular Data",
+          "snippet": "const TabularData = () => <CategoryPage id=\"tables\" />;"
+        },
+        {
+          "id": "dls-elements--forms-and-native-controls",
+          "name": "Forms And Native Controls",
+          "snippet": "const FormsAndNativeControls = () => <CategoryPage id=\"forms\" />;"
+        },
+        {
+          "id": "dls-elements--native-input-types",
+          "name": "Native Input Types",
+          "snippet": "const NativeInputTypes = () => <InputTypesPage />;"
+        },
+        {
+          "id": "dls-elements--native-interaction",
+          "name": "Native Interaction",
+          "snippet": "const NativeInteraction = () => <CategoryPage id=\"interactive\" />;"
+        },
+        {
+          "id": "dls-elements--scripting-and-web-platform",
+          "name": "Scripting And Web Platform",
+          "snippet": "const ScriptingAndWebPlatform = () => <CategoryPage id=\"scripting\" />;"
+        },
+        {
+          "id": "dls-elements--dispositions-and-obsolete-html",
+          "name": "Dispositions And Obsolete Html",
+          "snippet": "const DispositionsAndObsoleteHtml = () => <DispositionsPage />;"
+        }
+      ],
+      "import": "import { ElementsOverview } from \"@creator-signal/design-system-reference\";"
+    },
     "foundations-brand-assets": {
       "id": "foundations-brand-assets",
       "name": "BrandAssetGallery",
@@ -220,7 +306,7 @@
         "description": "",
         "methods": [],
         "displayName": "Button",
-        "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\server.tsx",
+        "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\server.tsx",
         "actualName": "Button",
         "exportName": "Button",
         "props": {
@@ -294,14 +380,14 @@
       "subcomponents": {
         "LinkButton": {
           "name": "LinkButton",
-          "path": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\index.ts",
+          "path": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\index.ts",
           "import": "import { LinkButton } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "LinkButton",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\server.tsx",
             "actualName": "LinkButton",
             "exportName": "LinkButton",
             "props": {
@@ -375,14 +461,14 @@
         },
         "IconButton": {
           "name": "IconButton",
-          "path": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\index.ts",
+          "path": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\index.ts",
           "import": "import { IconButton } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "IconButton",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\server.tsx",
             "actualName": "IconButton",
             "exportName": "IconButton",
             "props": {
@@ -455,7 +541,7 @@
         "description": "",
         "methods": [],
         "displayName": "ResponsiveTable",
-        "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\server.tsx",
+        "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\server.tsx",
         "actualName": "ResponsiveTable",
         "exportName": "ResponsiveTable",
         "props": {
@@ -471,126 +557,126 @@
       "subcomponents": {
         "Table": {
           "name": "Table",
-          "path": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\index.ts",
+          "path": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\index.ts",
           "import": "import { Table } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Table",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\server.tsx",
             "actualName": "Table",
             "exportName": "Table"
           }
         },
         "TableCaption": {
           "name": "TableCaption",
-          "path": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\index.ts",
+          "path": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\index.ts",
           "import": "import { TableCaption } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "TableCaption",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\server.tsx",
             "actualName": "TableCaption",
             "exportName": "TableCaption"
           }
         },
         "TableHead": {
           "name": "TableHead",
-          "path": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\index.ts",
+          "path": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\index.ts",
           "import": "import { TableHead } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "TableHead",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\server.tsx",
             "actualName": "TableHead",
             "exportName": "TableHead"
           }
         },
         "TableBody": {
           "name": "TableBody",
-          "path": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\index.ts",
+          "path": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\index.ts",
           "import": "import { TableBody } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "TableBody",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\server.tsx",
             "actualName": "TableBody",
             "exportName": "TableBody"
           }
         },
         "TableRow": {
           "name": "TableRow",
-          "path": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\index.ts",
+          "path": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\index.ts",
           "import": "import { TableRow } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "TableRow",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\server.tsx",
             "actualName": "TableRow",
             "exportName": "TableRow"
           }
         },
         "TableHeader": {
           "name": "TableHeader",
-          "path": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\index.ts",
+          "path": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\index.ts",
           "import": "import { TableHeader } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "TableHeader",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\server.tsx",
             "actualName": "TableHeader",
             "exportName": "TableHeader"
           }
         },
         "TableCell": {
           "name": "TableCell",
-          "path": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\index.ts",
+          "path": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\index.ts",
           "import": "import { TableCell } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "TableCell",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\server.tsx",
             "actualName": "TableCell",
             "exportName": "TableCell"
           }
         },
         "KeyValueList": {
           "name": "KeyValueList",
-          "path": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\index.ts",
+          "path": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\index.ts",
           "import": "import { KeyValueList } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "KeyValueList",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\server.tsx",
             "actualName": "KeyValueList",
             "exportName": "KeyValueList"
           }
         },
         "KeyValueItem": {
           "name": "KeyValueItem",
-          "path": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\index.ts",
+          "path": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\index.ts",
           "import": "import { KeyValueItem } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "KeyValueItem",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\server.tsx",
             "actualName": "KeyValueItem",
             "exportName": "KeyValueItem",
             "props": {
@@ -613,28 +699,28 @@
         },
         "StatGroup": {
           "name": "StatGroup",
-          "path": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\index.ts",
+          "path": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\index.ts",
           "import": "import { StatGroup } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "StatGroup",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\server.tsx",
             "actualName": "StatGroup",
             "exportName": "StatGroup"
           }
         },
         "Stat": {
           "name": "Stat",
-          "path": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\index.ts",
+          "path": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\index.ts",
           "import": "import { Stat } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Stat",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\server.tsx",
             "actualName": "Stat",
             "exportName": "Stat",
             "props": {
@@ -667,28 +753,28 @@
         },
         "ChartLegend": {
           "name": "ChartLegend",
-          "path": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\index.ts",
+          "path": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\index.ts",
           "import": "import { ChartLegend } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "ChartLegend",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\server.tsx",
             "actualName": "ChartLegend",
             "exportName": "ChartLegend"
           }
         },
         "ChartLegendItem": {
           "name": "ChartLegendItem",
-          "path": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\index.ts",
+          "path": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\index.ts",
           "import": "import { ChartLegendItem } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "ChartLegendItem",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\server.tsx",
             "actualName": "ChartLegendItem",
             "exportName": "ChartLegendItem",
             "props": {
@@ -768,7 +854,7 @@
         "description": "",
         "methods": [],
         "displayName": "Dialog",
-        "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\client.tsx",
+        "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\client.tsx",
         "actualName": "Dialog",
         "exportName": "Dialog",
         "props": {
@@ -832,7 +918,7 @@
         "description": "",
         "methods": [],
         "displayName": "Notice",
-        "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\server.tsx",
+        "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\server.tsx",
         "actualName": "Notice",
         "exportName": "Notice",
         "props": {
@@ -895,14 +981,14 @@
       "subcomponents": {
         "Badge": {
           "name": "Badge",
-          "path": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\index.ts",
+          "path": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\index.ts",
           "import": "import { Badge } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Badge",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\server.tsx",
             "actualName": "Badge",
             "exportName": "Badge",
             "props": {
@@ -948,14 +1034,14 @@
         },
         "StatusIndicator": {
           "name": "StatusIndicator",
-          "path": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\index.ts",
+          "path": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\index.ts",
           "import": "import { StatusIndicator } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "StatusIndicator",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\server.tsx",
             "actualName": "StatusIndicator",
             "exportName": "StatusIndicator",
             "props": {
@@ -1007,14 +1093,14 @@
         },
         "FormStatus": {
           "name": "FormStatus",
-          "path": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\index.ts",
+          "path": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\index.ts",
           "import": "import { FormStatus } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "FormStatus",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\server.tsx",
             "actualName": "FormStatus",
             "exportName": "FormStatus",
             "props": {
@@ -1060,14 +1146,14 @@
         },
         "LoadingIndicator": {
           "name": "LoadingIndicator",
-          "path": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\index.ts",
+          "path": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\index.ts",
           "import": "import { LoadingIndicator } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "LoadingIndicator",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\server.tsx",
             "actualName": "LoadingIndicator",
             "exportName": "LoadingIndicator",
             "props": {
@@ -1090,28 +1176,28 @@
         },
         "Skeleton": {
           "name": "Skeleton",
-          "path": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\index.ts",
+          "path": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\index.ts",
           "import": "import { Skeleton } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Skeleton",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\server.tsx",
             "actualName": "Skeleton",
             "exportName": "Skeleton"
           }
         },
         "EmptyState": {
           "name": "EmptyState",
-          "path": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\index.ts",
+          "path": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\index.ts",
           "import": "import { EmptyState } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "EmptyState",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\server.tsx",
             "actualName": "EmptyState",
             "exportName": "EmptyState",
             "props": {
@@ -1151,14 +1237,14 @@
         },
         "ErrorState": {
           "name": "ErrorState",
-          "path": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\index.ts",
+          "path": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\index.ts",
           "import": "import { ErrorState } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "ErrorState",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\server.tsx",
             "actualName": "ErrorState",
             "exportName": "ErrorState",
             "props": {
@@ -1224,105 +1310,105 @@
         "description": "",
         "methods": [],
         "displayName": "Field",
-        "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\server.tsx",
+        "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\server.tsx",
         "actualName": "Field",
         "exportName": "Field"
       },
       "subcomponents": {
         "FieldLabel": {
           "name": "FieldLabel",
-          "path": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\index.ts",
+          "path": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\index.ts",
           "import": "import { FieldLabel } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "FieldLabel",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\server.tsx",
             "actualName": "FieldLabel",
             "exportName": "FieldLabel"
           }
         },
         "FieldDescription": {
           "name": "FieldDescription",
-          "path": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\index.ts",
+          "path": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\index.ts",
           "import": "import { FieldDescription } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "FieldDescription",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\server.tsx",
             "actualName": "FieldDescription",
             "exportName": "FieldDescription"
           }
         },
         "FieldError": {
           "name": "FieldError",
-          "path": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\index.ts",
+          "path": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\index.ts",
           "import": "import { FieldError } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "FieldError",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\server.tsx",
             "actualName": "FieldError",
             "exportName": "FieldError"
           }
         },
         "TextInput": {
           "name": "TextInput",
-          "path": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\index.ts",
+          "path": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\index.ts",
           "import": "import { TextInput } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "TextInput",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\server.tsx",
             "actualName": "TextInput",
             "exportName": "TextInput"
           }
         },
         "Textarea": {
           "name": "Textarea",
-          "path": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\index.ts",
+          "path": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\index.ts",
           "import": "import { Textarea } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Textarea",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\server.tsx",
             "actualName": "Textarea",
             "exportName": "Textarea"
           }
         },
         "Select": {
           "name": "Select",
-          "path": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\index.ts",
+          "path": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\index.ts",
           "import": "import { Select } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Select",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\server.tsx",
             "actualName": "Select",
             "exportName": "Select"
           }
         },
         "Checkbox": {
           "name": "Checkbox",
-          "path": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\index.ts",
+          "path": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\index.ts",
           "import": "import { Checkbox } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Checkbox",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\server.tsx",
             "actualName": "Checkbox",
             "exportName": "Checkbox",
             "props": {
@@ -1348,14 +1434,14 @@
         },
         "Radio": {
           "name": "Radio",
-          "path": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\index.ts",
+          "path": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\index.ts",
           "import": "import { Radio } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Radio",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\server.tsx",
             "actualName": "Radio",
             "exportName": "Radio",
             "props": {
@@ -1381,14 +1467,14 @@
         },
         "Switch": {
           "name": "Switch",
-          "path": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\index.ts",
+          "path": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\index.ts",
           "import": "import { Switch } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Switch",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\server.tsx",
             "actualName": "Switch",
             "exportName": "Switch",
             "props": {
@@ -1428,14 +1514,14 @@
         },
         "FormStatus": {
           "name": "FormStatus",
-          "path": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\index.ts",
+          "path": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\index.ts",
           "import": "import { FormStatus } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "FormStatus",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\server.tsx",
             "actualName": "FormStatus",
             "exportName": "FormStatus",
             "props": {
@@ -1518,63 +1604,63 @@
         "description": "",
         "methods": [],
         "displayName": "Disclosure",
-        "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\server.tsx",
+        "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\server.tsx",
         "actualName": "Disclosure",
         "exportName": "Disclosure"
       },
       "subcomponents": {
         "DisclosureTrigger": {
           "name": "DisclosureTrigger",
-          "path": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\index.ts",
+          "path": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\index.ts",
           "import": "import { DisclosureTrigger } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "DisclosureTrigger",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\server.tsx",
             "actualName": "DisclosureTrigger",
             "exportName": "DisclosureTrigger"
           }
         },
         "Menu": {
           "name": "Menu",
-          "path": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\index.ts",
+          "path": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\index.ts",
           "import": "import { Menu } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Menu",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\server.tsx",
             "actualName": "Menu",
             "exportName": "Menu"
           }
         },
         "MenuItem": {
           "name": "MenuItem",
-          "path": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\index.ts",
+          "path": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\index.ts",
           "import": "import { MenuItem } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "MenuItem",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\server.tsx",
             "actualName": "MenuItem",
             "exportName": "MenuItem"
           }
         },
         "Pagination": {
           "name": "Pagination",
-          "path": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\index.ts",
+          "path": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\index.ts",
           "import": "import { Pagination } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Pagination",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\server.tsx",
             "actualName": "Pagination",
             "exportName": "Pagination",
             "props": {
@@ -1590,28 +1676,28 @@
         },
         "PaginationList": {
           "name": "PaginationList",
-          "path": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\index.ts",
+          "path": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\index.ts",
           "import": "import { PaginationList } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "PaginationList",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\server.tsx",
             "actualName": "PaginationList",
             "exportName": "PaginationList"
           }
         },
         "PaginationLink": {
           "name": "PaginationLink",
-          "path": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\index.ts",
+          "path": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\index.ts",
           "import": "import { PaginationLink } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "PaginationLink",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\server.tsx",
             "actualName": "PaginationLink",
             "exportName": "PaginationLink",
             "props": {
@@ -1634,14 +1720,14 @@
         },
         "Tooltip": {
           "name": "Tooltip",
-          "path": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\index.ts",
+          "path": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\index.ts",
           "import": "import { Tooltip } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Tooltip",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\server.tsx",
             "actualName": "Tooltip",
             "exportName": "Tooltip",
             "props": {
@@ -1694,7 +1780,7 @@
         "description": "",
         "methods": [],
         "displayName": "Card",
-        "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\server.tsx",
+        "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\server.tsx",
         "actualName": "Card",
         "exportName": "Card",
         "props": {
@@ -1732,70 +1818,70 @@
       "subcomponents": {
         "CardHeader": {
           "name": "CardHeader",
-          "path": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\index.ts",
+          "path": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\index.ts",
           "import": "import { CardHeader } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "CardHeader",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\server.tsx",
             "actualName": "CardHeader",
             "exportName": "CardHeader"
           }
         },
         "CardTitle": {
           "name": "CardTitle",
-          "path": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\index.ts",
+          "path": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\index.ts",
           "import": "import { CardTitle } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "CardTitle",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\server.tsx",
             "actualName": "CardTitle",
             "exportName": "CardTitle"
           }
         },
         "CardDescription": {
           "name": "CardDescription",
-          "path": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\index.ts",
+          "path": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\index.ts",
           "import": "import { CardDescription } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "CardDescription",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\server.tsx",
             "actualName": "CardDescription",
             "exportName": "CardDescription"
           }
         },
         "CardContent": {
           "name": "CardContent",
-          "path": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\index.ts",
+          "path": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\index.ts",
           "import": "import { CardContent } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "CardContent",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\server.tsx",
             "actualName": "CardContent",
             "exportName": "CardContent"
           }
         },
         "Panel": {
           "name": "Panel",
-          "path": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\index.ts",
+          "path": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\index.ts",
           "import": "import { Panel } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Panel",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\server.tsx",
             "actualName": "Panel",
             "exportName": "Panel",
             "props": {
@@ -1855,7 +1941,7 @@
         "description": "",
         "methods": [],
         "displayName": "Tabs",
-        "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\client.tsx",
+        "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\client.tsx",
         "actualName": "Tabs",
         "exportName": "Tabs",
         "props": {
@@ -1900,14 +1986,14 @@
       "subcomponents": {
         "TabList": {
           "name": "TabList",
-          "path": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\client.tsx",
+          "path": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\client.tsx",
           "import": "import { TabList } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "TabList",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\client.tsx",
+            "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\client.tsx",
             "actualName": "TabList",
             "exportName": "TabList",
             "props": {
@@ -1923,14 +2009,14 @@
         },
         "Tab": {
           "name": "Tab",
-          "path": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\client.tsx",
+          "path": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\client.tsx",
           "import": "import { Tab } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Tab",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\client.tsx",
+            "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\client.tsx",
             "actualName": "Tab",
             "exportName": "Tab",
             "props": {
@@ -1946,14 +2032,14 @@
         },
         "TabPanel": {
           "name": "TabPanel",
-          "path": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\client.tsx",
+          "path": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\client.tsx",
           "import": "import { TabPanel } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "TabPanel",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\client.tsx",
+            "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\client.tsx",
             "actualName": "TabPanel",
             "exportName": "TabPanel",
             "props": {
@@ -1986,7 +2072,7 @@
         "description": "",
         "methods": [],
         "displayName": "Tabs",
-        "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\client.tsx",
+        "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\client.tsx",
         "actualName": "Tabs",
         "exportName": "Tabs",
         "props": {
@@ -2031,14 +2117,14 @@
       "subcomponents": {
         "ThemeProvider": {
           "name": "ThemeProvider",
-          "path": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\client.tsx",
+          "path": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\client.tsx",
           "import": "import { ThemeProvider } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Tabs",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\client.tsx",
+            "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\packages\\ui\\src\\client.tsx",
             "actualName": "Tabs",
             "exportName": "Tabs",
             "props": {
@@ -2256,7 +2342,7 @@
         "description": "",
         "methods": [],
         "displayName": "InstaticSpecimenStory",
-        "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\apps\\design-system\\src\\instatic\\InstaticSpecimen.tsx",
+        "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\apps\\design-system\\src\\instatic\\InstaticSpecimen.tsx",
         "actualName": "InstaticSpecimenStory",
         "exportName": "InstaticSpecimenStory",
         "props": {
@@ -2330,7 +2416,7 @@
         "description": "",
         "methods": [],
         "displayName": "InstaticSpecimenStory",
-        "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\apps\\design-system\\src\\instatic\\InstaticSpecimen.tsx",
+        "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\apps\\design-system\\src\\instatic\\InstaticSpecimen.tsx",
         "actualName": "InstaticSpecimenStory",
         "exportName": "InstaticSpecimenStory",
         "props": {
@@ -2424,7 +2510,7 @@
         "description": "",
         "methods": [],
         "displayName": "InstaticSpecimenStory",
-        "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\apps\\design-system\\src\\instatic\\InstaticSpecimen.tsx",
+        "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\apps\\design-system\\src\\instatic\\InstaticSpecimen.tsx",
         "actualName": "InstaticSpecimenStory",
         "exportName": "InstaticSpecimenStory",
         "props": {
@@ -2513,7 +2599,7 @@
         "description": "",
         "methods": [],
         "displayName": "InstaticSpecimenStory",
-        "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\apps\\design-system\\src\\instatic\\InstaticSpecimen.tsx",
+        "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\apps\\design-system\\src\\instatic\\InstaticSpecimen.tsx",
         "actualName": "InstaticSpecimenStory",
         "exportName": "InstaticSpecimenStory",
         "props": {
@@ -2562,7 +2648,7 @@
         "description": "",
         "methods": [],
         "displayName": "InstaticSpecimenStory",
-        "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\apps\\design-system\\src\\instatic\\InstaticSpecimen.tsx",
+        "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\apps\\design-system\\src\\instatic\\InstaticSpecimen.tsx",
         "actualName": "InstaticSpecimenStory",
         "exportName": "InstaticSpecimenStory",
         "props": {
@@ -2811,7 +2897,7 @@
         "description": "",
         "methods": [],
         "displayName": "InstaticSpecimenStory",
-        "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\apps\\design-system\\src\\instatic\\InstaticSpecimen.tsx",
+        "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\apps\\design-system\\src\\instatic\\InstaticSpecimen.tsx",
         "actualName": "InstaticSpecimenStory",
         "exportName": "InstaticSpecimenStory",
         "props": {
@@ -2905,7 +2991,7 @@
         "description": "",
         "methods": [],
         "displayName": "InstaticSpecimenStory",
-        "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\apps\\design-system\\src\\instatic\\InstaticSpecimen.tsx",
+        "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\apps\\design-system\\src\\instatic\\InstaticSpecimen.tsx",
         "actualName": "InstaticSpecimenStory",
         "exportName": "InstaticSpecimenStory",
         "props": {
@@ -2979,7 +3065,7 @@
         "description": "",
         "methods": [],
         "displayName": "InstaticSpecimenStory",
-        "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\apps\\design-system\\src\\instatic\\InstaticSpecimen.tsx",
+        "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\apps\\design-system\\src\\instatic\\InstaticSpecimen.tsx",
         "actualName": "InstaticSpecimenStory",
         "exportName": "InstaticSpecimenStory",
         "props": {
@@ -3048,7 +3134,7 @@
         "description": "",
         "methods": [],
         "displayName": "InstaticSpecimenStory",
-        "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\apps\\design-system\\src\\instatic\\InstaticSpecimen.tsx",
+        "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\apps\\design-system\\src\\instatic\\InstaticSpecimen.tsx",
         "actualName": "InstaticSpecimenStory",
         "exportName": "InstaticSpecimenStory",
         "props": {
@@ -3117,7 +3203,7 @@
         "description": "",
         "methods": [],
         "displayName": "InstaticSpecimenStory",
-        "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\apps\\design-system\\src\\instatic\\InstaticSpecimen.tsx",
+        "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\apps\\design-system\\src\\instatic\\InstaticSpecimen.tsx",
         "actualName": "InstaticSpecimenStory",
         "exportName": "InstaticSpecimenStory",
         "props": {
@@ -3176,7 +3262,7 @@
         "description": "",
         "methods": [],
         "displayName": "InstaticSpecimenStory",
-        "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\apps\\design-system\\src\\instatic\\InstaticSpecimen.tsx",
+        "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\apps\\design-system\\src\\instatic\\InstaticSpecimen.tsx",
         "actualName": "InstaticSpecimenStory",
         "exportName": "InstaticSpecimenStory",
         "props": {
@@ -3245,7 +3331,7 @@
         "description": "",
         "methods": [],
         "displayName": "InstaticSpecimenStory",
-        "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\apps\\design-system\\src\\instatic\\InstaticSpecimen.tsx",
+        "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\apps\\design-system\\src\\instatic\\InstaticSpecimen.tsx",
         "actualName": "InstaticSpecimenStory",
         "exportName": "InstaticSpecimenStory",
         "props": {
@@ -3399,7 +3485,7 @@
         "description": "",
         "methods": [],
         "displayName": "InstaticSpecimenStory",
-        "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\apps\\design-system\\src\\instatic\\InstaticSpecimen.tsx",
+        "definedInFile": "D:\\codex-worktrees\\sales-pulse-publish-1431\\apps\\design-system\\src\\instatic\\InstaticSpecimen.tsx",
         "actualName": "InstaticSpecimenStory",
         "exportName": "InstaticSpecimenStory",
         "props": {
@@ -4307,6 +4393,6 @@
   },
   "meta": {
     "docgen": "react-docgen",
-    "durationMs": 2464
+    "durationMs": 2822
   }
 }
