@@ -11,11 +11,11 @@
   },
   "source": {
     "repository": "https://github.com/creator-signal/fork-CoreBunch-Instatic.git",
-    "revision": "831c134873f7a8e251b58ad81b99ef4575bae356",
-    "instaticVersion": "0.0.41",
-    "pluginVersion": "0.8.1",
-    "manifestChecksum": "sha256:c4b83b36e328cac81f9f970f4fc3667212a2e4ed8c6ae44fc67db19e64b21e88",
-    "bundleChecksum": "sha256:2e400ec700fbcbfb6a665373c427694f13448640aba04d547b403025b6f6f797"
+    "revision": "6e10528d3ced3234f8b5da0650ad62a468d394b3",
+    "instaticVersion": "0.0.43",
+    "pluginVersion": "0.8.2",
+    "manifestChecksum": "sha256:d2aa43225743c480e539ddbd2e9f6bb9aa836e1c6de0c40ba759bfce743fa2e9",
+    "bundleChecksum": "sha256:a16f2c7faaa420252ff99d09c7baee84eeea4b89b25f4993ada4827d805ce4a4"
   },
   "storybook": {
     "familyTitle": "Consumers/Instatic Component Library",
@@ -215,7 +215,7 @@
           }
         ]
       },
-      "contentHash": "sha256:cfc169b403313839a34852a0b263dbca09c1bc692081f02196eb2a6a1f186781",
+      "contentHash": "sha256:dfd795aced591c398671c604a9ee5146bd5b0078bd8135e7ea8fca40b2bc2b9e",
       "story": {
         "title": "Consumers/Instatic Component Library/Creator Signal/Components",
         "exportName": "CreatorSignalSiteCallToAction",
@@ -443,7 +443,7 @@
           }
         ]
       },
-      "contentHash": "sha256:1295d84e43f44358b50ae772e07171c91552284b3cb3561c10d15aafeb43703b",
+      "contentHash": "sha256:b193adef5191f1fbed81f7dd205c7f3734fba553fd76e36ad060592259564a96",
       "story": {
         "title": "Consumers/Instatic Component Library/Creator Signal/Components",
         "exportName": "CreatorSignalSiteCampaignHero",
@@ -10275,7 +10275,7 @@
           }
         ]
       },
-      "contentHash": "sha256:54cb2f8dc26300f2c4c94a3a56cc94c57b8775b4abc0f21c42d0437d61000721",
+      "contentHash": "sha256:53c7ec9564f9cd599ae381cae07f47d91cce2131ab7baa0825bfe4f8980708c0",
       "story": {
         "title": "Consumers/Instatic Component Library/Creator Signal/Components",
         "exportName": "CreatorSignalSiteComparisonSection",
@@ -10465,7 +10465,7 @@
           }
         ]
       },
-      "contentHash": "sha256:9d17e8f3e27148029882b8c553f1d6ceb0dafb477dc117fea4593c387ea0a517",
+      "contentHash": "sha256:dc23e29db1ba6c1ac6d3dd6e927948227897c369a405e80a4757ee00d979260b",
       "story": {
         "title": "Consumers/Instatic Component Library/Creator Signal/Components",
         "exportName": "CreatorSignalSiteConsentBanner",
@@ -10716,7 +10716,7 @@
           }
         ]
       },
-      "contentHash": "sha256:f9f9aa0a52873344160e266088f44712ee02fb58496f77ce6a892791b0183df2",
+      "contentHash": "sha256:94743d763acbc25fba6705065c3067a92959e829cb557bf4607923baa400e7ca",
       "story": {
         "title": "Consumers/Instatic Component Library/Creator Signal/Components",
         "exportName": "CreatorSignalSiteCrmIframeForm",
@@ -10934,7 +10934,7 @@
           }
         ]
       },
-      "contentHash": "sha256:272d9e4e1b70f220e370646b67bb36c1ca558025d078e2fa6d8f0727bfe12e07",
+      "contentHash": "sha256:bf50f9bbea85075af9d529393fe41cb53bfdc20699b7197a64d3dcf217191515",
       "story": {
         "title": "Consumers/Instatic Component Library/Creator Signal/Components",
         "exportName": "CreatorSignalSiteFaq",
@@ -11151,7 +11151,7 @@
           }
         ]
       },
-      "contentHash": "sha256:e39979ff2a4169d1ab9b56cbab6c1d5eca2da5653d8ce843da251c26fc7e668e",
+      "contentHash": "sha256:032692f7f2e4b8d8a8d410c9ec7d8e4c28e725b17efb2a829982083110811625",
       "story": {
         "title": "Consumers/Instatic Component Library/Creator Signal/Components",
         "exportName": "CreatorSignalSiteFeatureGrid",
@@ -11345,7 +11345,7 @@
           }
         ]
       },
-      "contentHash": "sha256:a50ae507bfa78e2395dad6b31eaf8f7952626246ffe6e20dd6a34029e27fb661",
+      "contentHash": "sha256:b2c9d725830e631432f0abfc93a985630ec548ab1c1d43c9f31d3e47775041dc",
       "story": {
         "title": "Consumers/Instatic Component Library/Creator Signal/Components",
         "exportName": "CreatorSignalSiteFooter",
@@ -11557,7 +11557,7 @@
           }
         ]
       },
-      "contentHash": "sha256:811465725b0279f1b87306644239a3716a8ff6ca57a50bf4b1261ab2f995fa0b",
+      "contentHash": "sha256:3e20052a72f1b5f32e7b87c45254e6c271b795fec6516603aaab89f416ef96b5",
       "story": {
         "title": "Consumers/Instatic Component Library/Creator Signal/Components",
         "exportName": "CreatorSignalSiteFounderStory",
@@ -11779,7 +11779,7 @@
           }
         ]
       },
-      "contentHash": "sha256:1e13dca8c408656f68a05609f986d1bd0cd4e679482ae5ebd64d04c948eacfb1",
+      "contentHash": "sha256:becb29aafd928379d83d19498b4a28eac17cc69f47a1e43730776b59d804daf9",
       "story": {
         "title": "Consumers/Instatic Component Library/Creator Signal/Components",
         "exportName": "CreatorSignalSiteHeader",
@@ -11973,7 +11973,7 @@
           }
         ]
       },
-      "contentHash": "sha256:37df1c8812e2776456ec2cd1e5601d47bb2c57bb9c4c3e52621ed6846e01281a",
+      "contentHash": "sha256:a76ca9d472daabf078a2302e81a7d2f63ee04349d9a38f819abb4d417a1079af",
       "story": {
         "title": "Consumers/Instatic Component Library/Creator Signal/Components",
         "exportName": "CreatorSignalSiteHero",
@@ -12198,7 +12198,7 @@
           }
         ]
       },
-      "contentHash": "sha256:ca4643f7bbc1dbf6091cfdd459981e2887f4689b5cbb653ac595ff5d37c1ea8a",
+      "contentHash": "sha256:58b891494fac0ab0e1b940c8f415bb9411ca41995a983c1716384e60ac4ace59",
       "story": {
         "title": "Consumers/Instatic Component Library/Creator Signal/Components",
         "exportName": "CreatorSignalSiteMauticForm",
@@ -12332,7 +12332,7 @@
           }
         ]
       },
-      "contentHash": "sha256:cbc6c010676183d5bed95ddcaf8eda124f58276c5c883eb1d529a321e8ef879c",
+      "contentHash": "sha256:ce4f8b8532662e06e1ef7c3aa71784d503aa81f5ba310f5a290fa1944e102a76",
       "story": {
         "title": "Consumers/Instatic Component Library/Creator Signal/Patterns",
         "exportName": "CreatorSignalSitePatternArticleContentPage",
@@ -12460,7 +12460,7 @@
           }
         ]
       },
-      "contentHash": "sha256:fd25272159e6be382485c4a37cb0ce521ae8292465dd81eb900017e9a8bad6d1",
+      "contentHash": "sha256:dac88a042ea85fd756b0625622044731881bfa807936add1748520fcc1104d12",
       "story": {
         "title": "Consumers/Instatic Component Library/Creator Signal/Patterns",
         "exportName": "CreatorSignalSitePatternComparisonSection",
@@ -12588,7 +12588,7 @@
           }
         ]
       },
-      "contentHash": "sha256:cdf91853c7b997074a98cb08cba6ee0d8373e30c8a185f2011634627de43617e",
+      "contentHash": "sha256:018ab6167033beb997e4b4085364e8c3c42eb4273ee183527bae81154d589bf0",
       "story": {
         "title": "Consumers/Instatic Component Library/Creator Signal/Patterns",
         "exportName": "CreatorSignalSitePatternContactPage",
@@ -12716,7 +12716,7 @@
           }
         ]
       },
-      "contentHash": "sha256:936f643cd08dfdacf3bb673b68d94d3d77abf1137da2762b6be5f611ea7bb442",
+      "contentHash": "sha256:19e09d3ed991779572eccd4c53dfd2c7ef5c877e4624fbbf0266f46c4947c3a8",
       "story": {
         "title": "Consumers/Instatic Component Library/Creator Signal/Patterns",
         "exportName": "CreatorSignalSitePatternContentPage",
@@ -12844,7 +12844,7 @@
           }
         ]
       },
-      "contentHash": "sha256:f16bb7b3873ab11f504115a22fe5e374aaa472e835580c0d79cc4915e4630cb6",
+      "contentHash": "sha256:988a567992f2456d014b11d9e39c6904045385cc2ff414869f26ddeecce2b1a6",
       "story": {
         "title": "Consumers/Instatic Component Library/Creator Signal/Patterns",
         "exportName": "CreatorSignalSitePatternEarlyAccessPage",
@@ -12972,7 +12972,7 @@
           }
         ]
       },
-      "contentHash": "sha256:1d899501a838da884fde6c024cf8e090c736dd49602f194784bd0dfe265a6e26",
+      "contentHash": "sha256:a25b7cc5f73a077ce7c60e5f20e1c5e2e2315c63dcc80dc3c13510ea03a061a7",
       "story": {
         "title": "Consumers/Instatic Component Library/Creator Signal/Patterns",
         "exportName": "CreatorSignalSitePatternEmptyState",
@@ -13100,7 +13100,7 @@
           }
         ]
       },
-      "contentHash": "sha256:29ddfc47a98b60a1045686b42b8b29c46fa8355d8cff252010973d417f220d0b",
+      "contentHash": "sha256:bd9188ee9bc28aeef5a00d860f357eb5b6cd38def9d1504b58a77f478961e598",
       "story": {
         "title": "Consumers/Instatic Component Library/Creator Signal/Patterns",
         "exportName": "CreatorSignalSitePatternErrorState",
@@ -13228,7 +13228,7 @@
           }
         ]
       },
-      "contentHash": "sha256:04b87d6cd56d0fa518b591809171aec9f8bba7bd406d4f375409750805c23180",
+      "contentHash": "sha256:1785ee2ced4a58901047d0b1444c23369b1130e0de957a12f3b56e9498c86ab9",
       "story": {
         "title": "Consumers/Instatic Component Library/Creator Signal/Patterns",
         "exportName": "CreatorSignalSitePatternFeaturesPage",
@@ -13248,7 +13248,7 @@
     {
       "id": "creator-signal.site.pattern.feedback-page",
       "name": "Feedback Page",
-      "description": "Hero followed by an editable two-column layout containing separate introductory copy and CRM embed components.",
+      "description": "Hero followed by an editable two-column layout containing separate introductory copy and a capability-backed managed Mautic form.",
       "category": "Creator Signal patterns",
       "registryOrigin": "plugin",
       "owner": {
@@ -13356,7 +13356,7 @@
           }
         ]
       },
-      "contentHash": "sha256:b60e192163097503db3c796c079cc7ba9bffe50a95381446b48c40431e3f1e27",
+      "contentHash": "sha256:5d603e200e67c9c23ec17e2bd796edb130c2f15064b92337d5ca25c31b0ab65f",
       "story": {
         "title": "Consumers/Instatic Component Library/Creator Signal/Patterns",
         "exportName": "CreatorSignalSitePatternFeedbackPage",
@@ -13484,7 +13484,7 @@
           }
         ]
       },
-      "contentHash": "sha256:e770b6b4bfdaa754d8f772d0c47301aa8762d97f8d2f9024e34ea37e9817eec3",
+      "contentHash": "sha256:1be0d37b9c22d8d9278b9066634f2565af16ffb0456eba2356e87c84e8cc9872",
       "story": {
         "title": "Consumers/Instatic Component Library/Creator Signal/Patterns",
         "exportName": "CreatorSignalSitePatternHomeV2Page",
@@ -13612,7 +13612,7 @@
           }
         ]
       },
-      "contentHash": "sha256:583130a58657a396d74dda9daaf20bbafc77d81f3e3ba001b88083c93843e023",
+      "contentHash": "sha256:34963d6c0f09907aba3ade0c6a607544b5d317978c043f2c2819172704f41e64",
       "story": {
         "title": "Consumers/Instatic Component Library/Creator Signal/Patterns",
         "exportName": "CreatorSignalSitePatternLegalTrustPage",
@@ -13740,7 +13740,7 @@
           }
         ]
       },
-      "contentHash": "sha256:4a91bb1b01fc05581f59d89351ec1ed05c3cc348a1037f57fd0d45e4acc932b7",
+      "contentHash": "sha256:5d5edd438c247f642dbba9efbdf6d63ac75c7828dd8c5268312036b6d8d6ced5",
       "story": {
         "title": "Consumers/Instatic Component Library/Creator Signal/Patterns",
         "exportName": "CreatorSignalSitePatternNotFoundState",
@@ -13868,7 +13868,7 @@
           }
         ]
       },
-      "contentHash": "sha256:bacef2f57cc10f53ffd34831104c4ef248bc95a2ee57a0bb04081339a7815aa0",
+      "contentHash": "sha256:9e87793bac09c8c3cd706620a0a2d363e0d2c66f838bff3e1e9bf8ddde19c636",
       "story": {
         "title": "Consumers/Instatic Component Library/Creator Signal/Patterns",
         "exportName": "CreatorSignalSitePatternOfflineState",
@@ -13996,7 +13996,7 @@
           }
         ]
       },
-      "contentHash": "sha256:250270d9fe4f4c0fb21cdd7773528b65cf0993677d8f5c50f901e4e4ec2cfdd1",
+      "contentHash": "sha256:ee55e193db1bbb02071933976bd97c8a0f8cfe9b9e6d68d4c60aa8393f6c71d8",
       "story": {
         "title": "Consumers/Instatic Component Library/Creator Signal/Patterns",
         "exportName": "CreatorSignalSitePatternPricingPage",
@@ -14124,7 +14124,7 @@
           }
         ]
       },
-      "contentHash": "sha256:22a4e3e80f3d92cfb7da6ea8e8533069b106f01d240631fb380a84214646a606",
+      "contentHash": "sha256:453bba877a085b9f68ea431535a525106985452ad94589d2f39fb6faa1dc4391",
       "story": {
         "title": "Consumers/Instatic Component Library/Creator Signal/Patterns",
         "exportName": "CreatorSignalSitePatternProductPage",
@@ -14385,7 +14385,7 @@
           }
         ]
       },
-      "contentHash": "sha256:07c31e1df62aa6a407ee34a998fdaaa3d893dd01f3347fb5ad514585b14d457c",
+      "contentHash": "sha256:683493a5580e5f4a77f1cade010652b873304a292e4e1ad6889ddeb2f1363fba",
       "story": {
         "title": "Consumers/Instatic Component Library/Creator Signal/Components",
         "exportName": "CreatorSignalSitePricingPlans",
@@ -14592,7 +14592,7 @@
           }
         ]
       },
-      "contentHash": "sha256:50c0b18230cabc0e9e5e40be1ffc41bd9c5198937eaaa649cc1d79ecadf241c9",
+      "contentHash": "sha256:d542d3352e358de36015cb4151e54c734303c3a5e75fedb41ddbc386817bfee6",
       "story": {
         "title": "Consumers/Instatic Component Library/Creator Signal/Components",
         "exportName": "CreatorSignalSiteProcessSteps",
@@ -14771,7 +14771,7 @@
           }
         ]
       },
-      "contentHash": "sha256:fccf967b868fd4385ec712e5d1d1a5215b82c6b04bc2f4e7ce5a572cfe62fab7",
+      "contentHash": "sha256:062f35180bc82db42b04c638cc0078e403d5234721d79d71d9f3e58e7ba467e8",
       "story": {
         "title": "Consumers/Instatic Component Library/Creator Signal/Components",
         "exportName": "CreatorSignalSitePublicDocument",
@@ -14964,7 +14964,7 @@
           }
         ]
       },
-      "contentHash": "sha256:69626995b803fb906bf862ef343ea1daa2da0dac296f8b0aade45dc15e1f6511",
+      "contentHash": "sha256:fef36af6f05133b56f99d1d30bb00125b3b380b322185c3aedbbad9d90e37e68",
       "story": {
         "title": "Consumers/Instatic Component Library/Creator Signal/Components",
         "exportName": "CreatorSignalSiteRecoveryState",
@@ -15140,7 +15140,7 @@
           }
         ]
       },
-      "contentHash": "sha256:24b331fc861ff1362508bcea44562e1858b513af700b34cc0a0fbdd2eade9b13",
+      "contentHash": "sha256:abdeeaf5c58f8d47a533971da81e11bccccfd5ff802ff8d98c8656a6a2a9184a",
       "story": {
         "title": "Consumers/Instatic Component Library/Creator Signal/Components",
         "exportName": "CreatorSignalSiteRichTextSection",
@@ -15312,7 +15312,7 @@
           }
         ]
       },
-      "contentHash": "sha256:0dd70acf450902f81dc35bef3f02e9d3b104e3630b936d1c021499051c08af23",
+      "contentHash": "sha256:e1d0084fd0e6ca86471043ab01689944cf1d0992507db822de5954ede281bf25",
       "story": {
         "title": "Consumers/Instatic Component Library/Creator Signal/Components",
         "exportName": "CreatorSignalSiteSectionIntro",
@@ -15536,7 +15536,7 @@
           }
         ]
       },
-      "contentHash": "sha256:06814603264fb28ab4021f865534fe80027b68d3cbad2aa247349f491aac5897",
+      "contentHash": "sha256:a92cf1fc8bc4ddc4bbe65134d37606bca5c61e8e3d65a3efa507ad562e51eafc",
       "story": {
         "title": "Consumers/Instatic Component Library/Creator Signal/Components",
         "exportName": "CreatorSignalSiteSignalComparison",
@@ -15702,7 +15702,7 @@
           }
         ]
       },
-      "contentHash": "sha256:ca9309adc10495a79690bea43f0580d2c24c6d4dfd5de34ad61eb3ade60b776e",
+      "contentHash": "sha256:17489d4068fb0c67e337c55be6952f3725207802e9131d58b6eb7e2cf318d711",
       "story": {
         "title": "Consumers/Instatic Component Library/Creator Signal/Components",
         "exportName": "CreatorSignalSiteSignalStrip",
@@ -15860,7 +15860,7 @@
           }
         ]
       },
-      "contentHash": "sha256:832793b314ea4030bf2349f88bb1ca4caf718743c6413eea458efdbd2b929af8",
+      "contentHash": "sha256:66e43de9e8666f99c399433f6224bea6864c594f39b2e2a14a81ccd7b8349610",
       "story": {
         "title": "Consumers/Instatic Component Library/Creator Signal/Components",
         "exportName": "CreatorSignalSiteTestimonial",
@@ -15999,7 +15999,7 @@
           }
         ]
       },
-      "contentHash": "sha256:22b38d767e63a59c01b1a4dbbbb030ec5393c2f5b66d67fdb204c7ff39b053c9",
+      "contentHash": "sha256:115ed96ee5e0a972fac97f07937a42d436e9cb7bd5b0b4d3708dc5eb8d29b4d6",
       "story": {
         "title": "Consumers/Instatic Component Library/Creator Signal/Components",
         "exportName": "CreatorSignalSiteTwoColumnLayout",

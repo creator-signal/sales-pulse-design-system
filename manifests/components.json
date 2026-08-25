@@ -209,7 +209,7 @@
           "snippet": "const InteractivePatterns = () => <InteractiveReview />;"
         }
       ],
-      "import": "import {\n    Badge,\n    Button,\n    Card,\n    ChartLegend,\n    ChartLegendItem,\n    Checkbox,\n    Dialog,\n    Disclosure,\n    DisclosureTrigger,\n    EmptyState,\n    ErrorState,\n    Field,\n    FieldDescription,\n    FieldError,\n    FieldLabel,\n    FormStatus,\n    IconButton,\n    KeyValueItem,\n    KeyValueList,\n    LinkButton,\n    LoadingIndicator,\n    Menu,\n    MenuItem,\n    Notice,\n    Pagination,\n    PaginationLink,\n    PaginationList,\n    Panel,\n    Radio,\n    ResponsiveTable,\n    Select,\n    Skeleton,\n    Stat,\n    StatGroup,\n    StatusIndicator,\n    Switch,\n    Tab,\n    Table,\n    TableBody,\n    TableCaption,\n    TableCell,\n    TableHead,\n    TableHeader,\n    TableRow,\n    TabList,\n    TabPanel,\n    Tabs,\n    Textarea,\n    TextInput,\n    Tooltip,\n} from \"@creator-signal/design-system-reference\";"
+      "import": "import {\r\n    Badge,\r\n    Button,\r\n    Card,\r\n    ChartLegend,\r\n    ChartLegendItem,\r\n    Checkbox,\r\n    Dialog,\r\n    Disclosure,\r\n    DisclosureTrigger,\r\n    EmptyState,\r\n    ErrorState,\r\n    Field,\r\n    FieldDescription,\r\n    FieldError,\r\n    FieldLabel,\r\n    FormStatus,\r\n    IconButton,\r\n    KeyValueItem,\r\n    KeyValueList,\r\n    LinkButton,\r\n    LoadingIndicator,\r\n    Menu,\r\n    MenuItem,\r\n    Notice,\r\n    Pagination,\r\n    PaginationLink,\r\n    PaginationList,\r\n    Panel,\r\n    Radio,\r\n    ResponsiveTable,\r\n    Select,\r\n    Skeleton,\r\n    Stat,\r\n    StatGroup,\r\n    StatusIndicator,\r\n    Switch,\r\n    Tab,\r\n    Table,\r\n    TableBody,\r\n    TableCaption,\r\n    TableCell,\r\n    TableHead,\r\n    TableHeader,\r\n    TableRow,\r\n    TabList,\r\n    TabPanel,\r\n    Tabs,\r\n    Textarea,\r\n    TextInput,\r\n    Tooltip,\r\n} from \"@creator-signal/design-system-reference\";"
     },
     "components-actions-button": {
       "id": "components-actions-button",
@@ -220,7 +220,7 @@
         "description": "",
         "methods": [],
         "displayName": "Button",
-        "definedInFile": "/app/packages/ui/src/server.tsx",
+        "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\server.tsx",
         "actualName": "Button",
         "exportName": "Button",
         "props": {
@@ -294,14 +294,14 @@
       "subcomponents": {
         "LinkButton": {
           "name": "LinkButton",
-          "path": "/app/packages/ui/src/index.ts",
+          "path": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\index.ts",
           "import": "import { LinkButton } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "LinkButton",
-            "definedInFile": "/app/packages/ui/src/server.tsx",
+            "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\server.tsx",
             "actualName": "LinkButton",
             "exportName": "LinkButton",
             "props": {
@@ -375,14 +375,14 @@
         },
         "IconButton": {
           "name": "IconButton",
-          "path": "/app/packages/ui/src/index.ts",
+          "path": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\index.ts",
           "import": "import { IconButton } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "IconButton",
-            "definedInFile": "/app/packages/ui/src/server.tsx",
+            "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\server.tsx",
             "actualName": "IconButton",
             "exportName": "IconButton",
             "props": {
@@ -455,7 +455,7 @@
         "description": "",
         "methods": [],
         "displayName": "ResponsiveTable",
-        "definedInFile": "/app/packages/ui/src/server.tsx",
+        "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\server.tsx",
         "actualName": "ResponsiveTable",
         "exportName": "ResponsiveTable",
         "props": {
@@ -471,126 +471,126 @@
       "subcomponents": {
         "Table": {
           "name": "Table",
-          "path": "/app/packages/ui/src/index.ts",
+          "path": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\index.ts",
           "import": "import { Table } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Table",
-            "definedInFile": "/app/packages/ui/src/server.tsx",
+            "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\server.tsx",
             "actualName": "Table",
             "exportName": "Table"
           }
         },
         "TableCaption": {
           "name": "TableCaption",
-          "path": "/app/packages/ui/src/index.ts",
+          "path": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\index.ts",
           "import": "import { TableCaption } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "TableCaption",
-            "definedInFile": "/app/packages/ui/src/server.tsx",
+            "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\server.tsx",
             "actualName": "TableCaption",
             "exportName": "TableCaption"
           }
         },
         "TableHead": {
           "name": "TableHead",
-          "path": "/app/packages/ui/src/index.ts",
+          "path": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\index.ts",
           "import": "import { TableHead } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "TableHead",
-            "definedInFile": "/app/packages/ui/src/server.tsx",
+            "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\server.tsx",
             "actualName": "TableHead",
             "exportName": "TableHead"
           }
         },
         "TableBody": {
           "name": "TableBody",
-          "path": "/app/packages/ui/src/index.ts",
+          "path": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\index.ts",
           "import": "import { TableBody } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "TableBody",
-            "definedInFile": "/app/packages/ui/src/server.tsx",
+            "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\server.tsx",
             "actualName": "TableBody",
             "exportName": "TableBody"
           }
         },
         "TableRow": {
           "name": "TableRow",
-          "path": "/app/packages/ui/src/index.ts",
+          "path": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\index.ts",
           "import": "import { TableRow } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "TableRow",
-            "definedInFile": "/app/packages/ui/src/server.tsx",
+            "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\server.tsx",
             "actualName": "TableRow",
             "exportName": "TableRow"
           }
         },
         "TableHeader": {
           "name": "TableHeader",
-          "path": "/app/packages/ui/src/index.ts",
+          "path": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\index.ts",
           "import": "import { TableHeader } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "TableHeader",
-            "definedInFile": "/app/packages/ui/src/server.tsx",
+            "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\server.tsx",
             "actualName": "TableHeader",
             "exportName": "TableHeader"
           }
         },
         "TableCell": {
           "name": "TableCell",
-          "path": "/app/packages/ui/src/index.ts",
+          "path": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\index.ts",
           "import": "import { TableCell } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "TableCell",
-            "definedInFile": "/app/packages/ui/src/server.tsx",
+            "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\server.tsx",
             "actualName": "TableCell",
             "exportName": "TableCell"
           }
         },
         "KeyValueList": {
           "name": "KeyValueList",
-          "path": "/app/packages/ui/src/index.ts",
+          "path": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\index.ts",
           "import": "import { KeyValueList } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "KeyValueList",
-            "definedInFile": "/app/packages/ui/src/server.tsx",
+            "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\server.tsx",
             "actualName": "KeyValueList",
             "exportName": "KeyValueList"
           }
         },
         "KeyValueItem": {
           "name": "KeyValueItem",
-          "path": "/app/packages/ui/src/index.ts",
+          "path": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\index.ts",
           "import": "import { KeyValueItem } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "KeyValueItem",
-            "definedInFile": "/app/packages/ui/src/server.tsx",
+            "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\server.tsx",
             "actualName": "KeyValueItem",
             "exportName": "KeyValueItem",
             "props": {
@@ -613,28 +613,28 @@
         },
         "StatGroup": {
           "name": "StatGroup",
-          "path": "/app/packages/ui/src/index.ts",
+          "path": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\index.ts",
           "import": "import { StatGroup } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "StatGroup",
-            "definedInFile": "/app/packages/ui/src/server.tsx",
+            "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\server.tsx",
             "actualName": "StatGroup",
             "exportName": "StatGroup"
           }
         },
         "Stat": {
           "name": "Stat",
-          "path": "/app/packages/ui/src/index.ts",
+          "path": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\index.ts",
           "import": "import { Stat } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Stat",
-            "definedInFile": "/app/packages/ui/src/server.tsx",
+            "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\server.tsx",
             "actualName": "Stat",
             "exportName": "Stat",
             "props": {
@@ -667,28 +667,28 @@
         },
         "ChartLegend": {
           "name": "ChartLegend",
-          "path": "/app/packages/ui/src/index.ts",
+          "path": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\index.ts",
           "import": "import { ChartLegend } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "ChartLegend",
-            "definedInFile": "/app/packages/ui/src/server.tsx",
+            "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\server.tsx",
             "actualName": "ChartLegend",
             "exportName": "ChartLegend"
           }
         },
         "ChartLegendItem": {
           "name": "ChartLegendItem",
-          "path": "/app/packages/ui/src/index.ts",
+          "path": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\index.ts",
           "import": "import { ChartLegendItem } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "ChartLegendItem",
-            "definedInFile": "/app/packages/ui/src/server.tsx",
+            "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\server.tsx",
             "actualName": "ChartLegendItem",
             "exportName": "ChartLegendItem",
             "props": {
@@ -757,7 +757,7 @@
           "snippet": "const ChartLegendHelpers = () => <ChartLegend><ChartLegendItem label=\"Organic\" tone=\"series-1\" value=\"48%\" /><ChartLegendItem label=\"Email\" tone=\"series-2\" value=\"32%\" /><ChartLegendItem label=\"Direct\" tone=\"series-3\" value=\"20%\" /></ChartLegend>;"
         }
       ],
-      "import": "import {\n    ChartLegend,\n    ChartLegendItem,\n    KeyValueItem,\n    KeyValueList,\n    ResponsiveTable,\n    Stat,\n    StatGroup,\n    StatusIndicator,\n    Table,\n    TableBody,\n    TableCaption,\n    TableCell,\n    TableHead,\n    TableHeader,\n    TableRow,\n} from \"@creator-signal/ui\";"
+      "import": "import {\r\n    ChartLegend,\r\n    ChartLegendItem,\r\n    KeyValueItem,\r\n    KeyValueList,\r\n    ResponsiveTable,\r\n    Stat,\r\n    StatGroup,\r\n    StatusIndicator,\r\n    Table,\r\n    TableBody,\r\n    TableCaption,\r\n    TableCell,\r\n    TableHead,\r\n    TableHeader,\r\n    TableRow,\r\n} from \"@creator-signal/ui\";"
     },
     "components-interaction-dialog": {
       "id": "components-interaction-dialog",
@@ -768,7 +768,7 @@
         "description": "",
         "methods": [],
         "displayName": "Dialog",
-        "definedInFile": "/app/packages/ui/src/client.tsx",
+        "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\client.tsx",
         "actualName": "Dialog",
         "exportName": "Dialog",
         "props": {
@@ -818,7 +818,7 @@
         {
           "id": "components-interaction-dialog--confirmation",
           "name": "Confirmation",
-          "snippet": "const Confirmation = () => <main className=\"cs-story-shell\"><h1>Dialog</h1><Dialog\n        title=\"Archive this report?\"\n        trigger=\"Archive report\"\n        description=\"The report leaves your dashboard but can be restored later.\"\n        actions={<Button variant=\"danger\">Archive</Button>}><p>No source marketplace data will be deleted.</p></Dialog></main>;"
+          "snippet": "const Confirmation = () => <main className=\"cs-story-shell\"><h1>Dialog</h1><Dialog\r\n        title=\"Archive this report?\"\r\n        trigger=\"Archive report\"\r\n        description=\"The report leaves your dashboard but can be restored later.\"\r\n        actions={<Button variant=\"danger\">Archive</Button>}><p>No source marketplace data will be deleted.</p></Dialog></main>;"
         }
       ],
       "import": "import { Button, Dialog } from \"@creator-signal/ui\";"
@@ -832,7 +832,7 @@
         "description": "",
         "methods": [],
         "displayName": "Notice",
-        "definedInFile": "/app/packages/ui/src/server.tsx",
+        "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\server.tsx",
         "actualName": "Notice",
         "exportName": "Notice",
         "props": {
@@ -895,14 +895,14 @@
       "subcomponents": {
         "Badge": {
           "name": "Badge",
-          "path": "/app/packages/ui/src/index.ts",
+          "path": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\index.ts",
           "import": "import { Badge } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Badge",
-            "definedInFile": "/app/packages/ui/src/server.tsx",
+            "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\server.tsx",
             "actualName": "Badge",
             "exportName": "Badge",
             "props": {
@@ -948,14 +948,14 @@
         },
         "StatusIndicator": {
           "name": "StatusIndicator",
-          "path": "/app/packages/ui/src/index.ts",
+          "path": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\index.ts",
           "import": "import { StatusIndicator } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "StatusIndicator",
-            "definedInFile": "/app/packages/ui/src/server.tsx",
+            "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\server.tsx",
             "actualName": "StatusIndicator",
             "exportName": "StatusIndicator",
             "props": {
@@ -1007,14 +1007,14 @@
         },
         "FormStatus": {
           "name": "FormStatus",
-          "path": "/app/packages/ui/src/index.ts",
+          "path": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\index.ts",
           "import": "import { FormStatus } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "FormStatus",
-            "definedInFile": "/app/packages/ui/src/server.tsx",
+            "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\server.tsx",
             "actualName": "FormStatus",
             "exportName": "FormStatus",
             "props": {
@@ -1060,14 +1060,14 @@
         },
         "LoadingIndicator": {
           "name": "LoadingIndicator",
-          "path": "/app/packages/ui/src/index.ts",
+          "path": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\index.ts",
           "import": "import { LoadingIndicator } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "LoadingIndicator",
-            "definedInFile": "/app/packages/ui/src/server.tsx",
+            "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\server.tsx",
             "actualName": "LoadingIndicator",
             "exportName": "LoadingIndicator",
             "props": {
@@ -1090,28 +1090,28 @@
         },
         "Skeleton": {
           "name": "Skeleton",
-          "path": "/app/packages/ui/src/index.ts",
+          "path": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\index.ts",
           "import": "import { Skeleton } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Skeleton",
-            "definedInFile": "/app/packages/ui/src/server.tsx",
+            "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\server.tsx",
             "actualName": "Skeleton",
             "exportName": "Skeleton"
           }
         },
         "EmptyState": {
           "name": "EmptyState",
-          "path": "/app/packages/ui/src/index.ts",
+          "path": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\index.ts",
           "import": "import { EmptyState } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "EmptyState",
-            "definedInFile": "/app/packages/ui/src/server.tsx",
+            "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\server.tsx",
             "actualName": "EmptyState",
             "exportName": "EmptyState",
             "props": {
@@ -1151,14 +1151,14 @@
         },
         "ErrorState": {
           "name": "ErrorState",
-          "path": "/app/packages/ui/src/index.ts",
+          "path": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\index.ts",
           "import": "import { ErrorState } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "ErrorState",
-            "definedInFile": "/app/packages/ui/src/server.tsx",
+            "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\server.tsx",
             "actualName": "ErrorState",
             "exportName": "ErrorState",
             "props": {
@@ -1213,7 +1213,7 @@
           "snippet": "const EmptyAndErrorStates = () => <div className=\"cs-ui-review-grid\"><EmptyState title=\"No reports\" description=\"Create the first report.\" actions={<Button>Create report</Button>} /><ErrorState title=\"Could not load\" description=\"Saved reports are safe.\" retry={<Button variant=\"secondary\">Try again</Button>} /></div>;"
         }
       ],
-      "import": "import {\n    Badge,\n    Button,\n    EmptyState,\n    ErrorState,\n    FormStatus,\n    LoadingIndicator,\n    Notice,\n    Skeleton,\n    StatusIndicator,\n} from \"@creator-signal/ui\";"
+      "import": "import {\r\n    Badge,\r\n    Button,\r\n    EmptyState,\r\n    ErrorState,\r\n    FormStatus,\r\n    LoadingIndicator,\r\n    Notice,\r\n    Skeleton,\r\n    StatusIndicator,\r\n} from \"@creator-signal/ui\";"
     },
     "components-forms-field": {
       "id": "components-forms-field",
@@ -1224,105 +1224,105 @@
         "description": "",
         "methods": [],
         "displayName": "Field",
-        "definedInFile": "/app/packages/ui/src/server.tsx",
+        "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\server.tsx",
         "actualName": "Field",
         "exportName": "Field"
       },
       "subcomponents": {
         "FieldLabel": {
           "name": "FieldLabel",
-          "path": "/app/packages/ui/src/index.ts",
+          "path": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\index.ts",
           "import": "import { FieldLabel } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "FieldLabel",
-            "definedInFile": "/app/packages/ui/src/server.tsx",
+            "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\server.tsx",
             "actualName": "FieldLabel",
             "exportName": "FieldLabel"
           }
         },
         "FieldDescription": {
           "name": "FieldDescription",
-          "path": "/app/packages/ui/src/index.ts",
+          "path": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\index.ts",
           "import": "import { FieldDescription } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "FieldDescription",
-            "definedInFile": "/app/packages/ui/src/server.tsx",
+            "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\server.tsx",
             "actualName": "FieldDescription",
             "exportName": "FieldDescription"
           }
         },
         "FieldError": {
           "name": "FieldError",
-          "path": "/app/packages/ui/src/index.ts",
+          "path": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\index.ts",
           "import": "import { FieldError } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "FieldError",
-            "definedInFile": "/app/packages/ui/src/server.tsx",
+            "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\server.tsx",
             "actualName": "FieldError",
             "exportName": "FieldError"
           }
         },
         "TextInput": {
           "name": "TextInput",
-          "path": "/app/packages/ui/src/index.ts",
+          "path": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\index.ts",
           "import": "import { TextInput } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "TextInput",
-            "definedInFile": "/app/packages/ui/src/server.tsx",
+            "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\server.tsx",
             "actualName": "TextInput",
             "exportName": "TextInput"
           }
         },
         "Textarea": {
           "name": "Textarea",
-          "path": "/app/packages/ui/src/index.ts",
+          "path": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\index.ts",
           "import": "import { Textarea } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Textarea",
-            "definedInFile": "/app/packages/ui/src/server.tsx",
+            "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\server.tsx",
             "actualName": "Textarea",
             "exportName": "Textarea"
           }
         },
         "Select": {
           "name": "Select",
-          "path": "/app/packages/ui/src/index.ts",
+          "path": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\index.ts",
           "import": "import { Select } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Select",
-            "definedInFile": "/app/packages/ui/src/server.tsx",
+            "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\server.tsx",
             "actualName": "Select",
             "exportName": "Select"
           }
         },
         "Checkbox": {
           "name": "Checkbox",
-          "path": "/app/packages/ui/src/index.ts",
+          "path": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\index.ts",
           "import": "import { Checkbox } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Checkbox",
-            "definedInFile": "/app/packages/ui/src/server.tsx",
+            "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\server.tsx",
             "actualName": "Checkbox",
             "exportName": "Checkbox",
             "props": {
@@ -1348,14 +1348,14 @@
         },
         "Radio": {
           "name": "Radio",
-          "path": "/app/packages/ui/src/index.ts",
+          "path": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\index.ts",
           "import": "import { Radio } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Radio",
-            "definedInFile": "/app/packages/ui/src/server.tsx",
+            "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\server.tsx",
             "actualName": "Radio",
             "exportName": "Radio",
             "props": {
@@ -1381,14 +1381,14 @@
         },
         "Switch": {
           "name": "Switch",
-          "path": "/app/packages/ui/src/index.ts",
+          "path": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\index.ts",
           "import": "import { Switch } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Switch",
-            "definedInFile": "/app/packages/ui/src/server.tsx",
+            "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\server.tsx",
             "actualName": "Switch",
             "exportName": "Switch",
             "props": {
@@ -1428,14 +1428,14 @@
         },
         "FormStatus": {
           "name": "FormStatus",
-          "path": "/app/packages/ui/src/index.ts",
+          "path": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\index.ts",
           "import": "import { FormStatus } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "FormStatus",
-            "definedInFile": "/app/packages/ui/src/server.tsx",
+            "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\server.tsx",
             "actualName": "FormStatus",
             "exportName": "FormStatus",
             "props": {
@@ -1507,7 +1507,7 @@
           "snippet": "const SelectAndStatus = () => <form className=\"cs-ui-review-form\" onSubmit={(event) => event.preventDefault()}><Field><FieldLabel htmlFor=\"field-period\">Reporting period</FieldLabel><Select id=\"field-period\" defaultValue=\"30\"><option value=\"7\">Last 7 days</option><option value=\"30\">Last 30 days</option></Select></Field><FormStatus tone=\"success\">Draft saved locally.</FormStatus><Button type=\"submit\">Continue</Button></form>;"
         }
       ],
-      "import": "import {\n    Button,\n    Checkbox,\n    Field,\n    FieldDescription,\n    FieldError,\n    FieldLabel,\n    FormStatus,\n    Radio,\n    Select,\n    Switch,\n    Textarea,\n    TextInput,\n} from \"@creator-signal/ui\";"
+      "import": "import {\r\n    Button,\r\n    Checkbox,\r\n    Field,\r\n    FieldDescription,\r\n    FieldError,\r\n    FieldLabel,\r\n    FormStatus,\r\n    Radio,\r\n    Select,\r\n    Switch,\r\n    Textarea,\r\n    TextInput,\r\n} from \"@creator-signal/ui\";"
     },
     "components-navigation-disclosure": {
       "id": "components-navigation-disclosure",
@@ -1518,63 +1518,63 @@
         "description": "",
         "methods": [],
         "displayName": "Disclosure",
-        "definedInFile": "/app/packages/ui/src/server.tsx",
+        "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\server.tsx",
         "actualName": "Disclosure",
         "exportName": "Disclosure"
       },
       "subcomponents": {
         "DisclosureTrigger": {
           "name": "DisclosureTrigger",
-          "path": "/app/packages/ui/src/index.ts",
+          "path": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\index.ts",
           "import": "import { DisclosureTrigger } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "DisclosureTrigger",
-            "definedInFile": "/app/packages/ui/src/server.tsx",
+            "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\server.tsx",
             "actualName": "DisclosureTrigger",
             "exportName": "DisclosureTrigger"
           }
         },
         "Menu": {
           "name": "Menu",
-          "path": "/app/packages/ui/src/index.ts",
+          "path": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\index.ts",
           "import": "import { Menu } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Menu",
-            "definedInFile": "/app/packages/ui/src/server.tsx",
+            "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\server.tsx",
             "actualName": "Menu",
             "exportName": "Menu"
           }
         },
         "MenuItem": {
           "name": "MenuItem",
-          "path": "/app/packages/ui/src/index.ts",
+          "path": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\index.ts",
           "import": "import { MenuItem } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "MenuItem",
-            "definedInFile": "/app/packages/ui/src/server.tsx",
+            "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\server.tsx",
             "actualName": "MenuItem",
             "exportName": "MenuItem"
           }
         },
         "Pagination": {
           "name": "Pagination",
-          "path": "/app/packages/ui/src/index.ts",
+          "path": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\index.ts",
           "import": "import { Pagination } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Pagination",
-            "definedInFile": "/app/packages/ui/src/server.tsx",
+            "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\server.tsx",
             "actualName": "Pagination",
             "exportName": "Pagination",
             "props": {
@@ -1590,28 +1590,28 @@
         },
         "PaginationList": {
           "name": "PaginationList",
-          "path": "/app/packages/ui/src/index.ts",
+          "path": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\index.ts",
           "import": "import { PaginationList } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "PaginationList",
-            "definedInFile": "/app/packages/ui/src/server.tsx",
+            "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\server.tsx",
             "actualName": "PaginationList",
             "exportName": "PaginationList"
           }
         },
         "PaginationLink": {
           "name": "PaginationLink",
-          "path": "/app/packages/ui/src/index.ts",
+          "path": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\index.ts",
           "import": "import { PaginationLink } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "PaginationLink",
-            "definedInFile": "/app/packages/ui/src/server.tsx",
+            "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\server.tsx",
             "actualName": "PaginationLink",
             "exportName": "PaginationLink",
             "props": {
@@ -1634,14 +1634,14 @@
         },
         "Tooltip": {
           "name": "Tooltip",
-          "path": "/app/packages/ui/src/index.ts",
+          "path": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\index.ts",
           "import": "import { Tooltip } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Tooltip",
-            "definedInFile": "/app/packages/ui/src/server.tsx",
+            "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\server.tsx",
             "actualName": "Tooltip",
             "exportName": "Tooltip",
             "props": {
@@ -1683,7 +1683,7 @@
           "snippet": "const FocusableTooltip = () => <Tooltip content=\"Calculated after refunds and marketplace fees.\" triggerLabel=\"Explain net revenue\">What is net revenue?</Tooltip>;"
         }
       ],
-      "import": "import {\n    Disclosure,\n    DisclosureTrigger,\n    Menu,\n    MenuItem,\n    Pagination,\n    PaginationLink,\n    PaginationList,\n    Tooltip,\n} from \"@creator-signal/ui\";"
+      "import": "import {\r\n    Disclosure,\r\n    DisclosureTrigger,\r\n    Menu,\r\n    MenuItem,\r\n    Pagination,\r\n    PaginationLink,\r\n    PaginationList,\r\n    Tooltip,\r\n} from \"@creator-signal/ui\";"
     },
     "components-surfaces-card": {
       "id": "components-surfaces-card",
@@ -1694,7 +1694,7 @@
         "description": "",
         "methods": [],
         "displayName": "Card",
-        "definedInFile": "/app/packages/ui/src/server.tsx",
+        "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\server.tsx",
         "actualName": "Card",
         "exportName": "Card",
         "props": {
@@ -1732,70 +1732,70 @@
       "subcomponents": {
         "CardHeader": {
           "name": "CardHeader",
-          "path": "/app/packages/ui/src/index.ts",
+          "path": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\index.ts",
           "import": "import { CardHeader } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "CardHeader",
-            "definedInFile": "/app/packages/ui/src/server.tsx",
+            "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\server.tsx",
             "actualName": "CardHeader",
             "exportName": "CardHeader"
           }
         },
         "CardTitle": {
           "name": "CardTitle",
-          "path": "/app/packages/ui/src/index.ts",
+          "path": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\index.ts",
           "import": "import { CardTitle } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "CardTitle",
-            "definedInFile": "/app/packages/ui/src/server.tsx",
+            "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\server.tsx",
             "actualName": "CardTitle",
             "exportName": "CardTitle"
           }
         },
         "CardDescription": {
           "name": "CardDescription",
-          "path": "/app/packages/ui/src/index.ts",
+          "path": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\index.ts",
           "import": "import { CardDescription } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "CardDescription",
-            "definedInFile": "/app/packages/ui/src/server.tsx",
+            "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\server.tsx",
             "actualName": "CardDescription",
             "exportName": "CardDescription"
           }
         },
         "CardContent": {
           "name": "CardContent",
-          "path": "/app/packages/ui/src/index.ts",
+          "path": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\index.ts",
           "import": "import { CardContent } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "CardContent",
-            "definedInFile": "/app/packages/ui/src/server.tsx",
+            "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\server.tsx",
             "actualName": "CardContent",
             "exportName": "CardContent"
           }
         },
         "Panel": {
           "name": "Panel",
-          "path": "/app/packages/ui/src/index.ts",
+          "path": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\index.ts",
           "import": "import { Panel } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Panel",
-            "definedInFile": "/app/packages/ui/src/server.tsx",
+            "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\server.tsx",
             "actualName": "Panel",
             "exportName": "Panel",
             "props": {
@@ -1836,7 +1836,7 @@
         {
           "id": "components-surfaces-card--raised-card",
           "name": "Raised Card",
-          "snippet": "const RaisedCard = () => <Card><>\n      <CardHeader>\n        <CardTitle>Creator overview</CardTitle>\n        <CardDescription>Cards group one related concept without replacing semantic page structure.</CardDescription>\n      </CardHeader>\n      <CardContent><p>Current status and related actions stay together.</p></CardContent>\n    </></Card>;"
+          "snippet": "const RaisedCard = () => <Card><>\r\n      <CardHeader>\r\n        <CardTitle>Creator overview</CardTitle>\r\n        <CardDescription>Cards group one related concept without replacing semantic page structure.</CardDescription>\r\n      </CardHeader>\r\n      <CardContent><p>Current status and related actions stay together.</p></CardContent>\r\n    </></Card>;"
         },
         {
           "id": "components-surfaces-card--inset-panel",
@@ -1855,7 +1855,7 @@
         "description": "",
         "methods": [],
         "displayName": "Tabs",
-        "definedInFile": "/app/packages/ui/src/client.tsx",
+        "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\client.tsx",
         "actualName": "Tabs",
         "exportName": "Tabs",
         "props": {
@@ -1900,14 +1900,14 @@
       "subcomponents": {
         "TabList": {
           "name": "TabList",
-          "path": "/app/packages/ui/src/client.tsx",
+          "path": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\client.tsx",
           "import": "import { TabList } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "TabList",
-            "definedInFile": "/app/packages/ui/src/client.tsx",
+            "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\client.tsx",
             "actualName": "TabList",
             "exportName": "TabList",
             "props": {
@@ -1923,14 +1923,14 @@
         },
         "Tab": {
           "name": "Tab",
-          "path": "/app/packages/ui/src/client.tsx",
+          "path": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\client.tsx",
           "import": "import { Tab } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Tab",
-            "definedInFile": "/app/packages/ui/src/client.tsx",
+            "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\client.tsx",
             "actualName": "Tab",
             "exportName": "Tab",
             "props": {
@@ -1946,14 +1946,14 @@
         },
         "TabPanel": {
           "name": "TabPanel",
-          "path": "/app/packages/ui/src/client.tsx",
+          "path": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\client.tsx",
           "import": "import { TabPanel } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "TabPanel",
-            "definedInFile": "/app/packages/ui/src/client.tsx",
+            "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\client.tsx",
             "actualName": "TabPanel",
             "exportName": "TabPanel",
             "props": {
@@ -1986,7 +1986,7 @@
         "description": "",
         "methods": [],
         "displayName": "Tabs",
-        "definedInFile": "/app/packages/ui/src/client.tsx",
+        "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\client.tsx",
         "actualName": "Tabs",
         "exportName": "Tabs",
         "props": {
@@ -2031,14 +2031,14 @@
       "subcomponents": {
         "ThemeProvider": {
           "name": "ThemeProvider",
-          "path": "/app/packages/ui/src/client.tsx",
+          "path": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\client.tsx",
           "import": "import { ThemeProvider } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Tabs",
-            "definedInFile": "/app/packages/ui/src/client.tsx",
+            "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\packages\\ui\\src\\client.tsx",
             "actualName": "Tabs",
             "exportName": "Tabs",
             "props": {
@@ -2184,7 +2184,7 @@
           }
         }
       ],
-      "import": "import {\n    Button,\n    DashboardChartFrame,\n    DashboardDataRegion,\n    DashboardFilterBar,\n    DashboardImage,\n    DashboardKpis,\n    DashboardPage,\n    DashboardPeriodControl,\n    DashboardSection,\n    Field,\n    FieldLabel,\n    Select,\n} from \"@creator-signal/design-system-reference\";"
+      "import": "import {\r\n    Button,\r\n    DashboardChartFrame,\r\n    DashboardDataRegion,\r\n    DashboardFilterBar,\r\n    DashboardImage,\r\n    DashboardKpis,\r\n    DashboardPage,\r\n    DashboardPeriodControl,\r\n    DashboardSection,\r\n    Field,\r\n    FieldLabel,\r\n    Select,\r\n} from \"@creator-signal/design-system-reference\";"
     },
     "patterns-reusable-combinations": {
       "id": "patterns-reusable-combinations",
@@ -2227,7 +2227,7 @@
           "snippet": "const DataTableAnalyticsRecommendation = () => <AnalyticsAndRecommendation />;"
         }
       ],
-      "import": "import {\n    Badge,\n    Button,\n    Card,\n    Checkbox,\n    Dialog,\n    EmptyState,\n    ErrorState,\n    Field,\n    FieldDescription,\n    FieldError,\n    FieldLabel,\n    FormStatus,\n    KeyValueItem,\n    KeyValueList,\n    Notice,\n    Panel,\n    ResponsiveTable,\n    Stat,\n    StatGroup,\n    StatusIndicator,\n    Table,\n    TableBody,\n    TableCaption,\n    TableCell,\n    TableHead,\n    TableHeader,\n    TableRow,\n    TextInput,\n} from \"@creator-signal/design-system-reference\";"
+      "import": "import {\r\n    Badge,\r\n    Button,\r\n    Card,\r\n    Checkbox,\r\n    Dialog,\r\n    EmptyState,\r\n    ErrorState,\r\n    Field,\r\n    FieldDescription,\r\n    FieldError,\r\n    FieldLabel,\r\n    FormStatus,\r\n    KeyValueItem,\r\n    KeyValueList,\r\n    Notice,\r\n    Panel,\r\n    ResponsiveTable,\r\n    Stat,\r\n    StatGroup,\r\n    StatusIndicator,\r\n    Table,\r\n    TableBody,\r\n    TableCaption,\r\n    TableCell,\r\n    TableHead,\r\n    TableHeader,\r\n    TableRow,\r\n    TextInput,\r\n} from \"@creator-signal/design-system-reference\";"
     },
     "consumers-instatic-component-library": {
       "id": "consumers-instatic-component-library",
@@ -2256,7 +2256,7 @@
         "description": "",
         "methods": [],
         "displayName": "InstaticSpecimenStory",
-        "definedInFile": "/app/apps/design-system/src/instatic/InstaticSpecimen.tsx",
+        "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\apps\\design-system\\src\\instatic\\InstaticSpecimen.tsx",
         "actualName": "InstaticSpecimenStory",
         "exportName": "InstaticSpecimenStory",
         "props": {
@@ -2301,17 +2301,17 @@
         {
           "id": "consumers-instatic-component-library-built-in-content--creator-signal-site-catalogue-shared-content-fragment",
           "name": "Shared Content Fragment · creator-signal.site.catalogue.shared-content-fragment",
-          "snippet": "const CreatorSignalSiteCatalogueSharedContentFragment = () => <InstaticSpecimenStory\n    entryId=\"creator-signal.site.catalogue.shared-content-fragment\"\n    scenarioId=\"default\" />;"
+          "snippet": "const CreatorSignalSiteCatalogueSharedContentFragment = () => <InstaticSpecimenStory\r\n    entryId=\"creator-signal.site.catalogue.shared-content-fragment\"\r\n    scenarioId=\"default\" />;"
         },
         {
           "id": "consumers-instatic-component-library-built-in-content--creator-signal-site-catalogue-structured-content",
           "name": "Structured Content · creator-signal.site.catalogue.structured-content",
-          "snippet": "const CreatorSignalSiteCatalogueStructuredContent = () => <InstaticSpecimenStory\n    entryId=\"creator-signal.site.catalogue.structured-content\"\n    scenarioId=\"default\" />;"
+          "snippet": "const CreatorSignalSiteCatalogueStructuredContent = () => <InstaticSpecimenStory\r\n    entryId=\"creator-signal.site.catalogue.structured-content\"\r\n    scenarioId=\"default\" />;"
         },
         {
           "id": "consumers-instatic-component-library-built-in-content--creator-signal-site-catalogue-structured-content-list",
           "name": "Structured Content List · creator-signal.site.catalogue.structured-content-list",
-          "snippet": "const CreatorSignalSiteCatalogueStructuredContentList = () => <InstaticSpecimenStory\n    entryId=\"creator-signal.site.catalogue.structured-content-list\"\n    scenarioId=\"default\" />;"
+          "snippet": "const CreatorSignalSiteCatalogueStructuredContentList = () => <InstaticSpecimenStory\r\n    entryId=\"creator-signal.site.catalogue.structured-content-list\"\r\n    scenarioId=\"default\" />;"
         },
         {
           "id": "consumers-instatic-component-library-built-in-content--creator-signal-site-catalogue-table",
@@ -2330,7 +2330,7 @@
         "description": "",
         "methods": [],
         "displayName": "InstaticSpecimenStory",
-        "definedInFile": "/app/apps/design-system/src/instatic/InstaticSpecimen.tsx",
+        "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\apps\\design-system\\src\\instatic\\InstaticSpecimen.tsx",
         "actualName": "InstaticSpecimenStory",
         "exportName": "InstaticSpecimenStory",
         "props": {
@@ -2370,7 +2370,7 @@
         {
           "id": "consumers-instatic-component-library-built-in-design--creator-signal-site-catalogue-comparison-table",
           "name": "Comparison Table · creator-signal.site.catalogue.comparison-table",
-          "snippet": "const CreatorSignalSiteCatalogueComparisonTable = () => <InstaticSpecimenStory\n    entryId=\"creator-signal.site.catalogue.comparison-table\"\n    scenarioId=\"default\" />;"
+          "snippet": "const CreatorSignalSiteCatalogueComparisonTable = () => <InstaticSpecimenStory\r\n    entryId=\"creator-signal.site.catalogue.comparison-table\"\r\n    scenarioId=\"default\" />;"
         },
         {
           "id": "consumers-instatic-component-library-built-in-design--creator-signal-site-catalogue-empty-state",
@@ -2424,7 +2424,7 @@
         "description": "",
         "methods": [],
         "displayName": "InstaticSpecimenStory",
-        "definedInFile": "/app/apps/design-system/src/instatic/InstaticSpecimen.tsx",
+        "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\apps\\design-system\\src\\instatic\\InstaticSpecimen.tsx",
         "actualName": "InstaticSpecimenStory",
         "exportName": "InstaticSpecimenStory",
         "props": {
@@ -2489,7 +2489,7 @@
         {
           "id": "consumers-instatic-component-library-built-in-editorial--creator-signal-site-catalogue-person-profile",
           "name": "Person Profile · creator-signal.site.catalogue.person-profile",
-          "snippet": "const CreatorSignalSiteCataloguePersonProfile = () => <InstaticSpecimenStory\n    entryId=\"creator-signal.site.catalogue.person-profile\"\n    scenarioId=\"default\" />;"
+          "snippet": "const CreatorSignalSiteCataloguePersonProfile = () => <InstaticSpecimenStory\r\n    entryId=\"creator-signal.site.catalogue.person-profile\"\r\n    scenarioId=\"default\" />;"
         },
         {
           "id": "consumers-instatic-component-library-built-in-editorial--creator-signal-site-catalogue-quote",
@@ -2513,7 +2513,7 @@
         "description": "",
         "methods": [],
         "displayName": "InstaticSpecimenStory",
-        "definedInFile": "/app/apps/design-system/src/instatic/InstaticSpecimen.tsx",
+        "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\apps\\design-system\\src\\instatic\\InstaticSpecimen.tsx",
         "actualName": "InstaticSpecimenStory",
         "exportName": "InstaticSpecimenStory",
         "props": {
@@ -2562,7 +2562,7 @@
         "description": "",
         "methods": [],
         "displayName": "InstaticSpecimenStory",
-        "definedInFile": "/app/apps/design-system/src/instatic/InstaticSpecimen.tsx",
+        "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\apps\\design-system\\src\\instatic\\InstaticSpecimen.tsx",
         "actualName": "InstaticSpecimenStory",
         "exportName": "InstaticSpecimenStory",
         "props": {
@@ -2597,17 +2597,17 @@
         {
           "id": "consumers-instatic-component-library-built-in-forms--creator-signal-site-catalogue-captcha",
           "name": "CAPTCHA · creator-signal.site.catalogue.captcha",
-          "snippet": "const CreatorSignalSiteCatalogueCaptcha = () => <InstaticSpecimenStory\n    entryId=\"creator-signal.site.catalogue.captcha\"\n    scenarioId=\"provider-unavailable\" />;"
+          "snippet": "const CreatorSignalSiteCatalogueCaptcha = () => <InstaticSpecimenStory\r\n    entryId=\"creator-signal.site.catalogue.captcha\"\r\n    scenarioId=\"provider-unavailable\" />;"
         },
         {
           "id": "consumers-instatic-component-library-built-in-forms--creator-signal-site-catalogue-checkbox",
           "name": "Checkbox · creator-signal.site.catalogue.checkbox",
-          "snippet": "const CreatorSignalSiteCatalogueCheckbox = () => <InstaticSpecimenStory\n    entryId=\"creator-signal.site.catalogue.checkbox\"\n    scenarioId=\"required-checked\" />;"
+          "snippet": "const CreatorSignalSiteCatalogueCheckbox = () => <InstaticSpecimenStory\r\n    entryId=\"creator-signal.site.catalogue.checkbox\"\r\n    scenarioId=\"required-checked\" />;"
         },
         {
           "id": "consumers-instatic-component-library-built-in-forms--creator-signal-site-catalogue-checkbox-group",
           "name": "Checkbox Group · creator-signal.site.catalogue.checkbox-group",
-          "snippet": "const CreatorSignalSiteCatalogueCheckboxGroup = () => <InstaticSpecimenStory\n    entryId=\"creator-signal.site.catalogue.checkbox-group\"\n    scenarioId=\"default\" />;"
+          "snippet": "const CreatorSignalSiteCatalogueCheckboxGroup = () => <InstaticSpecimenStory\r\n    entryId=\"creator-signal.site.catalogue.checkbox-group\"\r\n    scenarioId=\"default\" />;"
         },
         {
           "id": "consumers-instatic-component-library-built-in-forms--creator-signal-site-catalogue-date-input",
@@ -2627,27 +2627,27 @@
         {
           "id": "consumers-instatic-component-library-built-in-forms--creator-signal-site-catalogue-file-attachment",
           "name": "File Attachment · creator-signal.site.catalogue.file-attachment",
-          "snippet": "const CreatorSignalSiteCatalogueFileAttachment = () => <InstaticSpecimenStory\n    entryId=\"creator-signal.site.catalogue.file-attachment\"\n    scenarioId=\"required-local-scan\" />;"
+          "snippet": "const CreatorSignalSiteCatalogueFileAttachment = () => <InstaticSpecimenStory\r\n    entryId=\"creator-signal.site.catalogue.file-attachment\"\r\n    scenarioId=\"required-local-scan\" />;"
         },
         {
           "id": "consumers-instatic-component-library-built-in-forms--creator-signal-site-catalogue-form-accordion",
           "name": "Form Accordion · creator-signal.site.catalogue.form-accordion",
-          "snippet": "const CreatorSignalSiteCatalogueFormAccordion = () => <InstaticSpecimenStory\n    entryId=\"creator-signal.site.catalogue.form-accordion\"\n    scenarioId=\"default\" />;"
+          "snippet": "const CreatorSignalSiteCatalogueFormAccordion = () => <InstaticSpecimenStory\r\n    entryId=\"creator-signal.site.catalogue.form-accordion\"\r\n    scenarioId=\"default\" />;"
         },
         {
           "id": "consumers-instatic-component-library-built-in-forms--creator-signal-site-catalogue-form-actions",
           "name": "Form Actions · creator-signal.site.catalogue.form-actions",
-          "snippet": "const CreatorSignalSiteCatalogueFormActions = () => <InstaticSpecimenStory\n    entryId=\"creator-signal.site.catalogue.form-actions\"\n    scenarioId=\"default-disabled-pending\" />;"
+          "snippet": "const CreatorSignalSiteCatalogueFormActions = () => <InstaticSpecimenStory\r\n    entryId=\"creator-signal.site.catalogue.form-actions\"\r\n    scenarioId=\"default-disabled-pending\" />;"
         },
         {
           "id": "consumers-instatic-component-library-built-in-forms--creator-signal-site-catalogue-form-container",
           "name": "Form Container · creator-signal.site.catalogue.form-container",
-          "snippet": "const CreatorSignalSiteCatalogueFormContainer = () => <InstaticSpecimenStory\n    entryId=\"creator-signal.site.catalogue.form-container\"\n    scenarioId=\"default-session-recovery\" />;"
+          "snippet": "const CreatorSignalSiteCatalogueFormContainer = () => <InstaticSpecimenStory\r\n    entryId=\"creator-signal.site.catalogue.form-container\"\r\n    scenarioId=\"default-session-recovery\" />;"
         },
         {
           "id": "consumers-instatic-component-library-built-in-forms--creator-signal-site-catalogue-form-embed",
           "name": "Form Embed · creator-signal.site.catalogue.form-embed",
-          "snippet": "const CreatorSignalSiteCatalogueFormEmbed = () => <InstaticSpecimenStory\n    entryId=\"creator-signal.site.catalogue.form-embed\"\n    scenarioId=\"responsive\" />;"
+          "snippet": "const CreatorSignalSiteCatalogueFormEmbed = () => <InstaticSpecimenStory\r\n    entryId=\"creator-signal.site.catalogue.form-embed\"\r\n    scenarioId=\"responsive\" />;"
         },
         {
           "id": "consumers-instatic-component-library-built-in-forms--creator-signal-site-catalogue-form-error",
@@ -2657,7 +2657,7 @@
         {
           "id": "consumers-instatic-component-library-built-in-forms--creator-signal-site-catalogue-form-field-group",
           "name": "Form Field Group · creator-signal.site.catalogue.form-field-group",
-          "snippet": "const CreatorSignalSiteCatalogueFormFieldGroup = () => <InstaticSpecimenStory\n    entryId=\"creator-signal.site.catalogue.form-field-group\"\n    scenarioId=\"label-help-error\" />;"
+          "snippet": "const CreatorSignalSiteCatalogueFormFieldGroup = () => <InstaticSpecimenStory\r\n    entryId=\"creator-signal.site.catalogue.form-field-group\"\r\n    scenarioId=\"label-help-error\" />;"
         },
         {
           "id": "consumers-instatic-component-library-built-in-forms--creator-signal-site-catalogue-form-help",
@@ -2687,7 +2687,7 @@
         {
           "id": "consumers-instatic-component-library-built-in-forms--creator-signal-site-catalogue-form-summary-review",
           "name": "Summary / Review · creator-signal.site.catalogue.form-summary-review",
-          "snippet": "const CreatorSignalSiteCatalogueFormSummaryReview = () => <InstaticSpecimenStory\n    entryId=\"creator-signal.site.catalogue.form-summary-review\"\n    scenarioId=\"default\" />;"
+          "snippet": "const CreatorSignalSiteCatalogueFormSummaryReview = () => <InstaticSpecimenStory\r\n    entryId=\"creator-signal.site.catalogue.form-summary-review\"\r\n    scenarioId=\"default\" />;"
         },
         {
           "id": "consumers-instatic-component-library-built-in-forms--creator-signal-site-catalogue-form-tabs",
@@ -2707,7 +2707,7 @@
         {
           "id": "consumers-instatic-component-library-built-in-forms--creator-signal-site-catalogue-number-input",
           "name": "Number Input · creator-signal.site.catalogue.number-input",
-          "snippet": "const CreatorSignalSiteCatalogueNumberInput = () => <InstaticSpecimenStory\n    entryId=\"creator-signal.site.catalogue.number-input\"\n    scenarioId=\"required\" />;"
+          "snippet": "const CreatorSignalSiteCatalogueNumberInput = () => <InstaticSpecimenStory\r\n    entryId=\"creator-signal.site.catalogue.number-input\"\r\n    scenarioId=\"required\" />;"
         },
         {
           "id": "consumers-instatic-component-library-built-in-forms--creator-signal-site-catalogue-option",
@@ -2722,17 +2722,17 @@
         {
           "id": "consumers-instatic-component-library-built-in-forms--creator-signal-site-catalogue-previous-next-actions",
           "name": "Previous / Next Actions · creator-signal.site.catalogue.previous-next-actions",
-          "snippet": "const CreatorSignalSiteCataloguePreviousNextActions = () => <InstaticSpecimenStory\n    entryId=\"creator-signal.site.catalogue.previous-next-actions\"\n    scenarioId=\"default\" />;"
+          "snippet": "const CreatorSignalSiteCataloguePreviousNextActions = () => <InstaticSpecimenStory\r\n    entryId=\"creator-signal.site.catalogue.previous-next-actions\"\r\n    scenarioId=\"default\" />;"
         },
         {
           "id": "consumers-instatic-component-library-built-in-forms--creator-signal-site-catalogue-previous-step",
           "name": "Previous Step · creator-signal.site.catalogue.previous-step",
-          "snippet": "const CreatorSignalSiteCataloguePreviousStep = () => <InstaticSpecimenStory\n    entryId=\"creator-signal.site.catalogue.previous-step\"\n    scenarioId=\"default\" />;"
+          "snippet": "const CreatorSignalSiteCataloguePreviousStep = () => <InstaticSpecimenStory\r\n    entryId=\"creator-signal.site.catalogue.previous-step\"\r\n    scenarioId=\"default\" />;"
         },
         {
           "id": "consumers-instatic-component-library-built-in-forms--creator-signal-site-catalogue-radio",
           "name": "Radio · creator-signal.site.catalogue.radio",
-          "snippet": "const CreatorSignalSiteCatalogueRadio = () => <InstaticSpecimenStory\n    entryId=\"creator-signal.site.catalogue.radio\"\n    scenarioId=\"required-checked\" />;"
+          "snippet": "const CreatorSignalSiteCatalogueRadio = () => <InstaticSpecimenStory\r\n    entryId=\"creator-signal.site.catalogue.radio\"\r\n    scenarioId=\"required-checked\" />;"
         },
         {
           "id": "consumers-instatic-component-library-built-in-forms--creator-signal-site-catalogue-radio-group",
@@ -2747,7 +2747,7 @@
         {
           "id": "consumers-instatic-component-library-built-in-forms--creator-signal-site-catalogue-reusable-form-fragment",
           "name": "Reusable Form Fragment · creator-signal.site.catalogue.reusable-form-fragment",
-          "snippet": "const CreatorSignalSiteCatalogueReusableFormFragment = () => <InstaticSpecimenStory\n    entryId=\"creator-signal.site.catalogue.reusable-form-fragment\"\n    scenarioId=\"binding-prefix\" />;"
+          "snippet": "const CreatorSignalSiteCatalogueReusableFormFragment = () => <InstaticSpecimenStory\r\n    entryId=\"creator-signal.site.catalogue.reusable-form-fragment\"\r\n    scenarioId=\"binding-prefix\" />;"
         },
         {
           "id": "consumers-instatic-component-library-built-in-forms--creator-signal-site-catalogue-save-draft",
@@ -2767,17 +2767,17 @@
         {
           "id": "consumers-instatic-component-library-built-in-forms--creator-signal-site-catalogue-switch",
           "name": "Switch · creator-signal.site.catalogue.switch",
-          "snippet": "const CreatorSignalSiteCatalogueSwitch = () => <InstaticSpecimenStory\n    entryId=\"creator-signal.site.catalogue.switch\"\n    scenarioId=\"required-checked\" />;"
+          "snippet": "const CreatorSignalSiteCatalogueSwitch = () => <InstaticSpecimenStory\r\n    entryId=\"creator-signal.site.catalogue.switch\"\r\n    scenarioId=\"required-checked\" />;"
         },
         {
           "id": "consumers-instatic-component-library-built-in-forms--creator-signal-site-catalogue-telephone-input",
           "name": "Telephone Input · creator-signal.site.catalogue.telephone-input",
-          "snippet": "const CreatorSignalSiteCatalogueTelephoneInput = () => <InstaticSpecimenStory\n    entryId=\"creator-signal.site.catalogue.telephone-input\"\n    scenarioId=\"required\" />;"
+          "snippet": "const CreatorSignalSiteCatalogueTelephoneInput = () => <InstaticSpecimenStory\r\n    entryId=\"creator-signal.site.catalogue.telephone-input\"\r\n    scenarioId=\"required\" />;"
         },
         {
           "id": "consumers-instatic-component-library-built-in-forms--creator-signal-site-catalogue-terms-and-conditions",
           "name": "Terms and Conditions · creator-signal.site.catalogue.terms-and-conditions",
-          "snippet": "const CreatorSignalSiteCatalogueTermsAndConditions = () => <InstaticSpecimenStory\n    entryId=\"creator-signal.site.catalogue.terms-and-conditions\"\n    scenarioId=\"default\" />;"
+          "snippet": "const CreatorSignalSiteCatalogueTermsAndConditions = () => <InstaticSpecimenStory\r\n    entryId=\"creator-signal.site.catalogue.terms-and-conditions\"\r\n    scenarioId=\"default\" />;"
         },
         {
           "id": "consumers-instatic-component-library-built-in-forms--creator-signal-site-catalogue-text-area",
@@ -2811,7 +2811,7 @@
         "description": "",
         "methods": [],
         "displayName": "InstaticSpecimenStory",
-        "definedInFile": "/app/apps/design-system/src/instatic/InstaticSpecimen.tsx",
+        "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\apps\\design-system\\src\\instatic\\InstaticSpecimen.tsx",
         "actualName": "InstaticSpecimenStory",
         "exportName": "InstaticSpecimenStory",
         "props": {
@@ -2851,7 +2851,7 @@
         {
           "id": "consumers-instatic-component-library-built-in-interactive--creator-signal-site-catalogue-accordion-item",
           "name": "Accordion Item · creator-signal.site.catalogue.accordion-item",
-          "snippet": "const CreatorSignalSiteCatalogueAccordionItem = () => <InstaticSpecimenStory\n    entryId=\"creator-signal.site.catalogue.accordion-item\"\n    scenarioId=\"default\" />;"
+          "snippet": "const CreatorSignalSiteCatalogueAccordionItem = () => <InstaticSpecimenStory\r\n    entryId=\"creator-signal.site.catalogue.accordion-item\"\r\n    scenarioId=\"default\" />;"
         },
         {
           "id": "consumers-instatic-component-library-built-in-interactive--creator-signal-site-catalogue-button",
@@ -2905,7 +2905,7 @@
         "description": "",
         "methods": [],
         "displayName": "InstaticSpecimenStory",
-        "definedInFile": "/app/apps/design-system/src/instatic/InstaticSpecimen.tsx",
+        "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\apps\\design-system\\src\\instatic\\InstaticSpecimen.tsx",
         "actualName": "InstaticSpecimenStory",
         "exportName": "InstaticSpecimenStory",
         "props": {
@@ -2965,7 +2965,7 @@
         {
           "id": "consumers-instatic-component-library-built-in-media--creator-signal-site-catalogue-youtube-embed",
           "name": "YouTube Embed · creator-signal.site.catalogue.youtube-embed",
-          "snippet": "const CreatorSignalSiteCatalogueYoutubeEmbed = () => <InstaticSpecimenStory\n    entryId=\"creator-signal.site.catalogue.youtube-embed\"\n    scenarioId=\"default\" />;"
+          "snippet": "const CreatorSignalSiteCatalogueYoutubeEmbed = () => <InstaticSpecimenStory\r\n    entryId=\"creator-signal.site.catalogue.youtube-embed\"\r\n    scenarioId=\"default\" />;"
         }
       ],
       "import": "import { InstaticSpecimenStory } from \"@creator-signal/design-system-reference\";"
@@ -2979,7 +2979,7 @@
         "description": "",
         "methods": [],
         "displayName": "InstaticSpecimenStory",
-        "definedInFile": "/app/apps/design-system/src/instatic/InstaticSpecimen.tsx",
+        "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\apps\\design-system\\src\\instatic\\InstaticSpecimen.tsx",
         "actualName": "InstaticSpecimenStory",
         "exportName": "InstaticSpecimenStory",
         "props": {
@@ -3019,7 +3019,7 @@
         {
           "id": "consumers-instatic-component-library-built-in-navigation--creator-signal-site-catalogue-language-navigation",
           "name": "Language Navigation · creator-signal.site.catalogue.language-navigation",
-          "snippet": "const CreatorSignalSiteCatalogueLanguageNavigation = () => <InstaticSpecimenStory\n    entryId=\"creator-signal.site.catalogue.language-navigation\"\n    scenarioId=\"default\" />;"
+          "snippet": "const CreatorSignalSiteCatalogueLanguageNavigation = () => <InstaticSpecimenStory\r\n    entryId=\"creator-signal.site.catalogue.language-navigation\"\r\n    scenarioId=\"default\" />;"
         },
         {
           "id": "consumers-instatic-component-library-built-in-navigation--creator-signal-site-catalogue-navigation",
@@ -3034,7 +3034,7 @@
         {
           "id": "consumers-instatic-component-library-built-in-navigation--creator-signal-site-catalogue-table-of-contents",
           "name": "Table of Contents · creator-signal.site.catalogue.table-of-contents",
-          "snippet": "const CreatorSignalSiteCatalogueTableOfContents = () => <InstaticSpecimenStory\n    entryId=\"creator-signal.site.catalogue.table-of-contents\"\n    scenarioId=\"default\" />;"
+          "snippet": "const CreatorSignalSiteCatalogueTableOfContents = () => <InstaticSpecimenStory\r\n    entryId=\"creator-signal.site.catalogue.table-of-contents\"\r\n    scenarioId=\"default\" />;"
         }
       ],
       "import": "import { InstaticSpecimenStory } from \"@creator-signal/design-system-reference\";"
@@ -3048,7 +3048,7 @@
         "description": "",
         "methods": [],
         "displayName": "InstaticSpecimenStory",
-        "definedInFile": "/app/apps/design-system/src/instatic/InstaticSpecimen.tsx",
+        "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\apps\\design-system\\src\\instatic\\InstaticSpecimen.tsx",
         "actualName": "InstaticSpecimenStory",
         "exportName": "InstaticSpecimenStory",
         "props": {
@@ -3093,7 +3093,7 @@
         {
           "id": "consumers-instatic-component-library-built-in-structure--creator-signal-site-catalogue-reusable-section",
           "name": "Reusable Section · creator-signal.site.catalogue.reusable-section",
-          "snippet": "const CreatorSignalSiteCatalogueReusableSection = () => <InstaticSpecimenStory\n    entryId=\"creator-signal.site.catalogue.reusable-section\"\n    scenarioId=\"default\" />;"
+          "snippet": "const CreatorSignalSiteCatalogueReusableSection = () => <InstaticSpecimenStory\r\n    entryId=\"creator-signal.site.catalogue.reusable-section\"\r\n    scenarioId=\"default\" />;"
         },
         {
           "id": "consumers-instatic-component-library-built-in-structure--creator-signal-site-catalogue-section",
@@ -3117,7 +3117,7 @@
         "description": "",
         "methods": [],
         "displayName": "InstaticSpecimenStory",
-        "definedInFile": "/app/apps/design-system/src/instatic/InstaticSpecimen.tsx",
+        "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\apps\\design-system\\src\\instatic\\InstaticSpecimen.tsx",
         "actualName": "InstaticSpecimenStory",
         "exportName": "InstaticSpecimenStory",
         "props": {
@@ -3152,17 +3152,17 @@
         {
           "id": "consumers-instatic-component-library-built-in-template--creator-signal-site-catalogue-template-footer",
           "name": "Footer · creator-signal.site.catalogue.template-footer",
-          "snippet": "const CreatorSignalSiteCatalogueTemplateFooter = () => <InstaticSpecimenStory\n    entryId=\"creator-signal.site.catalogue.template-footer\"\n    scenarioId=\"default\" />;"
+          "snippet": "const CreatorSignalSiteCatalogueTemplateFooter = () => <InstaticSpecimenStory\r\n    entryId=\"creator-signal.site.catalogue.template-footer\"\r\n    scenarioId=\"default\" />;"
         },
         {
           "id": "consumers-instatic-component-library-built-in-template--creator-signal-site-catalogue-template-header",
           "name": "Header · creator-signal.site.catalogue.template-header",
-          "snippet": "const CreatorSignalSiteCatalogueTemplateHeader = () => <InstaticSpecimenStory\n    entryId=\"creator-signal.site.catalogue.template-header\"\n    scenarioId=\"default\" />;"
+          "snippet": "const CreatorSignalSiteCatalogueTemplateHeader = () => <InstaticSpecimenStory\r\n    entryId=\"creator-signal.site.catalogue.template-header\"\r\n    scenarioId=\"default\" />;"
         },
         {
           "id": "consumers-instatic-component-library-built-in-template--creator-signal-site-catalogue-template-skip-link",
           "name": "Skip Link · creator-signal.site.catalogue.template-skip-link",
-          "snippet": "const CreatorSignalSiteCatalogueTemplateSkipLink = () => <InstaticSpecimenStory\n    entryId=\"creator-signal.site.catalogue.template-skip-link\"\n    scenarioId=\"default\" />;"
+          "snippet": "const CreatorSignalSiteCatalogueTemplateSkipLink = () => <InstaticSpecimenStory\r\n    entryId=\"creator-signal.site.catalogue.template-skip-link\"\r\n    scenarioId=\"default\" />;"
         }
       ],
       "import": "import { InstaticSpecimenStory } from \"@creator-signal/design-system-reference\";"
@@ -3176,7 +3176,7 @@
         "description": "",
         "methods": [],
         "displayName": "InstaticSpecimenStory",
-        "definedInFile": "/app/apps/design-system/src/instatic/InstaticSpecimen.tsx",
+        "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\apps\\design-system\\src\\instatic\\InstaticSpecimen.tsx",
         "actualName": "InstaticSpecimenStory",
         "exportName": "InstaticSpecimenStory",
         "props": {
@@ -3231,7 +3231,7 @@
         {
           "id": "consumers-instatic-component-library-built-in-typography--creator-signal-site-catalogue-semantic-list",
           "name": "Simple List · creator-signal.site.catalogue.semantic-list",
-          "snippet": "const CreatorSignalSiteCatalogueSemanticList = () => <InstaticSpecimenStory\n    entryId=\"creator-signal.site.catalogue.semantic-list\"\n    scenarioId=\"default\" />;"
+          "snippet": "const CreatorSignalSiteCatalogueSemanticList = () => <InstaticSpecimenStory\r\n    entryId=\"creator-signal.site.catalogue.semantic-list\"\r\n    scenarioId=\"default\" />;"
         }
       ],
       "import": "import { InstaticSpecimenStory } from \"@creator-signal/design-system-reference\";"
@@ -3245,7 +3245,7 @@
         "description": "",
         "methods": [],
         "displayName": "InstaticSpecimenStory",
-        "definedInFile": "/app/apps/design-system/src/instatic/InstaticSpecimen.tsx",
+        "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\apps\\design-system\\src\\instatic\\InstaticSpecimen.tsx",
         "actualName": "InstaticSpecimenStory",
         "exportName": "InstaticSpecimenStory",
         "props": {
@@ -3399,7 +3399,7 @@
         "description": "",
         "methods": [],
         "displayName": "InstaticSpecimenStory",
-        "definedInFile": "/app/apps/design-system/src/instatic/InstaticSpecimen.tsx",
+        "definedInFile": "D:\\codex-worktrees\\sales-pulse-design-system-manual-source-1423\\apps\\design-system\\src\\instatic\\InstaticSpecimen.tsx",
         "actualName": "InstaticSpecimenStory",
         "exportName": "InstaticSpecimenStory",
         "props": {
@@ -3434,12 +3434,12 @@
         {
           "id": "consumers-instatic-component-library-creator-signal-patterns--creator-signal-site-pattern-article-content-page",
           "name": "Article or Content Page · creator-signal.site.pattern.article-content-page",
-          "snippet": "const CreatorSignalSitePatternArticleContentPage = () => <InstaticSpecimenStory\n    entryId=\"creator-signal.site.pattern.article-content-page\"\n    scenarioId=\"default\" />;"
+          "snippet": "const CreatorSignalSitePatternArticleContentPage = () => <InstaticSpecimenStory\r\n    entryId=\"creator-signal.site.pattern.article-content-page\"\r\n    scenarioId=\"default\" />;"
         },
         {
           "id": "consumers-instatic-component-library-creator-signal-patterns--creator-signal-site-pattern-comparison-section",
           "name": "Comparison Section · creator-signal.site.pattern.comparison-section",
-          "snippet": "const CreatorSignalSitePatternComparisonSection = () => <InstaticSpecimenStory\n    entryId=\"creator-signal.site.pattern.comparison-section\"\n    scenarioId=\"default\" />;"
+          "snippet": "const CreatorSignalSitePatternComparisonSection = () => <InstaticSpecimenStory\r\n    entryId=\"creator-signal.site.pattern.comparison-section\"\r\n    scenarioId=\"default\" />;"
         },
         {
           "id": "consumers-instatic-component-library-creator-signal-patterns--creator-signal-site-pattern-contact-page",
@@ -3454,7 +3454,7 @@
         {
           "id": "consumers-instatic-component-library-creator-signal-patterns--creator-signal-site-pattern-early-access-page",
           "name": "Early Access Page · creator-signal.site.pattern.early-access-page",
-          "snippet": "const CreatorSignalSitePatternEarlyAccessPage = () => <InstaticSpecimenStory\n    entryId=\"creator-signal.site.pattern.early-access-page\"\n    scenarioId=\"default\" />;"
+          "snippet": "const CreatorSignalSitePatternEarlyAccessPage = () => <InstaticSpecimenStory\r\n    entryId=\"creator-signal.site.pattern.early-access-page\"\r\n    scenarioId=\"default\" />;"
         },
         {
           "id": "consumers-instatic-component-library-creator-signal-patterns--creator-signal-site-pattern-empty-state",
@@ -3484,12 +3484,12 @@
         {
           "id": "consumers-instatic-component-library-creator-signal-patterns--creator-signal-site-pattern-legal-trust-page",
           "name": "Legal or Trust Page · creator-signal.site.pattern.legal-trust-page",
-          "snippet": "const CreatorSignalSitePatternLegalTrustPage = () => <InstaticSpecimenStory\n    entryId=\"creator-signal.site.pattern.legal-trust-page\"\n    scenarioId=\"default\" />;"
+          "snippet": "const CreatorSignalSitePatternLegalTrustPage = () => <InstaticSpecimenStory\r\n    entryId=\"creator-signal.site.pattern.legal-trust-page\"\r\n    scenarioId=\"default\" />;"
         },
         {
           "id": "consumers-instatic-component-library-creator-signal-patterns--creator-signal-site-pattern-not-found-state",
           "name": "Not Found Page · creator-signal.site.pattern.not-found-state",
-          "snippet": "const CreatorSignalSitePatternNotFoundState = () => <InstaticSpecimenStory\n    entryId=\"creator-signal.site.pattern.not-found-state\"\n    scenarioId=\"default\" />;"
+          "snippet": "const CreatorSignalSitePatternNotFoundState = () => <InstaticSpecimenStory\r\n    entryId=\"creator-signal.site.pattern.not-found-state\"\r\n    scenarioId=\"default\" />;"
         },
         {
           "id": "consumers-instatic-component-library-creator-signal-patterns--creator-signal-site-pattern-offline-state",
@@ -3543,7 +3543,7 @@
           "snippet": "const MonitoringUnavailable = () => <UnavailablePreview />;"
         }
       ],
-      "import": "import {\n    Badge,\n    Button,\n    Card,\n    CardContent,\n    CardDescription,\n    CardHeader,\n    CardTitle,\n    Field,\n    FieldDescription,\n    FieldLabel,\n    LinkButton,\n    Notice,\n    ResponsiveTable,\n    Table,\n    TableBody,\n    TableCaption,\n    TableCell,\n    TableHead,\n    TableHeader,\n    TableRow,\n    TextInput,\n    ThemeControl,\n} from \"@creator-signal/design-system-reference\";"
+      "import": "import {\r\n    Badge,\r\n    Button,\r\n    Card,\r\n    CardContent,\r\n    CardDescription,\r\n    CardHeader,\r\n    CardTitle,\r\n    Field,\r\n    FieldDescription,\r\n    FieldLabel,\r\n    LinkButton,\r\n    Notice,\r\n    ResponsiveTable,\r\n    Table,\r\n    TableBody,\r\n    TableCaption,\r\n    TableCell,\r\n    TableHead,\r\n    TableHeader,\r\n    TableRow,\r\n    TextInput,\r\n    ThemeControl,\r\n} from \"@creator-signal/design-system-reference\";"
     },
     "product-previews-surface-translations": {
       "id": "product-previews-surface-translations",
@@ -3591,7 +3591,7 @@
           "snippet": "const StripeLikeProviderSample = () => <ConstrainedProvider />;"
         }
       ],
-      "import": "import {\n    Badge,\n    Button,\n    Card,\n    Checkbox,\n    Field,\n    FieldDescription,\n    FieldLabel,\n    KeyValueItem,\n    KeyValueList,\n    Notice,\n    Panel,\n    Stat,\n    StatGroup,\n    TextInput,\n} from \"@creator-signal/design-system-reference\";"
+      "import": "import {\r\n    Badge,\r\n    Button,\r\n    Card,\r\n    Checkbox,\r\n    Field,\r\n    FieldDescription,\r\n    FieldLabel,\r\n    KeyValueItem,\r\n    KeyValueList,\r\n    Notice,\r\n    Panel,\r\n    Stat,\r\n    StatGroup,\r\n    TextInput,\r\n} from \"@creator-signal/design-system-reference\";"
     },
     "product-previews-sales-pulse-state-matrix": {
       "id": "product-previews-sales-pulse-state-matrix",
@@ -3689,7 +3689,7 @@
           }
         }
       ],
-      "import": "import {\n    Badge,\n    ResponsiveTable,\n    Table,\n    TableBody,\n    TableCaption,\n    TableCell,\n    TableHead,\n    TableHeader,\n    TableRow,\n} from \"@creator-signal/design-system-reference\";"
+      "import": "import {\r\n    Badge,\r\n    ResponsiveTable,\r\n    Table,\r\n    TableBody,\r\n    TableCaption,\r\n    TableCell,\r\n    TableHead,\r\n    TableHeader,\r\n    TableRow,\r\n} from \"@creator-signal/design-system-reference\";"
     },
     "guidance-dashboard-explainability": {
       "id": "guidance-dashboard-explainability",
@@ -3755,7 +3755,7 @@
           "snippet": "const Stale = () => <WidgetReference {...registeredCustomers!} state=\"stale\" />;"
         }
       ],
-      "import": "import {\n    Badge,\n    EmptyState,\n    ErrorState,\n    KeyValueItem,\n    KeyValueList,\n    LoadingIndicator,\n    Notice,\n    Panel,\n    Skeleton,\n    Stat,\n    StatGroup,\n} from \"@creator-signal/design-system-reference\";"
+      "import": "import {\r\n    Badge,\r\n    EmptyState,\r\n    ErrorState,\r\n    KeyValueItem,\r\n    KeyValueList,\r\n    LoadingIndicator,\r\n    Notice,\r\n    Panel,\r\n    Skeleton,\r\n    Stat,\r\n    StatGroup,\r\n} from \"@creator-signal/design-system-reference\";"
     },
     "guidance-using-the-design-system": {
       "id": "guidance-using-the-design-system",
@@ -3916,7 +3916,7 @@
       "jsDocTags": {},
       "error": {
         "name": "No component found",
-        "message": "We could not detect the component from your story file. Specify meta.component.\n  104 | }\n  105 |\n> 106 | const meta = {\n      | ^\n  107 |   title: \"Forms/Form gallery\",\n  108 |   tags: [\"autodocs\"],\n  109 |   parameters: { docs: { description: { component: \"Canonical register-driven form gallery. Reusable primitives render from @creator-signal/ui; product and provider journeys retain their owning implementation and explicit acceptance boundaries.\" } } }\n\n./src/stories/FormGallery.stories.tsx:\nimport type { Meta, StoryObj } from \"@storybook/react-vite\";\nimport { useState } from \"react\";\nimport { Badge, Button, Checkbox, Field, FieldDescription, FieldError, FieldLabel, FormStatus, KeyValueItem, KeyValueList, Notice, Panel, Radio, Select, TextInput } from \"@creator-signal/ui\";\nimport formInventory from \"../../../../design-system/form-surfaces.json\";\nimport { referencePath } from \"../reference-path\";\n\ntype FormJourney = {\n  id: string;\n  label: string;\n  owner: string;\n  source: string;\n  storybook: { coverage: \"contract\" | \"excluded\" | \"rendered\"; storyId: string };\n  allowedFixtureData: string[];\n  providerBoundary: string;\n  acceptance: string;\n};\n\nconst inventory = formInventory as { journeys: FormJourney[] };\n\nfunction GalleryShell({ children, title }: { children: React.ReactNode; title: string }) {\n  return <main className=\"cs-story-shell\"><p className=\"cs-story-eyebrow\">Canonical form gallery · synthetic only · no submission</p><h1 className=\"cs-story-title\">{title}</h1><p className=\"cs-story-lede\">This is a review projection of governed primitives, source-owned product journeys and honest provider limits. Storybook has no form runtime dependency, provider access or customer data.</p>{children}</main>;\n}\n\nfunction JourneyContract({ journey }: { journey: FormJourney }) {\n  const coverage = journey.storybook.coverage;\n  return <Panel className=\"cs-reference-card\"><Badge tone={coverage === \"rendered\" ? \"success\" : coverage === \"excluded\" ? \"warning\" : \"info\"}>{coverage === \"excluded\" ? \"Tested exclusion\" : coverage === \"rendered\" ? \"Rendered reference\" : \"Integration contract\"}</Badge><h2>{journey.label}</h2><KeyValueList><KeyValueItem label=\"Owner\" value={journey.owner} /><KeyValueItem label=\"Owned source\" value={<code>{journey.source}</code>} /><KeyValueItem label=\"Fixture boundary\" value={journey.allowedFixtureData.join(\", \")} /><KeyValueItem label=\"Acceptance\" value={journey.acceptance} /></KeyValueList><p><strong>Provider boundary:</strong> {journey.providerBoundary}</p></Panel>;\n}\n\nfunction SharedWorkflowStatesView() {\n  return <GalleryShell title=\"Shared workflow states\"><section className=\"cs-story-section cs-reference-grid\"><Panel className=\"cs-reference-card\"><h2>Required and invalid</h2><Field><FieldLabel htmlFor=\"gallery-email\">Email address</FieldLabel><FieldDescription id=\"gallery-email-help\">Synthetic account identity only.</FieldDescription><TextInput id=\"gallery-email\" aria-describedby=\"gallery-email-help gallery-email-error\" aria-invalid=\"true\" defaultValue=\"maya@example.test\" type=\"email\" /><FieldError id=\"gallery-email-error\">Enter a valid email address.</FieldError></Field></Panel><Panel className=\"cs-reference-card\"><h2>Disabled and read-only</h2><Field><FieldLabel htmlFor=\"gallery-readonly\">Workspace reference</FieldLabel><TextInput id=\"gallery-readonly\" readOnly value=\"fixture-workspace-001\" /></Field><Button disabled>Unavailable while checking</Button></Panel><Panel className=\"cs-reference-card\"><h2>Async and outcomes</h2><Button busy>Checking synthetic file</Button><FormStatus tone=\"success\">Synthetic check complete. Nothing was uploaded.</FormStatus><FormStatus tone=\"error\">Synthetic request failed. No change was saved.</FormStatus></Panel><Panel className=\"cs-reference-card\"><h2>Choice controls</h2><Checkbox defaultChecked label=\"Use this synthetic preference\" description=\"No preference is stored.\" /><Radio defaultChecked label=\"Weekly summary\" name=\"gallery-cadence\" /><Radio label=\"Monthly summary\" name=\"gallery-cadence\" /></Panel></section></GalleryShell>;\n}\n\nfunction SearchAndFileSelectionView() {\n  return <GalleryShell title=\"Search and file selection\"><section className=\"cs-story-section cs-reference-grid\"><Panel className=\"cs-reference-card\"><h2>Accessible search</h2><Field><FieldLabel htmlFor=\"gallery-search\">Search synthetic media</FieldLabel><FieldDescription id=\"gallery-search-help\">Filtering is illustrative only; no account or media request is made.</FieldDescription><TextInput id=\"gallery-search\" aria-describedby=\"gallery-search-help\" defaultValue=\"blue fern\" type=\"search\" /></Field><FormStatus>One synthetic result would match this query.</FormStatus></Panel><Panel className=\"cs-reference-card\"><h2>File selection</h2><Field><FieldLabel htmlFor=\"gallery-file\">Select a statement file</FieldLabel><FieldDescription id=\"gallery-file-help\">CSV, TSV and text file types are presented by the owning import journey. This fixture never reads or uploads a file.</FieldDescription><TextInput id=\"gallery-file\" aria-describedby=\"gallery-file-help\" accept=\".csv,.tsv,.txt,text/csv,text/plain,text/tab-separated-values\" type=\"file\" /></Field><Button variant=\"secondary\">Check selected files</Button></Panel></section></GalleryShell>;\n}\n\nfunction StatementImportView() {\n  return <GalleryShell title=\"Statement import integration contract\"><section className=\"cs-story-section\"><Notice heading=\"Owned route, not copied workflow\" tone=\"info\"><p>The production component owns drag and drop, preview/import requests, quota calculations and result details. This projection validates the shared field, file-selection, pending and status states without sending a file or duplicating its route logic.</p></Notice></section><section className=\"cs-story-section cs-reference-grid\">{inventory.journeys.filter(({ id }) => id === \"sales-pulse.statement-import\").map((journey) => <JourneyContract key={journey.id} journey={journey} />)}</section></GalleryShell>;\n}\n\nfunction LegalConsentView() {\n  return <GalleryShell title=\"Legal acceptance integration contract\"><section className=\"cs-story-section\"><Panel className=\"cs-reference-card\"><h2>Revisioned consent</h2><p>Policy revision: <code>fixture-policy-v1</code></p><Checkbox label=\"I have read the synthetic policy summary\" description=\"This control does not record consent.\" /><Button>Continue</Button></Panel></section></GalleryShell>;\n}\n\nconst sellingTenureOptions = [\n  [\"prefer_not_to_say\", \"Prefer not to say\"],\n  [\"less_than_6_months\", \"Less than 6 months\"],\n  [\"6_months_to_1_year\", \"6 months to a year\"],\n  [\"1_to_3_years\", \"1 to 3 years\"],\n  [\"3_years_or_more\", \"3 years or more\"],\n] as const;\n\nconst salesTrackingOptions = [\n  [\"prefer_not_to_say\", \"Prefer not to say\"],\n  [\"does_not_track\", \"I don't track it\"],\n  [\"spoonflower_dashboard\", \"Just Spoonflower's own dashboard\"],\n  [\"manual_notes_or_addition\", \"Manual notes or addition\"],\n  [\"spreadsheet\", \"Spreadsheet with formulas\"],\n  [\"ai_tool\", \"An AI tool (like ChatGPT)\"],\n  [\"other\", \"Other\"],\n] as const;\n\nfunction IntakeSelect({ id, label, onChange, options }: { id: string; label: string; onChange?: React.ChangeEventHandler<HTMLSelectElement>; options: ReadonlyArray<readonly [string, string]> }) {\n  return <Field><FieldLabel htmlFor={id}>{label}</FieldLabel><Select id={id} name={id} onChange={onChange}><option value=\"\">Prefer not to say</option>{options.filter(([value]) => value !== \"prefer_not_to_say\").map(([value, optionLabel]) => <option key={value} value={value}>{optionLabel}</option>)}</Select></Field>;\n}\n\nfunction IntakeText({ className, id, label, placeholder, required = false, type = \"text\" }: { className?: string; id: string; label: string; placeholder: string; required?: boolean; type?: \"email\" | \"text\" }) {\n  return <Field className={className}><FieldLabel htmlFor={id}>{label}</FieldLabel><TextInput id={id} name={id} placeholder={placeholder} required={required} type={type} /></Field>;\n}\n\nfunction IntakeShell({ children, intro, note, submitted, title }: { children: React.ReactNode; intro: string; note?: string; submitted: boolean; title: string }) {\n  const widthClass = title === \"Join the waitlist\" ? \"cs-intake-card--waitlist\" : \"cs-intake-card--beta\";\n  return <GalleryShell title={`${title} · Mautic design reference`}><section className=\"cs-story-section cs-intake-reference\" data-cs-theme=\"light\"><Panel className={`cs-intake-card ${widthClass}`}><header className=\"cs-intake-heading\"><img alt=\"Creator Signal\" className=\"cs-intake-logo\" src={referencePath(\"/brand-assets/delivery/creator-signal-logo-stacked/light-background.svg\")} /><h2>{title}</h2><p>{intro}</p>{note ? <p className=\"cs-intake-note\">{note}</p> : null}</header>{submitted ? <FormStatus tone=\"success\">Synthetic Storybook state only. Nothing was submitted or saved.</FormStatus> : children}</Panel></section></GalleryShell>;\n}\n\nfunction WaitlistView() {\n  const [tracking, setTracking] = useState(\"\");\n  const [discovery, setDiscovery] = useState(\"\");\n  const [otherHelp, setOtherHelp] = useState(false);\n  const [submitted, setSubmitted] = useState(false);\n  return <IntakeShell intro=\"Be the first to know when Creator Signal is ready.\" submitted={submitted} title=\"Join the waitlist\"><form className=\"cs-intake-form\" onSubmit={(event) => { event.preventDefault(); setSubmitted(true); }}><IntakeText id=\"waitlist-first-name\" label=\"First name\" placeholder=\"Your first name\" required /><IntakeText id=\"waitlist-email\" label=\"Email\" placeholder={\"you\\u0040example.com\"} required type=\"email\" /><fieldset className=\"cs-intake-optional\"><legend>Tell us a bit more <span>(optional)</span></legend><FieldDescription>Totally optional, but it helps us know who we&apos;re building for.</FieldDescription><IntakeText id=\"waitlist-shop-name\" label=\"Spoonflower shop name\" placeholder=\"Your shop name\" /><IntakeSelect id=\"waitlist-selling-tenure\" label=\"How long have you been selling on Spoonflower?\" options={sellingTenureOptions} /><IntakeSelect id=\"waitlist-tracking-method\" label=\"How do you currently track your sales?\" onChange={(event) => setTracking(event.currentTarget.value)} options={salesTrackingOptions} />{tracking === \"other\" ? <IntakeText id=\"waitlist-tracking-method-other\" label=\"Tell us how\" placeholder=\"Tell us how\" /> : null}<IntakeSelect id=\"waitlist-discovery-source\" label=\"How did you hear about us?\" onChange={(event) => setDiscovery(event.currentTarget.value)} options={[\n    [\"instagram\", \"Instagram\"], [\"facebook_group\", \"A Facebook group\"], [\"friend_or_designer\", \"A friend or fellow designer\"], [\"google_search\", \"Google search\"], [\"other\", \"Other\"],\n  ]} />{discovery === \"other\" ? <IntakeText id=\"waitlist-discovery-source-other\" label=\"Tell us where\" placeholder=\"Tell us where\" /> : null}<fieldset className=\"cs-intake-choices\"><legend>What would help you most right now?</legend><Checkbox label=\"Seeing what's actually selling in my shop\" name=\"waitlist-help\" value=\"see_what_sells\" /><Checkbox label=\"Knowing when to upload seasonal designs\" name=\"waitlist-help\" value=\"seasonal_timing\" /><Checkbox label=\"Seeing which category (wallpaper, fabric, home decor) does best\" name=\"waitlist-help\" value=\"category_breakdown\" /><Checkbox label=\"Knowing if people are buying from me again\" name=\"waitlist-help\" value=\"repeat_customers\" /><Checkbox label=\"Just feeling less like I'm guessing\" name=\"waitlist-help\" value=\"stop_guessing\" /><Checkbox checked={otherHelp} label=\"Something else\" name=\"waitlist-help\" onChange={(event) => setOtherHelp(event.currentTarget.checked)} value=\"other\" />{otherHelp ? <IntakeText id=\"waitlist-help-other\" label=\"Tell us what\" placeholder=\"Tell us what\" /> : null}</fieldset></fieldset><fieldset className=\"cs-intake-permission\"><legend>Permission to contact you</legend><Checkbox label=\"Email me one or more updates about Creator Signal launch availability and this waitlist request\" name=\"waitlist-permission\" required value=\"1\" /></fieldset><Button type=\"submit\">Join the Waitlist</Button><p className=\"cs-intake-fineprint\">Free to join. This permission is only for Creator Signal launch availability and this waitlist request. <a href=\"/legal/privacy\">Read the Privacy Policy</a>.</p></form></IntakeShell>;\n}\n\nfunction BetaApplicationView() {\n  const [tracking, setTracking] = useState(\"\");\n  const [submitted, setSubmitted] = useState(false);\n  return <IntakeShell intro=\"Help us test Creator Signal before anyone else.\" note=\"This just means trying it early and telling us what you think, no tech experience needed.\" submitted={submitted} title=\"Try it early\"><form className=\"cs-intake-form\" onSubmit={(event) => { event.preventDefault(); setSubmitted(true); }}><div className=\"cs-intake-two-column\"><IntakeText id=\"beta-first-name\" label=\"First name\" placeholder=\"First name\" required /><IntakeText id=\"beta-last-name\" label=\"Last name\" placeholder=\"Last name\" required /></div><IntakeText id=\"beta-email\" label=\"Email\" placeholder={\"you\\u0040example.com\"} required type=\"email\" /><div className=\"cs-intake-section-heading\"><h3>A bit about your shop <span>(all optional)</span></h3><p>We ask so we can spread testers across every experience level, from just starting out to top sellers.</p></div><IntakeText id=\"beta-shop-name\" label=\"Spoonflower shop name\" placeholder=\"Your shop name\" /><IntakeSelect id=\"beta-design-count\" label=\"How many designs do you have for sale?\" options={[\n    [\"under_25\", \"Under 25\"], [\"25_to_99\", \"25 to 99\"], [\"100_to_299\", \"100 to 299\"], [\"300_or_more\", \"300 or more\"],\n  ]} /><IntakeSelect id=\"beta-selling-tenure\" label=\"How long have you been selling on Spoonflower?\" options={sellingTenureOptions} /><IntakeSelect id=\"beta-monthly-earnings\" label=\"On average, what do you make on Spoonflower per month?\" options={[\n    [\"under_300_usd\", \"Under $300 USD\"], [\"300_to_999_usd\", \"$300 to $999 USD\"], [\"1000_to_1499_usd\", \"$1,000 to $1,499 USD\"], [\"1500_usd_or_more\", \"$1,500 USD or more\"],\n  ]} /><IntakeSelect id=\"beta-tracking-method\" label=\"How do you currently track your sales?\" onChange={(event) => setTracking(event.currentTarget.value)} options={salesTrackingOptions} />{tracking === \"other\" ? <IntakeText id=\"beta-tracking-method-other\" label=\"Tell us how\" placeholder=\"Tell us how\" /> : null}<fieldset className=\"cs-intake-permission\"><legend>Permission to contact you</legend><Checkbox label=\"Email me about this Creator Signal beta application and early testing\" name=\"beta-follow-up-permission\" required value=\"1\" /></fieldset><fieldset className=\"cs-intake-permission\"><legend>Optional testimonial permission</legend><Checkbox label=\"I'm happy to be quoted (first name only) if Creator Signal helps me out\" name=\"beta-testimonial-permission\" value=\"1\" /></fieldset><Button type=\"submit\">Apply to Test It Early</Button><p className=\"cs-intake-fineprint\">Free, no pressure, no commitment. This permission is only for your beta application and early testing. <a href=\"/legal/privacy\">Read the Privacy Policy</a>.</p></form></IntakeShell>;\n}\n\nfunction ProviderContract({ id, title }: { id: string; title: string }) {\n  const journey = inventory.journeys.find((candidate) => candidate.id === id);\n  if (!journey) throw new Error(`missing form journey ${id}`);\n  return <GalleryShell title={title}><section className=\"cs-story-section\"><JourneyContract journey={journey} /></section></GalleryShell>;\n}\n\nfunction CatalogueView() {\n  return <GalleryShell title=\"Form journey catalogue\"><section className=\"cs-story-section\"><Notice heading=\"Synthetic fixtures only\" tone=\"info\"><p>Each entry identifies the real owner, source, Storybook coverage and acceptance boundary. Provider output is never impersonated.</p></Notice></section><section className=\"cs-story-section cs-reference-grid\">{inventory.journeys.map((journey) => <JourneyContract key={journey.id} journey={journey} />)}</section></GalleryShell>;\n}\n\nconst meta = {\n  title: \"Forms/Form gallery\",\n  tags: [\"autodocs\"],\n  parameters: { docs: { description: { component: \"Canonical register-driven form gallery. Reusable primitives render from @creator-signal/ui; product and provider journeys retain their owning implementation and explicit acceptance boundaries.\" } } }\n} satisfies Meta;\n\nexport default meta;\ntype Story = StoryObj<typeof meta>;\n\nexport const Catalogue: Story = { render: () => <CatalogueView /> };\nexport const SharedWorkflowStates: Story = { render: () => <SharedWorkflowStatesView /> };\nexport const SearchAndFileSelection: Story = { render: () => <SearchAndFileSelectionView /> };\nexport const StatementImport: Story = { render: () => <StatementImportView /> };\nexport const LegalConsent: Story = { render: () => <LegalConsentView /> };\nexport const Waitlist: Story = { render: () => <WaitlistView /> };\nexport const BetaApplication: Story = { render: () => <BetaApplicationView /> };\nexport const MauticProviderContract: Story = { render: () => <ProviderContract id=\"mautic.governed-public-forms\" title=\"Mautic provider contract\" /> };\nexport const IdentityProviderContract: Story = { render: () => <ProviderContract id=\"zitadel.identity-journeys\" title=\"ZITADEL identity provider contract\" /> };\nexport const StripeProviderContract: Story = { render: () => <ProviderContract id=\"stripe.billing-and-portal\" title=\"Stripe provider contract\" /> };\nexport const AdminExclusion: Story = { render: () => <ProviderContract id=\"sales-pulse.admin-privileged-controls\" title=\"Admin privileged control exclusion\" /> };\n"
+        "message": "We could not detect the component from your story file. Specify meta.component.\n  107 | }\n  108 |\n> 109 | const meta = {\n      | ^\n  110 |   title: \"Forms/Form gallery\",\n  111 |   tags: [\"autodocs\"],\n  112 |   parameters: { docs: { description: { component: \"Canonical register-driven form gallery. Reusable primitives render from @creator-signal/ui; product and provider journeys retain their owning implementation and explicit acceptance boundaries.\" } } }\n\n./src/stories/FormGallery.stories.tsx:\nimport type { Meta, StoryObj } from \"@storybook/react-vite\";\nimport { useState } from \"react\";\nimport { Badge, Button, Checkbox, Field, FieldDescription, FieldError, FieldLabel, FormStatus, KeyValueItem, KeyValueList, Notice, Panel, Radio, Select, TextInput } from \"@creator-signal/ui\";\nimport { useTheme } from \"@creator-signal/ui/client\";\nimport formInventory from \"../../../../design-system/form-surfaces.json\";\nimport { referencePath } from \"../reference-path\";\n\ntype FormJourney = {\n  id: string;\n  label: string;\n  owner: string;\n  source: string;\n  storybook: { coverage: \"contract\" | \"excluded\" | \"rendered\"; storyId: string; themePreferences?: Array<\"system\" | \"light\" | \"dark\"> };\n  allowedFixtureData: string[];\n  providerBoundary: string;\n  acceptance: string;\n};\n\nconst inventory = formInventory as { journeys: FormJourney[] };\n\nfunction GalleryShell({ children, title }: { children: React.ReactNode; title: string }) {\n  return <main className=\"cs-story-shell\"><p className=\"cs-story-eyebrow\">Canonical form gallery · synthetic only · no submission</p><h1 className=\"cs-story-title\">{title}</h1><p className=\"cs-story-lede\">This is a review projection of governed primitives, source-owned product journeys and honest provider limits. Storybook has no form runtime dependency, provider access or customer data.</p>{children}</main>;\n}\n\nfunction JourneyContract({ journey }: { journey: FormJourney }) {\n  const coverage = journey.storybook.coverage;\n  return <Panel className=\"cs-reference-card\"><Badge tone={coverage === \"rendered\" ? \"success\" : coverage === \"excluded\" ? \"warning\" : \"info\"}>{coverage === \"excluded\" ? \"Tested exclusion\" : coverage === \"rendered\" ? \"Rendered reference\" : \"Integration contract\"}</Badge><h2>{journey.label}</h2><KeyValueList><KeyValueItem label=\"Owner\" value={journey.owner} /><KeyValueItem label=\"Owned source\" value={<code>{journey.source}</code>} /><KeyValueItem label=\"Fixture boundary\" value={journey.allowedFixtureData.join(\", \")} /><KeyValueItem label=\"Acceptance\" value={journey.acceptance} /></KeyValueList><p><strong>Provider boundary:</strong> {journey.providerBoundary}</p></Panel>;\n}\n\nfunction SharedWorkflowStatesView() {\n  return <GalleryShell title=\"Shared workflow states\"><section className=\"cs-story-section cs-reference-grid\"><Panel className=\"cs-reference-card\"><h2>Required and invalid</h2><Field><FieldLabel htmlFor=\"gallery-email\">Email address</FieldLabel><FieldDescription id=\"gallery-email-help\">Synthetic account identity only.</FieldDescription><TextInput id=\"gallery-email\" aria-describedby=\"gallery-email-help gallery-email-error\" aria-invalid=\"true\" defaultValue=\"maya@example.test\" type=\"email\" /><FieldError id=\"gallery-email-error\">Enter a valid email address.</FieldError></Field></Panel><Panel className=\"cs-reference-card\"><h2>Disabled and read-only</h2><Field><FieldLabel htmlFor=\"gallery-readonly\">Workspace reference</FieldLabel><TextInput id=\"gallery-readonly\" readOnly value=\"fixture-workspace-001\" /></Field><Button disabled>Unavailable while checking</Button></Panel><Panel className=\"cs-reference-card\"><h2>Async and outcomes</h2><Button busy>Checking synthetic file</Button><FormStatus tone=\"success\">Synthetic check complete. Nothing was uploaded.</FormStatus><FormStatus tone=\"error\">Synthetic request failed. No change was saved.</FormStatus></Panel><Panel className=\"cs-reference-card\"><h2>Choice controls</h2><Checkbox defaultChecked label=\"Use this synthetic preference\" description=\"No preference is stored.\" /><Radio defaultChecked label=\"Weekly summary\" name=\"gallery-cadence\" /><Radio label=\"Monthly summary\" name=\"gallery-cadence\" /></Panel></section></GalleryShell>;\n}\n\nfunction SearchAndFileSelectionView() {\n  return <GalleryShell title=\"Search and file selection\"><section className=\"cs-story-section cs-reference-grid\"><Panel className=\"cs-reference-card\"><h2>Accessible search</h2><Field><FieldLabel htmlFor=\"gallery-search\">Search synthetic media</FieldLabel><FieldDescription id=\"gallery-search-help\">Filtering is illustrative only; no account or media request is made.</FieldDescription><TextInput id=\"gallery-search\" aria-describedby=\"gallery-search-help\" defaultValue=\"blue fern\" type=\"search\" /></Field><FormStatus>One synthetic result would match this query.</FormStatus></Panel><Panel className=\"cs-reference-card\"><h2>File selection</h2><Field><FieldLabel htmlFor=\"gallery-file\">Select a statement file</FieldLabel><FieldDescription id=\"gallery-file-help\">CSV, TSV and text file types are presented by the owning import journey. This fixture never reads or uploads a file.</FieldDescription><TextInput id=\"gallery-file\" aria-describedby=\"gallery-file-help\" accept=\".csv,.tsv,.txt,text/csv,text/plain,text/tab-separated-values\" type=\"file\" /></Field><Button variant=\"secondary\">Check selected files</Button></Panel></section></GalleryShell>;\n}\n\nfunction StatementImportView() {\n  return <GalleryShell title=\"Statement import integration contract\"><section className=\"cs-story-section\"><Notice heading=\"Owned route, not copied workflow\" tone=\"info\"><p>The production component owns drag and drop, preview/import requests, quota calculations and result details. This projection validates the shared field, file-selection, pending and status states without sending a file or duplicating its route logic.</p></Notice></section><section className=\"cs-story-section cs-reference-grid\">{inventory.journeys.filter(({ id }) => id === \"sales-pulse.statement-import\").map((journey) => <JourneyContract key={journey.id} journey={journey} />)}</section></GalleryShell>;\n}\n\nfunction LegalConsentView() {\n  return <GalleryShell title=\"Legal acceptance integration contract\"><section className=\"cs-story-section\"><Panel className=\"cs-reference-card\"><h2>Revisioned consent</h2><p>Policy revision: <code>fixture-policy-v1</code></p><Checkbox label=\"I have read the synthetic policy summary\" description=\"This control does not record consent.\" /><Button>Continue</Button></Panel></section></GalleryShell>;\n}\n\nconst sellingTenureOptions = [\n  [\"prefer_not_to_say\", \"Prefer not to say\"],\n  [\"less_than_6_months\", \"Less than 6 months\"],\n  [\"6_months_to_1_year\", \"6 months to a year\"],\n  [\"1_to_3_years\", \"1 to 3 years\"],\n  [\"3_years_or_more\", \"3 years or more\"],\n] as const;\n\nconst salesTrackingOptions = [\n  [\"prefer_not_to_say\", \"Prefer not to say\"],\n  [\"does_not_track\", \"I don't track it\"],\n  [\"spoonflower_dashboard\", \"Just Spoonflower's own dashboard\"],\n  [\"manual_notes_or_addition\", \"Manual notes or addition\"],\n  [\"spreadsheet\", \"Spreadsheet with formulas\"],\n  [\"ai_tool\", \"An AI tool (like ChatGPT)\"],\n  [\"other\", \"Other\"],\n] as const;\n\nfunction IntakeSelect({ id, label, onChange, options }: { id: string; label: string; onChange?: React.ChangeEventHandler<HTMLSelectElement>; options: ReadonlyArray<readonly [string, string]> }) {\n  return <Field><FieldLabel htmlFor={id}>{label}</FieldLabel><Select id={id} name={id} onChange={onChange}><option value=\"\">Prefer not to say</option>{options.filter(([value]) => value !== \"prefer_not_to_say\").map(([value, optionLabel]) => <option key={value} value={value}>{optionLabel}</option>)}</Select></Field>;\n}\n\nfunction IntakeText({ className, id, label, placeholder, required = false, type = \"text\" }: { className?: string; id: string; label: string; placeholder: string; required?: boolean; type?: \"email\" | \"text\" }) {\n  return <Field className={className}><FieldLabel htmlFor={id}>{label}</FieldLabel><TextInput id={id} name={id} placeholder={placeholder} required={required} type={type} /></Field>;\n}\n\nfunction IntakeShell({ children, intro, note, submitted, title }: { children: React.ReactNode; intro: string; note?: string; submitted: boolean; title: string }) {\n  const { preference, resolvedTheme } = useTheme();\n  const widthClass = title === \"Join the waitlist\" ? \"cs-intake-card--waitlist\" : \"cs-intake-card--beta\";\n  const logoSurface = resolvedTheme === \"dark\" ? \"dark-background\" : \"light-background\";\n  return <GalleryShell title={`${title} · Mautic design reference`}><section className=\"cs-story-section cs-intake-reference\" data-cs-theme={resolvedTheme} data-cs-theme-preference={preference}><Panel className={`cs-intake-card ${widthClass}`}><header className=\"cs-intake-heading\"><img alt=\"Creator Signal\" className=\"cs-intake-logo\" src={referencePath(`/brand-assets/delivery/creator-signal-logo-stacked/${logoSurface}.svg`)} /><h2>{title}</h2><p>{intro}</p>{note ? <p className=\"cs-intake-note\">{note}</p> : null}</header>{submitted ? <FormStatus tone=\"success\">Synthetic Storybook state only. Nothing was submitted or saved.</FormStatus> : children}</Panel></section></GalleryShell>;\n}\n\nfunction WaitlistView() {\n  const [tracking, setTracking] = useState(\"\");\n  const [discovery, setDiscovery] = useState(\"\");\n  const [otherHelp, setOtherHelp] = useState(false);\n  const [submitted, setSubmitted] = useState(false);\n  return <IntakeShell intro=\"Be the first to know when Creator Signal is ready.\" submitted={submitted} title=\"Join the waitlist\"><form className=\"cs-intake-form\" onSubmit={(event) => { event.preventDefault(); setSubmitted(true); }}><IntakeText id=\"waitlist-first-name\" label=\"First name\" placeholder=\"Your first name\" required /><IntakeText id=\"waitlist-email\" label=\"Email\" placeholder={\"you\\u0040example.com\"} required type=\"email\" /><fieldset className=\"cs-intake-optional\"><legend>Tell us a bit more <span>(optional)</span></legend><FieldDescription>Totally optional, but it helps us know who we&apos;re building for.</FieldDescription><IntakeText id=\"waitlist-shop-name\" label=\"Spoonflower shop name\" placeholder=\"Your shop name\" /><IntakeSelect id=\"waitlist-selling-tenure\" label=\"How long have you been selling on Spoonflower?\" options={sellingTenureOptions} /><IntakeSelect id=\"waitlist-tracking-method\" label=\"How do you currently track your sales?\" onChange={(event) => setTracking(event.currentTarget.value)} options={salesTrackingOptions} />{tracking === \"other\" ? <IntakeText id=\"waitlist-tracking-method-other\" label=\"Tell us how\" placeholder=\"Tell us how\" /> : null}<IntakeSelect id=\"waitlist-discovery-source\" label=\"How did you hear about us?\" onChange={(event) => setDiscovery(event.currentTarget.value)} options={[\n    [\"instagram\", \"Instagram\"], [\"facebook_group\", \"A Facebook group\"], [\"friend_or_designer\", \"A friend or fellow designer\"], [\"google_search\", \"Google search\"], [\"other\", \"Other\"],\n  ]} />{discovery === \"other\" ? <IntakeText id=\"waitlist-discovery-source-other\" label=\"Tell us where\" placeholder=\"Tell us where\" /> : null}<fieldset className=\"cs-intake-choices\"><legend>What would help you most right now?</legend><Checkbox label=\"Seeing what's actually selling in my shop\" name=\"waitlist-help\" value=\"see_what_sells\" /><Checkbox label=\"Knowing when to upload seasonal designs\" name=\"waitlist-help\" value=\"seasonal_timing\" /><Checkbox label=\"Seeing which category (wallpaper, fabric, home decor) does best\" name=\"waitlist-help\" value=\"category_breakdown\" /><Checkbox label=\"Knowing if people are buying from me again\" name=\"waitlist-help\" value=\"repeat_customers\" /><Checkbox label=\"Just feeling less like I'm guessing\" name=\"waitlist-help\" value=\"stop_guessing\" /><Checkbox checked={otherHelp} label=\"Something else\" name=\"waitlist-help\" onChange={(event) => setOtherHelp(event.currentTarget.checked)} value=\"other\" />{otherHelp ? <IntakeText id=\"waitlist-help-other\" label=\"Tell us what\" placeholder=\"Tell us what\" /> : null}</fieldset></fieldset><fieldset className=\"cs-intake-permission\"><legend>Permission to contact you</legend><Checkbox label=\"Email me one or more updates about Creator Signal launch availability and this waitlist request\" name=\"waitlist-permission\" required value=\"1\" /></fieldset><Button type=\"submit\">Join the Waitlist</Button><p className=\"cs-intake-fineprint\">Free to join. This permission is only for Creator Signal launch availability and this waitlist request. <a href=\"/legal/privacy\">Read the Privacy Policy</a>.</p></form></IntakeShell>;\n}\n\nfunction BetaApplicationView() {\n  const [tracking, setTracking] = useState(\"\");\n  const [submitted, setSubmitted] = useState(false);\n  return <IntakeShell intro=\"Help us test Creator Signal before anyone else.\" note=\"This just means trying it early and telling us what you think, no tech experience needed.\" submitted={submitted} title=\"Try it early\"><form className=\"cs-intake-form\" onSubmit={(event) => { event.preventDefault(); setSubmitted(true); }}><div className=\"cs-intake-two-column\"><IntakeText id=\"beta-first-name\" label=\"First name\" placeholder=\"First name\" required /><IntakeText id=\"beta-last-name\" label=\"Last name\" placeholder=\"Last name\" required /></div><IntakeText id=\"beta-email\" label=\"Email\" placeholder={\"you\\u0040example.com\"} required type=\"email\" /><div className=\"cs-intake-section-heading\"><h3>A bit about your shop <span>(all optional)</span></h3><p>We ask so we can spread testers across every experience level, from just starting out to top sellers.</p></div><IntakeText id=\"beta-shop-name\" label=\"Spoonflower shop name\" placeholder=\"Your shop name\" /><IntakeSelect id=\"beta-design-count\" label=\"How many designs do you have for sale?\" options={[\n    [\"under_25\", \"Under 25\"], [\"25_to_99\", \"25 to 99\"], [\"100_to_299\", \"100 to 299\"], [\"300_or_more\", \"300 or more\"],\n  ]} /><IntakeSelect id=\"beta-selling-tenure\" label=\"How long have you been selling on Spoonflower?\" options={sellingTenureOptions} /><IntakeSelect id=\"beta-monthly-earnings\" label=\"On average, what do you make on Spoonflower per month?\" options={[\n    [\"under_300_usd\", \"Under $300 USD\"], [\"300_to_999_usd\", \"$300 to $999 USD\"], [\"1000_to_1499_usd\", \"$1,000 to $1,499 USD\"], [\"1500_usd_or_more\", \"$1,500 USD or more\"],\n  ]} /><IntakeSelect id=\"beta-tracking-method\" label=\"How do you currently track your sales?\" onChange={(event) => setTracking(event.currentTarget.value)} options={salesTrackingOptions} />{tracking === \"other\" ? <IntakeText id=\"beta-tracking-method-other\" label=\"Tell us how\" placeholder=\"Tell us how\" /> : null}<fieldset className=\"cs-intake-permission\"><legend>Permission to contact you</legend><Checkbox label=\"Email me about this Creator Signal beta application and early testing\" name=\"beta-follow-up-permission\" required value=\"1\" /></fieldset><fieldset className=\"cs-intake-permission\"><legend>Optional testimonial permission</legend><Checkbox label=\"I'm happy to be quoted (first name only) if Creator Signal helps me out\" name=\"beta-testimonial-permission\" value=\"1\" /></fieldset><Button type=\"submit\">Apply to Test It Early</Button><p className=\"cs-intake-fineprint\">Free, no pressure, no commitment. This permission is only for your beta application and early testing. <a href=\"/legal/privacy\">Read the Privacy Policy</a>.</p></form></IntakeShell>;\n}\n\nfunction ProviderContract({ id, title }: { id: string; title: string }) {\n  const journey = inventory.journeys.find((candidate) => candidate.id === id);\n  if (!journey) throw new Error(`missing form journey ${id}`);\n  return <GalleryShell title={title}><section className=\"cs-story-section\"><JourneyContract journey={journey} /></section></GalleryShell>;\n}\n\nfunction CatalogueView() {\n  return <GalleryShell title=\"Form journey catalogue\"><section className=\"cs-story-section\"><Notice heading=\"Synthetic fixtures only\" tone=\"info\"><p>Each entry identifies the real owner, source, Storybook coverage and acceptance boundary. Provider output is never impersonated.</p></Notice></section><section className=\"cs-story-section cs-reference-grid\">{inventory.journeys.map((journey) => <JourneyContract key={journey.id} journey={journey} />)}</section></GalleryShell>;\n}\n\nconst meta = {\n  title: \"Forms/Form gallery\",\n  tags: [\"autodocs\"],\n  parameters: { docs: { description: { component: \"Canonical register-driven form gallery. Reusable primitives render from @creator-signal/ui; product and provider journeys retain their owning implementation and explicit acceptance boundaries.\" } } }\n} satisfies Meta;\n\nexport default meta;\ntype Story = StoryObj<typeof meta>;\n\nexport const Catalogue: Story = { render: () => <CatalogueView /> };\nexport const SharedWorkflowStates: Story = { render: () => <SharedWorkflowStatesView /> };\nexport const SearchAndFileSelection: Story = { render: () => <SearchAndFileSelectionView /> };\nexport const StatementImport: Story = { render: () => <StatementImportView /> };\nexport const LegalConsent: Story = { render: () => <LegalConsentView /> };\nexport const Waitlist: Story = { render: () => <WaitlistView /> };\nexport const BetaApplication: Story = { render: () => <BetaApplicationView /> };\nexport const MauticProviderContract: Story = { render: () => <ProviderContract id=\"mautic.governed-public-forms\" title=\"Mautic provider contract\" /> };\nexport const IdentityProviderContract: Story = { render: () => <ProviderContract id=\"zitadel.identity-journeys\" title=\"ZITADEL identity provider contract\" /> };\nexport const StripeProviderContract: Story = { render: () => <ProviderContract id=\"stripe.billing-and-portal\" title=\"Stripe provider contract\" /> };\nexport const AdminExclusion: Story = { render: () => <ProviderContract id=\"sales-pulse.admin-privileged-controls\" title=\"Admin privileged control exclusion\" /> };\n"
       },
       "stories": [
         {
@@ -3975,7 +3975,7 @@
           "snippet": "const AdminExclusion = () => <ProviderContract id=\"sales-pulse.admin-privileged-controls\" title=\"Admin privileged control exclusion\" />;"
         }
       ],
-      "import": "import {\n    Badge,\n    Button,\n    Checkbox,\n    Field,\n    FieldDescription,\n    FieldError,\n    FieldLabel,\n    FormStatus,\n    KeyValueItem,\n    KeyValueList,\n    Notice,\n    Panel,\n    Radio,\n    Select,\n    TextInput,\n} from \"@creator-signal/design-system-reference\";"
+      "import": "import {\r\n    Badge,\r\n    Button,\r\n    Checkbox,\r\n    Field,\r\n    FieldDescription,\r\n    FieldError,\r\n    FieldLabel,\r\n    FormStatus,\r\n    KeyValueItem,\r\n    KeyValueList,\r\n    Notice,\r\n    Panel,\r\n    Radio,\r\n    Select,\r\n    TextInput,\r\n} from \"@creator-signal/design-system-reference\";"
     },
     "products-sales-pulse-pro-dashboard": {
       "id": "products-sales-pulse-pro-dashboard",
@@ -4307,6 +4307,6 @@
   },
   "meta": {
     "docgen": "react-docgen",
-    "durationMs": 1346
+    "durationMs": 2464
   }
 }
