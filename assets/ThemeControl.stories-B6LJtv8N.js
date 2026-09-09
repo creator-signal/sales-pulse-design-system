@@ -1,0 +1,5 @@
+import{k as c,T as t,j as e,u as m}from"./iframe-C7zCaA2D.js";import"./preload-helper-x6r9jKQR.js";function n({variant:a="select"}){const o=m();return e.jsxs("div",{className:"cs-ui-review-stack",children:[e.jsx(t,{label:"Appearance",variant:a}),e.jsxs("p",{children:["Preference: ",e.jsx("strong",{children:o.preference}),"; resolved: ",e.jsx("strong",{children:o.resolvedTheme})]})]})}const l={id:"dls-widgets-theme-control-behaviour",title:"Components/Interaction/Theme control",component:t,subcomponents:{ThemeProvider:c},tags:["autodocs"]},r={render:()=>e.jsx(n,{})},s={render:()=>e.jsx(n,{variant:"icon"})};r.parameters={...r.parameters,docs:{...r.parameters?.docs,source:{originalSource:`{
+  render: () => <ThemeState />
+}`,...r.parameters?.docs?.source}}};s.parameters={...s.parameters,docs:{...s.parameters?.docs,source:{originalSource:`{
+  render: () => <ThemeState variant="icon" />
+}`,...s.parameters?.docs?.source}}};const p=["SystemLightDark","BrowserExtensionIconToggle"];export{s as BrowserExtensionIconToggle,r as SystemLightDark,p as __namedExportsOrder,l as default};
