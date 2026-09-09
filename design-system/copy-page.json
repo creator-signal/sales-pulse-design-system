@@ -1,0 +1,1027 @@
+{
+  "schemaVersion": "creator-signal.design-system-copy-page/v1",
+  "issue": 1414,
+  "sourceRevision": "694a55c8323c88eb3a14e04df04840d75295d889",
+  "entries": [
+    {
+      "id": "widget.accordion",
+      "label": "Accordion",
+      "kind": "widget",
+      "storyId": "dls-widgets--accordion-reference",
+      "sourcePath": "packages/ui/src/client.tsx",
+      "url": "/sales-pulse-design-system/?path=/story/dls-widgets--accordion-reference",
+      "docsUrl": "/sales-pulse-design-system/?path=/docs/dls-widgets--docs",
+      "copyText": "Accordion\nStory: /sales-pulse-design-system/?path=/story/dls-widgets--accordion-reference\nDocs and source: /sales-pulse-design-system/?path=/docs/dls-widgets--docs\nAuthority: packages/ui/src/client.tsx"
+    },
+    {
+      "id": "pattern.account-plan-billing",
+      "label": "Account, plan and billing",
+      "kind": "pattern",
+      "storyId": "dls-patterns-examples--account-plan-billing-states",
+      "sourcePath": "design-system/patterns/source.json",
+      "url": "/sales-pulse-design-system/?path=/story/dls-patterns-examples--account-plan-billing-states",
+      "docsUrl": "/sales-pulse-design-system/?path=/docs/dls-patterns-examples--docs",
+      "copyText": "Account, plan and billing\nStory: /sales-pulse-design-system/?path=/story/dls-patterns-examples--account-plan-billing-states\nDocs and source: /sales-pulse-design-system/?path=/docs/dls-patterns-examples--docs\nAuthority: design-system/patterns/source.json"
+    },
+    {
+      "id": "guidance.content-actions",
+      "label": "Actions and choices",
+      "kind": "content",
+      "storyId": "dls-content--overview",
+      "sourcePath": "design-system/guidance/source.json",
+      "url": "/sales-pulse-design-system/?path=/story/dls-content--overview",
+      "docsUrl": "/sales-pulse-design-system/?path=/docs/dls-content--docs",
+      "copyText": "Actions and choices\nStory: /sales-pulse-design-system/?path=/story/dls-content--overview\nDocs and source: /sales-pulse-design-system/?path=/docs/dls-content--docs\nAuthority: design-system/guidance/source.json"
+    },
+    {
+      "id": "guidance.guidelines-adoption-author",
+      "label": "Adoption for content authors",
+      "kind": "guidelines",
+      "storyId": "dls-guidelines--overview",
+      "sourcePath": "design-system/guidance/source.json",
+      "url": "/sales-pulse-design-system/?path=/story/dls-guidelines--overview",
+      "docsUrl": "/sales-pulse-design-system/?path=/docs/dls-guidelines--docs",
+      "copyText": "Adoption for content authors\nStory: /sales-pulse-design-system/?path=/story/dls-guidelines--overview\nDocs and source: /sales-pulse-design-system/?path=/docs/dls-guidelines--docs\nAuthority: design-system/guidance/source.json"
+    },
+    {
+      "id": "guidance.guidelines-adoption-designer",
+      "label": "Adoption for designers",
+      "kind": "guidelines",
+      "storyId": "dls-guidelines--overview",
+      "sourcePath": "design-system/guidance/source.json",
+      "url": "/sales-pulse-design-system/?path=/story/dls-guidelines--overview",
+      "docsUrl": "/sales-pulse-design-system/?path=/docs/dls-guidelines--docs",
+      "copyText": "Adoption for designers\nStory: /sales-pulse-design-system/?path=/story/dls-guidelines--overview\nDocs and source: /sales-pulse-design-system/?path=/docs/dls-guidelines--docs\nAuthority: design-system/guidance/source.json"
+    },
+    {
+      "id": "guidance.guidelines-adoption-developer",
+      "label": "Adoption for developers",
+      "kind": "guidelines",
+      "storyId": "dls-guidelines--overview",
+      "sourcePath": "design-system/guidance/source.json",
+      "url": "/sales-pulse-design-system/?path=/story/dls-guidelines--overview",
+      "docsUrl": "/sales-pulse-design-system/?path=/docs/dls-guidelines--docs",
+      "copyText": "Adoption for developers\nStory: /sales-pulse-design-system/?path=/story/dls-guidelines--overview\nDocs and source: /sales-pulse-design-system/?path=/docs/dls-guidelines--docs\nAuthority: design-system/guidance/source.json"
+    },
+    {
+      "id": "guidance.content-alternative-text",
+      "label": "Alternative text",
+      "kind": "content",
+      "storyId": "dls-content--overview",
+      "sourcePath": "design-system/guidance/source.json",
+      "url": "/sales-pulse-design-system/?path=/story/dls-content--overview",
+      "docsUrl": "/sales-pulse-design-system/?path=/docs/dls-content--docs",
+      "copyText": "Alternative text\nStory: /sales-pulse-design-system/?path=/story/dls-content--overview\nDocs and source: /sales-pulse-design-system/?path=/docs/dls-content--docs\nAuthority: design-system/guidance/source.json"
+    },
+    {
+      "id": "pattern.analytics-recommendation",
+      "label": "Analytics and explainable recommendation",
+      "kind": "pattern",
+      "storyId": "dls-patterns-examples--data-table-analytics-recommendation",
+      "sourcePath": "design-system/patterns/source.json",
+      "url": "/sales-pulse-design-system/?path=/story/dls-patterns-examples--data-table-analytics-recommendation",
+      "docsUrl": "/sales-pulse-design-system/?path=/docs/dls-patterns-examples--docs",
+      "copyText": "Analytics and explainable recommendation\nStory: /sales-pulse-design-system/?path=/story/dls-patterns-examples--data-table-analytics-recommendation\nDocs and source: /sales-pulse-design-system/?path=/docs/dls-patterns-examples--docs\nAuthority: design-system/patterns/source.json"
+    },
+    {
+      "id": "guidance.content-vocabulary",
+      "label": "Approved vocabulary",
+      "kind": "content",
+      "storyId": "dls-content--overview",
+      "sourcePath": "design-system/guidance/source.json",
+      "url": "/sales-pulse-design-system/?path=/story/dls-content--overview",
+      "docsUrl": "/sales-pulse-design-system/?path=/docs/dls-content--docs",
+      "copyText": "Approved vocabulary\nStory: /sales-pulse-design-system/?path=/story/dls-content--overview\nDocs and source: /sales-pulse-design-system/?path=/docs/dls-content--docs\nAuthority: design-system/guidance/source.json"
+    },
+    {
+      "id": "guidance.content-australian-english",
+      "label": "Australian English",
+      "kind": "content",
+      "storyId": "dls-content--overview",
+      "sourcePath": "design-system/guidance/source.json",
+      "url": "/sales-pulse-design-system/?path=/story/dls-content--overview",
+      "docsUrl": "/sales-pulse-design-system/?path=/docs/dls-content--docs",
+      "copyText": "Australian English\nStory: /sales-pulse-design-system/?path=/story/dls-content--overview\nDocs and source: /sales-pulse-design-system/?path=/docs/dls-content--docs\nAuthority: design-system/guidance/source.json"
+    },
+    {
+      "id": "guidance.principles-authority-before-novelty",
+      "label": "Authority before novelty",
+      "kind": "principles",
+      "storyId": "dls-principles--overview",
+      "sourcePath": "design-system/guidance/source.json",
+      "url": "/sales-pulse-design-system/?path=/story/dls-principles--overview",
+      "docsUrl": "/sales-pulse-design-system/?path=/docs/dls-principles--docs",
+      "copyText": "Authority before novelty\nStory: /sales-pulse-design-system/?path=/story/dls-principles--overview\nDocs and source: /sales-pulse-design-system/?path=/docs/dls-principles--docs\nAuthority: design-system/guidance/source.json"
+    },
+    {
+      "id": "guidance.guidelines-bidirectional",
+      "label": "Bidirectional and RTL layout",
+      "kind": "guidelines",
+      "storyId": "dls-guidelines--overview",
+      "sourcePath": "design-system/guidance/source.json",
+      "url": "/sales-pulse-design-system/?path=/story/dls-guidelines--overview",
+      "docsUrl": "/sales-pulse-design-system/?path=/docs/dls-guidelines--docs",
+      "copyText": "Bidirectional and RTL layout\nStory: /sales-pulse-design-system/?path=/story/dls-guidelines--overview\nDocs and source: /sales-pulse-design-system/?path=/docs/dls-guidelines--docs\nAuthority: design-system/guidance/source.json"
+    },
+    {
+      "id": "guidance.foundations-branding",
+      "label": "Branding",
+      "kind": "foundations",
+      "storyId": "dls-foundations--overview",
+      "sourcePath": "design-system/guidance/source.json",
+      "url": "/sales-pulse-design-system/?path=/story/dls-foundations--overview",
+      "docsUrl": "/sales-pulse-design-system/?path=/docs/dls-foundations--docs",
+      "copyText": "Branding\nStory: /sales-pulse-design-system/?path=/story/dls-foundations--overview\nDocs and source: /sales-pulse-design-system/?path=/docs/dls-foundations--docs\nAuthority: design-system/guidance/source.json"
+    },
+    {
+      "id": "component.button",
+      "label": "Button",
+      "kind": "component",
+      "storyId": "dls-components--button-reference",
+      "sourcePath": "packages/ui/src/server.tsx",
+      "url": "/sales-pulse-design-system/?path=/story/dls-components--button-reference",
+      "docsUrl": "/sales-pulse-design-system/?path=/docs/dls-components--docs",
+      "copyText": "Button\nStory: /sales-pulse-design-system/?path=/story/dls-components--button-reference\nDocs and source: /sales-pulse-design-system/?path=/docs/dls-components--docs\nAuthority: packages/ui/src/server.tsx"
+    },
+    {
+      "id": "component.card",
+      "label": "Card",
+      "kind": "component",
+      "storyId": "dls-components--card-reference",
+      "sourcePath": "packages/ui/src/server.tsx",
+      "url": "/sales-pulse-design-system/?path=/story/dls-components--card-reference",
+      "docsUrl": "/sales-pulse-design-system/?path=/docs/dls-components--docs",
+      "copyText": "Card\nStory: /sales-pulse-design-system/?path=/story/dls-components--card-reference\nDocs and source: /sales-pulse-design-system/?path=/docs/dls-components--docs\nAuthority: packages/ui/src/server.tsx"
+    },
+    {
+      "id": "guidance.guidelines-change-process",
+      "label": "Change process",
+      "kind": "guidelines",
+      "storyId": "dls-guidelines--overview",
+      "sourcePath": "design-system/guidance/source.json",
+      "url": "/sales-pulse-design-system/?path=/story/dls-guidelines--overview",
+      "docsUrl": "/sales-pulse-design-system/?path=/docs/dls-guidelines--docs",
+      "copyText": "Change process\nStory: /sales-pulse-design-system/?path=/story/dls-guidelines--overview\nDocs and source: /sales-pulse-design-system/?path=/docs/dls-guidelines--docs\nAuthority: design-system/guidance/source.json"
+    },
+    {
+      "id": "component.chart-legend",
+      "label": "Chart legend",
+      "kind": "component",
+      "storyId": "dls-components--chart-legend-reference",
+      "sourcePath": "packages/ui/src/server.tsx",
+      "url": "/sales-pulse-design-system/?path=/story/dls-components--chart-legend-reference",
+      "docsUrl": "/sales-pulse-design-system/?path=/docs/dls-components--docs",
+      "copyText": "Chart legend\nStory: /sales-pulse-design-system/?path=/story/dls-components--chart-legend-reference\nDocs and source: /sales-pulse-design-system/?path=/docs/dls-components--docs\nAuthority: packages/ui/src/server.tsx"
+    },
+    {
+      "id": "component.choice-controls",
+      "label": "Choice controls",
+      "kind": "component",
+      "storyId": "dls-components--choice-controls",
+      "sourcePath": "packages/ui/src/server.tsx",
+      "url": "/sales-pulse-design-system/?path=/story/dls-components--choice-controls",
+      "docsUrl": "/sales-pulse-design-system/?path=/docs/dls-components--docs",
+      "copyText": "Choice controls\nStory: /sales-pulse-design-system/?path=/story/dls-components--choice-controls\nDocs and source: /sales-pulse-design-system/?path=/docs/dls-components--docs\nAuthority: packages/ui/src/server.tsx"
+    },
+    {
+      "id": "guidance.guidelines-choreography",
+      "label": "Choreography",
+      "kind": "guidelines",
+      "storyId": "dls-guidelines--overview",
+      "sourcePath": "design-system/guidance/source.json",
+      "url": "/sales-pulse-design-system/?path=/story/dls-guidelines--overview",
+      "docsUrl": "/sales-pulse-design-system/?path=/docs/dls-guidelines--docs",
+      "copyText": "Choreography\nStory: /sales-pulse-design-system/?path=/story/dls-guidelines--overview\nDocs and source: /sales-pulse-design-system/?path=/docs/dls-guidelines--docs\nAuthority: design-system/guidance/source.json"
+    },
+    {
+      "id": "experience.marketing.content-page",
+      "label": "CMS content page",
+      "kind": "experience",
+      "storyId": "consumers-instatic-component-library-creator-signal-patterns--creator-signal-site-pattern-content-page",
+      "sourcePath": "design-system/experiences/source.json",
+      "url": "/sales-pulse-design-system/?path=/story/consumers-instatic-component-library-creator-signal-patterns--creator-signal-site-pattern-content-page",
+      "docsUrl": "/sales-pulse-design-system/?path=/docs/consumers-instatic-component-library-creator-signal-patterns--docs",
+      "copyText": "CMS content page\nStory: /sales-pulse-design-system/?path=/story/consumers-instatic-component-library-creator-signal-patterns--creator-signal-site-pattern-content-page\nDocs and source: /sales-pulse-design-system/?path=/docs/consumers-instatic-component-library-creator-signal-patterns--docs\nAuthority: design-system/experiences/source.json"
+    },
+    {
+      "id": "guidance.foundations-colour",
+      "label": "Colour",
+      "kind": "foundations",
+      "storyId": "dls-foundations--overview",
+      "sourcePath": "design-system/guidance/source.json",
+      "url": "/sales-pulse-design-system/?path=/story/dls-foundations--overview",
+      "docsUrl": "/sales-pulse-design-system/?path=/docs/dls-foundations--docs",
+      "copyText": "Colour\nStory: /sales-pulse-design-system/?path=/story/dls-foundations--overview\nDocs and source: /sales-pulse-design-system/?path=/docs/dls-foundations--docs\nAuthority: design-system/guidance/source.json"
+    },
+    {
+      "id": "section.components",
+      "label": "Components",
+      "kind": "section",
+      "storyId": "dls-component-catalogue--overview",
+      "sourcePath": "packages/ui/components/source.json",
+      "url": "/sales-pulse-design-system/?path=/story/dls-component-catalogue--overview",
+      "docsUrl": "/sales-pulse-design-system/?path=/docs/dls-component-catalogue--docs",
+      "copyText": "Components\nStory: /sales-pulse-design-system/?path=/story/dls-component-catalogue--overview\nDocs and source: /sales-pulse-design-system/?path=/docs/dls-component-catalogue--docs\nAuthority: packages/ui/components/source.json"
+    },
+    {
+      "id": "pattern.confirm-destructive",
+      "label": "Confirmation and destructive action",
+      "kind": "pattern",
+      "storyId": "dls-patterns-examples--confirmation-and-destructive-flow",
+      "sourcePath": "design-system/patterns/source.json",
+      "url": "/sales-pulse-design-system/?path=/story/dls-patterns-examples--confirmation-and-destructive-flow",
+      "docsUrl": "/sales-pulse-design-system/?path=/docs/dls-patterns-examples--docs",
+      "copyText": "Confirmation and destructive action\nStory: /sales-pulse-design-system/?path=/story/dls-patterns-examples--confirmation-and-destructive-flow\nDocs and source: /sales-pulse-design-system/?path=/docs/dls-patterns-examples--docs\nAuthority: design-system/patterns/source.json"
+    },
+    {
+      "id": "supporting.consumers",
+      "label": "Consumers",
+      "kind": "supporting",
+      "storyId": "consumers-instatic-component-library--impact-gallery",
+      "sourcePath": "apps/design-system/instatic-projection.json",
+      "url": "/sales-pulse-design-system/?path=/story/consumers-instatic-component-library--impact-gallery",
+      "docsUrl": "/sales-pulse-design-system/?path=/docs/consumers-instatic-component-library--docs",
+      "copyText": "Consumers\nStory: /sales-pulse-design-system/?path=/story/consumers-instatic-component-library--impact-gallery\nDocs and source: /sales-pulse-design-system/?path=/docs/consumers-instatic-component-library--docs\nAuthority: apps/design-system/instatic-projection.json"
+    },
+    {
+      "id": "section.content",
+      "label": "Content",
+      "kind": "section",
+      "storyId": "dls-content--overview",
+      "sourcePath": "design-system/guidance/source.json",
+      "url": "/sales-pulse-design-system/?path=/story/dls-content--overview",
+      "docsUrl": "/sales-pulse-design-system/?path=/docs/dls-content--docs",
+      "copyText": "Content\nStory: /sales-pulse-design-system/?path=/story/dls-content--overview\nDocs and source: /sales-pulse-design-system/?path=/docs/dls-content--docs\nAuthority: design-system/guidance/source.json"
+    },
+    {
+      "id": "experience.product.creator-workspace",
+      "label": "Creator workspace",
+      "kind": "experience",
+      "storyId": "products-surface-translations--sales-pulse-creator-workspace",
+      "sourcePath": "design-system/experiences/source.json",
+      "url": "/sales-pulse-design-system/?path=/story/products-surface-translations--sales-pulse-creator-workspace",
+      "docsUrl": "/sales-pulse-design-system/?path=/docs/products-surface-translations--docs",
+      "copyText": "Creator workspace\nStory: /sales-pulse-design-system/?path=/story/products-surface-translations--sales-pulse-creator-workspace\nDocs and source: /sales-pulse-design-system/?path=/docs/products-surface-translations--docs\nAuthority: design-system/experiences/source.json"
+    },
+    {
+      "id": "guidance.foundations-data-visualisation",
+      "label": "Data visualisation",
+      "kind": "foundations",
+      "storyId": "dls-foundations--overview",
+      "sourcePath": "design-system/guidance/source.json",
+      "url": "/sales-pulse-design-system/?path=/story/dls-foundations--overview",
+      "docsUrl": "/sales-pulse-design-system/?path=/docs/dls-foundations--docs",
+      "copyText": "Data visualisation\nStory: /sales-pulse-design-system/?path=/story/dls-foundations--overview\nDocs and source: /sales-pulse-design-system/?path=/docs/dls-foundations--docs\nAuthority: design-system/guidance/source.json"
+    },
+    {
+      "id": "guidance.guidelines-decorative-animation",
+      "label": "Decorative animation",
+      "kind": "guidelines",
+      "storyId": "dls-guidelines--overview",
+      "sourcePath": "design-system/guidance/source.json",
+      "url": "/sales-pulse-design-system/?path=/story/dls-guidelines--overview",
+      "docsUrl": "/sales-pulse-design-system/?path=/docs/dls-guidelines--docs",
+      "copyText": "Decorative animation\nStory: /sales-pulse-design-system/?path=/story/dls-guidelines--overview\nDocs and source: /sales-pulse-design-system/?path=/docs/dls-guidelines--docs\nAuthority: design-system/guidance/source.json"
+    },
+    {
+      "id": "widget.dialog",
+      "label": "Dialog",
+      "kind": "widget",
+      "storyId": "dls-widgets--dialog-reference",
+      "sourcePath": "packages/ui/src/client.tsx",
+      "url": "/sales-pulse-design-system/?path=/story/dls-widgets--dialog-reference",
+      "docsUrl": "/sales-pulse-design-system/?path=/docs/dls-widgets--docs",
+      "copyText": "Dialog\nStory: /sales-pulse-design-system/?path=/story/dls-widgets--dialog-reference\nDocs and source: /sales-pulse-design-system/?path=/docs/dls-widgets--docs\nAuthority: packages/ui/src/client.tsx"
+    },
+    {
+      "id": "widget.disclosure",
+      "label": "Disclosure",
+      "kind": "widget",
+      "storyId": "dls-widgets--disclosure-reference",
+      "sourcePath": "packages/ui/src/server.tsx",
+      "url": "/sales-pulse-design-system/?path=/story/dls-widgets--disclosure-reference",
+      "docsUrl": "/sales-pulse-design-system/?path=/docs/dls-widgets--docs",
+      "copyText": "Disclosure\nStory: /sales-pulse-design-system/?path=/story/dls-widgets--disclosure-reference\nDocs and source: /sales-pulse-design-system/?path=/docs/dls-widgets--docs\nAuthority: packages/ui/src/server.tsx"
+    },
+    {
+      "id": "section.elements",
+      "label": "Elements",
+      "kind": "section",
+      "storyId": "dls-elements--overview",
+      "sourcePath": "packages/design-system/elements/source.json",
+      "url": "/sales-pulse-design-system/?path=/story/dls-elements--overview",
+      "docsUrl": "/sales-pulse-design-system/?path=/docs/dls-elements--docs",
+      "copyText": "Elements\nStory: /sales-pulse-design-system/?path=/story/dls-elements--overview\nDocs and source: /sales-pulse-design-system/?path=/docs/dls-elements--docs\nAuthority: packages/design-system/elements/source.json"
+    },
+    {
+      "id": "component.terminal-state",
+      "label": "Empty and error states",
+      "kind": "component",
+      "storyId": "dls-components--terminal-state",
+      "sourcePath": "packages/ui/src/server.tsx",
+      "url": "/sales-pulse-design-system/?path=/story/dls-components--terminal-state",
+      "docsUrl": "/sales-pulse-design-system/?path=/docs/dls-components--docs",
+      "copyText": "Empty and error states\nStory: /sales-pulse-design-system/?path=/story/dls-components--terminal-state\nDocs and source: /sales-pulse-design-system/?path=/docs/dls-components--docs\nAuthority: packages/ui/src/server.tsx"
+    },
+    {
+      "id": "guidance.guidelines-experience-contexts",
+      "label": "Experience contexts",
+      "kind": "guidelines",
+      "storyId": "dls-guidelines--overview",
+      "sourcePath": "design-system/guidance/source.json",
+      "url": "/sales-pulse-design-system/?path=/story/dls-guidelines--overview",
+      "docsUrl": "/sales-pulse-design-system/?path=/docs/dls-guidelines--docs",
+      "copyText": "Experience contexts\nStory: /sales-pulse-design-system/?path=/story/dls-guidelines--overview\nDocs and source: /sales-pulse-design-system/?path=/docs/dls-guidelines--docs\nAuthority: design-system/guidance/source.json"
+    },
+    {
+      "id": "section.experiences",
+      "label": "Experiences",
+      "kind": "section",
+      "storyId": "dls-experiences--catalogue",
+      "sourcePath": "design-system/experiences/source.json",
+      "url": "/sales-pulse-design-system/?path=/story/dls-experiences--catalogue",
+      "docsUrl": "/sales-pulse-design-system/?path=/docs/dls-experiences--docs",
+      "copyText": "Experiences\nStory: /sales-pulse-design-system/?path=/story/dls-experiences--catalogue\nDocs and source: /sales-pulse-design-system/?path=/docs/dls-experiences--docs\nAuthority: design-system/experiences/source.json"
+    },
+    {
+      "id": "component.field",
+      "label": "Field",
+      "kind": "component",
+      "storyId": "dls-components--field-reference",
+      "sourcePath": "packages/ui/src/server.tsx",
+      "url": "/sales-pulse-design-system/?path=/story/dls-components--field-reference",
+      "docsUrl": "/sales-pulse-design-system/?path=/docs/dls-components--docs",
+      "copyText": "Field\nStory: /sales-pulse-design-system/?path=/story/dls-components--field-reference\nDocs and source: /sales-pulse-design-system/?path=/docs/dls-components--docs\nAuthority: packages/ui/src/server.tsx"
+    },
+    {
+      "id": "component.form-status",
+      "label": "Form status",
+      "kind": "component",
+      "storyId": "dls-components--form-status-reference",
+      "sourcePath": "packages/ui/src/server.tsx",
+      "url": "/sales-pulse-design-system/?path=/story/dls-components--form-status-reference",
+      "docsUrl": "/sales-pulse-design-system/?path=/docs/dls-components--docs",
+      "copyText": "Form status\nStory: /sales-pulse-design-system/?path=/story/dls-components--form-status-reference\nDocs and source: /sales-pulse-design-system/?path=/docs/dls-components--docs\nAuthority: packages/ui/src/server.tsx"
+    },
+    {
+      "id": "pattern.form-authentication",
+      "label": "Forms and authentication",
+      "kind": "pattern",
+      "storyId": "dls-patterns-examples--form-layout-and-authentication",
+      "sourcePath": "design-system/patterns/source.json",
+      "url": "/sales-pulse-design-system/?path=/story/dls-patterns-examples--form-layout-and-authentication",
+      "docsUrl": "/sales-pulse-design-system/?path=/docs/dls-patterns-examples--docs",
+      "copyText": "Forms and authentication\nStory: /sales-pulse-design-system/?path=/story/dls-patterns-examples--form-layout-and-authentication\nDocs and source: /sales-pulse-design-system/?path=/docs/dls-patterns-examples--docs\nAuthority: design-system/patterns/source.json"
+    },
+    {
+      "id": "section.foundations",
+      "label": "Foundations",
+      "kind": "section",
+      "storyId": "dls-foundations--overview",
+      "sourcePath": "design-system/guidance/source.json",
+      "url": "/sales-pulse-design-system/?path=/story/dls-foundations--overview",
+      "docsUrl": "/sales-pulse-design-system/?path=/docs/dls-foundations--docs",
+      "copyText": "Foundations\nStory: /sales-pulse-design-system/?path=/story/dls-foundations--overview\nDocs and source: /sales-pulse-design-system/?path=/docs/dls-foundations--docs\nAuthority: design-system/guidance/source.json"
+    },
+    {
+      "id": "supporting.governance",
+      "label": "Governance",
+      "kind": "supporting",
+      "storyId": "governance-canonical-surface-register--current-projection",
+      "sourcePath": "design-system/governance.json",
+      "url": "/sales-pulse-design-system/?path=/story/governance-canonical-surface-register--current-projection",
+      "docsUrl": "/sales-pulse-design-system/?path=/docs/governance-canonical-surface-register--docs",
+      "copyText": "Governance\nStory: /sales-pulse-design-system/?path=/story/governance-canonical-surface-register--current-projection\nDocs and source: /sales-pulse-design-system/?path=/docs/governance-canonical-surface-register--docs\nAuthority: design-system/governance.json"
+    },
+    {
+      "id": "guidance.content-grammar-and-case",
+      "label": "Grammar and case",
+      "kind": "content",
+      "storyId": "dls-content--overview",
+      "sourcePath": "design-system/guidance/source.json",
+      "url": "/sales-pulse-design-system/?path=/story/dls-content--overview",
+      "docsUrl": "/sales-pulse-design-system/?path=/docs/dls-content--docs",
+      "copyText": "Grammar and case\nStory: /sales-pulse-design-system/?path=/story/dls-content--overview\nDocs and source: /sales-pulse-design-system/?path=/docs/dls-content--docs\nAuthority: design-system/guidance/source.json"
+    },
+    {
+      "id": "section.guidelines",
+      "label": "Guidelines",
+      "kind": "section",
+      "storyId": "dls-guidelines--overview",
+      "sourcePath": "design-system/guidance/source.json",
+      "url": "/sales-pulse-design-system/?path=/story/dls-guidelines--overview",
+      "docsUrl": "/sales-pulse-design-system/?path=/docs/dls-guidelines--docs",
+      "copyText": "Guidelines\nStory: /sales-pulse-design-system/?path=/story/dls-guidelines--overview\nDocs and source: /sales-pulse-design-system/?path=/docs/dls-guidelines--docs\nAuthority: design-system/guidance/source.json"
+    },
+    {
+      "id": "experience.product.helper-connections",
+      "label": "Helper connection status",
+      "kind": "experience",
+      "storyId": "products-sales-pulse-helper--connected",
+      "sourcePath": "design-system/experiences/source.json",
+      "url": "/sales-pulse-design-system/?path=/story/products-sales-pulse-helper--connected",
+      "docsUrl": "/sales-pulse-design-system/?path=/docs/products-sales-pulse-helper--docs",
+      "copyText": "Helper connection status\nStory: /sales-pulse-design-system/?path=/story/products-sales-pulse-helper--connected\nDocs and source: /sales-pulse-design-system/?path=/docs/products-sales-pulse-helper--docs\nAuthority: design-system/experiences/source.json"
+    },
+    {
+      "id": "guidance.foundations-iconography",
+      "label": "Iconography",
+      "kind": "foundations",
+      "storyId": "dls-foundations--overview",
+      "sourcePath": "design-system/guidance/source.json",
+      "url": "/sales-pulse-design-system/?path=/story/dls-foundations--overview",
+      "docsUrl": "/sales-pulse-design-system/?path=/docs/dls-foundations--docs",
+      "copyText": "Iconography\nStory: /sales-pulse-design-system/?path=/story/dls-foundations--overview\nDocs and source: /sales-pulse-design-system/?path=/docs/dls-foundations--docs\nAuthority: design-system/guidance/source.json"
+    },
+    {
+      "id": "guidance.content-icons-logos-chevrons",
+      "label": "Icons, logos and chevrons",
+      "kind": "content",
+      "storyId": "dls-content--overview",
+      "sourcePath": "design-system/guidance/source.json",
+      "url": "/sales-pulse-design-system/?path=/story/dls-content--overview",
+      "docsUrl": "/sales-pulse-design-system/?path=/docs/dls-content--docs",
+      "copyText": "Icons, logos and chevrons\nStory: /sales-pulse-design-system/?path=/story/dls-content--overview\nDocs and source: /sales-pulse-design-system/?path=/docs/dls-content--docs\nAuthority: design-system/guidance/source.json"
+    },
+    {
+      "id": "guidance.foundations-illustration",
+      "label": "Illustration",
+      "kind": "foundations",
+      "storyId": "dls-foundations--overview",
+      "sourcePath": "design-system/guidance/source.json",
+      "url": "/sales-pulse-design-system/?path=/story/dls-foundations--overview",
+      "docsUrl": "/sales-pulse-design-system/?path=/docs/dls-foundations--docs",
+      "copyText": "Illustration\nStory: /sales-pulse-design-system/?path=/story/dls-foundations--overview\nDocs and source: /sales-pulse-design-system/?path=/docs/dls-foundations--docs\nAuthority: design-system/guidance/source.json"
+    },
+    {
+      "id": "guidance.principles-inclusive-by-default",
+      "label": "Inclusive by default",
+      "kind": "principles",
+      "storyId": "dls-principles--overview",
+      "sourcePath": "design-system/guidance/source.json",
+      "url": "/sales-pulse-design-system/?path=/story/dls-principles--overview",
+      "docsUrl": "/sales-pulse-design-system/?path=/docs/dls-principles--docs",
+      "copyText": "Inclusive by default\nStory: /sales-pulse-design-system/?path=/story/dls-principles--overview\nDocs and source: /sales-pulse-design-system/?path=/docs/dls-principles--docs\nAuthority: design-system/guidance/source.json"
+    },
+    {
+      "id": "guidance.guidelines-inclusive-accessibility",
+      "label": "Inclusive interaction",
+      "kind": "guidelines",
+      "storyId": "dls-guidelines--overview",
+      "sourcePath": "design-system/guidance/source.json",
+      "url": "/sales-pulse-design-system/?path=/story/dls-guidelines--overview",
+      "docsUrl": "/sales-pulse-design-system/?path=/docs/dls-guidelines--docs",
+      "copyText": "Inclusive interaction\nStory: /sales-pulse-design-system/?path=/story/dls-guidelines--overview\nDocs and source: /sales-pulse-design-system/?path=/docs/dls-guidelines--docs\nAuthority: design-system/guidance/source.json"
+    },
+    {
+      "id": "guidance.guidelines-interaction",
+      "label": "Interaction",
+      "kind": "guidelines",
+      "storyId": "dls-guidelines--overview",
+      "sourcePath": "design-system/guidance/source.json",
+      "url": "/sales-pulse-design-system/?path=/story/dls-guidelines--overview",
+      "docsUrl": "/sales-pulse-design-system/?path=/docs/dls-guidelines--docs",
+      "copyText": "Interaction\nStory: /sales-pulse-design-system/?path=/story/dls-guidelines--overview\nDocs and source: /sales-pulse-design-system/?path=/docs/dls-guidelines--docs\nAuthority: design-system/guidance/source.json"
+    },
+    {
+      "id": "guidance.guidelines-motion-feedback",
+      "label": "Interaction feedback",
+      "kind": "guidelines",
+      "storyId": "dls-guidelines--overview",
+      "sourcePath": "design-system/guidance/source.json",
+      "url": "/sales-pulse-design-system/?path=/story/dls-guidelines--overview",
+      "docsUrl": "/sales-pulse-design-system/?path=/docs/dls-guidelines--docs",
+      "copyText": "Interaction feedback\nStory: /sales-pulse-design-system/?path=/story/dls-guidelines--overview\nDocs and source: /sales-pulse-design-system/?path=/docs/dls-guidelines--docs\nAuthority: design-system/guidance/source.json"
+    },
+    {
+      "id": "guidance.guidelines-international-accessibility",
+      "label": "International accessibility",
+      "kind": "guidelines",
+      "storyId": "dls-guidelines--overview",
+      "sourcePath": "design-system/guidance/source.json",
+      "url": "/sales-pulse-design-system/?path=/story/dls-guidelines--overview",
+      "docsUrl": "/sales-pulse-design-system/?path=/docs/dls-guidelines--docs",
+      "copyText": "International accessibility\nStory: /sales-pulse-design-system/?path=/story/dls-guidelines--overview\nDocs and source: /sales-pulse-design-system/?path=/docs/dls-guidelines--docs\nAuthority: design-system/guidance/source.json"
+    },
+    {
+      "id": "guidance.content-internationalisation",
+      "label": "Internationalisation",
+      "kind": "content",
+      "storyId": "dls-content--overview",
+      "sourcePath": "design-system/guidance/source.json",
+      "url": "/sales-pulse-design-system/?path=/story/dls-content--overview",
+      "docsUrl": "/sales-pulse-design-system/?path=/docs/dls-content--docs",
+      "copyText": "Internationalisation\nStory: /sales-pulse-design-system/?path=/story/dls-content--overview\nDocs and source: /sales-pulse-design-system/?path=/docs/dls-content--docs\nAuthority: design-system/guidance/source.json"
+    },
+    {
+      "id": "component.key-value",
+      "label": "Key-value list",
+      "kind": "component",
+      "storyId": "dls-components--key-value",
+      "sourcePath": "packages/ui/src/server.tsx",
+      "url": "/sales-pulse-design-system/?path=/story/dls-components--key-value",
+      "docsUrl": "/sales-pulse-design-system/?path=/docs/dls-components--docs",
+      "copyText": "Key-value list\nStory: /sales-pulse-design-system/?path=/story/dls-components--key-value\nDocs and source: /sales-pulse-design-system/?path=/docs/dls-components--docs\nAuthority: packages/ui/src/server.tsx"
+    },
+    {
+      "id": "component.loading",
+      "label": "Loading",
+      "kind": "component",
+      "storyId": "dls-components--loading",
+      "sourcePath": "packages/ui/src/server.tsx",
+      "url": "/sales-pulse-design-system/?path=/story/dls-components--loading",
+      "docsUrl": "/sales-pulse-design-system/?path=/docs/dls-components--docs",
+      "copyText": "Loading\nStory: /sales-pulse-design-system/?path=/story/dls-components--loading\nDocs and source: /sales-pulse-design-system/?path=/docs/dls-components--docs\nAuthority: packages/ui/src/server.tsx"
+    },
+    {
+      "id": "pattern.state-outcomes",
+      "label": "Loading, empty and outcome flows",
+      "kind": "pattern",
+      "storyId": "dls-patterns-examples--loading-empty-success-warning-error",
+      "sourcePath": "design-system/patterns/source.json",
+      "url": "/sales-pulse-design-system/?path=/story/dls-patterns-examples--loading-empty-success-warning-error",
+      "docsUrl": "/sales-pulse-design-system/?path=/docs/dls-patterns-examples--docs",
+      "copyText": "Loading, empty and outcome flows\nStory: /sales-pulse-design-system/?path=/story/dls-patterns-examples--loading-empty-success-warning-error\nDocs and source: /sales-pulse-design-system/?path=/docs/dls-patterns-examples--docs\nAuthority: design-system/patterns/source.json"
+    },
+    {
+      "id": "guidance.principles-useful-signal",
+      "label": "Make the signal understandable",
+      "kind": "principles",
+      "storyId": "dls-principles--overview",
+      "sourcePath": "design-system/guidance/source.json",
+      "url": "/sales-pulse-design-system/?path=/story/dls-principles--overview",
+      "docsUrl": "/sales-pulse-design-system/?path=/docs/dls-principles--docs",
+      "copyText": "Make the signal understandable\nStory: /sales-pulse-design-system/?path=/story/dls-principles--overview\nDocs and source: /sales-pulse-design-system/?path=/docs/dls-principles--docs\nAuthority: design-system/guidance/source.json"
+    },
+    {
+      "id": "component.menu",
+      "label": "Menu",
+      "kind": "component",
+      "storyId": "dls-components--menu-reference",
+      "sourcePath": "packages/ui/src/server.tsx",
+      "url": "/sales-pulse-design-system/?path=/story/dls-components--menu-reference",
+      "docsUrl": "/sales-pulse-design-system/?path=/docs/dls-components--docs",
+      "copyText": "Menu\nStory: /sales-pulse-design-system/?path=/story/dls-components--menu-reference\nDocs and source: /sales-pulse-design-system/?path=/docs/dls-components--docs\nAuthority: packages/ui/src/server.tsx"
+    },
+    {
+      "id": "guidance.guidelines-naming",
+      "label": "Naming",
+      "kind": "guidelines",
+      "storyId": "dls-guidelines--overview",
+      "sourcePath": "design-system/guidance/source.json",
+      "url": "/sales-pulse-design-system/?path=/story/dls-guidelines--overview",
+      "docsUrl": "/sales-pulse-design-system/?path=/docs/dls-guidelines--docs",
+      "copyText": "Naming\nStory: /sales-pulse-design-system/?path=/story/dls-guidelines--overview\nDocs and source: /sales-pulse-design-system/?path=/docs/dls-guidelines--docs\nAuthority: design-system/guidance/source.json"
+    },
+    {
+      "id": "pattern.navigation-header",
+      "label": "Navigation and header",
+      "kind": "pattern",
+      "storyId": "dls-patterns-examples--navigation-and-header",
+      "sourcePath": "design-system/patterns/source.json",
+      "url": "/sales-pulse-design-system/?path=/story/dls-patterns-examples--navigation-and-header",
+      "docsUrl": "/sales-pulse-design-system/?path=/docs/dls-patterns-examples--docs",
+      "copyText": "Navigation and header\nStory: /sales-pulse-design-system/?path=/story/dls-patterns-examples--navigation-and-header\nDocs and source: /sales-pulse-design-system/?path=/docs/dls-patterns-examples--docs\nAuthority: design-system/patterns/source.json"
+    },
+    {
+      "id": "component.notice",
+      "label": "Notice",
+      "kind": "component",
+      "storyId": "dls-components--notice-reference",
+      "sourcePath": "packages/ui/src/server.tsx",
+      "url": "/sales-pulse-design-system/?path=/story/dls-components--notice-reference",
+      "docsUrl": "/sales-pulse-design-system/?path=/docs/dls-components--docs",
+      "copyText": "Notice\nStory: /sales-pulse-design-system/?path=/story/dls-components--notice-reference\nDocs and source: /sales-pulse-design-system/?path=/docs/dls-components--docs\nAuthority: packages/ui/src/server.tsx"
+    },
+    {
+      "id": "guidance.principles-brand-relationship",
+      "label": "One Creator Signal family",
+      "kind": "principles",
+      "storyId": "dls-principles--overview",
+      "sourcePath": "design-system/guidance/source.json",
+      "url": "/sales-pulse-design-system/?path=/story/dls-principles--overview",
+      "docsUrl": "/sales-pulse-design-system/?path=/docs/dls-principles--docs",
+      "copyText": "One Creator Signal family\nStory: /sales-pulse-design-system/?path=/story/dls-principles--overview\nDocs and source: /sales-pulse-design-system/?path=/docs/dls-principles--docs\nAuthority: design-system/guidance/source.json"
+    },
+    {
+      "id": "component.pagination",
+      "label": "Pagination",
+      "kind": "component",
+      "storyId": "dls-components--pagination-reference",
+      "sourcePath": "packages/ui/src/server.tsx",
+      "url": "/sales-pulse-design-system/?path=/story/dls-components--pagination-reference",
+      "docsUrl": "/sales-pulse-design-system/?path=/docs/dls-components--docs",
+      "copyText": "Pagination\nStory: /sales-pulse-design-system/?path=/story/dls-components--pagination-reference\nDocs and source: /sales-pulse-design-system/?path=/docs/dls-components--docs\nAuthority: packages/ui/src/server.tsx"
+    },
+    {
+      "id": "component.panel",
+      "label": "Panel",
+      "kind": "component",
+      "storyId": "dls-components--panel-reference",
+      "sourcePath": "packages/ui/src/server.tsx",
+      "url": "/sales-pulse-design-system/?path=/story/dls-components--panel-reference",
+      "docsUrl": "/sales-pulse-design-system/?path=/docs/dls-components--docs",
+      "copyText": "Panel\nStory: /sales-pulse-design-system/?path=/story/dls-components--panel-reference\nDocs and source: /sales-pulse-design-system/?path=/docs/dls-components--docs\nAuthority: packages/ui/src/server.tsx"
+    },
+    {
+      "id": "section.patterns",
+      "label": "Patterns",
+      "kind": "section",
+      "storyId": "dls-patterns--overview",
+      "sourcePath": "design-system/patterns/source.json",
+      "url": "/sales-pulse-design-system/?path=/story/dls-patterns--overview",
+      "docsUrl": "/sales-pulse-design-system/?path=/docs/dls-patterns--docs",
+      "copyText": "Patterns\nStory: /sales-pulse-design-system/?path=/story/dls-patterns--overview\nDocs and source: /sales-pulse-design-system/?path=/docs/dls-patterns--docs\nAuthority: design-system/patterns/source.json"
+    },
+    {
+      "id": "guidance.content-photography",
+      "label": "Photography and creator work",
+      "kind": "content",
+      "storyId": "dls-content--overview",
+      "sourcePath": "design-system/guidance/source.json",
+      "url": "/sales-pulse-design-system/?path=/story/dls-content--overview",
+      "docsUrl": "/sales-pulse-design-system/?path=/docs/dls-content--docs",
+      "copyText": "Photography and creator work\nStory: /sales-pulse-design-system/?path=/story/dls-content--overview\nDocs and source: /sales-pulse-design-system/?path=/docs/dls-content--docs\nAuthority: design-system/guidance/source.json"
+    },
+    {
+      "id": "guidance.foundations-photography",
+      "label": "Photography and product imagery",
+      "kind": "foundations",
+      "storyId": "dls-foundations--overview",
+      "sourcePath": "design-system/guidance/source.json",
+      "url": "/sales-pulse-design-system/?path=/story/dls-foundations--overview",
+      "docsUrl": "/sales-pulse-design-system/?path=/docs/dls-foundations--docs",
+      "copyText": "Photography and product imagery\nStory: /sales-pulse-design-system/?path=/story/dls-foundations--overview\nDocs and source: /sales-pulse-design-system/?path=/docs/dls-foundations--docs\nAuthority: design-system/guidance/source.json"
+    },
+    {
+      "id": "experience.product.billing-recovery",
+      "label": "Plan and billing recovery",
+      "kind": "experience",
+      "storyId": "dls-patterns-examples--account-plan-billing-states",
+      "sourcePath": "design-system/experiences/source.json",
+      "url": "/sales-pulse-design-system/?path=/story/dls-patterns-examples--account-plan-billing-states",
+      "docsUrl": "/sales-pulse-design-system/?path=/docs/dls-patterns-examples--docs",
+      "copyText": "Plan and billing recovery\nStory: /sales-pulse-design-system/?path=/story/dls-patterns-examples--account-plan-billing-states\nDocs and source: /sales-pulse-design-system/?path=/docs/dls-patterns-examples--docs\nAuthority: design-system/experiences/source.json"
+    },
+    {
+      "id": "experience.operational.platform-overview",
+      "label": "Platform overview",
+      "kind": "experience",
+      "storyId": "products-surface-translations--creator-signal-admin",
+      "sourcePath": "design-system/experiences/source.json",
+      "url": "/sales-pulse-design-system/?path=/story/products-surface-translations--creator-signal-admin",
+      "docsUrl": "/sales-pulse-design-system/?path=/docs/products-surface-translations--docs",
+      "copyText": "Platform overview\nStory: /sales-pulse-design-system/?path=/story/products-surface-translations--creator-signal-admin\nDocs and source: /sales-pulse-design-system/?path=/docs/products-surface-translations--docs\nAuthority: design-system/experiences/source.json"
+    },
+    {
+      "id": "section.principles",
+      "label": "Principles",
+      "kind": "section",
+      "storyId": "dls-principles--overview",
+      "sourcePath": "design-system/guidance/source.json",
+      "url": "/sales-pulse-design-system/?path=/story/dls-principles--overview",
+      "docsUrl": "/sales-pulse-design-system/?path=/docs/dls-principles--docs",
+      "copyText": "Principles\nStory: /sales-pulse-design-system/?path=/story/dls-principles--overview\nDocs and source: /sales-pulse-design-system/?path=/docs/dls-principles--docs\nAuthority: design-system/guidance/source.json"
+    },
+    {
+      "id": "supporting.products",
+      "label": "Products",
+      "kind": "supporting",
+      "storyId": "products-surface-translations--sales-pulse-creator-workspace",
+      "sourcePath": "apps/design-system/src/stories/ProductPreviews.stories.tsx",
+      "url": "/sales-pulse-design-system/?path=/story/products-surface-translations--sales-pulse-creator-workspace",
+      "docsUrl": "/sales-pulse-design-system/?path=/docs/products-surface-translations--docs",
+      "copyText": "Products\nStory: /sales-pulse-design-system/?path=/story/products-surface-translations--sales-pulse-creator-workspace\nDocs and source: /sales-pulse-design-system/?path=/docs/products-surface-translations--docs\nAuthority: apps/design-system/src/stories/ProductPreviews.stories.tsx"
+    },
+    {
+      "id": "experience.communication.provider-message",
+      "label": "Provider-rendered message",
+      "kind": "experience",
+      "storyId": "products-shared-surfaces-email-gallery--identity-provider-contracts",
+      "sourcePath": "design-system/experiences/source.json",
+      "url": "/sales-pulse-design-system/?path=/story/products-shared-surfaces-email-gallery--identity-provider-contracts",
+      "docsUrl": "/sales-pulse-design-system/?path=/docs/products-shared-surfaces-email-gallery--docs",
+      "copyText": "Provider-rendered message\nStory: /sales-pulse-design-system/?path=/story/products-shared-surfaces-email-gallery--identity-provider-contracts\nDocs and source: /sales-pulse-design-system/?path=/docs/products-shared-surfaces-email-gallery--docs\nAuthority: design-system/experiences/source.json"
+    },
+    {
+      "id": "experience.marketing.public-promise",
+      "label": "Public promise",
+      "kind": "experience",
+      "storyId": "products-surface-translations--creator-signal-public-page",
+      "sourcePath": "design-system/experiences/source.json",
+      "url": "/sales-pulse-design-system/?path=/story/products-surface-translations--creator-signal-public-page",
+      "docsUrl": "/sales-pulse-design-system/?path=/docs/products-surface-translations--docs",
+      "copyText": "Public promise\nStory: /sales-pulse-design-system/?path=/story/products-surface-translations--creator-signal-public-page\nDocs and source: /sales-pulse-design-system/?path=/docs/products-surface-translations--docs\nAuthority: design-system/experiences/source.json"
+    },
+    {
+      "id": "guidance.guidelines-reduced-motion",
+      "label": "Reduced motion",
+      "kind": "guidelines",
+      "storyId": "dls-guidelines--overview",
+      "sourcePath": "design-system/guidance/source.json",
+      "url": "/sales-pulse-design-system/?path=/story/dls-guidelines--overview",
+      "docsUrl": "/sales-pulse-design-system/?path=/docs/dls-guidelines--docs",
+      "copyText": "Reduced motion\nStory: /sales-pulse-design-system/?path=/story/dls-guidelines--overview\nDocs and source: /sales-pulse-design-system/?path=/docs/dls-guidelines--docs\nAuthority: design-system/guidance/source.json"
+    },
+    {
+      "id": "experience.identity.secure-entry",
+      "label": "Secure account entry",
+      "kind": "experience",
+      "storyId": "products-surface-translations--creator-signal-login",
+      "sourcePath": "design-system/experiences/source.json",
+      "url": "/sales-pulse-design-system/?path=/story/products-surface-translations--creator-signal-login",
+      "docsUrl": "/sales-pulse-design-system/?path=/docs/products-surface-translations--docs",
+      "copyText": "Secure account entry\nStory: /sales-pulse-design-system/?path=/story/products-surface-translations--creator-signal-login\nDocs and source: /sales-pulse-design-system/?path=/docs/products-surface-translations--docs\nAuthority: design-system/experiences/source.json"
+    },
+    {
+      "id": "component.select",
+      "label": "Select",
+      "kind": "component",
+      "storyId": "dls-components--select-reference",
+      "sourcePath": "packages/ui/src/server.tsx",
+      "url": "/sales-pulse-design-system/?path=/story/dls-components--select-reference",
+      "docsUrl": "/sales-pulse-design-system/?path=/docs/dls-components--docs",
+      "copyText": "Select\nStory: /sales-pulse-design-system/?path=/story/dls-components--select-reference\nDocs and source: /sales-pulse-design-system/?path=/docs/dls-components--docs\nAuthority: packages/ui/src/server.tsx"
+    },
+    {
+      "id": "guidance.foundations-sound",
+      "label": "Sound",
+      "kind": "foundations",
+      "storyId": "dls-foundations--overview",
+      "sourcePath": "design-system/guidance/source.json",
+      "url": "/sales-pulse-design-system/?path=/story/dls-foundations--overview",
+      "docsUrl": "/sales-pulse-design-system/?path=/docs/dls-foundations--docs",
+      "copyText": "Sound\nStory: /sales-pulse-design-system/?path=/story/dls-foundations--overview\nDocs and source: /sales-pulse-design-system/?path=/docs/dls-foundations--docs\nAuthority: design-system/guidance/source.json"
+    },
+    {
+      "id": "guidance.foundations-spacing",
+      "label": "Spacing and sizing",
+      "kind": "foundations",
+      "storyId": "dls-foundations--overview",
+      "sourcePath": "design-system/guidance/source.json",
+      "url": "/sales-pulse-design-system/?path=/story/dls-foundations--overview",
+      "docsUrl": "/sales-pulse-design-system/?path=/docs/dls-foundations--docs",
+      "copyText": "Spacing and sizing\nStory: /sales-pulse-design-system/?path=/story/dls-foundations--overview\nDocs and source: /sales-pulse-design-system/?path=/docs/dls-foundations--docs\nAuthority: design-system/guidance/source.json"
+    },
+    {
+      "id": "section.start-here",
+      "label": "Start here",
+      "kind": "section",
+      "storyId": "dls-start-here--overview",
+      "sourcePath": "apps/design-system/src/stories/dls/StartHere.stories.tsx",
+      "url": "/sales-pulse-design-system/?path=/story/dls-start-here--overview",
+      "docsUrl": "/sales-pulse-design-system/?path=/docs/dls-start-here--docs",
+      "copyText": "Start here\nStory: /sales-pulse-design-system/?path=/story/dls-start-here--overview\nDocs and source: /sales-pulse-design-system/?path=/docs/dls-start-here--docs\nAuthority: apps/design-system/src/stories/dls/StartHere.stories.tsx"
+    },
+    {
+      "id": "component.stat",
+      "label": "Stat",
+      "kind": "component",
+      "storyId": "dls-components--stat-reference",
+      "sourcePath": "packages/ui/src/server.tsx",
+      "url": "/sales-pulse-design-system/?path=/story/dls-components--stat-reference",
+      "docsUrl": "/sales-pulse-design-system/?path=/docs/dls-components--docs",
+      "copyText": "Stat\nStory: /sales-pulse-design-system/?path=/story/dls-components--stat-reference\nDocs and source: /sales-pulse-design-system/?path=/docs/dls-components--docs\nAuthority: packages/ui/src/server.tsx"
+    },
+    {
+      "id": "experience.product.statement-import",
+      "label": "Statement import",
+      "kind": "experience",
+      "storyId": "products-shared-surfaces-form-gallery--statement-import",
+      "sourcePath": "design-system/experiences/source.json",
+      "url": "/sales-pulse-design-system/?path=/story/products-shared-surfaces-form-gallery--statement-import",
+      "docsUrl": "/sales-pulse-design-system/?path=/docs/products-shared-surfaces-form-gallery--docs",
+      "copyText": "Statement import\nStory: /sales-pulse-design-system/?path=/story/products-shared-surfaces-form-gallery--statement-import\nDocs and source: /sales-pulse-design-system/?path=/docs/products-shared-surfaces-form-gallery--docs\nAuthority: design-system/experiences/source.json"
+    },
+    {
+      "id": "component.status",
+      "label": "Status labels",
+      "kind": "component",
+      "storyId": "dls-components--status",
+      "sourcePath": "packages/ui/src/server.tsx",
+      "url": "/sales-pulse-design-system/?path=/story/dls-components--status",
+      "docsUrl": "/sales-pulse-design-system/?path=/docs/dls-components--docs",
+      "copyText": "Status labels\nStory: /sales-pulse-design-system/?path=/story/dls-components--status\nDocs and source: /sales-pulse-design-system/?path=/docs/dls-components--docs\nAuthority: packages/ui/src/server.tsx"
+    },
+    {
+      "id": "guidance.content-status-errors-recovery",
+      "label": "Status, errors and recovery",
+      "kind": "content",
+      "storyId": "dls-content--overview",
+      "sourcePath": "design-system/guidance/source.json",
+      "url": "/sales-pulse-design-system/?path=/story/dls-content--overview",
+      "docsUrl": "/sales-pulse-design-system/?path=/docs/dls-content--docs",
+      "copyText": "Status, errors and recovery\nStory: /sales-pulse-design-system/?path=/story/dls-content--overview\nDocs and source: /sales-pulse-design-system/?path=/docs/dls-content--docs\nAuthority: design-system/guidance/source.json"
+    },
+    {
+      "id": "component.switch",
+      "label": "Switch",
+      "kind": "component",
+      "storyId": "dls-components--switch-reference",
+      "sourcePath": "packages/ui/src/server.tsx",
+      "url": "/sales-pulse-design-system/?path=/story/dls-components--switch-reference",
+      "docsUrl": "/sales-pulse-design-system/?path=/docs/dls-components--docs",
+      "copyText": "Switch\nStory: /sales-pulse-design-system/?path=/story/dls-components--switch-reference\nDocs and source: /sales-pulse-design-system/?path=/docs/dls-components--docs\nAuthority: packages/ui/src/server.tsx"
+    },
+    {
+      "id": "component.table",
+      "label": "Table",
+      "kind": "component",
+      "storyId": "dls-components--table-reference",
+      "sourcePath": "packages/ui/src/server.tsx",
+      "url": "/sales-pulse-design-system/?path=/story/dls-components--table-reference",
+      "docsUrl": "/sales-pulse-design-system/?path=/docs/dls-components--docs",
+      "copyText": "Table\nStory: /sales-pulse-design-system/?path=/story/dls-components--table-reference\nDocs and source: /sales-pulse-design-system/?path=/docs/dls-components--docs\nAuthority: packages/ui/src/server.tsx"
+    },
+    {
+      "id": "widget.tabs",
+      "label": "Tabs",
+      "kind": "widget",
+      "storyId": "dls-widgets--tabs-reference",
+      "sourcePath": "packages/ui/src/client.tsx",
+      "url": "/sales-pulse-design-system/?path=/story/dls-widgets--tabs-reference",
+      "docsUrl": "/sales-pulse-design-system/?path=/docs/dls-widgets--docs",
+      "copyText": "Tabs\nStory: /sales-pulse-design-system/?path=/story/dls-widgets--tabs-reference\nDocs and source: /sales-pulse-design-system/?path=/docs/dls-widgets--docs\nAuthority: packages/ui/src/client.tsx"
+    },
+    {
+      "id": "component.text-input",
+      "label": "Text input",
+      "kind": "component",
+      "storyId": "dls-components--text-input-reference",
+      "sourcePath": "packages/ui/src/server.tsx",
+      "url": "/sales-pulse-design-system/?path=/story/dls-components--text-input-reference",
+      "docsUrl": "/sales-pulse-design-system/?path=/docs/dls-components--docs",
+      "copyText": "Text input\nStory: /sales-pulse-design-system/?path=/story/dls-components--text-input-reference\nDocs and source: /sales-pulse-design-system/?path=/docs/dls-components--docs\nAuthority: packages/ui/src/server.tsx"
+    },
+    {
+      "id": "component.textarea",
+      "label": "Textarea",
+      "kind": "component",
+      "storyId": "dls-components--textarea-reference",
+      "sourcePath": "packages/ui/src/server.tsx",
+      "url": "/sales-pulse-design-system/?path=/story/dls-components--textarea-reference",
+      "docsUrl": "/sales-pulse-design-system/?path=/docs/dls-components--docs",
+      "copyText": "Textarea\nStory: /sales-pulse-design-system/?path=/story/dls-components--textarea-reference\nDocs and source: /sales-pulse-design-system/?path=/docs/dls-components--docs\nAuthority: packages/ui/src/server.tsx"
+    },
+    {
+      "id": "guidance.foundations-theme-and-media",
+      "label": "Theme and media behaviour",
+      "kind": "foundations",
+      "storyId": "dls-foundations--overview",
+      "sourcePath": "design-system/guidance/source.json",
+      "url": "/sales-pulse-design-system/?path=/story/dls-foundations--overview",
+      "docsUrl": "/sales-pulse-design-system/?path=/docs/dls-foundations--docs",
+      "copyText": "Theme and media behaviour\nStory: /sales-pulse-design-system/?path=/story/dls-foundations--overview\nDocs and source: /sales-pulse-design-system/?path=/docs/dls-foundations--docs\nAuthority: design-system/guidance/source.json"
+    },
+    {
+      "id": "widget.theme-control",
+      "label": "Theme control",
+      "kind": "widget",
+      "storyId": "dls-widgets--theme-control-reference",
+      "sourcePath": "packages/ui/src/client.tsx",
+      "url": "/sales-pulse-design-system/?path=/story/dls-widgets--theme-control-reference",
+      "docsUrl": "/sales-pulse-design-system/?path=/docs/dls-widgets--docs",
+      "copyText": "Theme control\nStory: /sales-pulse-design-system/?path=/story/dls-widgets--theme-control-reference\nDocs and source: /sales-pulse-design-system/?path=/docs/dls-widgets--docs\nAuthority: packages/ui/src/client.tsx"
+    },
+    {
+      "id": "utility.theme-runtime",
+      "label": "Theme runtime",
+      "kind": "runtime-utility",
+      "storyId": "dls-widgets-theme-control-behaviour--system-light-dark",
+      "sourcePath": "packages/ui/src/client.tsx",
+      "url": "/sales-pulse-design-system/?path=/story/dls-widgets-theme-control-behaviour--system-light-dark",
+      "docsUrl": "/sales-pulse-design-system/?path=/docs/dls-widgets-theme-control-behaviour--docs",
+      "copyText": "Theme runtime\nStory: /sales-pulse-design-system/?path=/story/dls-widgets-theme-control-behaviour--system-light-dark\nDocs and source: /sales-pulse-design-system/?path=/docs/dls-widgets-theme-control-behaviour--docs\nAuthority: packages/ui/src/client.tsx"
+    },
+    {
+      "id": "guidance.guidelines-token-grammar",
+      "label": "Token grammar",
+      "kind": "guidelines",
+      "storyId": "dls-guidelines--overview",
+      "sourcePath": "design-system/guidance/source.json",
+      "url": "/sales-pulse-design-system/?path=/story/dls-guidelines--overview",
+      "docsUrl": "/sales-pulse-design-system/?path=/docs/dls-guidelines--docs",
+      "copyText": "Token grammar\nStory: /sales-pulse-design-system/?path=/story/dls-guidelines--overview\nDocs and source: /sales-pulse-design-system/?path=/docs/dls-guidelines--docs\nAuthority: design-system/guidance/source.json"
+    },
+    {
+      "id": "guidance.content-tone-by-context",
+      "label": "Tone by context",
+      "kind": "content",
+      "storyId": "dls-content--overview",
+      "sourcePath": "design-system/guidance/source.json",
+      "url": "/sales-pulse-design-system/?path=/story/dls-content--overview",
+      "docsUrl": "/sales-pulse-design-system/?path=/docs/dls-content--docs",
+      "copyText": "Tone by context\nStory: /sales-pulse-design-system/?path=/story/dls-content--overview\nDocs and source: /sales-pulse-design-system/?path=/docs/dls-content--docs\nAuthority: design-system/guidance/source.json"
+    },
+    {
+      "id": "widget.tooltip",
+      "label": "Tooltip",
+      "kind": "widget",
+      "storyId": "dls-widgets--tooltip-reference",
+      "sourcePath": "packages/ui/src/server.tsx",
+      "url": "/sales-pulse-design-system/?path=/story/dls-widgets--tooltip-reference",
+      "docsUrl": "/sales-pulse-design-system/?path=/docs/dls-widgets--docs",
+      "copyText": "Tooltip\nStory: /sales-pulse-design-system/?path=/story/dls-widgets--tooltip-reference\nDocs and source: /sales-pulse-design-system/?path=/docs/dls-widgets--docs\nAuthority: packages/ui/src/server.tsx"
+    },
+    {
+      "id": "experience.communication.transactional-result",
+      "label": "Transactional result message",
+      "kind": "experience",
+      "storyId": "products-shared-surfaces-email-gallery--transactional-rendered-examples",
+      "sourcePath": "design-system/experiences/source.json",
+      "url": "/sales-pulse-design-system/?path=/story/products-shared-surfaces-email-gallery--transactional-rendered-examples",
+      "docsUrl": "/sales-pulse-design-system/?path=/docs/products-shared-surfaces-email-gallery--docs",
+      "copyText": "Transactional result message\nStory: /sales-pulse-design-system/?path=/story/products-shared-surfaces-email-gallery--transactional-rendered-examples\nDocs and source: /sales-pulse-design-system/?path=/docs/products-shared-surfaces-email-gallery--docs\nAuthority: design-system/experiences/source.json"
+    },
+    {
+      "id": "guidance.guidelines-transitions",
+      "label": "Transitions",
+      "kind": "guidelines",
+      "storyId": "dls-guidelines--overview",
+      "sourcePath": "design-system/guidance/source.json",
+      "url": "/sales-pulse-design-system/?path=/story/dls-guidelines--overview",
+      "docsUrl": "/sales-pulse-design-system/?path=/docs/dls-guidelines--docs",
+      "copyText": "Transitions\nStory: /sales-pulse-design-system/?path=/story/dls-guidelines--overview\nDocs and source: /sales-pulse-design-system/?path=/docs/dls-guidelines--docs\nAuthority: design-system/guidance/source.json"
+    },
+    {
+      "id": "guidance.foundations-typography",
+      "label": "Typography and fonts",
+      "kind": "foundations",
+      "storyId": "dls-foundations--overview",
+      "sourcePath": "design-system/guidance/source.json",
+      "url": "/sales-pulse-design-system/?path=/story/dls-foundations--overview",
+      "docsUrl": "/sales-pulse-design-system/?path=/docs/dls-foundations--docs",
+      "copyText": "Typography and fonts\nStory: /sales-pulse-design-system/?path=/story/dls-foundations--overview\nDocs and source: /sales-pulse-design-system/?path=/docs/dls-foundations--docs\nAuthority: design-system/guidance/source.json"
+    },
+    {
+      "id": "guidance.guidelines-visual-accessibility",
+      "label": "Visual accessibility",
+      "kind": "guidelines",
+      "storyId": "dls-guidelines--overview",
+      "sourcePath": "design-system/guidance/source.json",
+      "url": "/sales-pulse-design-system/?path=/story/dls-guidelines--overview",
+      "docsUrl": "/sales-pulse-design-system/?path=/docs/dls-guidelines--docs",
+      "copyText": "Visual accessibility\nStory: /sales-pulse-design-system/?path=/story/dls-guidelines--overview\nDocs and source: /sales-pulse-design-system/?path=/docs/dls-guidelines--docs\nAuthority: design-system/guidance/source.json"
+    },
+    {
+      "id": "guidance.content-voice",
+      "label": "Voice",
+      "kind": "content",
+      "storyId": "dls-content--overview",
+      "sourcePath": "design-system/guidance/source.json",
+      "url": "/sales-pulse-design-system/?path=/story/dls-content--overview",
+      "docsUrl": "/sales-pulse-design-system/?path=/docs/dls-content--docs",
+      "copyText": "Voice\nStory: /sales-pulse-design-system/?path=/story/dls-content--overview\nDocs and source: /sales-pulse-design-system/?path=/docs/dls-content--docs\nAuthority: design-system/guidance/source.json"
+    },
+    {
+      "id": "guidance.principles-warm-not-vague",
+      "label": "Warm, never vague",
+      "kind": "principles",
+      "storyId": "dls-principles--overview",
+      "sourcePath": "design-system/guidance/source.json",
+      "url": "/sales-pulse-design-system/?path=/story/dls-principles--overview",
+      "docsUrl": "/sales-pulse-design-system/?path=/docs/dls-principles--docs",
+      "copyText": "Warm, never vague\nStory: /sales-pulse-design-system/?path=/story/dls-principles--overview\nDocs and source: /sales-pulse-design-system/?path=/docs/dls-principles--docs\nAuthority: design-system/guidance/source.json"
+    },
+    {
+      "id": "section.widgets",
+      "label": "Widgets",
+      "kind": "section",
+      "storyId": "dls-widget-catalogue--overview",
+      "sourcePath": "packages/ui/widgets/source.json",
+      "url": "/sales-pulse-design-system/?path=/story/dls-widget-catalogue--overview",
+      "docsUrl": "/sales-pulse-design-system/?path=/docs/dls-widget-catalogue--docs",
+      "copyText": "Widgets\nStory: /sales-pulse-design-system/?path=/story/dls-widget-catalogue--overview\nDocs and source: /sales-pulse-design-system/?path=/docs/dls-widget-catalogue--docs\nAuthority: packages/ui/widgets/source.json"
+    },
+    {
+      "id": "supporting.current-and-planned",
+      "label": "Current and planned",
+      "kind": "supporting",
+      "storyId": "dls-start-here-current-and-planned--overview",
+      "sourcePath": "apps/design-system/planned-items.json",
+      "url": "/sales-pulse-design-system/?path=/story/dls-start-here-current-and-planned--overview",
+      "docsUrl": "/sales-pulse-design-system/?path=/docs/dls-start-here-current-and-planned--docs",
+      "copyText": "Current and planned\nStory: /sales-pulse-design-system/?path=/story/dls-start-here-current-and-planned--overview\nDocs and source: /sales-pulse-design-system/?path=/docs/dls-start-here-current-and-planned--docs\nAuthority: apps/design-system/planned-items.json"
+    },
+    {
+      "id": "planned.helper-welcome-toolbar",
+      "label": "Planned: Helper welcome and floating toolbar",
+      "kind": "planned",
+      "storyId": "products-planned-helper-welcome-and-toolbar--first-visit",
+      "sourcePath": "apps/design-system/src/stories/planned/HelperWelcome.stories.tsx",
+      "url": "/sales-pulse-design-system/?path=/story/products-planned-helper-welcome-and-toolbar--first-visit",
+      "docsUrl": "/sales-pulse-design-system/?path=/docs/products-planned-helper-welcome-and-toolbar--docs",
+      "copyText": "Planned: Helper welcome and floating toolbar\nStory: /sales-pulse-design-system/?path=/story/products-planned-helper-welcome-and-toolbar--first-visit\nDocs and source: /sales-pulse-design-system/?path=/docs/products-planned-helper-welcome-and-toolbar--docs\nAuthority: apps/design-system/src/stories/planned/HelperWelcome.stories.tsx"
+    },
+    {
+      "id": "planned.helper-installation-welcome",
+      "label": "Planned: Helper installation welcome",
+      "kind": "planned",
+      "storyId": "products-planned-helper-installation-welcome--installed",
+      "sourcePath": "apps/design-system/src/stories/planned/HelperInstalled.stories.tsx",
+      "url": "/sales-pulse-design-system/?path=/story/products-planned-helper-installation-welcome--installed",
+      "docsUrl": "/sales-pulse-design-system/?path=/docs/products-planned-helper-installation-welcome--docs",
+      "copyText": "Planned: Helper installation welcome\nStory: /sales-pulse-design-system/?path=/story/products-planned-helper-installation-welcome--installed\nDocs and source: /sales-pulse-design-system/?path=/docs/products-planned-helper-installation-welcome--docs\nAuthority: apps/design-system/src/stories/planned/HelperInstalled.stories.tsx"
+    }
+  ]
+}

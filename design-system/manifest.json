@@ -1,0 +1,271 @@
+{
+  "schemaVersion": "creator-signal.design-system-manifest/v1",
+  "issue": 1414,
+  "sourceRevision": "694a55c8323c88eb3a14e04df04840d75295d889",
+  "basePath": "/sales-pulse-design-system/",
+  "authority": {
+    "runtimeImportAllowed": false,
+    "coreSources": [
+      "design-system/language-system.json",
+      "packages/design-system/elements/source.json",
+      "packages/ui/components/source.json",
+      "packages/ui/widgets/source.json",
+      "design-system/patterns/source.json",
+      "design-system/experiences/source.json",
+      "design-system/guidance/source.json"
+    ],
+    "navigation": "apps/design-system/reference-navigation.json",
+    "lifecycle": "design-system/lifecycle.json"
+  },
+  "landing": {
+    "storyId": "dls-start-here--overview",
+    "url": "/sales-pulse-design-system/?path=/story/dls-start-here--overview"
+  },
+  "navigation": {
+    "topLevel": [
+      "DLS",
+      "Foundations",
+      "Components",
+      "Patterns",
+      "Consumers",
+      "Product previews",
+      "Migration status",
+      "Guidance",
+      "Previews",
+      "Products",
+      "Email gallery",
+      "Forms",
+      "Planned"
+    ],
+    "core": [
+      {
+        "id": "start-here",
+        "label": "Start here",
+        "storyId": "dls-start-here--overview",
+        "authorityPath": "apps/design-system/src/stories/dls/StartHere.stories.tsx",
+        "url": "/sales-pulse-design-system/?path=/story/dls-start-here--overview"
+      },
+      {
+        "id": "principles",
+        "label": "Principles",
+        "storyId": "dls-principles--overview",
+        "authorityPath": "design-system/guidance/source.json",
+        "url": "/sales-pulse-design-system/?path=/story/dls-principles--overview"
+      },
+      {
+        "id": "foundations",
+        "label": "Foundations",
+        "storyId": "dls-foundations--overview",
+        "authorityPath": "design-system/guidance/source.json",
+        "url": "/sales-pulse-design-system/?path=/story/dls-foundations--overview"
+      },
+      {
+        "id": "elements",
+        "label": "Elements",
+        "storyId": "dls-elements--overview",
+        "authorityPath": "packages/design-system/elements/source.json",
+        "url": "/sales-pulse-design-system/?path=/story/dls-elements--overview"
+      },
+      {
+        "id": "components",
+        "label": "Components",
+        "storyId": "dls-component-catalogue--overview",
+        "authorityPath": "packages/ui/components/source.json",
+        "url": "/sales-pulse-design-system/?path=/story/dls-component-catalogue--overview"
+      },
+      {
+        "id": "widgets",
+        "label": "Widgets",
+        "storyId": "dls-widget-catalogue--overview",
+        "authorityPath": "packages/ui/widgets/source.json",
+        "url": "/sales-pulse-design-system/?path=/story/dls-widget-catalogue--overview"
+      },
+      {
+        "id": "patterns",
+        "label": "Patterns",
+        "storyId": "dls-patterns--overview",
+        "authorityPath": "design-system/patterns/source.json",
+        "url": "/sales-pulse-design-system/?path=/story/dls-patterns--overview"
+      },
+      {
+        "id": "experiences",
+        "label": "Experiences",
+        "storyId": "dls-experiences--catalogue",
+        "authorityPath": "design-system/experiences/source.json",
+        "url": "/sales-pulse-design-system/?path=/story/dls-experiences--catalogue"
+      },
+      {
+        "id": "content",
+        "label": "Content",
+        "storyId": "dls-content--overview",
+        "authorityPath": "design-system/guidance/source.json",
+        "url": "/sales-pulse-design-system/?path=/story/dls-content--overview"
+      },
+      {
+        "id": "guidelines",
+        "label": "Guidelines",
+        "storyId": "dls-guidelines--overview",
+        "authorityPath": "design-system/guidance/source.json",
+        "url": "/sales-pulse-design-system/?path=/story/dls-guidelines--overview"
+      }
+    ],
+    "supporting": [
+      {
+        "id": "products",
+        "label": "Products",
+        "description": "Application-owned workflow compositions and synthetic product reference states.",
+        "storyId": "products-surface-translations--sales-pulse-creator-workspace",
+        "sourcePath": "apps/design-system/src/stories/ProductPreviews.stories.tsx",
+        "coreCoverage": false
+      },
+      {
+        "id": "consumers",
+        "label": "Consumers",
+        "description": "Generated review projections of externally owned catalogues.",
+        "storyId": "consumers-instatic-component-library--impact-gallery",
+        "sourcePath": "apps/design-system/instatic-projection.json",
+        "coreCoverage": false
+      },
+      {
+        "id": "governance",
+        "label": "Governance",
+        "description": "Coverage, migration and source-lineage evidence that does not redefine runtime authority.",
+        "storyId": "governance-canonical-surface-register--current-projection",
+        "sourcePath": "design-system/governance.json",
+        "coreCoverage": false
+      }
+    ]
+  },
+  "legacyRedirects": [
+    {
+      "fromPrefix": "foundations-brand-assets",
+      "toPrefix": "dls-foundations-brand-assets"
+    },
+    {
+      "fromPrefix": "foundations-overview",
+      "toPrefix": "dls-foundations-reference"
+    },
+    {
+      "fromPrefix": "foundations-theme-runtime",
+      "toPrefix": "dls-foundations-theme-runtime"
+    },
+    {
+      "fromPrefix": "foundations-typography",
+      "toPrefix": "dls-foundations-typography"
+    },
+    {
+      "fromPrefix": "components-actions-button",
+      "toPrefix": "dls-components-actions-button"
+    },
+    {
+      "fromPrefix": "components-interaction-accordion",
+      "toPrefix": "dls-widgets-accordion-behaviour"
+    },
+    {
+      "fromPrefix": "components-data-responsive-table",
+      "toPrefix": "dls-components-data-presentation"
+    },
+    {
+      "fromPrefix": "components-interaction-dialog",
+      "toPrefix": "dls-widgets-dialog-behaviour"
+    },
+    {
+      "fromPrefix": "components-feedback-notice",
+      "toPrefix": "dls-components-feedback-notice"
+    },
+    {
+      "fromPrefix": "components-forms-field",
+      "toPrefix": "dls-components-forms-field"
+    },
+    {
+      "fromPrefix": "components-navigation-disclosure",
+      "toPrefix": "dls-components-navigation-examples"
+    },
+    {
+      "fromPrefix": "components-surfaces-card",
+      "toPrefix": "dls-components-surfaces-card"
+    },
+    {
+      "fromPrefix": "components-interaction-tabs",
+      "toPrefix": "dls-widgets-tabs-behaviour"
+    },
+    {
+      "fromPrefix": "components-interaction-theme-control",
+      "toPrefix": "dls-widgets-theme-control-behaviour"
+    },
+    {
+      "fromPrefix": "components-ui-primitives",
+      "toPrefix": "dls-component-examples--actions-and-forms"
+    },
+    {
+      "fromPrefix": "patterns-reusable-combinations",
+      "toPrefix": "dls-patterns-examples"
+    },
+    {
+      "fromPrefix": "patterns-sales-pulse-dashboard-composition",
+      "toPrefix": "products-sales-pulse-dashboard-composition"
+    },
+    {
+      "fromPrefix": "product-previews-sales-pulse-admin",
+      "toPrefix": "products-sales-pulse-admin"
+    },
+    {
+      "fromPrefix": "product-previews-surface-translations",
+      "toPrefix": "products-surface-translations"
+    },
+    {
+      "fromPrefix": "product-previews-sales-pulse-state-matrix",
+      "toPrefix": "products-sales-pulse-state-matrix"
+    },
+    {
+      "fromPrefix": "guidance-dashboard-explainability",
+      "toPrefix": "products-sales-pulse-dashboard-explainability"
+    },
+    {
+      "fromPrefix": "guidance-using-the-design-system",
+      "toPrefix": "governance-using-the-design-system"
+    },
+    {
+      "fromPrefix": "forms-form-gallery",
+      "toPrefix": "products-shared-surfaces-form-gallery"
+    },
+    {
+      "fromPrefix": "email-gallery-canonical-email-surfaces",
+      "toPrefix": "products-shared-surfaces-email-gallery"
+    },
+    {
+      "fromPrefix": "previews-sales-pulse-token-direction",
+      "toPrefix": "products-sales-pulse-token-direction"
+    },
+    {
+      "fromPrefix": "migration-status-canonical-surface-register",
+      "toPrefix": "governance-canonical-surface-register"
+    },
+    {
+      "fromPrefix": "dls-guidance-start-here",
+      "toPrefix": "dls-start-here-audience-routes"
+    },
+    {
+      "fromPrefix": "dls-components--overview",
+      "toPrefix": "dls-component-catalogue--overview"
+    },
+    {
+      "fromPrefix": "dls-components-examples",
+      "toPrefix": "dls-component-examples"
+    },
+    {
+      "fromPrefix": "dls-widgets--overview",
+      "toPrefix": "dls-widget-catalogue--overview"
+    }
+  ],
+  "coverage": {
+    "supportedElements": 112,
+    "obsoleteElements": 28,
+    "publicApiConcepts": 27,
+    "widgets": 6,
+    "patterns": 6,
+    "experiences": 10,
+    "guidanceEntries": 43,
+    "searchableRecords": 102
+  }
+}

@@ -11,11 +11,81 @@
   },
   "source": {
     "repository": "https://github.com/creator-signal/fork-CoreBunch-Instatic.git",
-    "revision": "accf4be8723daad88db69967b7da718eebf0309f",
-    "instaticVersion": "0.0.44",
+    "branch": "creator-signal/main",
+    "releaseTag": "v0.0.53",
+    "revision": "0046cbb0b6afbdd48db6fe13c37783f282db93e5",
+    "instaticVersion": "0.0.53",
     "pluginVersion": "0.8.2",
-    "manifestChecksum": "sha256:c684cb8d21be5c2a4630336a891f87ff0e8ac18237bb552bafd91b271b5e500f",
-    "bundleChecksum": "sha256:f3f999c20796cda9293a5b20133115786da6a2a2724028ed6ef6a4882904b5a8"
+    "requiredDeliveries": [
+      {
+        "issue": 165,
+        "pullRequest": 179,
+        "headRevision": "0c18bffe2edbf0c3b532a8b48312bd8843d399aa",
+        "mergeRevision": "3f5c0f56a3d7841c1d4b293de59f181da9e8a827"
+      },
+      {
+        "issue": 166,
+        "pullRequest": 183,
+        "headRevision": "02d75c4715aa1b2ba6b580d6416bfd5c960f38f3",
+        "mergeRevision": "90734a490d3a08598e30571502da004ea4801075"
+      },
+      {
+        "issue": 167,
+        "pullRequest": 180,
+        "headRevision": "fd895f7ddfe970440bd83991b274c5553b9c6fe6",
+        "mergeRevision": "af1aadf4360f1b00b5e486b42a2734432b524b0a"
+      },
+      {
+        "issue": 168,
+        "pullRequest": 181,
+        "headRevision": "bcb4b7db1b5b650215edcfe2f23800a0f5e4ed66",
+        "mergeRevision": "b7f93a2341436caf97572726e626b70c988257c2"
+      },
+      {
+        "issue": 214,
+        "pullRequest": 216,
+        "headRevision": "1f72519d5387bdb5f1767149789a26cfa79d18d0",
+        "mergeRevision": "f5de59e80f58d212bc9fe7ebd154113578047aa8"
+      },
+      {
+        "issue": 221,
+        "pullRequest": 223,
+        "headRevision": "4f7a2c924108a2dac91ccaf12988ffb84f3fdaca",
+        "mergeRevision": "77e12b6db8793b4761d95109bc8779b486abb309"
+      },
+      {
+        "issue": 233,
+        "pullRequest": 234,
+        "headRevision": "43d73877b88f145ef4be4684851b990c2ebbba7a",
+        "mergeRevision": "37e62793beb70cb4bc35b63775196d0e4ca991ba"
+      },
+      {
+        "issue": 239,
+        "pullRequest": 240,
+        "headRevision": "323db14aa7c08c8e668fd76f3575fe18260277c2",
+        "mergeRevision": "e653fde2afbff1f2bddb9ba5b07e22090667e3fb"
+      },
+      {
+        "issue": 245,
+        "pullRequest": 246,
+        "headRevision": "30cfb620ca7de50e19ce09cfcbe729e62686dced",
+        "mergeRevision": "2fd2900349e2cab93fff46289e85606d2a48c05b"
+      },
+      {
+        "issue": 251,
+        "pullRequest": 252,
+        "headRevision": "952cb8e6ba58516410caa1b05c57e226067b60ca",
+        "mergeRevision": "9da53c42f89f1e40fa18a82df1cc5a97ea194760"
+      },
+      {
+        "issue": 257,
+        "pullRequest": 258,
+        "headRevision": "509e4c3a4f1dbcc17f5fa8c1cb2de5dba702b9f3",
+        "mergeRevision": "a5d01b73cb03c88ce987e49092d975fbacff6774"
+      }
+    ],
+    "manifestChecksum": "sha256:c0dcdc35d8aacacd93e94f7a39ae3c284f5de8d8f733e5a3a26a3481bf6f8621",
+    "bundleChecksum": "sha256:09aeaa359445f635e74098367362893f3640cadf191e6ba217574caf8706fd7f"
   },
   "storybook": {
     "familyTitle": "Consumers/Instatic Component Library",

@@ -1,0 +1,44 @@
+# Creator Signal Design Language System
+
+Source revision: 694a55c8323c88eb3a14e04df04840d75295d889
+Base path: /sales-pulse-design-system/
+Runtime applications must not import or depend on this rendered reference.
+
+## Start here
+/sales-pulse-design-system/?path=/story/dls-start-here--overview
+
+## Core DLS
+- Start here: /sales-pulse-design-system/?path=/story/dls-start-here--overview
+  Authority: apps/design-system/src/stories/dls/StartHere.stories.tsx
+- Principles: /sales-pulse-design-system/?path=/story/dls-principles--overview
+  Authority: design-system/guidance/source.json
+- Foundations: /sales-pulse-design-system/?path=/story/dls-foundations--overview
+  Authority: design-system/guidance/source.json
+- Elements: /sales-pulse-design-system/?path=/story/dls-elements--overview
+  Authority: packages/design-system/elements/source.json
+- Components: /sales-pulse-design-system/?path=/story/dls-component-catalogue--overview
+  Authority: packages/ui/components/source.json
+- Widgets: /sales-pulse-design-system/?path=/story/dls-widget-catalogue--overview
+  Authority: packages/ui/widgets/source.json
+- Patterns: /sales-pulse-design-system/?path=/story/dls-patterns--overview
+  Authority: design-system/patterns/source.json
+- Experiences: /sales-pulse-design-system/?path=/story/dls-experiences--catalogue
+  Authority: design-system/experiences/source.json
+- Content: /sales-pulse-design-system/?path=/story/dls-content--overview
+  Authority: design-system/guidance/source.json
+- Guidelines: /sales-pulse-design-system/?path=/story/dls-guidelines--overview
+  Authority: design-system/guidance/source.json
+
+## Supporting projections
+- Products: /sales-pulse-design-system/?path=/story/products-surface-translations--sales-pulse-creator-workspace (apps/design-system/src/stories/ProductPreviews.stories.tsx)
+- Consumers: /sales-pulse-design-system/?path=/story/consumers-instatic-component-library--impact-gallery (apps/design-system/instatic-projection.json)
+- Governance: /sales-pulse-design-system/?path=/story/governance-canonical-surface-register--current-projection (design-system/governance.json)
+
+## Current and planned designs
+/sales-pulse-design-system/?path=/story/dls-start-here-current-and-planned--overview
+Planned items are synthetic design proposals, excluded from current runtime coverage. Promotion requires an owning implementation Issue and accepted runtime evidence; a merged preview does not change maturity.
+- Planned: Helper welcome and floating toolbar: /sales-pulse-design-system/?path=/story/products-planned-helper-welcome-and-toolbar--first-visit
+- Planned: Helper installation welcome: /sales-pulse-design-system/?path=/story/products-planned-helper-installation-welcome--installed
+
+Search metadata: design-system/search-index.json
+Copy-page metadata: design-system/copy-page.json
