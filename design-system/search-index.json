@@ -1,7 +1,7 @@
 {
   "schemaVersion": "creator-signal.design-system-search/v1",
   "issue": 1414,
-  "sourceRevision": "2e382e78d4e218b4fb4f110e732804fc65f2c1da",
+  "sourceRevision": "b17e074d4978e09221bb478c08d21e77af41d98c",
   "records": [
     {
       "id": "widget.accordion",
@@ -1737,8 +1737,8 @@
       "id": "planned.helper-installation-welcome",
       "kind": "planned",
       "label": "Planned: Helper installation welcome",
-      "description": "Celebratory welcome tab after installation, with pinning, account connection guidance and an onward Spoonflower preview. Showcase only. No extension install event, account connection, permissions or persistent onboarding state is implemented.",
-      "storyId": "products-planned-helper-installation-welcome--installed",
+      "description": "Selected installation welcome with connection cards, Meet your Helper, the compact toolbar, recovery scenarios and typography comparison. Showcase only. No extension install event, account connection, permissions or persistent onboarding state is implemented.",
+      "storyId": "products-planned-helper-simplified--installation",
       "sourcePath": "apps/design-system/src/stories/planned/HelperInstalled.stories.tsx",
       "lifecycle": "planned",
       "keywords": [
@@ -1746,24 +1746,7 @@
         "planned",
         "proposal"
       ],
-      "ownerIssue": 1607,
-      "url": "/sales-pulse-design-system/?path=/story/products-planned-helper-installation-welcome--installed",
-      "docsUrl": "/sales-pulse-design-system/?path=/docs/products-planned-helper-installation-welcome--docs"
-    },
-    {
-      "id": "planned.helper-simplified-versions",
-      "kind": "planned",
-      "label": "Planned: Helper simplified onboarding, toolbar and typography",
-      "description": "Version 4 connection-first installation and guide, Version 2 compact toolbar, recovery scenarios and a Fredoka weight/spacing comparison. Synthetic proposal only. No installed behavior, account connection, provider action, persistence or shared typography changes.",
-      "storyId": "products-planned-helper-simplified--installation",
-      "sourcePath": "apps/design-system/src/stories/planned/HelperSimplified.stories.tsx",
-      "lifecycle": "planned",
-      "keywords": [
-        "Sales Pulse Helper",
-        "planned",
-        "proposal"
-      ],
-      "ownerIssue": 1639,
+      "ownerIssue": 1647,
       "url": "/sales-pulse-design-system/?path=/story/products-planned-helper-simplified--installation",
       "docsUrl": "/sales-pulse-design-system/?path=/docs/products-planned-helper-simplified--docs"
     }
