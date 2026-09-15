@@ -1,7 +1,7 @@
 {
   "schemaVersion": "creator-signal.design-system-copy-page/v1",
   "issue": 1414,
-  "sourceRevision": "5cd09ada005d2874ad9a901302a9d20466d95b8b",
+  "sourceRevision": "2e382e78d4e218b4fb4f110e732804fc65f2c1da",
   "entries": [
     {
       "id": "widget.accordion",
@@ -1022,6 +1022,16 @@
       "url": "/sales-pulse-design-system/?path=/story/products-planned-helper-installation-welcome--installed",
       "docsUrl": "/sales-pulse-design-system/?path=/docs/products-planned-helper-installation-welcome--docs",
       "copyText": "Planned: Helper installation welcome\nStory: /sales-pulse-design-system/?path=/story/products-planned-helper-installation-welcome--installed\nDocs and source: /sales-pulse-design-system/?path=/docs/products-planned-helper-installation-welcome--docs\nAuthority: apps/design-system/src/stories/planned/HelperInstalled.stories.tsx"
+    },
+    {
+      "id": "planned.helper-simplified-versions",
+      "label": "Planned: Helper simplified onboarding, toolbar and typography",
+      "kind": "planned",
+      "storyId": "products-planned-helper-simplified--installation",
+      "sourcePath": "apps/design-system/src/stories/planned/HelperSimplified.stories.tsx",
+      "url": "/sales-pulse-design-system/?path=/story/products-planned-helper-simplified--installation",
+      "docsUrl": "/sales-pulse-design-system/?path=/docs/products-planned-helper-simplified--docs",
+      "copyText": "Planned: Helper simplified onboarding, toolbar and typography\nStory: /sales-pulse-design-system/?path=/story/products-planned-helper-simplified--installation\nDocs and source: /sales-pulse-design-system/?path=/docs/products-planned-helper-simplified--docs\nAuthority: apps/design-system/src/stories/planned/HelperSimplified.stories.tsx"
     }
   ]
 }
