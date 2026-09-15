@@ -1,6 +1,6 @@
 # Creator Signal Design Language System
 
-Source revision: 5cd09ada005d2874ad9a901302a9d20466d95b8b
+Source revision: 2e382e78d4e218b4fb4f110e732804fc65f2c1da
 Base path: /sales-pulse-design-system/
 Runtime applications must not import or depend on this rendered reference.
 
@@ -39,6 +39,7 @@ Runtime applications must not import or depend on this rendered reference.
 Planned items are synthetic design proposals, excluded from current runtime coverage. Promotion requires an owning implementation Issue and accepted runtime evidence; a merged preview does not change maturity.
 - Planned: Helper welcome and floating toolbar: /sales-pulse-design-system/?path=/story/products-planned-helper-welcome-and-toolbar--first-visit
 - Planned: Helper installation welcome: /sales-pulse-design-system/?path=/story/products-planned-helper-installation-welcome--installed
+- Planned: Helper simplified onboarding, toolbar and typography: /sales-pulse-design-system/?path=/story/products-planned-helper-simplified--installation
 
 Search metadata: design-system/search-index.json
 Copy-page metadata: design-system/copy-page.json

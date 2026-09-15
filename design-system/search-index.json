@@ -1,7 +1,7 @@
 {
   "schemaVersion": "creator-signal.design-system-search/v1",
   "issue": 1414,
-  "sourceRevision": "5cd09ada005d2874ad9a901302a9d20466d95b8b",
+  "sourceRevision": "2e382e78d4e218b4fb4f110e732804fc65f2c1da",
   "records": [
     {
       "id": "widget.accordion",
@@ -1749,6 +1749,23 @@
       "ownerIssue": 1607,
       "url": "/sales-pulse-design-system/?path=/story/products-planned-helper-installation-welcome--installed",
       "docsUrl": "/sales-pulse-design-system/?path=/docs/products-planned-helper-installation-welcome--docs"
+    },
+    {
+      "id": "planned.helper-simplified-versions",
+      "kind": "planned",
+      "label": "Planned: Helper simplified onboarding, toolbar and typography",
+      "description": "Version 4 connection-first installation and guide, Version 2 compact toolbar, recovery scenarios and a Fredoka weight/spacing comparison. Synthetic proposal only. No installed behavior, account connection, provider action, persistence or shared typography changes.",
+      "storyId": "products-planned-helper-simplified--installation",
+      "sourcePath": "apps/design-system/src/stories/planned/HelperSimplified.stories.tsx",
+      "lifecycle": "planned",
+      "keywords": [
+        "Sales Pulse Helper",
+        "planned",
+        "proposal"
+      ],
+      "ownerIssue": 1639,
+      "url": "/sales-pulse-design-system/?path=/story/products-planned-helper-simplified--installation",
+      "docsUrl": "/sales-pulse-design-system/?path=/docs/products-planned-helper-simplified--docs"
     }
   ]
 }

@@ -234,7 +234,7 @@
         "description": "",
         "methods": [],
         "displayName": "Button",
-        "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\server.tsx",
+        "definedInFile": "D:\\wt\\sp1643\\packages\\ui\\src\\server.tsx",
         "actualName": "Button",
         "exportName": "Button",
         "props": {
@@ -308,14 +308,14 @@
       "subcomponents": {
         "Badge": {
           "name": "Badge",
-          "path": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1643\\packages\\ui\\src\\index.ts",
           "import": "import { Badge } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Badge",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1643\\packages\\ui\\src\\server.tsx",
             "actualName": "Badge",
             "exportName": "Badge",
             "props": {
@@ -361,14 +361,14 @@
         },
         "Card": {
           "name": "Card",
-          "path": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1643\\packages\\ui\\src\\index.ts",
           "import": "import { Card } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Card",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1643\\packages\\ui\\src\\server.tsx",
             "actualName": "Card",
             "exportName": "Card",
             "props": {
@@ -406,84 +406,84 @@
         },
         "CardContent": {
           "name": "CardContent",
-          "path": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1643\\packages\\ui\\src\\index.ts",
           "import": "import { CardContent } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "CardContent",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1643\\packages\\ui\\src\\server.tsx",
             "actualName": "CardContent",
             "exportName": "CardContent"
           }
         },
         "CardDescription": {
           "name": "CardDescription",
-          "path": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1643\\packages\\ui\\src\\index.ts",
           "import": "import { CardDescription } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "CardDescription",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1643\\packages\\ui\\src\\server.tsx",
             "actualName": "CardDescription",
             "exportName": "CardDescription"
           }
         },
         "CardHeader": {
           "name": "CardHeader",
-          "path": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1643\\packages\\ui\\src\\index.ts",
           "import": "import { CardHeader } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "CardHeader",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1643\\packages\\ui\\src\\server.tsx",
             "actualName": "CardHeader",
             "exportName": "CardHeader"
           }
         },
         "CardTitle": {
           "name": "CardTitle",
-          "path": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1643\\packages\\ui\\src\\index.ts",
           "import": "import { CardTitle } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "CardTitle",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1643\\packages\\ui\\src\\server.tsx",
             "actualName": "CardTitle",
             "exportName": "CardTitle"
           }
         },
         "ChartLegend": {
           "name": "ChartLegend",
-          "path": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1643\\packages\\ui\\src\\index.ts",
           "import": "import { ChartLegend } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "ChartLegend",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1643\\packages\\ui\\src\\server.tsx",
             "actualName": "ChartLegend",
             "exportName": "ChartLegend"
           }
         },
         "ChartLegendItem": {
           "name": "ChartLegendItem",
-          "path": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1643\\packages\\ui\\src\\index.ts",
           "import": "import { ChartLegendItem } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "ChartLegendItem",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1643\\packages\\ui\\src\\server.tsx",
             "actualName": "ChartLegendItem",
             "exportName": "ChartLegendItem",
             "props": {
@@ -536,14 +536,14 @@
         },
         "Checkbox": {
           "name": "Checkbox",
-          "path": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1643\\packages\\ui\\src\\index.ts",
           "import": "import { Checkbox } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Checkbox",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1643\\packages\\ui\\src\\server.tsx",
             "actualName": "Checkbox",
             "exportName": "Checkbox",
             "props": {
@@ -569,14 +569,14 @@
         },
         "EmptyState": {
           "name": "EmptyState",
-          "path": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1643\\packages\\ui\\src\\index.ts",
           "import": "import { EmptyState } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "EmptyState",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1643\\packages\\ui\\src\\server.tsx",
             "actualName": "EmptyState",
             "exportName": "EmptyState",
             "props": {
@@ -616,14 +616,14 @@
         },
         "ErrorState": {
           "name": "ErrorState",
-          "path": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1643\\packages\\ui\\src\\index.ts",
           "import": "import { ErrorState } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "ErrorState",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1643\\packages\\ui\\src\\server.tsx",
             "actualName": "ErrorState",
             "exportName": "ErrorState",
             "props": {
@@ -642,70 +642,70 @@
         },
         "Field": {
           "name": "Field",
-          "path": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1643\\packages\\ui\\src\\index.ts",
           "import": "import { Field } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Field",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1643\\packages\\ui\\src\\server.tsx",
             "actualName": "Field",
             "exportName": "Field"
           }
         },
         "FieldDescription": {
           "name": "FieldDescription",
-          "path": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1643\\packages\\ui\\src\\index.ts",
           "import": "import { FieldDescription } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "FieldDescription",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1643\\packages\\ui\\src\\server.tsx",
             "actualName": "FieldDescription",
             "exportName": "FieldDescription"
           }
         },
         "FieldError": {
           "name": "FieldError",
-          "path": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1643\\packages\\ui\\src\\index.ts",
           "import": "import { FieldError } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "FieldError",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1643\\packages\\ui\\src\\server.tsx",
             "actualName": "FieldError",
             "exportName": "FieldError"
           }
         },
         "FieldLabel": {
           "name": "FieldLabel",
-          "path": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1643\\packages\\ui\\src\\index.ts",
           "import": "import { FieldLabel } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "FieldLabel",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1643\\packages\\ui\\src\\server.tsx",
             "actualName": "FieldLabel",
             "exportName": "FieldLabel"
           }
         },
         "FormStatus": {
           "name": "FormStatus",
-          "path": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1643\\packages\\ui\\src\\index.ts",
           "import": "import { FormStatus } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "FormStatus",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1643\\packages\\ui\\src\\server.tsx",
             "actualName": "FormStatus",
             "exportName": "FormStatus",
             "props": {
@@ -751,14 +751,14 @@
         },
         "IconButton": {
           "name": "IconButton",
-          "path": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1643\\packages\\ui\\src\\index.ts",
           "import": "import { IconButton } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "IconButton",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1643\\packages\\ui\\src\\server.tsx",
             "actualName": "IconButton",
             "exportName": "IconButton",
             "props": {
@@ -784,14 +784,14 @@
         },
         "KeyValueItem": {
           "name": "KeyValueItem",
-          "path": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1643\\packages\\ui\\src\\index.ts",
           "import": "import { KeyValueItem } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "KeyValueItem",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1643\\packages\\ui\\src\\server.tsx",
             "actualName": "KeyValueItem",
             "exportName": "KeyValueItem",
             "props": {
@@ -814,28 +814,28 @@
         },
         "KeyValueList": {
           "name": "KeyValueList",
-          "path": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1643\\packages\\ui\\src\\index.ts",
           "import": "import { KeyValueList } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "KeyValueList",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1643\\packages\\ui\\src\\server.tsx",
             "actualName": "KeyValueList",
             "exportName": "KeyValueList"
           }
         },
         "LinkButton": {
           "name": "LinkButton",
-          "path": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1643\\packages\\ui\\src\\index.ts",
           "import": "import { LinkButton } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "LinkButton",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1643\\packages\\ui\\src\\server.tsx",
             "actualName": "LinkButton",
             "exportName": "LinkButton",
             "props": {
@@ -909,14 +909,14 @@
         },
         "LoadingIndicator": {
           "name": "LoadingIndicator",
-          "path": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1643\\packages\\ui\\src\\index.ts",
           "import": "import { LoadingIndicator } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "LoadingIndicator",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1643\\packages\\ui\\src\\server.tsx",
             "actualName": "LoadingIndicator",
             "exportName": "LoadingIndicator",
             "props": {
@@ -939,42 +939,42 @@
         },
         "Menu": {
           "name": "Menu",
-          "path": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1643\\packages\\ui\\src\\index.ts",
           "import": "import { Menu } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Menu",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1643\\packages\\ui\\src\\server.tsx",
             "actualName": "Menu",
             "exportName": "Menu"
           }
         },
         "MenuItem": {
           "name": "MenuItem",
-          "path": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1643\\packages\\ui\\src\\index.ts",
           "import": "import { MenuItem } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "MenuItem",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1643\\packages\\ui\\src\\server.tsx",
             "actualName": "MenuItem",
             "exportName": "MenuItem"
           }
         },
         "Notice": {
           "name": "Notice",
-          "path": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1643\\packages\\ui\\src\\index.ts",
           "import": "import { Notice } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Notice",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1643\\packages\\ui\\src\\server.tsx",
             "actualName": "Notice",
             "exportName": "Notice",
             "props": {
@@ -1037,14 +1037,14 @@
         },
         "Pagination": {
           "name": "Pagination",
-          "path": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1643\\packages\\ui\\src\\index.ts",
           "import": "import { Pagination } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Pagination",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1643\\packages\\ui\\src\\server.tsx",
             "actualName": "Pagination",
             "exportName": "Pagination",
             "props": {
@@ -1060,14 +1060,14 @@
         },
         "PaginationLink": {
           "name": "PaginationLink",
-          "path": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1643\\packages\\ui\\src\\index.ts",
           "import": "import { PaginationLink } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "PaginationLink",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1643\\packages\\ui\\src\\server.tsx",
             "actualName": "PaginationLink",
             "exportName": "PaginationLink",
             "props": {
@@ -1090,28 +1090,28 @@
         },
         "PaginationList": {
           "name": "PaginationList",
-          "path": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1643\\packages\\ui\\src\\index.ts",
           "import": "import { PaginationList } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "PaginationList",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1643\\packages\\ui\\src\\server.tsx",
             "actualName": "PaginationList",
             "exportName": "PaginationList"
           }
         },
         "Panel": {
           "name": "Panel",
-          "path": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1643\\packages\\ui\\src\\index.ts",
           "import": "import { Panel } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Panel",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1643\\packages\\ui\\src\\server.tsx",
             "actualName": "Panel",
             "exportName": "Panel",
             "props": {
@@ -1149,14 +1149,14 @@
         },
         "Radio": {
           "name": "Radio",
-          "path": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1643\\packages\\ui\\src\\index.ts",
           "import": "import { Radio } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Radio",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1643\\packages\\ui\\src\\server.tsx",
             "actualName": "Radio",
             "exportName": "Radio",
             "props": {
@@ -1182,14 +1182,14 @@
         },
         "ResponsiveTable": {
           "name": "ResponsiveTable",
-          "path": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1643\\packages\\ui\\src\\index.ts",
           "import": "import { ResponsiveTable } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "ResponsiveTable",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1643\\packages\\ui\\src\\server.tsx",
             "actualName": "ResponsiveTable",
             "exportName": "ResponsiveTable",
             "props": {
@@ -1205,42 +1205,42 @@
         },
         "Select": {
           "name": "Select",
-          "path": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1643\\packages\\ui\\src\\index.ts",
           "import": "import { Select } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Select",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1643\\packages\\ui\\src\\server.tsx",
             "actualName": "Select",
             "exportName": "Select"
           }
         },
         "Skeleton": {
           "name": "Skeleton",
-          "path": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1643\\packages\\ui\\src\\index.ts",
           "import": "import { Skeleton } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Skeleton",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1643\\packages\\ui\\src\\server.tsx",
             "actualName": "Skeleton",
             "exportName": "Skeleton"
           }
         },
         "Stat": {
           "name": "Stat",
-          "path": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1643\\packages\\ui\\src\\index.ts",
           "import": "import { Stat } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Stat",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1643\\packages\\ui\\src\\server.tsx",
             "actualName": "Stat",
             "exportName": "Stat",
             "props": {
@@ -1273,28 +1273,28 @@
         },
         "StatGroup": {
           "name": "StatGroup",
-          "path": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1643\\packages\\ui\\src\\index.ts",
           "import": "import { StatGroup } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "StatGroup",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1643\\packages\\ui\\src\\server.tsx",
             "actualName": "StatGroup",
             "exportName": "StatGroup"
           }
         },
         "StatusIndicator": {
           "name": "StatusIndicator",
-          "path": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1643\\packages\\ui\\src\\index.ts",
           "import": "import { StatusIndicator } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "StatusIndicator",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1643\\packages\\ui\\src\\server.tsx",
             "actualName": "StatusIndicator",
             "exportName": "StatusIndicator",
             "props": {
@@ -1346,14 +1346,14 @@
         },
         "Switch": {
           "name": "Switch",
-          "path": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1643\\packages\\ui\\src\\index.ts",
           "import": "import { Switch } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Switch",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1643\\packages\\ui\\src\\server.tsx",
             "actualName": "Switch",
             "exportName": "Switch",
             "props": {
@@ -1393,126 +1393,126 @@
         },
         "Table": {
           "name": "Table",
-          "path": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1643\\packages\\ui\\src\\index.ts",
           "import": "import { Table } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Table",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1643\\packages\\ui\\src\\server.tsx",
             "actualName": "Table",
             "exportName": "Table"
           }
         },
         "TableBody": {
           "name": "TableBody",
-          "path": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1643\\packages\\ui\\src\\index.ts",
           "import": "import { TableBody } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "TableBody",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1643\\packages\\ui\\src\\server.tsx",
             "actualName": "TableBody",
             "exportName": "TableBody"
           }
         },
         "TableCaption": {
           "name": "TableCaption",
-          "path": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1643\\packages\\ui\\src\\index.ts",
           "import": "import { TableCaption } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "TableCaption",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1643\\packages\\ui\\src\\server.tsx",
             "actualName": "TableCaption",
             "exportName": "TableCaption"
           }
         },
         "TableCell": {
           "name": "TableCell",
-          "path": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1643\\packages\\ui\\src\\index.ts",
           "import": "import { TableCell } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "TableCell",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1643\\packages\\ui\\src\\server.tsx",
             "actualName": "TableCell",
             "exportName": "TableCell"
           }
         },
         "TableHead": {
           "name": "TableHead",
-          "path": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1643\\packages\\ui\\src\\index.ts",
           "import": "import { TableHead } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "TableHead",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1643\\packages\\ui\\src\\server.tsx",
             "actualName": "TableHead",
             "exportName": "TableHead"
           }
         },
         "TableHeader": {
           "name": "TableHeader",
-          "path": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1643\\packages\\ui\\src\\index.ts",
           "import": "import { TableHeader } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "TableHeader",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1643\\packages\\ui\\src\\server.tsx",
             "actualName": "TableHeader",
             "exportName": "TableHeader"
           }
         },
         "TableRow": {
           "name": "TableRow",
-          "path": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1643\\packages\\ui\\src\\index.ts",
           "import": "import { TableRow } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "TableRow",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1643\\packages\\ui\\src\\server.tsx",
             "actualName": "TableRow",
             "exportName": "TableRow"
           }
         },
         "Textarea": {
           "name": "Textarea",
-          "path": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1643\\packages\\ui\\src\\index.ts",
           "import": "import { Textarea } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Textarea",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1643\\packages\\ui\\src\\server.tsx",
             "actualName": "Textarea",
             "exportName": "Textarea"
           }
         },
         "TextInput": {
           "name": "TextInput",
-          "path": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1643\\packages\\ui\\src\\index.ts",
           "import": "import { TextInput } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "TextInput",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1643\\packages\\ui\\src\\server.tsx",
             "actualName": "TextInput",
             "exportName": "TextInput"
           }
@@ -1631,35 +1631,35 @@
         "description": "",
         "methods": [],
         "displayName": "Disclosure",
-        "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\server.tsx",
+        "definedInFile": "D:\\wt\\sp1643\\packages\\ui\\src\\server.tsx",
         "actualName": "Disclosure",
         "exportName": "Disclosure"
       },
       "subcomponents": {
         "DisclosureTrigger": {
           "name": "DisclosureTrigger",
-          "path": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1643\\packages\\ui\\src\\index.ts",
           "import": "import { DisclosureTrigger } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "DisclosureTrigger",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1643\\packages\\ui\\src\\server.tsx",
             "actualName": "DisclosureTrigger",
             "exportName": "DisclosureTrigger"
           }
         },
         "Tooltip": {
           "name": "Tooltip",
-          "path": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1643\\packages\\ui\\src\\index.ts",
           "import": "import { Tooltip } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Tooltip",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1643\\packages\\ui\\src\\server.tsx",
             "actualName": "Tooltip",
             "exportName": "Tooltip",
             "props": {
@@ -1685,14 +1685,14 @@
         },
         "Accordion": {
           "name": "Accordion",
-          "path": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\client.tsx",
+          "path": "D:\\wt\\sp1643\\packages\\ui\\src\\client.tsx",
           "import": "import { Accordion } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Accordion",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\client.tsx",
+            "definedInFile": "D:\\wt\\sp1643\\packages\\ui\\src\\client.tsx",
             "actualName": "Accordion",
             "exportName": "Accordion",
             "props": {
@@ -1722,14 +1722,14 @@
         },
         "AccordionItem": {
           "name": "AccordionItem",
-          "path": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\client.tsx",
+          "path": "D:\\wt\\sp1643\\packages\\ui\\src\\client.tsx",
           "import": "import { AccordionItem } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "AccordionItem",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\client.tsx",
+            "definedInFile": "D:\\wt\\sp1643\\packages\\ui\\src\\client.tsx",
             "actualName": "AccordionItem",
             "exportName": "AccordionItem",
             "props": {
@@ -1759,14 +1759,14 @@
         },
         "AccordionTrigger": {
           "name": "AccordionTrigger",
-          "path": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\client.tsx",
+          "path": "D:\\wt\\sp1643\\packages\\ui\\src\\client.tsx",
           "import": "import { AccordionTrigger } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "AccordionTrigger",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\client.tsx",
+            "definedInFile": "D:\\wt\\sp1643\\packages\\ui\\src\\client.tsx",
             "actualName": "AccordionTrigger",
             "exportName": "AccordionTrigger",
             "props": {
@@ -1812,28 +1812,28 @@
         },
         "AccordionPanel": {
           "name": "AccordionPanel",
-          "path": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\client.tsx",
+          "path": "D:\\wt\\sp1643\\packages\\ui\\src\\client.tsx",
           "import": "import { AccordionPanel } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "AccordionPanel",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\client.tsx",
+            "definedInFile": "D:\\wt\\sp1643\\packages\\ui\\src\\client.tsx",
             "actualName": "AccordionPanel",
             "exportName": "AccordionPanel"
           }
         },
         "Tabs": {
           "name": "Tabs",
-          "path": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\client.tsx",
+          "path": "D:\\wt\\sp1643\\packages\\ui\\src\\client.tsx",
           "import": "import { Tabs } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Tabs",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\client.tsx",
+            "definedInFile": "D:\\wt\\sp1643\\packages\\ui\\src\\client.tsx",
             "actualName": "Tabs",
             "exportName": "Tabs",
             "props": {
@@ -1878,14 +1878,14 @@
         },
         "TabList": {
           "name": "TabList",
-          "path": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\client.tsx",
+          "path": "D:\\wt\\sp1643\\packages\\ui\\src\\client.tsx",
           "import": "import { TabList } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "TabList",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\client.tsx",
+            "definedInFile": "D:\\wt\\sp1643\\packages\\ui\\src\\client.tsx",
             "actualName": "TabList",
             "exportName": "TabList",
             "props": {
@@ -1901,14 +1901,14 @@
         },
         "Tab": {
           "name": "Tab",
-          "path": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\client.tsx",
+          "path": "D:\\wt\\sp1643\\packages\\ui\\src\\client.tsx",
           "import": "import { Tab } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Tab",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\client.tsx",
+            "definedInFile": "D:\\wt\\sp1643\\packages\\ui\\src\\client.tsx",
             "actualName": "Tab",
             "exportName": "Tab",
             "props": {
@@ -1924,14 +1924,14 @@
         },
         "TabPanel": {
           "name": "TabPanel",
-          "path": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\client.tsx",
+          "path": "D:\\wt\\sp1643\\packages\\ui\\src\\client.tsx",
           "import": "import { TabPanel } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "TabPanel",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\client.tsx",
+            "definedInFile": "D:\\wt\\sp1643\\packages\\ui\\src\\client.tsx",
             "actualName": "TabPanel",
             "exportName": "TabPanel",
             "props": {
@@ -1947,14 +1947,14 @@
         },
         "Dialog": {
           "name": "Dialog",
-          "path": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\client.tsx",
+          "path": "D:\\wt\\sp1643\\packages\\ui\\src\\client.tsx",
           "import": "import { Dialog } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Dialog",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\client.tsx",
+            "definedInFile": "D:\\wt\\sp1643\\packages\\ui\\src\\client.tsx",
             "actualName": "Dialog",
             "exportName": "Dialog",
             "props": {
@@ -2003,14 +2003,14 @@
         },
         "ThemeControl": {
           "name": "ThemeControl",
-          "path": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\client.tsx",
+          "path": "D:\\wt\\sp1643\\packages\\ui\\src\\client.tsx",
           "import": "import { ThemeControl } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Accordion",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\client.tsx",
+            "definedInFile": "D:\\wt\\sp1643\\packages\\ui\\src\\client.tsx",
             "actualName": "Accordion",
             "exportName": "Accordion",
             "props": {
@@ -2094,7 +2094,7 @@
         "description": "",
         "methods": [],
         "displayName": "Accordion",
-        "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\client.tsx",
+        "definedInFile": "D:\\wt\\sp1643\\packages\\ui\\src\\client.tsx",
         "actualName": "Accordion",
         "exportName": "Accordion",
         "props": {
@@ -2124,14 +2124,14 @@
       "subcomponents": {
         "AccordionItem": {
           "name": "AccordionItem",
-          "path": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\client.tsx",
+          "path": "D:\\wt\\sp1643\\packages\\ui\\src\\client.tsx",
           "import": "import { AccordionItem } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "AccordionItem",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\client.tsx",
+            "definedInFile": "D:\\wt\\sp1643\\packages\\ui\\src\\client.tsx",
             "actualName": "AccordionItem",
             "exportName": "AccordionItem",
             "props": {
@@ -2161,14 +2161,14 @@
         },
         "AccordionTrigger": {
           "name": "AccordionTrigger",
-          "path": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\client.tsx",
+          "path": "D:\\wt\\sp1643\\packages\\ui\\src\\client.tsx",
           "import": "import { AccordionTrigger } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "AccordionTrigger",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\client.tsx",
+            "definedInFile": "D:\\wt\\sp1643\\packages\\ui\\src\\client.tsx",
             "actualName": "AccordionTrigger",
             "exportName": "AccordionTrigger",
             "props": {
@@ -2214,14 +2214,14 @@
         },
         "AccordionPanel": {
           "name": "AccordionPanel",
-          "path": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\client.tsx",
+          "path": "D:\\wt\\sp1643\\packages\\ui\\src\\client.tsx",
           "import": "import { AccordionPanel } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "AccordionPanel",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\client.tsx",
+            "definedInFile": "D:\\wt\\sp1643\\packages\\ui\\src\\client.tsx",
             "actualName": "AccordionPanel",
             "exportName": "AccordionPanel"
           }
@@ -2539,7 +2539,7 @@
         "description": "",
         "methods": [],
         "displayName": "Button",
-        "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\server.tsx",
+        "definedInFile": "D:\\wt\\sp1643\\packages\\ui\\src\\server.tsx",
         "actualName": "Button",
         "exportName": "Button",
         "props": {
@@ -2613,14 +2613,14 @@
       "subcomponents": {
         "LinkButton": {
           "name": "LinkButton",
-          "path": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1643\\packages\\ui\\src\\index.ts",
           "import": "import { LinkButton } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "LinkButton",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1643\\packages\\ui\\src\\server.tsx",
             "actualName": "LinkButton",
             "exportName": "LinkButton",
             "props": {
@@ -2694,14 +2694,14 @@
         },
         "IconButton": {
           "name": "IconButton",
-          "path": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1643\\packages\\ui\\src\\index.ts",
           "import": "import { IconButton } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "IconButton",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1643\\packages\\ui\\src\\server.tsx",
             "actualName": "IconButton",
             "exportName": "IconButton",
             "props": {
@@ -2774,7 +2774,7 @@
         "description": "",
         "methods": [],
         "displayName": "ResponsiveTable",
-        "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\server.tsx",
+        "definedInFile": "D:\\wt\\sp1643\\packages\\ui\\src\\server.tsx",
         "actualName": "ResponsiveTable",
         "exportName": "ResponsiveTable",
         "props": {
@@ -2790,126 +2790,126 @@
       "subcomponents": {
         "Table": {
           "name": "Table",
-          "path": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1643\\packages\\ui\\src\\index.ts",
           "import": "import { Table } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Table",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1643\\packages\\ui\\src\\server.tsx",
             "actualName": "Table",
             "exportName": "Table"
           }
         },
         "TableCaption": {
           "name": "TableCaption",
-          "path": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1643\\packages\\ui\\src\\index.ts",
           "import": "import { TableCaption } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "TableCaption",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1643\\packages\\ui\\src\\server.tsx",
             "actualName": "TableCaption",
             "exportName": "TableCaption"
           }
         },
         "TableHead": {
           "name": "TableHead",
-          "path": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1643\\packages\\ui\\src\\index.ts",
           "import": "import { TableHead } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "TableHead",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1643\\packages\\ui\\src\\server.tsx",
             "actualName": "TableHead",
             "exportName": "TableHead"
           }
         },
         "TableBody": {
           "name": "TableBody",
-          "path": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1643\\packages\\ui\\src\\index.ts",
           "import": "import { TableBody } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "TableBody",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1643\\packages\\ui\\src\\server.tsx",
             "actualName": "TableBody",
             "exportName": "TableBody"
           }
         },
         "TableRow": {
           "name": "TableRow",
-          "path": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1643\\packages\\ui\\src\\index.ts",
           "import": "import { TableRow } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "TableRow",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1643\\packages\\ui\\src\\server.tsx",
             "actualName": "TableRow",
             "exportName": "TableRow"
           }
         },
         "TableHeader": {
           "name": "TableHeader",
-          "path": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1643\\packages\\ui\\src\\index.ts",
           "import": "import { TableHeader } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "TableHeader",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1643\\packages\\ui\\src\\server.tsx",
             "actualName": "TableHeader",
             "exportName": "TableHeader"
           }
         },
         "TableCell": {
           "name": "TableCell",
-          "path": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1643\\packages\\ui\\src\\index.ts",
           "import": "import { TableCell } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "TableCell",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1643\\packages\\ui\\src\\server.tsx",
             "actualName": "TableCell",
             "exportName": "TableCell"
           }
         },
         "KeyValueList": {
           "name": "KeyValueList",
-          "path": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1643\\packages\\ui\\src\\index.ts",
           "import": "import { KeyValueList } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "KeyValueList",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1643\\packages\\ui\\src\\server.tsx",
             "actualName": "KeyValueList",
             "exportName": "KeyValueList"
           }
         },
         "KeyValueItem": {
           "name": "KeyValueItem",
-          "path": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1643\\packages\\ui\\src\\index.ts",
           "import": "import { KeyValueItem } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "KeyValueItem",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1643\\packages\\ui\\src\\server.tsx",
             "actualName": "KeyValueItem",
             "exportName": "KeyValueItem",
             "props": {
@@ -2932,28 +2932,28 @@
         },
         "StatGroup": {
           "name": "StatGroup",
-          "path": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1643\\packages\\ui\\src\\index.ts",
           "import": "import { StatGroup } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "StatGroup",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1643\\packages\\ui\\src\\server.tsx",
             "actualName": "StatGroup",
             "exportName": "StatGroup"
           }
         },
         "Stat": {
           "name": "Stat",
-          "path": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1643\\packages\\ui\\src\\index.ts",
           "import": "import { Stat } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Stat",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1643\\packages\\ui\\src\\server.tsx",
             "actualName": "Stat",
             "exportName": "Stat",
             "props": {
@@ -2986,28 +2986,28 @@
         },
         "ChartLegend": {
           "name": "ChartLegend",
-          "path": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1643\\packages\\ui\\src\\index.ts",
           "import": "import { ChartLegend } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "ChartLegend",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1643\\packages\\ui\\src\\server.tsx",
             "actualName": "ChartLegend",
             "exportName": "ChartLegend"
           }
         },
         "ChartLegendItem": {
           "name": "ChartLegendItem",
-          "path": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1643\\packages\\ui\\src\\index.ts",
           "import": "import { ChartLegendItem } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "ChartLegendItem",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1643\\packages\\ui\\src\\server.tsx",
             "actualName": "ChartLegendItem",
             "exportName": "ChartLegendItem",
             "props": {
@@ -3087,7 +3087,7 @@
         "description": "",
         "methods": [],
         "displayName": "Dialog",
-        "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\client.tsx",
+        "definedInFile": "D:\\wt\\sp1643\\packages\\ui\\src\\client.tsx",
         "actualName": "Dialog",
         "exportName": "Dialog",
         "props": {
@@ -3151,7 +3151,7 @@
         "description": "",
         "methods": [],
         "displayName": "Notice",
-        "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\server.tsx",
+        "definedInFile": "D:\\wt\\sp1643\\packages\\ui\\src\\server.tsx",
         "actualName": "Notice",
         "exportName": "Notice",
         "props": {
@@ -3214,14 +3214,14 @@
       "subcomponents": {
         "Badge": {
           "name": "Badge",
-          "path": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1643\\packages\\ui\\src\\index.ts",
           "import": "import { Badge } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Badge",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1643\\packages\\ui\\src\\server.tsx",
             "actualName": "Badge",
             "exportName": "Badge",
             "props": {
@@ -3267,14 +3267,14 @@
         },
         "StatusIndicator": {
           "name": "StatusIndicator",
-          "path": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1643\\packages\\ui\\src\\index.ts",
           "import": "import { StatusIndicator } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "StatusIndicator",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1643\\packages\\ui\\src\\server.tsx",
             "actualName": "StatusIndicator",
             "exportName": "StatusIndicator",
             "props": {
@@ -3326,14 +3326,14 @@
         },
         "FormStatus": {
           "name": "FormStatus",
-          "path": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1643\\packages\\ui\\src\\index.ts",
           "import": "import { FormStatus } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "FormStatus",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1643\\packages\\ui\\src\\server.tsx",
             "actualName": "FormStatus",
             "exportName": "FormStatus",
             "props": {
@@ -3379,14 +3379,14 @@
         },
         "LoadingIndicator": {
           "name": "LoadingIndicator",
-          "path": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1643\\packages\\ui\\src\\index.ts",
           "import": "import { LoadingIndicator } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "LoadingIndicator",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1643\\packages\\ui\\src\\server.tsx",
             "actualName": "LoadingIndicator",
             "exportName": "LoadingIndicator",
             "props": {
@@ -3409,28 +3409,28 @@
         },
         "Skeleton": {
           "name": "Skeleton",
-          "path": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1643\\packages\\ui\\src\\index.ts",
           "import": "import { Skeleton } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Skeleton",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1643\\packages\\ui\\src\\server.tsx",
             "actualName": "Skeleton",
             "exportName": "Skeleton"
           }
         },
         "EmptyState": {
           "name": "EmptyState",
-          "path": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1643\\packages\\ui\\src\\index.ts",
           "import": "import { EmptyState } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "EmptyState",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1643\\packages\\ui\\src\\server.tsx",
             "actualName": "EmptyState",
             "exportName": "EmptyState",
             "props": {
@@ -3470,14 +3470,14 @@
         },
         "ErrorState": {
           "name": "ErrorState",
-          "path": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1643\\packages\\ui\\src\\index.ts",
           "import": "import { ErrorState } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "ErrorState",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1643\\packages\\ui\\src\\server.tsx",
             "actualName": "ErrorState",
             "exportName": "ErrorState",
             "props": {
@@ -3543,105 +3543,105 @@
         "description": "",
         "methods": [],
         "displayName": "Field",
-        "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\server.tsx",
+        "definedInFile": "D:\\wt\\sp1643\\packages\\ui\\src\\server.tsx",
         "actualName": "Field",
         "exportName": "Field"
       },
       "subcomponents": {
         "FieldLabel": {
           "name": "FieldLabel",
-          "path": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1643\\packages\\ui\\src\\index.ts",
           "import": "import { FieldLabel } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "FieldLabel",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1643\\packages\\ui\\src\\server.tsx",
             "actualName": "FieldLabel",
             "exportName": "FieldLabel"
           }
         },
         "FieldDescription": {
           "name": "FieldDescription",
-          "path": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1643\\packages\\ui\\src\\index.ts",
           "import": "import { FieldDescription } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "FieldDescription",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1643\\packages\\ui\\src\\server.tsx",
             "actualName": "FieldDescription",
             "exportName": "FieldDescription"
           }
         },
         "FieldError": {
           "name": "FieldError",
-          "path": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1643\\packages\\ui\\src\\index.ts",
           "import": "import { FieldError } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "FieldError",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1643\\packages\\ui\\src\\server.tsx",
             "actualName": "FieldError",
             "exportName": "FieldError"
           }
         },
         "TextInput": {
           "name": "TextInput",
-          "path": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1643\\packages\\ui\\src\\index.ts",
           "import": "import { TextInput } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "TextInput",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1643\\packages\\ui\\src\\server.tsx",
             "actualName": "TextInput",
             "exportName": "TextInput"
           }
         },
         "Textarea": {
           "name": "Textarea",
-          "path": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1643\\packages\\ui\\src\\index.ts",
           "import": "import { Textarea } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Textarea",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1643\\packages\\ui\\src\\server.tsx",
             "actualName": "Textarea",
             "exportName": "Textarea"
           }
         },
         "Select": {
           "name": "Select",
-          "path": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1643\\packages\\ui\\src\\index.ts",
           "import": "import { Select } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Select",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1643\\packages\\ui\\src\\server.tsx",
             "actualName": "Select",
             "exportName": "Select"
           }
         },
         "Checkbox": {
           "name": "Checkbox",
-          "path": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1643\\packages\\ui\\src\\index.ts",
           "import": "import { Checkbox } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Checkbox",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1643\\packages\\ui\\src\\server.tsx",
             "actualName": "Checkbox",
             "exportName": "Checkbox",
             "props": {
@@ -3667,14 +3667,14 @@
         },
         "Radio": {
           "name": "Radio",
-          "path": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1643\\packages\\ui\\src\\index.ts",
           "import": "import { Radio } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Radio",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1643\\packages\\ui\\src\\server.tsx",
             "actualName": "Radio",
             "exportName": "Radio",
             "props": {
@@ -3700,14 +3700,14 @@
         },
         "Switch": {
           "name": "Switch",
-          "path": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1643\\packages\\ui\\src\\index.ts",
           "import": "import { Switch } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Switch",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1643\\packages\\ui\\src\\server.tsx",
             "actualName": "Switch",
             "exportName": "Switch",
             "props": {
@@ -3747,14 +3747,14 @@
         },
         "FormStatus": {
           "name": "FormStatus",
-          "path": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1643\\packages\\ui\\src\\index.ts",
           "import": "import { FormStatus } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "FormStatus",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1643\\packages\\ui\\src\\server.tsx",
             "actualName": "FormStatus",
             "exportName": "FormStatus",
             "props": {
@@ -3837,63 +3837,63 @@
         "description": "",
         "methods": [],
         "displayName": "Disclosure",
-        "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\server.tsx",
+        "definedInFile": "D:\\wt\\sp1643\\packages\\ui\\src\\server.tsx",
         "actualName": "Disclosure",
         "exportName": "Disclosure"
       },
       "subcomponents": {
         "DisclosureTrigger": {
           "name": "DisclosureTrigger",
-          "path": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1643\\packages\\ui\\src\\index.ts",
           "import": "import { DisclosureTrigger } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "DisclosureTrigger",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1643\\packages\\ui\\src\\server.tsx",
             "actualName": "DisclosureTrigger",
             "exportName": "DisclosureTrigger"
           }
         },
         "Menu": {
           "name": "Menu",
-          "path": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1643\\packages\\ui\\src\\index.ts",
           "import": "import { Menu } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Menu",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1643\\packages\\ui\\src\\server.tsx",
             "actualName": "Menu",
             "exportName": "Menu"
           }
         },
         "MenuItem": {
           "name": "MenuItem",
-          "path": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1643\\packages\\ui\\src\\index.ts",
           "import": "import { MenuItem } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "MenuItem",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1643\\packages\\ui\\src\\server.tsx",
             "actualName": "MenuItem",
             "exportName": "MenuItem"
           }
         },
         "Pagination": {
           "name": "Pagination",
-          "path": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1643\\packages\\ui\\src\\index.ts",
           "import": "import { Pagination } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Pagination",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1643\\packages\\ui\\src\\server.tsx",
             "actualName": "Pagination",
             "exportName": "Pagination",
             "props": {
@@ -3909,28 +3909,28 @@
         },
         "PaginationList": {
           "name": "PaginationList",
-          "path": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1643\\packages\\ui\\src\\index.ts",
           "import": "import { PaginationList } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "PaginationList",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1643\\packages\\ui\\src\\server.tsx",
             "actualName": "PaginationList",
             "exportName": "PaginationList"
           }
         },
         "PaginationLink": {
           "name": "PaginationLink",
-          "path": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1643\\packages\\ui\\src\\index.ts",
           "import": "import { PaginationLink } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "PaginationLink",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1643\\packages\\ui\\src\\server.tsx",
             "actualName": "PaginationLink",
             "exportName": "PaginationLink",
             "props": {
@@ -3953,14 +3953,14 @@
         },
         "Tooltip": {
           "name": "Tooltip",
-          "path": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1643\\packages\\ui\\src\\index.ts",
           "import": "import { Tooltip } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Tooltip",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1643\\packages\\ui\\src\\server.tsx",
             "actualName": "Tooltip",
             "exportName": "Tooltip",
             "props": {
@@ -4013,7 +4013,7 @@
         "description": "",
         "methods": [],
         "displayName": "Card",
-        "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\server.tsx",
+        "definedInFile": "D:\\wt\\sp1643\\packages\\ui\\src\\server.tsx",
         "actualName": "Card",
         "exportName": "Card",
         "props": {
@@ -4051,70 +4051,70 @@
       "subcomponents": {
         "CardHeader": {
           "name": "CardHeader",
-          "path": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1643\\packages\\ui\\src\\index.ts",
           "import": "import { CardHeader } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "CardHeader",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1643\\packages\\ui\\src\\server.tsx",
             "actualName": "CardHeader",
             "exportName": "CardHeader"
           }
         },
         "CardTitle": {
           "name": "CardTitle",
-          "path": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1643\\packages\\ui\\src\\index.ts",
           "import": "import { CardTitle } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "CardTitle",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1643\\packages\\ui\\src\\server.tsx",
             "actualName": "CardTitle",
             "exportName": "CardTitle"
           }
         },
         "CardDescription": {
           "name": "CardDescription",
-          "path": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1643\\packages\\ui\\src\\index.ts",
           "import": "import { CardDescription } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "CardDescription",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1643\\packages\\ui\\src\\server.tsx",
             "actualName": "CardDescription",
             "exportName": "CardDescription"
           }
         },
         "CardContent": {
           "name": "CardContent",
-          "path": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1643\\packages\\ui\\src\\index.ts",
           "import": "import { CardContent } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "CardContent",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1643\\packages\\ui\\src\\server.tsx",
             "actualName": "CardContent",
             "exportName": "CardContent"
           }
         },
         "Panel": {
           "name": "Panel",
-          "path": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1643\\packages\\ui\\src\\index.ts",
           "import": "import { Panel } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Panel",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1643\\packages\\ui\\src\\server.tsx",
             "actualName": "Panel",
             "exportName": "Panel",
             "props": {
@@ -4174,7 +4174,7 @@
         "description": "",
         "methods": [],
         "displayName": "Tabs",
-        "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\client.tsx",
+        "definedInFile": "D:\\wt\\sp1643\\packages\\ui\\src\\client.tsx",
         "actualName": "Tabs",
         "exportName": "Tabs",
         "props": {
@@ -4219,14 +4219,14 @@
       "subcomponents": {
         "TabList": {
           "name": "TabList",
-          "path": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\client.tsx",
+          "path": "D:\\wt\\sp1643\\packages\\ui\\src\\client.tsx",
           "import": "import { TabList } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "TabList",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\client.tsx",
+            "definedInFile": "D:\\wt\\sp1643\\packages\\ui\\src\\client.tsx",
             "actualName": "TabList",
             "exportName": "TabList",
             "props": {
@@ -4242,14 +4242,14 @@
         },
         "Tab": {
           "name": "Tab",
-          "path": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\client.tsx",
+          "path": "D:\\wt\\sp1643\\packages\\ui\\src\\client.tsx",
           "import": "import { Tab } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Tab",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\client.tsx",
+            "definedInFile": "D:\\wt\\sp1643\\packages\\ui\\src\\client.tsx",
             "actualName": "Tab",
             "exportName": "Tab",
             "props": {
@@ -4265,14 +4265,14 @@
         },
         "TabPanel": {
           "name": "TabPanel",
-          "path": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\client.tsx",
+          "path": "D:\\wt\\sp1643\\packages\\ui\\src\\client.tsx",
           "import": "import { TabPanel } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "TabPanel",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\client.tsx",
+            "definedInFile": "D:\\wt\\sp1643\\packages\\ui\\src\\client.tsx",
             "actualName": "TabPanel",
             "exportName": "TabPanel",
             "props": {
@@ -4305,7 +4305,7 @@
         "description": "",
         "methods": [],
         "displayName": "Accordion",
-        "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\client.tsx",
+        "definedInFile": "D:\\wt\\sp1643\\packages\\ui\\src\\client.tsx",
         "actualName": "Accordion",
         "exportName": "Accordion",
         "props": {
@@ -4335,14 +4335,14 @@
       "subcomponents": {
         "ThemeProvider": {
           "name": "ThemeProvider",
-          "path": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\client.tsx",
+          "path": "D:\\wt\\sp1643\\packages\\ui\\src\\client.tsx",
           "import": "import { ThemeProvider } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Accordion",
-            "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\packages\\ui\\src\\client.tsx",
+            "definedInFile": "D:\\wt\\sp1643\\packages\\ui\\src\\client.tsx",
             "actualName": "Accordion",
             "exportName": "Accordion",
             "props": {
@@ -4550,7 +4550,7 @@
         "description": "",
         "methods": [],
         "displayName": "InstaticSpecimenStory",
-        "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\apps\\design-system\\src\\instatic\\InstaticSpecimen.tsx",
+        "definedInFile": "D:\\wt\\sp1643\\apps\\design-system\\src\\instatic\\InstaticSpecimen.tsx",
         "actualName": "InstaticSpecimenStory",
         "exportName": "InstaticSpecimenStory",
         "props": {
@@ -4624,7 +4624,7 @@
         "description": "",
         "methods": [],
         "displayName": "InstaticSpecimenStory",
-        "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\apps\\design-system\\src\\instatic\\InstaticSpecimen.tsx",
+        "definedInFile": "D:\\wt\\sp1643\\apps\\design-system\\src\\instatic\\InstaticSpecimen.tsx",
         "actualName": "InstaticSpecimenStory",
         "exportName": "InstaticSpecimenStory",
         "props": {
@@ -4718,7 +4718,7 @@
         "description": "",
         "methods": [],
         "displayName": "InstaticSpecimenStory",
-        "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\apps\\design-system\\src\\instatic\\InstaticSpecimen.tsx",
+        "definedInFile": "D:\\wt\\sp1643\\apps\\design-system\\src\\instatic\\InstaticSpecimen.tsx",
         "actualName": "InstaticSpecimenStory",
         "exportName": "InstaticSpecimenStory",
         "props": {
@@ -4807,7 +4807,7 @@
         "description": "",
         "methods": [],
         "displayName": "InstaticSpecimenStory",
-        "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\apps\\design-system\\src\\instatic\\InstaticSpecimen.tsx",
+        "definedInFile": "D:\\wt\\sp1643\\apps\\design-system\\src\\instatic\\InstaticSpecimen.tsx",
         "actualName": "InstaticSpecimenStory",
         "exportName": "InstaticSpecimenStory",
         "props": {
@@ -4856,7 +4856,7 @@
         "description": "",
         "methods": [],
         "displayName": "InstaticSpecimenStory",
-        "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\apps\\design-system\\src\\instatic\\InstaticSpecimen.tsx",
+        "definedInFile": "D:\\wt\\sp1643\\apps\\design-system\\src\\instatic\\InstaticSpecimen.tsx",
         "actualName": "InstaticSpecimenStory",
         "exportName": "InstaticSpecimenStory",
         "props": {
@@ -5105,7 +5105,7 @@
         "description": "",
         "methods": [],
         "displayName": "InstaticSpecimenStory",
-        "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\apps\\design-system\\src\\instatic\\InstaticSpecimen.tsx",
+        "definedInFile": "D:\\wt\\sp1643\\apps\\design-system\\src\\instatic\\InstaticSpecimen.tsx",
         "actualName": "InstaticSpecimenStory",
         "exportName": "InstaticSpecimenStory",
         "props": {
@@ -5199,7 +5199,7 @@
         "description": "",
         "methods": [],
         "displayName": "InstaticSpecimenStory",
-        "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\apps\\design-system\\src\\instatic\\InstaticSpecimen.tsx",
+        "definedInFile": "D:\\wt\\sp1643\\apps\\design-system\\src\\instatic\\InstaticSpecimen.tsx",
         "actualName": "InstaticSpecimenStory",
         "exportName": "InstaticSpecimenStory",
         "props": {
@@ -5273,7 +5273,7 @@
         "description": "",
         "methods": [],
         "displayName": "InstaticSpecimenStory",
-        "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\apps\\design-system\\src\\instatic\\InstaticSpecimen.tsx",
+        "definedInFile": "D:\\wt\\sp1643\\apps\\design-system\\src\\instatic\\InstaticSpecimen.tsx",
         "actualName": "InstaticSpecimenStory",
         "exportName": "InstaticSpecimenStory",
         "props": {
@@ -5342,7 +5342,7 @@
         "description": "",
         "methods": [],
         "displayName": "InstaticSpecimenStory",
-        "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\apps\\design-system\\src\\instatic\\InstaticSpecimen.tsx",
+        "definedInFile": "D:\\wt\\sp1643\\apps\\design-system\\src\\instatic\\InstaticSpecimen.tsx",
         "actualName": "InstaticSpecimenStory",
         "exportName": "InstaticSpecimenStory",
         "props": {
@@ -5411,7 +5411,7 @@
         "description": "",
         "methods": [],
         "displayName": "InstaticSpecimenStory",
-        "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\apps\\design-system\\src\\instatic\\InstaticSpecimen.tsx",
+        "definedInFile": "D:\\wt\\sp1643\\apps\\design-system\\src\\instatic\\InstaticSpecimen.tsx",
         "actualName": "InstaticSpecimenStory",
         "exportName": "InstaticSpecimenStory",
         "props": {
@@ -5470,7 +5470,7 @@
         "description": "",
         "methods": [],
         "displayName": "InstaticSpecimenStory",
-        "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\apps\\design-system\\src\\instatic\\InstaticSpecimen.tsx",
+        "definedInFile": "D:\\wt\\sp1643\\apps\\design-system\\src\\instatic\\InstaticSpecimen.tsx",
         "actualName": "InstaticSpecimenStory",
         "exportName": "InstaticSpecimenStory",
         "props": {
@@ -5539,7 +5539,7 @@
         "description": "",
         "methods": [],
         "displayName": "InstaticSpecimenStory",
-        "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\apps\\design-system\\src\\instatic\\InstaticSpecimen.tsx",
+        "definedInFile": "D:\\wt\\sp1643\\apps\\design-system\\src\\instatic\\InstaticSpecimen.tsx",
         "actualName": "InstaticSpecimenStory",
         "exportName": "InstaticSpecimenStory",
         "props": {
@@ -5693,7 +5693,7 @@
         "description": "",
         "methods": [],
         "displayName": "InstaticSpecimenStory",
-        "definedInFile": "D:\\codex-worktrees\\sales-pulse-issue-1617-local-storybook-delivery\\apps\\design-system\\src\\instatic\\InstaticSpecimen.tsx",
+        "definedInFile": "D:\\wt\\sp1643\\apps\\design-system\\src\\instatic\\InstaticSpecimen.tsx",
         "actualName": "InstaticSpecimenStory",
         "exportName": "InstaticSpecimenStory",
         "props": {
@@ -6699,6 +6699,115 @@
       ],
       "import": "import { Badge, Button, LinkButton } from \"@creator-signal/design-system-reference\";"
     },
+    "products-planned-helper-simplified": {
+      "id": "products-planned-helper-simplified",
+      "name": "HelperSimplified",
+      "path": "./src/stories/planned/HelperSimplified.stories.tsx",
+      "jsDocTags": {},
+      "error": {
+        "name": "No component import found",
+        "message": "No component file found for the \"HelperSimplified\" component.\n  86 |   </main>;\n  87 | }\n> 88 | const meta = { id: \"products-planned-helper-simplified\", title: \"Planned/Helper simplified versions\", component: HelperSimplified, tags: [\"autodocs\"], parameters: { layout: \"fullscreen\", immersiveReference: true, docs: { description: { component: \"Issue #1639. Version 4 proposes simpler installation, connection cards and a compact movable toolbar. Synthetic only. Confetti runs once per preview mount; installed-product first-install persistence belongs to #1482. Dashboard navigation is simulated. Existing versions and shared typography remain unchanged.\" } } } } satisfies Meta<typeof HelperSimplified>;\n     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  89 | export default meta;\n  90 | type Story = StoryObj<typeof meta>;\n  91 | export const Installation: Story = { name: \"Version 4 · Simplified installation\", play: async ({ canvasElement }) => { const canvas = within(canvasElement); await expect(canvas.getByRole(\"button\", { name: \"Continue\" })).toBeDisabled(); } };\n\n./src/stories/planned/HelperSimplified.stories.tsx:\nimport { useEffect, useRef, useState, type CSSProperties } from \"react\";\nimport type { Meta, StoryObj } from \"@storybook/react-vite\";\nimport { expect, within } from \"storybook/test\";\nimport { Badge, Button, LinkButton } from \"@creator-signal/ui\";\nimport { useTheme } from \"@creator-signal/ui/client\";\nimport { referencePath } from \"../../reference-path\";\nimport \"../../helper-simplified.css\";\n\ntype Connection = \"signed-out\" | \"checking\" | \"connected\" | \"failed\";\ntype Activity = \"importing\" | \"paused\" | \"complete\" | \"empty\" | \"failed\";\nconst activityCopy: Record<Activity, [string, string]> = {\n  importing: [\"Bringing in your shop’s activity · 8 of 20 statements\", \"Your import is running in the background.\"],\n  paused: [\"Paused · 8 of 20 statements saved\", \"Sign in to Spoonflower to continue.\"],\n  complete: [\"Your shop’s activity is up to date\", \"20 of 20 statements saved.\"],\n  empty: [\"All checked · no new statements\", \"Your existing sales are still available.\"],\n  failed: [\"Couldn’t reach Spoonflower\", \"8 of 20 statements saved. You can try again.\"]\n};\n\nfunction HelperSimplified({ page = \"installation\", creator = \"connected\", spoonflower = \"signed-out\", activity = \"importing\" }: { page?: \"installation\" | \"guide\" | \"toolbar\" | \"type\"; creator?: Connection; spoonflower?: Connection; activity?: Activity }) {\n  const { resolvedTheme } = useTheme();\n  const [screen, setScreen] = useState<string>(page);\n  const [accounts, setAccounts] = useState<Connection[]>([creator, spoonflower]);\n  const [current, setCurrent] = useState(activity);\n  const [visible, setVisible] = useState(true);\n  const [position, setPosition] = useState({ x: 0, y: 0 });\n  const [celebrate, setCelebrate] = useState(true);\n  useEffect(() => setScreen(page), [page]);\n  useEffect(() => setAccounts([creator, spoonflower]), [creator, spoonflower]);\n  useEffect(() => setCurrent(activity), [activity]);\n  const stage = useRef<HTMLDivElement>(null);\n  const bar = useRef<HTMLDivElement>(null);\n  const heading = useRef<HTMLHeadingElement>(null);\n  const controls = useRef<HTMLDivElement>(null);\n  const drag = useRef<{ x: number; y: number; startX: number; startY: number } | null>(null);\n  const timers = useRef<ReturnType<typeof setTimeout>[]>([]);\n  useEffect(() => { const timer = setTimeout(() => setCelebrate(false), 2200); return () => { clearTimeout(timer); timers.current.forEach(clearTimeout); }; }, []);\n  const navigate = (next: string) => { setScreen(next); requestAnimationFrame(() => heading.current?.focus()); };\n  const connect = (index: number) => {\n    setAccounts(old => old.map((value, i) => i === index ? \"checking\" : value));\n    timers.current.push(setTimeout(() => setAccounts(old => old.map((value, i) => i === index ? \"connected\" : value)), 700));\n  };\n  const clamp = (x: number, y: number) => ({ x: Math.max(0, Math.min(x, (stage.current?.clientWidth ?? 0) - (bar.current?.offsetWidth ?? 0))), y: Math.max(0, Math.min(y, (stage.current?.clientHeight ?? 0) - (bar.current?.offsetHeight ?? 0))) });\n  useEffect(() => {\n    if (!stage.current || !bar.current) return;\n    const observer = new ResizeObserver(() => setPosition(old => clamp(old.x, old.y)));\n    observer.observe(stage.current); observer.observe(bar.current);\n    return () => observer.disconnect();\n  }, [screen, visible]);\n  const toolbar = <div className=\"cs-hs-stage\" ref={stage}>\n    {visible ? <div className=\"cs-hs-toolbar\" ref={bar} role=\"group\" aria-label=\"Helper toolbar\" style={{ left: position.x, top: position.y }}>\n      <Button variant=\"ghost\" className=\"cs-hs-grip\" aria-label=\"Move toolbar\" aria-describedby=\"hs-move-help\"\n        onKeyDown={event => { const delta = ({ ArrowLeft: [-16, 0], ArrowRight: [16, 0], ArrowUp: [0, -16], ArrowDown: [0, 16] } as Record<string, number[]>)[event.key]; if (delta) { event.preventDefault(); setPosition(old => clamp(old.x + delta[0]!, old.y + delta[1]!)); } if (event.key === \"Home\") { event.preventDefault(); setPosition({ x: 0, y: 0 }); } }}\n        onPointerDown={event => { drag.current = { x: event.clientX, y: event.clientY, startX: position.x, startY: position.y }; event.currentTarget.setPointerCapture(event.pointerId); }}\n        onPointerMove={event => { if (drag.current) setPosition(clamp(drag.current.startX + event.clientX - drag.current.x, drag.current.startY + event.clientY - drag.current.y)); }}\n        onPointerUp={() => { drag.current = null; }} onPointerCancel={() => { drag.current = null; }}>⠿</Button>\n      {current === \"paused\" ? <Button variant=\"secondary\" onClick={() => setCurrent(\"importing\")}>Sign in to Spoonflower</Button> : <Badge tone={current === \"failed\" ? \"warning\" : \"success\"}>{current === \"failed\" ? \"Connection unavailable\" : \"Accounts connected\"}</Badge>}\n      <div className=\"cs-hs-progress\" role=\"status\"><strong>{activityCopy[current][0]}</strong><small>{activityCopy[current][1]}</small>{[\"importing\", \"paused\", \"failed\"].includes(current) && <progress aria-label=\"Statements saved\" value={8} max={20} />}</div>\n      {current === \"failed\" && <Button variant=\"secondary\" onClick={() => setCurrent(\"importing\")}>Retry</Button>}\n      <Button onClick={() => navigate(\"dashboard\")}>Show my sales</Button>\n      <Button variant=\"ghost\" aria-label=\"Hide toolbar\" onClick={() => { setVisible(false); requestAnimationFrame(() => controls.current?.querySelector<HTMLButtonElement>('button')?.focus()); }}>×</Button>\n    </div> : <p>Toolbar hidden. Your background work continues.</p>}\n  </div>;\n  return <main className=\"cs-hs\">\n    <header><strong>Sales Pulse Helper</strong><Badge tone=\"warning\">Planned · {page === \"toolbar\" ? \"Toolbar Version 2\" : page === \"type\" ? \"Typography comparison\" : \"Version 4\"} · synthetic preview</Badge></header>\n    {screen === \"installation\" && <section className=\"cs-hs-install\">\n      <div className=\"cs-hs-emblem\" aria-hidden=\"true\"><img src={referencePath(`/brand-assets/delivery/sales-pulse-mark/${resolvedTheme === \"dark\" ? \"dark\" : \"light\"}-background.svg`)} alt=\"\" onError={event => { event.currentTarget.hidden = true; }} /><span>✓</span>{celebrate && Array.from({ length: 12 }, (_, index) => <i key={index} style={{ \"--piece\": index } as CSSProperties} />)}</div>\n      <h1 ref={heading} tabIndex={-1}>Sales Pulse Helper<br />is installed!</h1>\n      <h2>Let’s make sure you’re connected</h2><p>We just need to check you’re signed in to both.</p>\n      <div className=\"cs-hs-accounts\">{[\"Creator Signal\", \"Spoonflower\"].map((name, index) => <section key={name} aria-label={`${name} connection`}>\n        <Badge tone={accounts[index] === \"connected\" ? \"success\" : accounts[index] === \"failed\" ? \"error\" : \"warning\"}>{accounts[index] === \"connected\" ? \"✓ Connected\" : accounts[index] === \"checking\" ? \"Checking connection…\" : accounts[index] === \"failed\" ? \"Connection check failed\" : \"! Not signed in yet\"}</Badge>\n        <h3>{name}</h3><p role=\"status\">{accounts[index] === \"connected\" ? \"You’re signed in\" : accounts[index] === \"checking\" ? \"Waiting for your account…\" : accounts[index] === \"failed\" ? \"We couldn’t check your account. Please retry.\" : \"Sign in to bring your shop’s sales into view.\"}</p>\n        {accounts[index] === \"connected\" ? <small>Synthetic sample account</small> : <Button busy={accounts[index] === \"checking\"} onClick={() => connect(index)}>{accounts[index] === \"failed\" ? `Retry ${name}` : `Sign in to ${name}`}</Button>}\n      </section>)}</div>\n      <Button disabled={!accounts.every(value => value === \"connected\")} aria-describedby=\"hs-continue-help\" onClick={() => navigate(\"guide\")}>Continue</Button>\n      <small id=\"hs-continue-help\">{accounts.every(value => value === \"connected\") ? \"Both accounts are connected. Meet your Helper next.\" : \"Sign in to both accounts to continue.\"}</small>\n    </section>}\n    {(screen === \"guide\" || screen === \"toolbar\") && <section className=\"cs-hs-guide\">\n      <h1 ref={heading} tabIndex={-1}>{screen === \"guide\" ? \"Meet your Helper\" : \"Your Helper, at a glance\"}</h1><p>Here’s where to find it, and what it shows you.</p>\n      {screen === \"guide\" && <><h2>1. Find it in your browser toolbar</h2><p>Open your browser’s Extensions menu, then pin Sales Pulse Helper. Browser controls may look different.</p><div className=\"cs-hs-browser\" aria-label=\"Illustrative browser toolbar\"><span>← → ⟳</span><span className=\"cs-hs-address\">Your Spoonflower tab</span><strong>Extensions → Sales Pulse Helper → Pin</strong></div><h2>2. Everything you need, at a glance</h2><ol><li>See whether your accounts need attention.</li><li>Follow your latest sales import.</li><li>Open your Creator Signal dashboard.</li></ol></>}\n      <div className=\"cs-hs-controls\" ref={controls}><label>Preview activity <select value={current} onChange={event => setCurrent(event.target.value as Activity)}>{Object.keys(activityCopy).map(key => <option key={key} value={key}>{key}</option>)}</select></label><Button variant=\"secondary\" onClick={() => { setVisible(true); requestAnimationFrame(() => bar.current?.querySelector<HTMLButtonElement>('button')?.focus()); }}>Show Helper</Button><Button variant=\"ghost\" onClick={() => setPosition({ x: 0, y: 0 })}>Reset position</Button></div>\n      {toolbar}<p id=\"hs-move-help\">Drag the grip to move the toolbar, or focus it and use the arrow keys. Home resets its position.</p><p>Closing the toolbar keeps background work running. Use Show Helper in the extension popup to restore it.</p><Button onClick={() => navigate(\"dashboard\")}>Show my sales</Button>\n    </section>}\n    {screen === \"dashboard\" && <section className=\"cs-hs-guide\"><h1 ref={heading} tabIndex={-1}>Your Creator Signal dashboard</h1><Badge>Destination preview</Badge><p>Your sales dashboard opens here in the installed product. This synthetic preview contains no real sales or account data.</p><Button onClick={() => navigate(\"guide\")}>Back to Helper guide</Button></section>}\n    {screen === \"type\" && <section className=\"cs-hs-guide\"><h1>Fredoka heading comparison</h1><p>The same copy and size, with four weight and spacing options. Proposal only; shared typography is unchanged.</p>{[{ label: \"Current · semibold 600 · tight spacing\", weight: 600, spacing: \"-0.03em\" }, { label: \"Regular 400 · normal spacing\", weight: 400, spacing: \"0\" }, { label: \"Medium 500 · normal spacing\", weight: 500, spacing: \"0\" }, { label: \"Semibold 600 · normal spacing\", weight: 600, spacing: \"0\" }].map(option => <section className=\"cs-hs-type\" key={option.label}><Badge>{option.label}</Badge><h2 style={{ fontWeight: option.weight, letterSpacing: option.spacing }}>Sales Pulse Helper is installed!</h2><h3 style={{ fontWeight: option.weight, letterSpacing: option.spacing }}>Let’s make sure you’re connected</h3></section>)}</section>}\n    <footer><span>Design proposal · simulated connections and activity · no data is sent or saved.</span><LinkButton variant=\"ghost\" href={referencePath(\"/?path=/story/products-planned-helper-installation-welcome--installed-with-confetti\")} target=\"_top\">Compare Version 3</LinkButton></footer>\n  </main>;\n}\nconst meta = { id: \"products-planned-helper-simplified\", title: \"Planned/Helper simplified versions\", component: HelperSimplified, tags: [\"autodocs\"], parameters: { layout: \"fullscreen\", immersiveReference: true, docs: { description: { component: \"Issue #1639. Version 4 proposes simpler installation, connection cards and a compact movable toolbar. Synthetic only. Confetti runs once per preview mount; installed-product first-install persistence belongs to #1482. Dashboard navigation is simulated. Existing versions and shared typography remain unchanged.\" } } } } satisfies Meta<typeof HelperSimplified>;\nexport default meta;\ntype Story = StoryObj<typeof meta>;\nexport const Installation: Story = { name: \"Version 4 · Simplified installation\", play: async ({ canvasElement }) => { const canvas = within(canvasElement); await expect(canvas.getByRole(\"button\", { name: \"Continue\" })).toBeDisabled(); } };\nexport const BothSignedOut: Story = { args: { creator: \"signed-out\" } };\nexport const CheckingConnections: Story = { args: { creator: \"checking\", spoonflower: \"checking\" } };\nexport const ConnectionFailure: Story = { args: { spoonflower: \"failed\" } };\nexport const Connected: Story = { args: { spoonflower: \"connected\" } };\nexport const MeetYourHelper: Story = { name: \"Version 4 · Meet your Helper\", args: { page: \"guide\" } };\nexport const CompactToolbar: Story = { name: \"Version 2 · Compact toolbar\", args: { page: \"toolbar\" } };\nexport const PausedToolbar: Story = { args: { page: \"toolbar\", activity: \"paused\" } };\nexport const FailedToolbar: Story = { args: { page: \"toolbar\", activity: \"failed\" } };\nexport const CompleteToolbar: Story = { args: { page: \"toolbar\", activity: \"complete\" } };\nexport const EmptyToolbar: Story = { args: { page: \"toolbar\", activity: \"empty\" } };\nexport const TypographyComparison: Story = { args: { page: \"type\" } };\n"
+      },
+      "stories": [
+        {
+          "id": "products-planned-helper-simplified--installation",
+          "name": "Version 4 · Simplified installation",
+          "error": {
+            "name": "Error",
+            "message": "Could not generate snippet without component name."
+          }
+        },
+        {
+          "id": "products-planned-helper-simplified--both-signed-out",
+          "name": "Both Signed Out",
+          "error": {
+            "name": "Error",
+            "message": "Could not generate snippet without component name."
+          }
+        },
+        {
+          "id": "products-planned-helper-simplified--checking-connections",
+          "name": "Checking Connections",
+          "error": {
+            "name": "Error",
+            "message": "Could not generate snippet without component name."
+          }
+        },
+        {
+          "id": "products-planned-helper-simplified--connection-failure",
+          "name": "Connection Failure",
+          "error": {
+            "name": "Error",
+            "message": "Could not generate snippet without component name."
+          }
+        },
+        {
+          "id": "products-planned-helper-simplified--connected",
+          "name": "Connected",
+          "error": {
+            "name": "Error",
+            "message": "Could not generate snippet without component name."
+          }
+        },
+        {
+          "id": "products-planned-helper-simplified--meet-your-helper",
+          "name": "Version 4 · Meet your Helper",
+          "error": {
+            "name": "Error",
+            "message": "Could not generate snippet without component name."
+          }
+        },
+        {
+          "id": "products-planned-helper-simplified--compact-toolbar",
+          "name": "Version 2 · Compact toolbar",
+          "error": {
+            "name": "Error",
+            "message": "Could not generate snippet without component name."
+          }
+        },
+        {
+          "id": "products-planned-helper-simplified--paused-toolbar",
+          "name": "Paused Toolbar",
+          "error": {
+            "name": "Error",
+            "message": "Could not generate snippet without component name."
+          }
+        },
+        {
+          "id": "products-planned-helper-simplified--failed-toolbar",
+          "name": "Failed Toolbar",
+          "error": {
+            "name": "Error",
+            "message": "Could not generate snippet without component name."
+          }
+        },
+        {
+          "id": "products-planned-helper-simplified--complete-toolbar",
+          "name": "Complete Toolbar",
+          "error": {
+            "name": "Error",
+            "message": "Could not generate snippet without component name."
+          }
+        },
+        {
+          "id": "products-planned-helper-simplified--empty-toolbar",
+          "name": "Empty Toolbar",
+          "error": {
+            "name": "Error",
+            "message": "Could not generate snippet without component name."
+          }
+        },
+        {
+          "id": "products-planned-helper-simplified--typography-comparison",
+          "name": "Typography Comparison",
+          "error": {
+            "name": "Error",
+            "message": "Could not generate snippet without component name."
+          }
+        }
+      ],
+      "import": "import { Badge, Button, LinkButton } from \"@creator-signal/design-system-reference\";"
+    },
     "products-planned-helper-welcome-and-toolbar": {
       "id": "products-planned-helper-welcome-and-toolbar",
       "name": "HelperWelcome",
@@ -6706,7 +6815,7 @@
       "jsDocTags": {},
       "error": {
         "name": "No component import found",
-        "message": "No component file found for the \"HelperWelcome\" component.\n  163 | }\n  164 |\n> 165 | const meta = {\n      | ^\n  166 |   id: \"products-planned-helper-welcome-and-toolbar\",\n  167 |   title: \"Planned/Helper welcome and toolbar\", component: HelperWelcome, tags: [\"autodocs\"],\n  168 |   parameters: { docs: { description: { component: \"Planned design #1607. Synthetic native modal and toolbar composition, not an installed extension. View activity opens the real Creator Signal Activity page in a new tab; the displayed import data remains synthetic. No provider actions or persistence. Use the same reference's Current and planned index to compare delivery status.\" } } },\n\n./src/stories/planned/HelperWelcome.stories.tsx:\nimport { useEffect, useRef, useState, type CSSProperties, type PointerEvent } from \"react\";\nimport type { Meta, StoryObj } from \"@storybook/react-vite\";\nimport { expect, userEvent, waitFor, within } from \"storybook/test\";\nimport { Badge, Button, LinkButton, Switch } from \"@creator-signal/ui\";\nimport { referencePath } from \"../../reference-path\";\nimport \"../../planned-helper.css\";\nimport spoonflowerBackdrop from \"../../../reference-assets/spoonflower-homepage.png\";\n\nconst states = {\n  ready: { label: \"Ready for your next sync\", detail: \"Sales Pulse and Spoonflower connected\", action: \"Open Sales Pulse\", destination: \"Helper settings in Sales Pulse\", tone: \"success\" },\n  importing: { label: \"Importing statements · 8 of 20\", detail: \"Statements phase · your work continues in the background\", action: \"View activity\", destination: \"Spoonflower Activity in Sales Pulse\", tone: \"info\" },\n  content: { label: \"3 new statements imported\", detail: \"Saved in Sales Pulse · just now\", action: \"View statements\", destination: \"The three newly saved statements in Sales Pulse\", tone: \"success\" },\n  signIn: { label: \"Sign in to Spoonflower\", detail: \"Sales Pulse connected · Spoonflower needs attention\", action: \"Open Spoonflower\", destination: \"Spoonflower sign-in; no sign-in occurs in this preview\", tone: \"warning\" },\n  waiting: { label: \"Waiting for Spoonflower\", detail: \"Next retry in 2 minutes · sample timing\", action: \"View activity\", destination: \"The safe reason and next retry time for this action\", tone: \"warning\" },\n  offline: { label: \"Helper connection lost\", detail: \"Last confirmed: importing · 2 minutes ago\", action: \"Check connection\", destination: \"Connection recovery guidance in Sales Pulse\", tone: \"error\" },\n  empty: { label: \"Check complete · no new statements\", detail: \"Last checked just now\", action: \"View history\", destination: \"The completed check with zero newly saved records\", tone: \"neutral\" }\n} as const;\ntype Scenario = keyof typeof states;\ntype Position = { x: number; y: number };\nconst steps = [\"Welcome\", \"Your connections\", \"Make it yours\"];\n\nfunction HelperWelcome({ firstVisit = true, scenario = \"importing\", popupInitiallyOpen = false, immersive = false }: { firstVisit?: boolean; scenario?: Scenario; popupInitiallyOpen?: boolean; immersive?: boolean }) {\n  const dialog = useRef<HTMLDialogElement>(null);\n  const replay = useRef<HTMLButtonElement>(null);\n  const welcomeReturn = useRef<HTMLButtonElement | null>(null);\n  const extensionToggle = useRef<HTMLButtonElement>(null);\n  const [popupOpen, setPopupOpen] = useState(popupInitiallyOpen);\n  const stage = useRef<HTMLDivElement>(null);\n  const toolbar = useRef<HTMLDivElement>(null);\n  const drag = useRef<{ pointer: number; x: number; y: number; start: Position } | null>(null);\n  const [step, setStep] = useState(0);\n  const [backdropFailed, setBackdropFailed] = useState(false);\n  const [visibility, setVisibility] = useState<\"shown\" | \"tab\" | \"hidden\">(\"shown\");\n  const [position, setPosition] = useState<Position | null>(null);\n  const [menu, setMenu] = useState(false);\n  const [destination, setDestination] = useState(\"\");\n  const [finished, setFinished] = useState(false);\n  const [selected, setSelected] = useState<Scenario>(scenario);\n  const current = states[selected];\n  useEffect(() => setSelected(scenario), [scenario]);\n  useEffect(() => {\n    const element = dialog.current;\n    if (firstVisit && element && !element.open) element.showModal();\n    return () => element?.close();\n  }, [firstVisit]);\n\n  const bounds = () => ({\n    x: Math.max(0, (stage.current?.clientWidth ?? 0) - (toolbar.current?.offsetWidth ?? 0)),\n    y: Math.max(0, (stage.current?.clientHeight ?? 0) - (toolbar.current?.offsetHeight ?? 0))\n  });\n  const clamp = (next: Position) => { const max = bounds(); return { x: Math.max(0, Math.min(next.x, max.x)), y: Math.max(0, Math.min(next.y, max.y)) }; };\n  useEffect(() => {\n    if (!stage.current || !toolbar.current) return;\n    const observer = new ResizeObserver(() => setPosition(old => old ? clamp(old) : null));\n    observer.observe(stage.current); observer.observe(toolbar.current);\n    return () => observer.disconnect();\n  }, [visibility]);\n  const actualPosition = () => {\n    const bar = toolbar.current?.getBoundingClientRect();\n    const page = stage.current?.getBoundingClientRect();\n    return { x: (bar?.left ?? 0) - (page?.left ?? 0) - (stage.current?.clientLeft ?? 0), y: (bar?.top ?? 0) - (page?.top ?? 0) - (stage.current?.clientTop ?? 0) };\n  };\n  const openWelcome = () => { welcomeReturn.current = null; setStep(0); dialog.current?.showModal(); setMenu(false); };\n  const closeWelcome = () => dialog.current?.close();\n  const dock = (value: string) => {\n    const max = bounds();\n    if (value === \"bottom-centre\") setPosition(null);\n    else setPosition({ x: value.includes(\"left\") ? 0 : max.x, y: value.includes(\"top\") ? 0 : max.y });\n  };\n  const endDrag = (event: PointerEvent<HTMLButtonElement>) => {\n    if (!drag.current || drag.current.pointer !== event.pointerId) return;\n    drag.current = null;\n    if (event.currentTarget.hasPointerCapture(event.pointerId)) event.currentTarget.releasePointerCapture(event.pointerId);\n    setPosition(old => {\n      if (!old) return old;\n      const max = bounds();\n      return clamp({ x: old.x < 24 ? 0 : max.x - old.x < 24 ? max.x : old.x, y: old.y < 24 ? 0 : max.y - old.y < 24 ? max.y : old.y });\n    });\n  };\n  const hide = (mode: \"tab\" | \"hidden\") => { setVisibility(mode); setMenu(false); (immersive ? extensionToggle.current : replay.current)?.focus(); };\n  const toolbarStyle: CSSProperties = position ? { left: position.x, top: position.y, bottom: \"auto\", transform: \"none\" } : {};\n  const badgeTone = current.tone;\n\n  return <main className={`cs-planned-helper${immersive ? \" cs-ph-immersive\" : \"\"}`}>\n    {!immersive && <>\n    <header className=\"cs-ph-reference\">\n      <div><Badge tone=\"warning\">Planned · synthetic interactive preview</Badge><h1>Helper welcome & toolbar</h1><p>Try the welcome, hide and restore, or move the toolbar. No provider connection or import runs here.</p></div>\n      <a href={referencePath(\"/?path=/story/dls-start-here-current-and-planned--overview\")} target=\"_top\">Current and planned</a>\n    </header>\n    <div className=\"cs-ph-controls\" aria-label=\"Preview controls\">\n      <label>Sample status <select value={selected} onChange={event => { setSelected(event.target.value as Scenario); setDestination(\"\"); }}>{Object.entries(states).map(([key, value]) => <option value={key} key={key}>{value.label}</option>)}</select></label>\n      <button className=\"cs-ui-button cs-ui-button--secondary\" ref={extensionToggle} aria-expanded={popupOpen} aria-controls=\"cs-ph-extension-popup\" onClick={() => setPopupOpen(!popupOpen)}>Open extension popup</button>\n      <button className=\"cs-ui-button cs-ui-button--secondary\" ref={replay} onClick={openWelcome}>Replay welcome</button>\n    </div>\n\n\n    </>}\n    <div className=\"cs-ph-page\" ref={stage} aria-label=\"Spoonflower page preview\">\n      {immersive && <button className=\"cs-ui-button cs-ui-button--secondary cs-ph-extension-launcher\" ref={extensionToggle} aria-expanded={popupOpen} aria-controls=\"cs-ph-extension-popup\" onClick={() => setPopupOpen(!popupOpen)}>Open extension popup</button>}\n      <img className=\"cs-ph-backdrop\" src={spoonflowerBackdrop} alt=\"\" hidden={backdropFailed} onError={() => setBackdropFailed(true)} />\n      {backdropFailed && <p className=\"cs-ph-backdrop-fallback\" role=\"status\">Spoonflower screenshot unavailable. Helper controls are still available.</p>}\n    {popupOpen && <section className=\"cs-ph-extension\" id=\"cs-ph-extension-popup\" aria-label=\"Extension popup\">\n      <Button variant=\"ghost\" onClick={() => { setPopupOpen(false); extensionToggle.current?.focus(); }}>Close extension popup</Button>\n      <p className=\"cs-ph-eyebrow\">BROWSER EXTENSION POPUP · PLANNED</p>\n      <h2>Sales Pulse Helper</h2>\n      <p>Open from the extension icon in your browser.</p>\n      <p role=\"status\">{visibility === \"shown\" ? \"Helper is visible on this page.\" : \"Helper is hidden on this page.\"}</p>\n      <div className=\"cs-ph-extension-actions\">\n        <Button variant=\"secondary\" onClick={() => { setVisibility(visibility === \"shown\" ? \"hidden\" : \"shown\"); setMenu(false); }}>{visibility === \"shown\" ? \"Hide Helper\" : \"Show Helper\"}</Button>\n        <Button variant=\"secondary\" onClick={event => { openWelcome(); welcomeReturn.current = event.currentTarget; }}>Show welcome</Button>\n      </div>\n      <small>Hiding Helper does not stop background work. You can reopen the welcome at any time.</small>\n    </section>}\n      {destination && <p className=\"cs-ph-destination\" role=\"status\">Preview destination: {destination}. Nothing was opened or executed.</p>}\n      {visibility === \"tab\" && <Button className=\"cs-ph-edge-tab\" variant=\"secondary\" onClick={() => setVisibility(\"shown\")}>Helper · {current.label} · Show</Button>}\n      {visibility === \"shown\" && <div className=\"cs-ph-toolbar\" style={toolbarStyle} ref={toolbar} aria-label=\"Helper toolbar\">\n        <button className=\"cs-ph-grip\" aria-label=\"Move toolbar\" aria-describedby=\"cs-ph-move-help\" onPointerDown={event => {\n          if (event.button !== 0) return;\n          event.currentTarget.setPointerCapture(event.pointerId);\n          drag.current = { pointer: event.pointerId, x: event.clientX, y: event.clientY, start: actualPosition() };\n        }} onPointerMove={event => {\n          const active = drag.current;\n          if (active?.pointer === event.pointerId) setPosition(clamp({ x: active.start.x + event.clientX - active.x, y: active.start.y + event.clientY - active.y }));\n        }} onPointerUp={endDrag} onPointerCancel={endDrag} onKeyDown={event => {\n          const delta = { ArrowLeft: [-16, 0], ArrowRight: [16, 0], ArrowUp: [0, -16], ArrowDown: [0, 16] }[event.key];\n          if (delta) { event.preventDefault(); const p = actualPosition(); setPosition(clamp({ x: p.x + delta[0]!, y: p.y + delta[1]! })); }\n          if (event.key === \"Home\") { event.preventDefault(); setPosition(null); }\n        }}><span aria-hidden=\"true\">⠿</span></button>\n        <img className=\"cs-ph-mark\" src={referencePath(\"/brand-assets/delivery/sales-pulse-mark/light-background.svg\")} alt=\"\" width=\"32\" height=\"32\" onError={event => { event.currentTarget.hidden = true; }} />\n        <div className=\"cs-ph-status\" role=\"status\" aria-live=\"polite\"><strong>{current.label}</strong><small>{current.detail}</small>{selected === \"importing\" && <progress value=\"8\" max=\"20\" aria-label=\"Statements imported\">8 of 20 statements</progress>}</div>\n        {selected === \"importing\" || selected === \"waiting\" ? <LinkButton href=\"https://salespulse.creatorsignal.me/sales-pulse/spoonflower/activity\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"View activity (opens in a new tab)\">View activity</LinkButton> : <Button onClick={() => setDestination(current.destination)}>{current.action}</Button>}\n        <Button variant=\"ghost\" aria-expanded={menu} aria-controls=\"cs-ph-toolbar-options\" onClick={() => setMenu(!menu)}>Options</Button>\n        <Button variant=\"ghost\" aria-label=\"Hide toolbar\" onClick={() => hide(\"tab\")}>×</Button>\n        {menu && <div className=\"cs-ph-options\" id=\"cs-ph-toolbar-options\"><p id=\"cs-ph-move-help\">Drag the grip, or focus it and use arrow keys. Home resets position.</p><label><span className=\"cs-ph-sr\">Position</span><select defaultValue=\"\" onChange={event => dock(event.target.value)}><option value=\"\" disabled>Choose position</option><option value=\"bottom-centre\">Bottom centre</option><option value=\"bottom-left\">Bottom left</option><option value=\"bottom-right\">Bottom right</option><option value=\"top-left\">Top left</option><option value=\"top-right\">Top right</option></select></label><Button variant=\"secondary\" onClick={() => setPosition(null)}>Reset position</Button><Button variant=\"secondary\" onClick={openWelcome}>Replay welcome</Button><Button variant=\"secondary\" onClick={() => hide(\"hidden\")}>Hide completely</Button><small>Hiding does not stop configured work. Restore with Show Helper in the extension popup.</small></div>}\n        {!menu && <span id=\"cs-ph-move-help\" className=\"cs-ph-sr\">Drag to move. Use arrow keys when focused, or Home to reset. Position choices are in Options.</span>}\n      </div>}\n    </div>\n    {!immersive && <footer className=\"cs-ph-boundary\"><Badge tone={badgeTone}>{finished ? \"Tour completed in this preview\" : \"Design proposal\"}</Badge><p>Position and visibility survive changes within this preview only. Reload resets setup. The installed design would remember preferences and show onboarding once across tabs. Closing or finishing never starts an import.</p><a href={referencePath(\"/?path=/story/products-sales-pulse-helper--connected\")} target=\"_top\">Compare the current Helper popup</a> · <a href=\"https://github.com/creator-signal/sales-pulse/issues/1607\">Design #1607</a></footer>}\n\n    <dialog className=\"cs-ph-welcome\" ref={dialog} aria-labelledby=\"cs-ph-welcome-title\" aria-describedby=\"cs-ph-welcome-description\" onClose={() => (welcomeReturn.current ?? (immersive ? extensionToggle.current : replay.current))?.focus()}>\n      <div className=\"cs-ph-welcome-grid\">\n        <aside className=\"cs-ph-welcome-nav\"><p className=\"cs-ph-eyebrow\">SALES PULSE HELPER</p><h2 id=\"cs-ph-welcome-title\">A helping hand<br /> for your shop.</h2><p id=\"cs-ph-welcome-description\">Get connected. Stay informed.<br />Keep creating.</p><nav aria-label=\"Welcome steps\">{steps.map((label, index) => <button key={label} aria-current={index === step ? \"step\" : undefined} onClick={() => setStep(index)}><span>{String(index + 1).padStart(2, \"0\")}</span>{label}</button>)}</nav><small>Planned experience · sample data</small></aside>\n        <div className=\"cs-ph-welcome-main\">\n          <Button className=\"cs-ph-close\" variant=\"ghost\" aria-label=\"Close welcome\" onClick={closeWelcome}>×</Button>\n          <div className=\"cs-ph-welcome-panels\">\n            {steps.map((label, panelStep) => <div key={label} className=\"cs-ph-welcome-panel\" data-active={step === panelStep} aria-hidden={step !== panelStep} inert={step !== panelStep}>\n          <div className=\"cs-ph-welcome-visual\" aria-label=\"Illustrative Helper preview\">\n            <div className=\"cs-ph-visual-orbit\" aria-hidden=\"true\"><span>YOUR SHOP</span><span>SALES PULSE</span></div>\n            <div className=\"cs-ph-visual-status\"><Badge tone={panelStep === 1 ? \"success\" : \"info\"}>{panelStep === 0 ? \"Working for you\" : panelStep === 1 ? \"Both connections checked\" : \"Always within reach\"}</Badge><strong>{panelStep === 0 ? \"Your next insight starts here.\" : panelStep === 1 ? \"The right shop. The right workspace.\" : \"A little Helper. Your way.\"}</strong><div className=\"cs-ph-mini-toolbar\"><span aria-hidden=\"true\">⠿</span><span>Helper</span><span>{panelStep === 0 ? \"Importing · 8 of 20\" : panelStep === 1 ? \"✓ Connected\" : \"Hide · move · restore\"}</span></div></div>\n          </div>\n          <section className=\"cs-ph-welcome-content\" aria-live=\"polite\">\n            <p className=\"cs-ph-eyebrow\">{String(panelStep + 1).padStart(2, \"0\")} / 03 · {steps[panelStep]}</p>\n            <h3>{panelStep === 0 ? \"More creating. Less checking.\" : panelStep === 1 ? \"Two connections, one clear view.\" : \"Stay in the flow.\"}</h3>\n            {panelStep === 0 ? <p>Helper brings supported Spoonflower data into Sales Pulse while your browser is available. See progress here, then open Sales Pulse for your statements, activity and import settings.</p> : panelStep === 1 ? <><div className=\"cs-ph-connection\"><span><strong>Sales Pulse</strong><small>Sample Studio workspace</small></span><Badge tone=\"success\">Connected · sample</Badge></div><div className=\"cs-ph-connection\"><span><strong>Spoonflower</strong><small>sample_artist</small></span><Badge tone=\"success\">Connected · sample</Badge></div><p>Confirm the workspace and shop before configuring imports in Sales Pulse. Each service signs in separately.</p></> : <><div className=\"cs-ph-helper-toggle\"><Switch label=\"Show Helper on Spoonflower\" checked={visibility === \"shown\"} onChange={event => { setVisibility(event.target.checked ? \"shown\" : \"hidden\"); setMenu(false); }} description=\"Turn the toolbar on or off. Background work keeps running.\" /></div><p>To show it again, click the Sales Pulse Helper extension icon in your browser, then choose <strong>Show Helper</strong>.</p></>}\n          </section>\n            </div>)}\n          </div>\n          <footer className=\"cs-ph-welcome-footer\"><Button variant=\"ghost\" onClick={() => step ? setStep(step - 1) : closeWelcome()}>{step ? \"Back\" : \"Skip for now\"}</Button><small>Step {step + 1} of 3</small><Button onClick={() => { if (step < 2) setStep(step + 1); else { setFinished(true); closeWelcome(); } }}>{step < 2 ? \"Next\" : \"Explore Helper\"}</Button></footer>\n        </div>\n      </div>\n    </dialog>\n  </main>;\n}\n\nconst meta = {\n  id: \"products-planned-helper-welcome-and-toolbar\",\n  title: \"Planned/Helper welcome and toolbar\", component: HelperWelcome, tags: [\"autodocs\"],\n  parameters: { docs: { description: { component: \"Planned design #1607. Synthetic native modal and toolbar composition, not an installed extension. View activity opens the real Creator Signal Activity page in a new tab; the displayed import data remains synthetic. No provider actions or persistence. Use the same reference's Current and planned index to compare delivery status.\" } } },\n  argTypes: { scenario: { control: \"select\", options: Object.keys(states) }, firstVisit: { control: \"boolean\" } }\n} satisfies Meta<typeof HelperWelcome>;\nexport default meta;\ntype Story = StoryObj<typeof meta>;\nexport const FirstVisit: Story = {\n  parameters: { layout: \"fullscreen\", immersiveReference: true },\n  args: { firstVisit: true, scenario: \"importing\", immersive: true },\n  play: async ({ canvasElement }) => {\n    const canvas = within(canvasElement);\n    const modal = await canvas.findByRole(\"dialog\");\n    await expect(modal).toBeVisible();\n    await expect(canvas.queryByText(\"Helper welcome & toolbar\")).toBeNull();\n\n  }\n};\nexport const Toolbar: Story = { args: { firstVisit: false, scenario: \"importing\" } };\nexport const NewContent: Story = { args: { firstVisit: false, scenario: \"content\" } };\nexport const ConnectionRecovery: Story = { args: { firstVisit: false, scenario: \"offline\" } };\nexport const ExtensionControls: Story = { args: { firstVisit: false, scenario: \"ready\", popupInitiallyOpen: true }, play: async ({ canvasElement }) => {\n  const canvas = within(canvasElement);\n  const popup = within(canvas.getByRole(\"region\", { name: \"Extension popup\" }));\n  await userEvent.click(popup.getByRole(\"button\", { name: \"Hide Helper\" }));\n  await expect(canvas.queryByLabelText(\"Helper toolbar\")).toBeNull();\n  await userEvent.keyboard(\"{Enter}\");\n  await expect(canvas.getByLabelText(\"Helper toolbar\")).toBeVisible();\n  await userEvent.click(popup.getByRole(\"button\", { name: \"Hide Helper\" }));\n  await userEvent.click(popup.getByRole(\"button\", { name: \"Show welcome\" }));\n  const modal = canvas.getByRole(\"dialog\");\n  await expect(modal).toBeVisible();\n  await userEvent.click(within(modal).getByRole(\"button\", { name: \"Close welcome\" }));\n  await waitFor(() => expect(popup.getByRole(\"button\", { name: \"Show welcome\" })).toHaveFocus());\n  await expect(canvas.queryByLabelText(\"Helper toolbar\")).toBeNull();\n  await userEvent.click(popup.getByRole(\"button\", { name: \"Show Helper\" }));\n} };\n"
+        "message": "No component file found for the \"HelperWelcome\" component.\n  182 | }\n  183 |\n> 184 | const meta = {\n      | ^\n  185 |   id: \"products-planned-helper-welcome-and-toolbar\",\n  186 |   title: \"Planned/Helper welcome and toolbar\", component: HelperWelcome, tags: [\"autodocs\"],\n  187 |   parameters: { docs: { description: { component: \"Planned design #1607. Synthetic native modal and toolbar composition, not an installed extension. View activity opens the real Creator Signal Activity page in a new tab; the displayed import data remains synthetic. No provider actions or persistence. Use the same reference's Current and planned index to compare delivery status.\" } } },\n\n./src/stories/planned/HelperWelcome.stories.tsx:\nimport { useEffect, useRef, useState, type CSSProperties, type PointerEvent } from \"react\";\nimport type { Meta, StoryObj } from \"@storybook/react-vite\";\nimport { expect, userEvent, waitFor, within } from \"storybook/test\";\nimport { Badge, Button, LinkButton, Switch } from \"@creator-signal/ui\";\nimport { ThemeControl, useTheme } from \"@creator-signal/ui/client\";\nimport { referencePath } from \"../../reference-path\";\nimport \"../../planned-helper.css\";\nimport spoonflowerBackdrop from \"../../../reference-assets/spoonflower-homepage.png\";\n\nconst states = {\n  ready: { label: \"Ready for your next sync\", detail: \"Sales Pulse and Spoonflower connected\", action: \"Open Sales Pulse\", destination: \"Helper settings in Sales Pulse\", tone: \"success\" },\n  importing: { label: \"Importing statements · 8 of 20\", detail: \"Statements phase · your work continues in the background\", action: \"View activity\", destination: \"Spoonflower Activity in Sales Pulse\", tone: \"info\" },\n  content: { label: \"3 new statements imported\", detail: \"Saved in Sales Pulse · just now\", action: \"View statements\", destination: \"The three newly saved statements in Sales Pulse\", tone: \"success\" },\n  signIn: { label: \"Sign in to Spoonflower\", detail: \"Sales Pulse connected · Spoonflower needs attention\", action: \"Open Spoonflower\", destination: \"Spoonflower sign-in; no sign-in occurs in this preview\", tone: \"warning\" },\n  waiting: { label: \"Waiting for Spoonflower\", detail: \"Next retry in 2 minutes · sample timing\", action: \"View activity\", destination: \"The safe reason and next retry time for this action\", tone: \"warning\" },\n  offline: { label: \"Helper connection lost\", detail: \"Last confirmed: importing · 2 minutes ago\", action: \"Check connection\", destination: \"Connection recovery guidance in Sales Pulse\", tone: \"error\" },\n  empty: { label: \"Check complete · no new statements\", detail: \"Last checked just now\", action: \"View history\", destination: \"The completed check with zero newly saved records\", tone: \"neutral\" }\n} as const;\ntype Scenario = keyof typeof states;\ntype Position = { x: number; y: number };\nconst steps = [\"Welcome\", \"Your connections\", \"Make it yours\"];\n\nfunction HelperWelcome({ firstVisit = true, scenario = \"importing\", popupInitiallyOpen = false, immersive = false }: { firstVisit?: boolean; scenario?: Scenario; popupInitiallyOpen?: boolean; immersive?: boolean }) {\n  const { resolvedTheme } = useTheme();\n  const dialog = useRef<HTMLDialogElement>(null);\n  const replay = useRef<HTMLButtonElement>(null);\n  const welcomeReturn = useRef<HTMLButtonElement | null>(null);\n  const extensionToggle = useRef<HTMLButtonElement>(null);\n  const [popupOpen, setPopupOpen] = useState(popupInitiallyOpen);\n  const stage = useRef<HTMLDivElement>(null);\n  const toolbar = useRef<HTMLDivElement>(null);\n  const drag = useRef<{ pointer: number; x: number; y: number; start: Position } | null>(null);\n  const [step, setStep] = useState(0);\n  const [backdropFailed, setBackdropFailed] = useState(false);\n  const [visibility, setVisibility] = useState<\"shown\" | \"tab\" | \"hidden\">(\"shown\");\n  const [position, setPosition] = useState<Position | null>(null);\n  const [menu, setMenu] = useState(false);\n  const [destination, setDestination] = useState(\"\");\n  const [finished, setFinished] = useState(false);\n  const [selected, setSelected] = useState<Scenario>(scenario);\n  const current = states[selected];\n  useEffect(() => setSelected(scenario), [scenario]);\n  useEffect(() => {\n    const element = dialog.current;\n    if (firstVisit && element && !element.open) element.showModal();\n    return () => element?.close();\n  }, [firstVisit]);\n\n  const bounds = () => ({\n    x: Math.max(0, (stage.current?.clientWidth ?? 0) - (toolbar.current?.offsetWidth ?? 0)),\n    y: Math.max(0, (stage.current?.clientHeight ?? 0) - (toolbar.current?.offsetHeight ?? 0))\n  });\n  const clamp = (next: Position) => { const max = bounds(); return { x: Math.max(0, Math.min(next.x, max.x)), y: Math.max(0, Math.min(next.y, max.y)) }; };\n  useEffect(() => {\n    if (!stage.current || !toolbar.current) return;\n    const observer = new ResizeObserver(() => setPosition(old => old ? clamp(old) : null));\n    observer.observe(stage.current); observer.observe(toolbar.current);\n    return () => observer.disconnect();\n  }, [visibility]);\n  const actualPosition = () => {\n    const bar = toolbar.current?.getBoundingClientRect();\n    const page = stage.current?.getBoundingClientRect();\n    return { x: (bar?.left ?? 0) - (page?.left ?? 0) - (stage.current?.clientLeft ?? 0), y: (bar?.top ?? 0) - (page?.top ?? 0) - (stage.current?.clientTop ?? 0) };\n  };\n  const openWelcome = () => { welcomeReturn.current = null; setStep(0); dialog.current?.showModal(); setMenu(false); };\n  const closeWelcome = () => dialog.current?.close();\n  const dock = (value: string) => {\n    const max = bounds();\n    if (value === \"bottom-centre\") setPosition(null);\n    else setPosition({ x: value.includes(\"left\") ? 0 : max.x, y: value.includes(\"top\") ? 0 : max.y });\n  };\n  const endDrag = (event: PointerEvent<HTMLButtonElement>) => {\n    if (!drag.current || drag.current.pointer !== event.pointerId) return;\n    drag.current = null;\n    if (event.currentTarget.hasPointerCapture(event.pointerId)) event.currentTarget.releasePointerCapture(event.pointerId);\n    setPosition(old => {\n      if (!old) return old;\n      const max = bounds();\n      return clamp({ x: old.x < 24 ? 0 : max.x - old.x < 24 ? max.x : old.x, y: old.y < 24 ? 0 : max.y - old.y < 24 ? max.y : old.y });\n    });\n  };\n  const hide = (mode: \"tab\" | \"hidden\") => { setVisibility(mode); setMenu(false); (immersive ? extensionToggle.current : replay.current)?.focus(); };\n  const toolbarStyle: CSSProperties = position ? { left: position.x, top: position.y, bottom: \"auto\", transform: \"none\" } : {};\n  const badgeTone = current.tone;\n\n  return <main className={`cs-planned-helper${immersive ? \" cs-ph-immersive\" : \"\"}`}>\n    {!immersive && <>\n    <header className=\"cs-ph-reference\">\n      <div><Badge tone=\"warning\">Planned · synthetic interactive preview</Badge><h1>Helper welcome & toolbar</h1><p>Try the welcome, hide and restore, or move the toolbar. No provider connection or import runs here.</p></div>\n      <a href={referencePath(\"/?path=/story/dls-start-here-current-and-planned--overview\")} target=\"_top\">Current and planned</a>\n    </header>\n    <div className=\"cs-ph-controls\" aria-label=\"Preview controls\">\n      <label>Sample status <select value={selected} onChange={event => { setSelected(event.target.value as Scenario); setDestination(\"\"); }}>{Object.entries(states).map(([key, value]) => <option value={key} key={key}>{value.label}</option>)}</select></label>\n      <button className=\"cs-ui-button cs-ui-button--secondary\" ref={extensionToggle} aria-expanded={popupOpen} aria-controls=\"cs-ph-extension-popup\" onClick={() => setPopupOpen(!popupOpen)}>Open extension popup</button>\n      <button className=\"cs-ui-button cs-ui-button--secondary\" ref={replay} onClick={openWelcome}>Replay welcome</button>\n    </div>\n\n\n    </>}\n    <div className=\"cs-ph-page\" ref={stage} aria-label=\"Spoonflower page preview\">\n      {immersive && <button className=\"cs-ui-button cs-ui-button--secondary cs-ph-extension-launcher\" ref={extensionToggle} aria-expanded={popupOpen} aria-controls=\"cs-ph-extension-popup\" onClick={() => setPopupOpen(!popupOpen)}>Open extension popup</button>}\n      <img className=\"cs-ph-backdrop\" src={spoonflowerBackdrop} alt=\"\" hidden={backdropFailed} onError={() => setBackdropFailed(true)} />\n      {backdropFailed && <p className=\"cs-ph-backdrop-fallback\" role=\"status\">Spoonflower screenshot unavailable. Helper controls are still available.</p>}\n    {popupOpen && <section className=\"cs-ph-extension cs-helper-reference\" id=\"cs-ph-extension-popup\" aria-label=\"Extension popup\">\n      <header className=\"cs-product-preview__header cs-helper-reference__header\">\n        <span className=\"cs-product-preview__brand cs-helper-reference__brand\">\n          <img alt=\"\" src={referencePath(`/brand-assets/delivery/sales-pulse-mark/${resolvedTheme === \"dark\" ? \"dark\" : \"light\"}-background.svg`)} />\n          <span><strong>Sales Pulse Helper</strong><small>Creator Signal · preview build</small></span>\n        </span>\n        <ThemeControl label=\"Appearance\" variant=\"icon\" />\n      </header>\n      <div className=\"cs-product-preview__body\">\n        <div className=\"cs-helper-connections\" aria-label=\"Sample service connections\">\n          <div className=\"cs-helper-connection\">\n            <span aria-hidden=\"true\" className=\"cs-helper-connection__icon cs-helper-connection__icon--success\">✓</span>\n            <span><strong>Sales Pulse</strong><small>Connected</small></span>\n          </div>\n          <div className=\"cs-helper-connection\">\n            <span aria-hidden=\"true\" className={`cs-helper-connection__icon cs-helper-connection__icon--${selected === \"offline\" || selected === \"waiting\" ? \"error\" : selected === \"signIn\" ? \"warning\" : \"success\"}`}>{selected === \"offline\" || selected === \"waiting\" || selected === \"signIn\" ? \"!\" : \"✓\"}</span>\n            <span><strong>Spoonflower</strong><small>{selected === \"offline\" || selected === \"waiting\" ? \"Unavailable\" : selected === \"signIn\" ? \"Sign in\" : \"Connected\"}</small></span>\n          </div>\n        </div>\n        <section className=\"cs-ph-extension-settings\" aria-label=\"Helper display settings\">\n          <Switch label=\"Show Helper on Spoonflower\" checked={visibility === \"shown\"} onChange={event => { setVisibility(event.target.checked ? \"shown\" : \"hidden\"); setMenu(false); }} description=\"Hiding Helper does not stop background work.\" />\n          <div className=\"cs-ph-extension-welcome\">\n            <div><strong>Welcome tour</strong><p>Explore the toolbar and make it yours.</p></div>\n            <Button variant=\"secondary\" onClick={event => { openWelcome(); welcomeReturn.current = event.currentTarget; }}>Show welcome</Button>\n          </div>\n        </section>\n      </div>\n      <div className={`cs-product-preview__footer cs-helper-status cs-helper-status--${current.tone === \"neutral\" ? \"info\" : current.tone}`} role=\"status\"><span aria-hidden=\"true\" className=\"cs-helper-status__dot\" />{current.label}</div>\n    </section>}\n      {destination && <p className=\"cs-ph-destination\" role=\"status\">Preview destination: {destination}. Nothing was opened or executed.</p>}\n      {visibility === \"tab\" && <Button className=\"cs-ph-edge-tab\" variant=\"secondary\" onClick={() => setVisibility(\"shown\")}>Helper · {current.label} · Show</Button>}\n      {visibility === \"shown\" && <div className=\"cs-ph-toolbar\" style={toolbarStyle} ref={toolbar} aria-label=\"Helper toolbar\">\n        <button className=\"cs-ph-grip\" aria-label=\"Move toolbar\" aria-describedby=\"cs-ph-move-help\" onPointerDown={event => {\n          if (event.button !== 0) return;\n          event.currentTarget.setPointerCapture(event.pointerId);\n          drag.current = { pointer: event.pointerId, x: event.clientX, y: event.clientY, start: actualPosition() };\n        }} onPointerMove={event => {\n          const active = drag.current;\n          if (active?.pointer === event.pointerId) setPosition(clamp({ x: active.start.x + event.clientX - active.x, y: active.start.y + event.clientY - active.y }));\n        }} onPointerUp={endDrag} onPointerCancel={endDrag} onKeyDown={event => {\n          const delta = { ArrowLeft: [-16, 0], ArrowRight: [16, 0], ArrowUp: [0, -16], ArrowDown: [0, 16] }[event.key];\n          if (delta) { event.preventDefault(); const p = actualPosition(); setPosition(clamp({ x: p.x + delta[0]!, y: p.y + delta[1]! })); }\n          if (event.key === \"Home\") { event.preventDefault(); setPosition(null); }\n        }}><span aria-hidden=\"true\">⠿</span></button>\n        <img className=\"cs-ph-mark\" src={referencePath(\"/brand-assets/delivery/sales-pulse-mark/light-background.svg\")} alt=\"\" width=\"32\" height=\"32\" onError={event => { event.currentTarget.hidden = true; }} />\n        <div className=\"cs-ph-status\" role=\"status\" aria-live=\"polite\"><strong>{current.label}</strong><small>{current.detail}</small>{selected === \"importing\" && <progress value=\"8\" max=\"20\" aria-label=\"Statements imported\">8 of 20 statements</progress>}</div>\n        {selected === \"importing\" || selected === \"waiting\" ? <LinkButton href=\"https://salespulse.creatorsignal.me/sales-pulse/spoonflower/activity\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"View activity (opens in a new tab)\">View activity</LinkButton> : <Button onClick={() => setDestination(current.destination)}>{current.action}</Button>}\n        <Button variant=\"ghost\" aria-expanded={menu} aria-controls=\"cs-ph-toolbar-options\" onClick={() => setMenu(!menu)}>Options</Button>\n        <Button variant=\"ghost\" aria-label=\"Hide toolbar\" onClick={() => hide(\"tab\")}>×</Button>\n        {menu && <div className=\"cs-ph-options\" id=\"cs-ph-toolbar-options\"><p id=\"cs-ph-move-help\">Drag the grip, or focus it and use arrow keys. Home resets position.</p><label><span className=\"cs-ph-sr\">Position</span><select defaultValue=\"\" onChange={event => dock(event.target.value)}><option value=\"\" disabled>Choose position</option><option value=\"bottom-centre\">Bottom centre</option><option value=\"bottom-left\">Bottom left</option><option value=\"bottom-right\">Bottom right</option><option value=\"top-left\">Top left</option><option value=\"top-right\">Top right</option></select></label><Button variant=\"secondary\" onClick={() => setPosition(null)}>Reset position</Button><Button variant=\"secondary\" onClick={openWelcome}>Replay welcome</Button><Button variant=\"secondary\" onClick={() => hide(\"hidden\")}>Hide completely</Button><small>Hiding does not stop configured work. Restore with Show Helper in the extension popup.</small></div>}\n        {!menu && <span id=\"cs-ph-move-help\" className=\"cs-ph-sr\">Drag to move. Use arrow keys when focused, or Home to reset. Position choices are in Options.</span>}\n      </div>}\n    </div>\n    {!immersive && <footer className=\"cs-ph-boundary\"><Badge tone={badgeTone}>{finished ? \"Tour completed in this preview\" : \"Design proposal\"}</Badge><p>Position and visibility survive changes within this preview only. Reload resets setup. The installed design would remember preferences and show onboarding once across tabs. Closing or finishing never starts an import.</p><a href={referencePath(\"/?path=/story/products-sales-pulse-helper--connected\")} target=\"_top\">Compare the current Helper popup</a> · <a href=\"https://github.com/creator-signal/sales-pulse/issues/1607\">Design #1607</a></footer>}\n\n    <dialog className=\"cs-ph-welcome\" ref={dialog} aria-labelledby=\"cs-ph-welcome-title\" aria-describedby=\"cs-ph-welcome-description\" onClose={() => (welcomeReturn.current ?? (immersive ? extensionToggle.current : replay.current))?.focus()}>\n      <div className=\"cs-ph-welcome-grid\">\n        <aside className=\"cs-ph-welcome-nav\"><p className=\"cs-ph-eyebrow\">SALES PULSE HELPER</p><h2 id=\"cs-ph-welcome-title\">A helping hand<br /> for your shop.</h2><p id=\"cs-ph-welcome-description\">Get connected. Stay informed.<br />Keep creating.</p><nav aria-label=\"Welcome steps\">{steps.map((label, index) => <button key={label} aria-current={index === step ? \"step\" : undefined} onClick={() => setStep(index)}><span>{String(index + 1).padStart(2, \"0\")}</span>{label}</button>)}</nav><small>Planned experience · sample data</small></aside>\n        <div className=\"cs-ph-welcome-main\">\n          <Button className=\"cs-ph-close\" variant=\"ghost\" aria-label=\"Close welcome\" onClick={closeWelcome}>×</Button>\n          <div className=\"cs-ph-welcome-panels\">\n            {steps.map((label, panelStep) => <div key={label} className=\"cs-ph-welcome-panel\" data-active={step === panelStep} aria-hidden={step !== panelStep} inert={step !== panelStep}>\n          <div className=\"cs-ph-welcome-visual\" aria-label=\"Illustrative Helper preview\">\n            <div className=\"cs-ph-visual-orbit\" aria-hidden=\"true\"><span>YOUR SHOP</span><span>SALES PULSE</span></div>\n            <div className=\"cs-ph-visual-status\"><Badge tone={panelStep === 1 ? \"success\" : \"info\"}>{panelStep === 0 ? \"Working for you\" : panelStep === 1 ? \"Both connections checked\" : \"Always within reach\"}</Badge><strong>{panelStep === 0 ? \"Your next insight starts here.\" : panelStep === 1 ? \"The right shop. The right workspace.\" : \"A little Helper. Your way.\"}</strong><div className=\"cs-ph-mini-toolbar\"><span aria-hidden=\"true\">⠿</span><span>Helper</span><span>{panelStep === 0 ? \"Importing · 8 of 20\" : panelStep === 1 ? \"✓ Connected\" : \"Hide · move · restore\"}</span></div></div>\n          </div>\n          <section className=\"cs-ph-welcome-content\" aria-live=\"polite\">\n            <p className=\"cs-ph-eyebrow\">{String(panelStep + 1).padStart(2, \"0\")} / 03 · {steps[panelStep]}</p>\n            <h3>{panelStep === 0 ? \"More creating. Less checking.\" : panelStep === 1 ? \"Two connections, one clear view.\" : \"Stay in the flow.\"}</h3>\n            {panelStep === 0 ? <p>Helper brings supported Spoonflower data into Sales Pulse while your browser is available. See progress here, then open Sales Pulse for your statements, activity and import settings.</p> : panelStep === 1 ? <><div className=\"cs-ph-connection\"><span><strong>Sales Pulse</strong><small>Sample Studio workspace</small></span><Badge tone=\"success\">Connected · sample</Badge></div><div className=\"cs-ph-connection\"><span><strong>Spoonflower</strong><small>sample_artist</small></span><Badge tone=\"success\">Connected · sample</Badge></div><p>Confirm the workspace and shop before configuring imports in Sales Pulse. Each service signs in separately.</p></> : <><div className=\"cs-ph-helper-toggle\"><Switch label=\"Show Helper on Spoonflower\" checked={visibility === \"shown\"} onChange={event => { setVisibility(event.target.checked ? \"shown\" : \"hidden\"); setMenu(false); }} description=\"Turn the toolbar on or off. Background work keeps running.\" /></div><p>To show it again, click the Sales Pulse Helper extension icon in your browser, then turn on <strong>Show Helper on Spoonflower</strong>.</p></>}\n          </section>\n            </div>)}\n          </div>\n          <footer className=\"cs-ph-welcome-footer\"><Button variant=\"ghost\" onClick={() => step ? setStep(step - 1) : closeWelcome()}>{step ? \"Back\" : \"Skip for now\"}</Button><small>Step {step + 1} of 3</small><Button onClick={() => { if (step < 2) setStep(step + 1); else { setFinished(true); closeWelcome(); } }}>{step < 2 ? \"Next\" : \"Explore Helper\"}</Button></footer>\n        </div>\n      </div>\n    </dialog>\n  </main>;\n}\n\nconst meta = {\n  id: \"products-planned-helper-welcome-and-toolbar\",\n  title: \"Planned/Helper welcome and toolbar\", component: HelperWelcome, tags: [\"autodocs\"],\n  parameters: { docs: { description: { component: \"Planned design #1607. Synthetic native modal and toolbar composition, not an installed extension. View activity opens the real Creator Signal Activity page in a new tab; the displayed import data remains synthetic. No provider actions or persistence. Use the same reference's Current and planned index to compare delivery status.\" } } },\n  argTypes: { scenario: { control: \"select\", options: Object.keys(states) }, firstVisit: { control: \"boolean\" } }\n} satisfies Meta<typeof HelperWelcome>;\nexport default meta;\ntype Story = StoryObj<typeof meta>;\nexport const FirstVisit: Story = {\n  parameters: { layout: \"fullscreen\", immersiveReference: true },\n  args: { firstVisit: true, scenario: \"importing\", immersive: true },\n  play: async ({ canvasElement }) => {\n    const canvas = within(canvasElement);\n    const modal = await canvas.findByRole(\"dialog\");\n    await expect(modal).toBeVisible();\n    await expect(canvas.queryByText(\"Helper welcome & toolbar\")).toBeNull();\n\n  }\n};\nexport const Toolbar: Story = { args: { firstVisit: false, scenario: \"importing\" } };\nexport const NewContent: Story = { args: { firstVisit: false, scenario: \"content\" } };\nexport const ConnectionRecovery: Story = { args: { firstVisit: false, scenario: \"offline\" } };\nexport const ExtensionControls: Story = { args: { firstVisit: false, scenario: \"ready\", popupInitiallyOpen: true }, play: async ({ canvasElement }) => {\n  const canvas = within(canvasElement);\n  const popup = within(canvas.getByRole(\"region\", { name: \"Extension popup\" }));\n  const helperSwitch = popup.getByRole(\"switch\", { name: \"Show Helper on Spoonflower\" });\n  await userEvent.click(helperSwitch);\n  await expect(canvas.queryByLabelText(\"Helper toolbar\")).toBeNull();\n  await userEvent.keyboard(\" \");\n  await expect(canvas.getByLabelText(\"Helper toolbar\")).toBeVisible();\n  await userEvent.click(helperSwitch);\n  await userEvent.click(popup.getByRole(\"button\", { name: \"Show welcome\" }));\n  const modal = canvas.getByRole(\"dialog\");\n  await expect(modal).toBeVisible();\n  await userEvent.click(within(modal).getByRole(\"button\", { name: \"Close welcome\" }));\n  await waitFor(() => expect(popup.getByRole(\"button\", { name: \"Show welcome\" })).toHaveFocus());\n  await expect(canvas.queryByLabelText(\"Helper toolbar\")).toBeNull();\n  await userEvent.click(helperSwitch);\n} };\n"
       },
       "stories": [
         {
@@ -6750,11 +6859,11 @@
           }
         }
       ],
-      "import": "import { Badge, Button, LinkButton, Switch } from \"@creator-signal/design-system-reference\";"
+      "import": "import { Badge, Button, LinkButton, Switch, ThemeControl } from \"@creator-signal/design-system-reference\";"
     }
   },
   "meta": {
     "docgen": "react-docgen",
-    "durationMs": 4354
+    "durationMs": 1721
   }
 }
