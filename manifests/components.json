@@ -234,7 +234,7 @@
         "description": "",
         "methods": [],
         "displayName": "Button",
-        "definedInFile": "D:\\wt\\sp1647\\packages\\ui\\src\\server.tsx",
+        "definedInFile": "D:\\wt\\sp1651\\packages\\ui\\src\\server.tsx",
         "actualName": "Button",
         "exportName": "Button",
         "props": {
@@ -308,14 +308,14 @@
       "subcomponents": {
         "Badge": {
           "name": "Badge",
-          "path": "D:\\wt\\sp1647\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1651\\packages\\ui\\src\\index.ts",
           "import": "import { Badge } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Badge",
-            "definedInFile": "D:\\wt\\sp1647\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1651\\packages\\ui\\src\\server.tsx",
             "actualName": "Badge",
             "exportName": "Badge",
             "props": {
@@ -361,14 +361,14 @@
         },
         "Card": {
           "name": "Card",
-          "path": "D:\\wt\\sp1647\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1651\\packages\\ui\\src\\index.ts",
           "import": "import { Card } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Card",
-            "definedInFile": "D:\\wt\\sp1647\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1651\\packages\\ui\\src\\server.tsx",
             "actualName": "Card",
             "exportName": "Card",
             "props": {
@@ -406,84 +406,84 @@
         },
         "CardContent": {
           "name": "CardContent",
-          "path": "D:\\wt\\sp1647\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1651\\packages\\ui\\src\\index.ts",
           "import": "import { CardContent } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "CardContent",
-            "definedInFile": "D:\\wt\\sp1647\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1651\\packages\\ui\\src\\server.tsx",
             "actualName": "CardContent",
             "exportName": "CardContent"
           }
         },
         "CardDescription": {
           "name": "CardDescription",
-          "path": "D:\\wt\\sp1647\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1651\\packages\\ui\\src\\index.ts",
           "import": "import { CardDescription } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "CardDescription",
-            "definedInFile": "D:\\wt\\sp1647\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1651\\packages\\ui\\src\\server.tsx",
             "actualName": "CardDescription",
             "exportName": "CardDescription"
           }
         },
         "CardHeader": {
           "name": "CardHeader",
-          "path": "D:\\wt\\sp1647\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1651\\packages\\ui\\src\\index.ts",
           "import": "import { CardHeader } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "CardHeader",
-            "definedInFile": "D:\\wt\\sp1647\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1651\\packages\\ui\\src\\server.tsx",
             "actualName": "CardHeader",
             "exportName": "CardHeader"
           }
         },
         "CardTitle": {
           "name": "CardTitle",
-          "path": "D:\\wt\\sp1647\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1651\\packages\\ui\\src\\index.ts",
           "import": "import { CardTitle } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "CardTitle",
-            "definedInFile": "D:\\wt\\sp1647\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1651\\packages\\ui\\src\\server.tsx",
             "actualName": "CardTitle",
             "exportName": "CardTitle"
           }
         },
         "ChartLegend": {
           "name": "ChartLegend",
-          "path": "D:\\wt\\sp1647\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1651\\packages\\ui\\src\\index.ts",
           "import": "import { ChartLegend } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "ChartLegend",
-            "definedInFile": "D:\\wt\\sp1647\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1651\\packages\\ui\\src\\server.tsx",
             "actualName": "ChartLegend",
             "exportName": "ChartLegend"
           }
         },
         "ChartLegendItem": {
           "name": "ChartLegendItem",
-          "path": "D:\\wt\\sp1647\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1651\\packages\\ui\\src\\index.ts",
           "import": "import { ChartLegendItem } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "ChartLegendItem",
-            "definedInFile": "D:\\wt\\sp1647\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1651\\packages\\ui\\src\\server.tsx",
             "actualName": "ChartLegendItem",
             "exportName": "ChartLegendItem",
             "props": {
@@ -536,14 +536,14 @@
         },
         "Checkbox": {
           "name": "Checkbox",
-          "path": "D:\\wt\\sp1647\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1651\\packages\\ui\\src\\index.ts",
           "import": "import { Checkbox } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Checkbox",
-            "definedInFile": "D:\\wt\\sp1647\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1651\\packages\\ui\\src\\server.tsx",
             "actualName": "Checkbox",
             "exportName": "Checkbox",
             "props": {
@@ -569,14 +569,14 @@
         },
         "EmptyState": {
           "name": "EmptyState",
-          "path": "D:\\wt\\sp1647\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1651\\packages\\ui\\src\\index.ts",
           "import": "import { EmptyState } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "EmptyState",
-            "definedInFile": "D:\\wt\\sp1647\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1651\\packages\\ui\\src\\server.tsx",
             "actualName": "EmptyState",
             "exportName": "EmptyState",
             "props": {
@@ -616,14 +616,14 @@
         },
         "ErrorState": {
           "name": "ErrorState",
-          "path": "D:\\wt\\sp1647\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1651\\packages\\ui\\src\\index.ts",
           "import": "import { ErrorState } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "ErrorState",
-            "definedInFile": "D:\\wt\\sp1647\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1651\\packages\\ui\\src\\server.tsx",
             "actualName": "ErrorState",
             "exportName": "ErrorState",
             "props": {
@@ -642,70 +642,70 @@
         },
         "Field": {
           "name": "Field",
-          "path": "D:\\wt\\sp1647\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1651\\packages\\ui\\src\\index.ts",
           "import": "import { Field } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Field",
-            "definedInFile": "D:\\wt\\sp1647\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1651\\packages\\ui\\src\\server.tsx",
             "actualName": "Field",
             "exportName": "Field"
           }
         },
         "FieldDescription": {
           "name": "FieldDescription",
-          "path": "D:\\wt\\sp1647\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1651\\packages\\ui\\src\\index.ts",
           "import": "import { FieldDescription } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "FieldDescription",
-            "definedInFile": "D:\\wt\\sp1647\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1651\\packages\\ui\\src\\server.tsx",
             "actualName": "FieldDescription",
             "exportName": "FieldDescription"
           }
         },
         "FieldError": {
           "name": "FieldError",
-          "path": "D:\\wt\\sp1647\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1651\\packages\\ui\\src\\index.ts",
           "import": "import { FieldError } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "FieldError",
-            "definedInFile": "D:\\wt\\sp1647\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1651\\packages\\ui\\src\\server.tsx",
             "actualName": "FieldError",
             "exportName": "FieldError"
           }
         },
         "FieldLabel": {
           "name": "FieldLabel",
-          "path": "D:\\wt\\sp1647\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1651\\packages\\ui\\src\\index.ts",
           "import": "import { FieldLabel } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "FieldLabel",
-            "definedInFile": "D:\\wt\\sp1647\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1651\\packages\\ui\\src\\server.tsx",
             "actualName": "FieldLabel",
             "exportName": "FieldLabel"
           }
         },
         "FormStatus": {
           "name": "FormStatus",
-          "path": "D:\\wt\\sp1647\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1651\\packages\\ui\\src\\index.ts",
           "import": "import { FormStatus } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "FormStatus",
-            "definedInFile": "D:\\wt\\sp1647\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1651\\packages\\ui\\src\\server.tsx",
             "actualName": "FormStatus",
             "exportName": "FormStatus",
             "props": {
@@ -751,14 +751,14 @@
         },
         "IconButton": {
           "name": "IconButton",
-          "path": "D:\\wt\\sp1647\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1651\\packages\\ui\\src\\index.ts",
           "import": "import { IconButton } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "IconButton",
-            "definedInFile": "D:\\wt\\sp1647\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1651\\packages\\ui\\src\\server.tsx",
             "actualName": "IconButton",
             "exportName": "IconButton",
             "props": {
@@ -784,14 +784,14 @@
         },
         "KeyValueItem": {
           "name": "KeyValueItem",
-          "path": "D:\\wt\\sp1647\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1651\\packages\\ui\\src\\index.ts",
           "import": "import { KeyValueItem } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "KeyValueItem",
-            "definedInFile": "D:\\wt\\sp1647\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1651\\packages\\ui\\src\\server.tsx",
             "actualName": "KeyValueItem",
             "exportName": "KeyValueItem",
             "props": {
@@ -814,28 +814,28 @@
         },
         "KeyValueList": {
           "name": "KeyValueList",
-          "path": "D:\\wt\\sp1647\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1651\\packages\\ui\\src\\index.ts",
           "import": "import { KeyValueList } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "KeyValueList",
-            "definedInFile": "D:\\wt\\sp1647\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1651\\packages\\ui\\src\\server.tsx",
             "actualName": "KeyValueList",
             "exportName": "KeyValueList"
           }
         },
         "LinkButton": {
           "name": "LinkButton",
-          "path": "D:\\wt\\sp1647\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1651\\packages\\ui\\src\\index.ts",
           "import": "import { LinkButton } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "LinkButton",
-            "definedInFile": "D:\\wt\\sp1647\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1651\\packages\\ui\\src\\server.tsx",
             "actualName": "LinkButton",
             "exportName": "LinkButton",
             "props": {
@@ -909,14 +909,14 @@
         },
         "LoadingIndicator": {
           "name": "LoadingIndicator",
-          "path": "D:\\wt\\sp1647\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1651\\packages\\ui\\src\\index.ts",
           "import": "import { LoadingIndicator } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "LoadingIndicator",
-            "definedInFile": "D:\\wt\\sp1647\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1651\\packages\\ui\\src\\server.tsx",
             "actualName": "LoadingIndicator",
             "exportName": "LoadingIndicator",
             "props": {
@@ -939,42 +939,42 @@
         },
         "Menu": {
           "name": "Menu",
-          "path": "D:\\wt\\sp1647\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1651\\packages\\ui\\src\\index.ts",
           "import": "import { Menu } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Menu",
-            "definedInFile": "D:\\wt\\sp1647\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1651\\packages\\ui\\src\\server.tsx",
             "actualName": "Menu",
             "exportName": "Menu"
           }
         },
         "MenuItem": {
           "name": "MenuItem",
-          "path": "D:\\wt\\sp1647\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1651\\packages\\ui\\src\\index.ts",
           "import": "import { MenuItem } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "MenuItem",
-            "definedInFile": "D:\\wt\\sp1647\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1651\\packages\\ui\\src\\server.tsx",
             "actualName": "MenuItem",
             "exportName": "MenuItem"
           }
         },
         "Notice": {
           "name": "Notice",
-          "path": "D:\\wt\\sp1647\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1651\\packages\\ui\\src\\index.ts",
           "import": "import { Notice } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Notice",
-            "definedInFile": "D:\\wt\\sp1647\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1651\\packages\\ui\\src\\server.tsx",
             "actualName": "Notice",
             "exportName": "Notice",
             "props": {
@@ -1037,14 +1037,14 @@
         },
         "Pagination": {
           "name": "Pagination",
-          "path": "D:\\wt\\sp1647\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1651\\packages\\ui\\src\\index.ts",
           "import": "import { Pagination } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Pagination",
-            "definedInFile": "D:\\wt\\sp1647\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1651\\packages\\ui\\src\\server.tsx",
             "actualName": "Pagination",
             "exportName": "Pagination",
             "props": {
@@ -1060,14 +1060,14 @@
         },
         "PaginationLink": {
           "name": "PaginationLink",
-          "path": "D:\\wt\\sp1647\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1651\\packages\\ui\\src\\index.ts",
           "import": "import { PaginationLink } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "PaginationLink",
-            "definedInFile": "D:\\wt\\sp1647\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1651\\packages\\ui\\src\\server.tsx",
             "actualName": "PaginationLink",
             "exportName": "PaginationLink",
             "props": {
@@ -1090,28 +1090,28 @@
         },
         "PaginationList": {
           "name": "PaginationList",
-          "path": "D:\\wt\\sp1647\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1651\\packages\\ui\\src\\index.ts",
           "import": "import { PaginationList } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "PaginationList",
-            "definedInFile": "D:\\wt\\sp1647\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1651\\packages\\ui\\src\\server.tsx",
             "actualName": "PaginationList",
             "exportName": "PaginationList"
           }
         },
         "Panel": {
           "name": "Panel",
-          "path": "D:\\wt\\sp1647\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1651\\packages\\ui\\src\\index.ts",
           "import": "import { Panel } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Panel",
-            "definedInFile": "D:\\wt\\sp1647\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1651\\packages\\ui\\src\\server.tsx",
             "actualName": "Panel",
             "exportName": "Panel",
             "props": {
@@ -1149,14 +1149,14 @@
         },
         "Radio": {
           "name": "Radio",
-          "path": "D:\\wt\\sp1647\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1651\\packages\\ui\\src\\index.ts",
           "import": "import { Radio } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Radio",
-            "definedInFile": "D:\\wt\\sp1647\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1651\\packages\\ui\\src\\server.tsx",
             "actualName": "Radio",
             "exportName": "Radio",
             "props": {
@@ -1182,14 +1182,14 @@
         },
         "ResponsiveTable": {
           "name": "ResponsiveTable",
-          "path": "D:\\wt\\sp1647\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1651\\packages\\ui\\src\\index.ts",
           "import": "import { ResponsiveTable } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "ResponsiveTable",
-            "definedInFile": "D:\\wt\\sp1647\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1651\\packages\\ui\\src\\server.tsx",
             "actualName": "ResponsiveTable",
             "exportName": "ResponsiveTable",
             "props": {
@@ -1205,42 +1205,42 @@
         },
         "Select": {
           "name": "Select",
-          "path": "D:\\wt\\sp1647\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1651\\packages\\ui\\src\\index.ts",
           "import": "import { Select } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Select",
-            "definedInFile": "D:\\wt\\sp1647\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1651\\packages\\ui\\src\\server.tsx",
             "actualName": "Select",
             "exportName": "Select"
           }
         },
         "Skeleton": {
           "name": "Skeleton",
-          "path": "D:\\wt\\sp1647\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1651\\packages\\ui\\src\\index.ts",
           "import": "import { Skeleton } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Skeleton",
-            "definedInFile": "D:\\wt\\sp1647\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1651\\packages\\ui\\src\\server.tsx",
             "actualName": "Skeleton",
             "exportName": "Skeleton"
           }
         },
         "Stat": {
           "name": "Stat",
-          "path": "D:\\wt\\sp1647\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1651\\packages\\ui\\src\\index.ts",
           "import": "import { Stat } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Stat",
-            "definedInFile": "D:\\wt\\sp1647\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1651\\packages\\ui\\src\\server.tsx",
             "actualName": "Stat",
             "exportName": "Stat",
             "props": {
@@ -1273,28 +1273,28 @@
         },
         "StatGroup": {
           "name": "StatGroup",
-          "path": "D:\\wt\\sp1647\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1651\\packages\\ui\\src\\index.ts",
           "import": "import { StatGroup } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "StatGroup",
-            "definedInFile": "D:\\wt\\sp1647\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1651\\packages\\ui\\src\\server.tsx",
             "actualName": "StatGroup",
             "exportName": "StatGroup"
           }
         },
         "StatusIndicator": {
           "name": "StatusIndicator",
-          "path": "D:\\wt\\sp1647\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1651\\packages\\ui\\src\\index.ts",
           "import": "import { StatusIndicator } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "StatusIndicator",
-            "definedInFile": "D:\\wt\\sp1647\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1651\\packages\\ui\\src\\server.tsx",
             "actualName": "StatusIndicator",
             "exportName": "StatusIndicator",
             "props": {
@@ -1346,14 +1346,14 @@
         },
         "Switch": {
           "name": "Switch",
-          "path": "D:\\wt\\sp1647\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1651\\packages\\ui\\src\\index.ts",
           "import": "import { Switch } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Switch",
-            "definedInFile": "D:\\wt\\sp1647\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1651\\packages\\ui\\src\\server.tsx",
             "actualName": "Switch",
             "exportName": "Switch",
             "props": {
@@ -1393,126 +1393,126 @@
         },
         "Table": {
           "name": "Table",
-          "path": "D:\\wt\\sp1647\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1651\\packages\\ui\\src\\index.ts",
           "import": "import { Table } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Table",
-            "definedInFile": "D:\\wt\\sp1647\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1651\\packages\\ui\\src\\server.tsx",
             "actualName": "Table",
             "exportName": "Table"
           }
         },
         "TableBody": {
           "name": "TableBody",
-          "path": "D:\\wt\\sp1647\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1651\\packages\\ui\\src\\index.ts",
           "import": "import { TableBody } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "TableBody",
-            "definedInFile": "D:\\wt\\sp1647\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1651\\packages\\ui\\src\\server.tsx",
             "actualName": "TableBody",
             "exportName": "TableBody"
           }
         },
         "TableCaption": {
           "name": "TableCaption",
-          "path": "D:\\wt\\sp1647\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1651\\packages\\ui\\src\\index.ts",
           "import": "import { TableCaption } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "TableCaption",
-            "definedInFile": "D:\\wt\\sp1647\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1651\\packages\\ui\\src\\server.tsx",
             "actualName": "TableCaption",
             "exportName": "TableCaption"
           }
         },
         "TableCell": {
           "name": "TableCell",
-          "path": "D:\\wt\\sp1647\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1651\\packages\\ui\\src\\index.ts",
           "import": "import { TableCell } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "TableCell",
-            "definedInFile": "D:\\wt\\sp1647\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1651\\packages\\ui\\src\\server.tsx",
             "actualName": "TableCell",
             "exportName": "TableCell"
           }
         },
         "TableHead": {
           "name": "TableHead",
-          "path": "D:\\wt\\sp1647\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1651\\packages\\ui\\src\\index.ts",
           "import": "import { TableHead } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "TableHead",
-            "definedInFile": "D:\\wt\\sp1647\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1651\\packages\\ui\\src\\server.tsx",
             "actualName": "TableHead",
             "exportName": "TableHead"
           }
         },
         "TableHeader": {
           "name": "TableHeader",
-          "path": "D:\\wt\\sp1647\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1651\\packages\\ui\\src\\index.ts",
           "import": "import { TableHeader } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "TableHeader",
-            "definedInFile": "D:\\wt\\sp1647\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1651\\packages\\ui\\src\\server.tsx",
             "actualName": "TableHeader",
             "exportName": "TableHeader"
           }
         },
         "TableRow": {
           "name": "TableRow",
-          "path": "D:\\wt\\sp1647\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1651\\packages\\ui\\src\\index.ts",
           "import": "import { TableRow } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "TableRow",
-            "definedInFile": "D:\\wt\\sp1647\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1651\\packages\\ui\\src\\server.tsx",
             "actualName": "TableRow",
             "exportName": "TableRow"
           }
         },
         "Textarea": {
           "name": "Textarea",
-          "path": "D:\\wt\\sp1647\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1651\\packages\\ui\\src\\index.ts",
           "import": "import { Textarea } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Textarea",
-            "definedInFile": "D:\\wt\\sp1647\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1651\\packages\\ui\\src\\server.tsx",
             "actualName": "Textarea",
             "exportName": "Textarea"
           }
         },
         "TextInput": {
           "name": "TextInput",
-          "path": "D:\\wt\\sp1647\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1651\\packages\\ui\\src\\index.ts",
           "import": "import { TextInput } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "TextInput",
-            "definedInFile": "D:\\wt\\sp1647\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1651\\packages\\ui\\src\\server.tsx",
             "actualName": "TextInput",
             "exportName": "TextInput"
           }
@@ -1631,35 +1631,35 @@
         "description": "",
         "methods": [],
         "displayName": "Disclosure",
-        "definedInFile": "D:\\wt\\sp1647\\packages\\ui\\src\\server.tsx",
+        "definedInFile": "D:\\wt\\sp1651\\packages\\ui\\src\\server.tsx",
         "actualName": "Disclosure",
         "exportName": "Disclosure"
       },
       "subcomponents": {
         "DisclosureTrigger": {
           "name": "DisclosureTrigger",
-          "path": "D:\\wt\\sp1647\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1651\\packages\\ui\\src\\index.ts",
           "import": "import { DisclosureTrigger } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "DisclosureTrigger",
-            "definedInFile": "D:\\wt\\sp1647\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1651\\packages\\ui\\src\\server.tsx",
             "actualName": "DisclosureTrigger",
             "exportName": "DisclosureTrigger"
           }
         },
         "Tooltip": {
           "name": "Tooltip",
-          "path": "D:\\wt\\sp1647\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1651\\packages\\ui\\src\\index.ts",
           "import": "import { Tooltip } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Tooltip",
-            "definedInFile": "D:\\wt\\sp1647\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1651\\packages\\ui\\src\\server.tsx",
             "actualName": "Tooltip",
             "exportName": "Tooltip",
             "props": {
@@ -1685,14 +1685,14 @@
         },
         "Accordion": {
           "name": "Accordion",
-          "path": "D:\\wt\\sp1647\\packages\\ui\\src\\client.tsx",
+          "path": "D:\\wt\\sp1651\\packages\\ui\\src\\client.tsx",
           "import": "import { Accordion } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Accordion",
-            "definedInFile": "D:\\wt\\sp1647\\packages\\ui\\src\\client.tsx",
+            "definedInFile": "D:\\wt\\sp1651\\packages\\ui\\src\\client.tsx",
             "actualName": "Accordion",
             "exportName": "Accordion",
             "props": {
@@ -1722,14 +1722,14 @@
         },
         "AccordionItem": {
           "name": "AccordionItem",
-          "path": "D:\\wt\\sp1647\\packages\\ui\\src\\client.tsx",
+          "path": "D:\\wt\\sp1651\\packages\\ui\\src\\client.tsx",
           "import": "import { AccordionItem } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "AccordionItem",
-            "definedInFile": "D:\\wt\\sp1647\\packages\\ui\\src\\client.tsx",
+            "definedInFile": "D:\\wt\\sp1651\\packages\\ui\\src\\client.tsx",
             "actualName": "AccordionItem",
             "exportName": "AccordionItem",
             "props": {
@@ -1759,14 +1759,14 @@
         },
         "AccordionTrigger": {
           "name": "AccordionTrigger",
-          "path": "D:\\wt\\sp1647\\packages\\ui\\src\\client.tsx",
+          "path": "D:\\wt\\sp1651\\packages\\ui\\src\\client.tsx",
           "import": "import { AccordionTrigger } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "AccordionTrigger",
-            "definedInFile": "D:\\wt\\sp1647\\packages\\ui\\src\\client.tsx",
+            "definedInFile": "D:\\wt\\sp1651\\packages\\ui\\src\\client.tsx",
             "actualName": "AccordionTrigger",
             "exportName": "AccordionTrigger",
             "props": {
@@ -1812,28 +1812,28 @@
         },
         "AccordionPanel": {
           "name": "AccordionPanel",
-          "path": "D:\\wt\\sp1647\\packages\\ui\\src\\client.tsx",
+          "path": "D:\\wt\\sp1651\\packages\\ui\\src\\client.tsx",
           "import": "import { AccordionPanel } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "AccordionPanel",
-            "definedInFile": "D:\\wt\\sp1647\\packages\\ui\\src\\client.tsx",
+            "definedInFile": "D:\\wt\\sp1651\\packages\\ui\\src\\client.tsx",
             "actualName": "AccordionPanel",
             "exportName": "AccordionPanel"
           }
         },
         "Tabs": {
           "name": "Tabs",
-          "path": "D:\\wt\\sp1647\\packages\\ui\\src\\client.tsx",
+          "path": "D:\\wt\\sp1651\\packages\\ui\\src\\client.tsx",
           "import": "import { Tabs } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Tabs",
-            "definedInFile": "D:\\wt\\sp1647\\packages\\ui\\src\\client.tsx",
+            "definedInFile": "D:\\wt\\sp1651\\packages\\ui\\src\\client.tsx",
             "actualName": "Tabs",
             "exportName": "Tabs",
             "props": {
@@ -1878,14 +1878,14 @@
         },
         "TabList": {
           "name": "TabList",
-          "path": "D:\\wt\\sp1647\\packages\\ui\\src\\client.tsx",
+          "path": "D:\\wt\\sp1651\\packages\\ui\\src\\client.tsx",
           "import": "import { TabList } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "TabList",
-            "definedInFile": "D:\\wt\\sp1647\\packages\\ui\\src\\client.tsx",
+            "definedInFile": "D:\\wt\\sp1651\\packages\\ui\\src\\client.tsx",
             "actualName": "TabList",
             "exportName": "TabList",
             "props": {
@@ -1901,14 +1901,14 @@
         },
         "Tab": {
           "name": "Tab",
-          "path": "D:\\wt\\sp1647\\packages\\ui\\src\\client.tsx",
+          "path": "D:\\wt\\sp1651\\packages\\ui\\src\\client.tsx",
           "import": "import { Tab } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Tab",
-            "definedInFile": "D:\\wt\\sp1647\\packages\\ui\\src\\client.tsx",
+            "definedInFile": "D:\\wt\\sp1651\\packages\\ui\\src\\client.tsx",
             "actualName": "Tab",
             "exportName": "Tab",
             "props": {
@@ -1924,14 +1924,14 @@
         },
         "TabPanel": {
           "name": "TabPanel",
-          "path": "D:\\wt\\sp1647\\packages\\ui\\src\\client.tsx",
+          "path": "D:\\wt\\sp1651\\packages\\ui\\src\\client.tsx",
           "import": "import { TabPanel } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "TabPanel",
-            "definedInFile": "D:\\wt\\sp1647\\packages\\ui\\src\\client.tsx",
+            "definedInFile": "D:\\wt\\sp1651\\packages\\ui\\src\\client.tsx",
             "actualName": "TabPanel",
             "exportName": "TabPanel",
             "props": {
@@ -1947,14 +1947,14 @@
         },
         "Dialog": {
           "name": "Dialog",
-          "path": "D:\\wt\\sp1647\\packages\\ui\\src\\client.tsx",
+          "path": "D:\\wt\\sp1651\\packages\\ui\\src\\client.tsx",
           "import": "import { Dialog } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Dialog",
-            "definedInFile": "D:\\wt\\sp1647\\packages\\ui\\src\\client.tsx",
+            "definedInFile": "D:\\wt\\sp1651\\packages\\ui\\src\\client.tsx",
             "actualName": "Dialog",
             "exportName": "Dialog",
             "props": {
@@ -2003,14 +2003,14 @@
         },
         "ThemeControl": {
           "name": "ThemeControl",
-          "path": "D:\\wt\\sp1647\\packages\\ui\\src\\client.tsx",
+          "path": "D:\\wt\\sp1651\\packages\\ui\\src\\client.tsx",
           "import": "import { ThemeControl } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Accordion",
-            "definedInFile": "D:\\wt\\sp1647\\packages\\ui\\src\\client.tsx",
+            "definedInFile": "D:\\wt\\sp1651\\packages\\ui\\src\\client.tsx",
             "actualName": "Accordion",
             "exportName": "Accordion",
             "props": {
@@ -2094,7 +2094,7 @@
         "description": "",
         "methods": [],
         "displayName": "Accordion",
-        "definedInFile": "D:\\wt\\sp1647\\packages\\ui\\src\\client.tsx",
+        "definedInFile": "D:\\wt\\sp1651\\packages\\ui\\src\\client.tsx",
         "actualName": "Accordion",
         "exportName": "Accordion",
         "props": {
@@ -2124,14 +2124,14 @@
       "subcomponents": {
         "AccordionItem": {
           "name": "AccordionItem",
-          "path": "D:\\wt\\sp1647\\packages\\ui\\src\\client.tsx",
+          "path": "D:\\wt\\sp1651\\packages\\ui\\src\\client.tsx",
           "import": "import { AccordionItem } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "AccordionItem",
-            "definedInFile": "D:\\wt\\sp1647\\packages\\ui\\src\\client.tsx",
+            "definedInFile": "D:\\wt\\sp1651\\packages\\ui\\src\\client.tsx",
             "actualName": "AccordionItem",
             "exportName": "AccordionItem",
             "props": {
@@ -2161,14 +2161,14 @@
         },
         "AccordionTrigger": {
           "name": "AccordionTrigger",
-          "path": "D:\\wt\\sp1647\\packages\\ui\\src\\client.tsx",
+          "path": "D:\\wt\\sp1651\\packages\\ui\\src\\client.tsx",
           "import": "import { AccordionTrigger } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "AccordionTrigger",
-            "definedInFile": "D:\\wt\\sp1647\\packages\\ui\\src\\client.tsx",
+            "definedInFile": "D:\\wt\\sp1651\\packages\\ui\\src\\client.tsx",
             "actualName": "AccordionTrigger",
             "exportName": "AccordionTrigger",
             "props": {
@@ -2214,14 +2214,14 @@
         },
         "AccordionPanel": {
           "name": "AccordionPanel",
-          "path": "D:\\wt\\sp1647\\packages\\ui\\src\\client.tsx",
+          "path": "D:\\wt\\sp1651\\packages\\ui\\src\\client.tsx",
           "import": "import { AccordionPanel } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "AccordionPanel",
-            "definedInFile": "D:\\wt\\sp1647\\packages\\ui\\src\\client.tsx",
+            "definedInFile": "D:\\wt\\sp1651\\packages\\ui\\src\\client.tsx",
             "actualName": "AccordionPanel",
             "exportName": "AccordionPanel"
           }
@@ -2539,7 +2539,7 @@
         "description": "",
         "methods": [],
         "displayName": "Button",
-        "definedInFile": "D:\\wt\\sp1647\\packages\\ui\\src\\server.tsx",
+        "definedInFile": "D:\\wt\\sp1651\\packages\\ui\\src\\server.tsx",
         "actualName": "Button",
         "exportName": "Button",
         "props": {
@@ -2613,14 +2613,14 @@
       "subcomponents": {
         "LinkButton": {
           "name": "LinkButton",
-          "path": "D:\\wt\\sp1647\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1651\\packages\\ui\\src\\index.ts",
           "import": "import { LinkButton } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "LinkButton",
-            "definedInFile": "D:\\wt\\sp1647\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1651\\packages\\ui\\src\\server.tsx",
             "actualName": "LinkButton",
             "exportName": "LinkButton",
             "props": {
@@ -2694,14 +2694,14 @@
         },
         "IconButton": {
           "name": "IconButton",
-          "path": "D:\\wt\\sp1647\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1651\\packages\\ui\\src\\index.ts",
           "import": "import { IconButton } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "IconButton",
-            "definedInFile": "D:\\wt\\sp1647\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1651\\packages\\ui\\src\\server.tsx",
             "actualName": "IconButton",
             "exportName": "IconButton",
             "props": {
@@ -2774,7 +2774,7 @@
         "description": "",
         "methods": [],
         "displayName": "ResponsiveTable",
-        "definedInFile": "D:\\wt\\sp1647\\packages\\ui\\src\\server.tsx",
+        "definedInFile": "D:\\wt\\sp1651\\packages\\ui\\src\\server.tsx",
         "actualName": "ResponsiveTable",
         "exportName": "ResponsiveTable",
         "props": {
@@ -2790,126 +2790,126 @@
       "subcomponents": {
         "Table": {
           "name": "Table",
-          "path": "D:\\wt\\sp1647\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1651\\packages\\ui\\src\\index.ts",
           "import": "import { Table } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Table",
-            "definedInFile": "D:\\wt\\sp1647\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1651\\packages\\ui\\src\\server.tsx",
             "actualName": "Table",
             "exportName": "Table"
           }
         },
         "TableCaption": {
           "name": "TableCaption",
-          "path": "D:\\wt\\sp1647\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1651\\packages\\ui\\src\\index.ts",
           "import": "import { TableCaption } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "TableCaption",
-            "definedInFile": "D:\\wt\\sp1647\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1651\\packages\\ui\\src\\server.tsx",
             "actualName": "TableCaption",
             "exportName": "TableCaption"
           }
         },
         "TableHead": {
           "name": "TableHead",
-          "path": "D:\\wt\\sp1647\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1651\\packages\\ui\\src\\index.ts",
           "import": "import { TableHead } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "TableHead",
-            "definedInFile": "D:\\wt\\sp1647\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1651\\packages\\ui\\src\\server.tsx",
             "actualName": "TableHead",
             "exportName": "TableHead"
           }
         },
         "TableBody": {
           "name": "TableBody",
-          "path": "D:\\wt\\sp1647\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1651\\packages\\ui\\src\\index.ts",
           "import": "import { TableBody } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "TableBody",
-            "definedInFile": "D:\\wt\\sp1647\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1651\\packages\\ui\\src\\server.tsx",
             "actualName": "TableBody",
             "exportName": "TableBody"
           }
         },
         "TableRow": {
           "name": "TableRow",
-          "path": "D:\\wt\\sp1647\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1651\\packages\\ui\\src\\index.ts",
           "import": "import { TableRow } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "TableRow",
-            "definedInFile": "D:\\wt\\sp1647\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1651\\packages\\ui\\src\\server.tsx",
             "actualName": "TableRow",
             "exportName": "TableRow"
           }
         },
         "TableHeader": {
           "name": "TableHeader",
-          "path": "D:\\wt\\sp1647\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1651\\packages\\ui\\src\\index.ts",
           "import": "import { TableHeader } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "TableHeader",
-            "definedInFile": "D:\\wt\\sp1647\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1651\\packages\\ui\\src\\server.tsx",
             "actualName": "TableHeader",
             "exportName": "TableHeader"
           }
         },
         "TableCell": {
           "name": "TableCell",
-          "path": "D:\\wt\\sp1647\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1651\\packages\\ui\\src\\index.ts",
           "import": "import { TableCell } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "TableCell",
-            "definedInFile": "D:\\wt\\sp1647\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1651\\packages\\ui\\src\\server.tsx",
             "actualName": "TableCell",
             "exportName": "TableCell"
           }
         },
         "KeyValueList": {
           "name": "KeyValueList",
-          "path": "D:\\wt\\sp1647\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1651\\packages\\ui\\src\\index.ts",
           "import": "import { KeyValueList } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "KeyValueList",
-            "definedInFile": "D:\\wt\\sp1647\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1651\\packages\\ui\\src\\server.tsx",
             "actualName": "KeyValueList",
             "exportName": "KeyValueList"
           }
         },
         "KeyValueItem": {
           "name": "KeyValueItem",
-          "path": "D:\\wt\\sp1647\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1651\\packages\\ui\\src\\index.ts",
           "import": "import { KeyValueItem } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "KeyValueItem",
-            "definedInFile": "D:\\wt\\sp1647\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1651\\packages\\ui\\src\\server.tsx",
             "actualName": "KeyValueItem",
             "exportName": "KeyValueItem",
             "props": {
@@ -2932,28 +2932,28 @@
         },
         "StatGroup": {
           "name": "StatGroup",
-          "path": "D:\\wt\\sp1647\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1651\\packages\\ui\\src\\index.ts",
           "import": "import { StatGroup } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "StatGroup",
-            "definedInFile": "D:\\wt\\sp1647\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1651\\packages\\ui\\src\\server.tsx",
             "actualName": "StatGroup",
             "exportName": "StatGroup"
           }
         },
         "Stat": {
           "name": "Stat",
-          "path": "D:\\wt\\sp1647\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1651\\packages\\ui\\src\\index.ts",
           "import": "import { Stat } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Stat",
-            "definedInFile": "D:\\wt\\sp1647\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1651\\packages\\ui\\src\\server.tsx",
             "actualName": "Stat",
             "exportName": "Stat",
             "props": {
@@ -2986,28 +2986,28 @@
         },
         "ChartLegend": {
           "name": "ChartLegend",
-          "path": "D:\\wt\\sp1647\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1651\\packages\\ui\\src\\index.ts",
           "import": "import { ChartLegend } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "ChartLegend",
-            "definedInFile": "D:\\wt\\sp1647\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1651\\packages\\ui\\src\\server.tsx",
             "actualName": "ChartLegend",
             "exportName": "ChartLegend"
           }
         },
         "ChartLegendItem": {
           "name": "ChartLegendItem",
-          "path": "D:\\wt\\sp1647\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1651\\packages\\ui\\src\\index.ts",
           "import": "import { ChartLegendItem } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "ChartLegendItem",
-            "definedInFile": "D:\\wt\\sp1647\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1651\\packages\\ui\\src\\server.tsx",
             "actualName": "ChartLegendItem",
             "exportName": "ChartLegendItem",
             "props": {
@@ -3087,7 +3087,7 @@
         "description": "",
         "methods": [],
         "displayName": "Dialog",
-        "definedInFile": "D:\\wt\\sp1647\\packages\\ui\\src\\client.tsx",
+        "definedInFile": "D:\\wt\\sp1651\\packages\\ui\\src\\client.tsx",
         "actualName": "Dialog",
         "exportName": "Dialog",
         "props": {
@@ -3151,7 +3151,7 @@
         "description": "",
         "methods": [],
         "displayName": "Notice",
-        "definedInFile": "D:\\wt\\sp1647\\packages\\ui\\src\\server.tsx",
+        "definedInFile": "D:\\wt\\sp1651\\packages\\ui\\src\\server.tsx",
         "actualName": "Notice",
         "exportName": "Notice",
         "props": {
@@ -3214,14 +3214,14 @@
       "subcomponents": {
         "Badge": {
           "name": "Badge",
-          "path": "D:\\wt\\sp1647\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1651\\packages\\ui\\src\\index.ts",
           "import": "import { Badge } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Badge",
-            "definedInFile": "D:\\wt\\sp1647\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1651\\packages\\ui\\src\\server.tsx",
             "actualName": "Badge",
             "exportName": "Badge",
             "props": {
@@ -3267,14 +3267,14 @@
         },
         "StatusIndicator": {
           "name": "StatusIndicator",
-          "path": "D:\\wt\\sp1647\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1651\\packages\\ui\\src\\index.ts",
           "import": "import { StatusIndicator } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "StatusIndicator",
-            "definedInFile": "D:\\wt\\sp1647\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1651\\packages\\ui\\src\\server.tsx",
             "actualName": "StatusIndicator",
             "exportName": "StatusIndicator",
             "props": {
@@ -3326,14 +3326,14 @@
         },
         "FormStatus": {
           "name": "FormStatus",
-          "path": "D:\\wt\\sp1647\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1651\\packages\\ui\\src\\index.ts",
           "import": "import { FormStatus } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "FormStatus",
-            "definedInFile": "D:\\wt\\sp1647\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1651\\packages\\ui\\src\\server.tsx",
             "actualName": "FormStatus",
             "exportName": "FormStatus",
             "props": {
@@ -3379,14 +3379,14 @@
         },
         "LoadingIndicator": {
           "name": "LoadingIndicator",
-          "path": "D:\\wt\\sp1647\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1651\\packages\\ui\\src\\index.ts",
           "import": "import { LoadingIndicator } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "LoadingIndicator",
-            "definedInFile": "D:\\wt\\sp1647\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1651\\packages\\ui\\src\\server.tsx",
             "actualName": "LoadingIndicator",
             "exportName": "LoadingIndicator",
             "props": {
@@ -3409,28 +3409,28 @@
         },
         "Skeleton": {
           "name": "Skeleton",
-          "path": "D:\\wt\\sp1647\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1651\\packages\\ui\\src\\index.ts",
           "import": "import { Skeleton } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Skeleton",
-            "definedInFile": "D:\\wt\\sp1647\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1651\\packages\\ui\\src\\server.tsx",
             "actualName": "Skeleton",
             "exportName": "Skeleton"
           }
         },
         "EmptyState": {
           "name": "EmptyState",
-          "path": "D:\\wt\\sp1647\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1651\\packages\\ui\\src\\index.ts",
           "import": "import { EmptyState } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "EmptyState",
-            "definedInFile": "D:\\wt\\sp1647\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1651\\packages\\ui\\src\\server.tsx",
             "actualName": "EmptyState",
             "exportName": "EmptyState",
             "props": {
@@ -3470,14 +3470,14 @@
         },
         "ErrorState": {
           "name": "ErrorState",
-          "path": "D:\\wt\\sp1647\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1651\\packages\\ui\\src\\index.ts",
           "import": "import { ErrorState } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "ErrorState",
-            "definedInFile": "D:\\wt\\sp1647\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1651\\packages\\ui\\src\\server.tsx",
             "actualName": "ErrorState",
             "exportName": "ErrorState",
             "props": {
@@ -3543,105 +3543,105 @@
         "description": "",
         "methods": [],
         "displayName": "Field",
-        "definedInFile": "D:\\wt\\sp1647\\packages\\ui\\src\\server.tsx",
+        "definedInFile": "D:\\wt\\sp1651\\packages\\ui\\src\\server.tsx",
         "actualName": "Field",
         "exportName": "Field"
       },
       "subcomponents": {
         "FieldLabel": {
           "name": "FieldLabel",
-          "path": "D:\\wt\\sp1647\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1651\\packages\\ui\\src\\index.ts",
           "import": "import { FieldLabel } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "FieldLabel",
-            "definedInFile": "D:\\wt\\sp1647\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1651\\packages\\ui\\src\\server.tsx",
             "actualName": "FieldLabel",
             "exportName": "FieldLabel"
           }
         },
         "FieldDescription": {
           "name": "FieldDescription",
-          "path": "D:\\wt\\sp1647\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1651\\packages\\ui\\src\\index.ts",
           "import": "import { FieldDescription } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "FieldDescription",
-            "definedInFile": "D:\\wt\\sp1647\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1651\\packages\\ui\\src\\server.tsx",
             "actualName": "FieldDescription",
             "exportName": "FieldDescription"
           }
         },
         "FieldError": {
           "name": "FieldError",
-          "path": "D:\\wt\\sp1647\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1651\\packages\\ui\\src\\index.ts",
           "import": "import { FieldError } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "FieldError",
-            "definedInFile": "D:\\wt\\sp1647\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1651\\packages\\ui\\src\\server.tsx",
             "actualName": "FieldError",
             "exportName": "FieldError"
           }
         },
         "TextInput": {
           "name": "TextInput",
-          "path": "D:\\wt\\sp1647\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1651\\packages\\ui\\src\\index.ts",
           "import": "import { TextInput } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "TextInput",
-            "definedInFile": "D:\\wt\\sp1647\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1651\\packages\\ui\\src\\server.tsx",
             "actualName": "TextInput",
             "exportName": "TextInput"
           }
         },
         "Textarea": {
           "name": "Textarea",
-          "path": "D:\\wt\\sp1647\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1651\\packages\\ui\\src\\index.ts",
           "import": "import { Textarea } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Textarea",
-            "definedInFile": "D:\\wt\\sp1647\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1651\\packages\\ui\\src\\server.tsx",
             "actualName": "Textarea",
             "exportName": "Textarea"
           }
         },
         "Select": {
           "name": "Select",
-          "path": "D:\\wt\\sp1647\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1651\\packages\\ui\\src\\index.ts",
           "import": "import { Select } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Select",
-            "definedInFile": "D:\\wt\\sp1647\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1651\\packages\\ui\\src\\server.tsx",
             "actualName": "Select",
             "exportName": "Select"
           }
         },
         "Checkbox": {
           "name": "Checkbox",
-          "path": "D:\\wt\\sp1647\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1651\\packages\\ui\\src\\index.ts",
           "import": "import { Checkbox } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Checkbox",
-            "definedInFile": "D:\\wt\\sp1647\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1651\\packages\\ui\\src\\server.tsx",
             "actualName": "Checkbox",
             "exportName": "Checkbox",
             "props": {
@@ -3667,14 +3667,14 @@
         },
         "Radio": {
           "name": "Radio",
-          "path": "D:\\wt\\sp1647\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1651\\packages\\ui\\src\\index.ts",
           "import": "import { Radio } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Radio",
-            "definedInFile": "D:\\wt\\sp1647\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1651\\packages\\ui\\src\\server.tsx",
             "actualName": "Radio",
             "exportName": "Radio",
             "props": {
@@ -3700,14 +3700,14 @@
         },
         "Switch": {
           "name": "Switch",
-          "path": "D:\\wt\\sp1647\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1651\\packages\\ui\\src\\index.ts",
           "import": "import { Switch } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Switch",
-            "definedInFile": "D:\\wt\\sp1647\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1651\\packages\\ui\\src\\server.tsx",
             "actualName": "Switch",
             "exportName": "Switch",
             "props": {
@@ -3747,14 +3747,14 @@
         },
         "FormStatus": {
           "name": "FormStatus",
-          "path": "D:\\wt\\sp1647\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1651\\packages\\ui\\src\\index.ts",
           "import": "import { FormStatus } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "FormStatus",
-            "definedInFile": "D:\\wt\\sp1647\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1651\\packages\\ui\\src\\server.tsx",
             "actualName": "FormStatus",
             "exportName": "FormStatus",
             "props": {
@@ -3837,63 +3837,63 @@
         "description": "",
         "methods": [],
         "displayName": "Disclosure",
-        "definedInFile": "D:\\wt\\sp1647\\packages\\ui\\src\\server.tsx",
+        "definedInFile": "D:\\wt\\sp1651\\packages\\ui\\src\\server.tsx",
         "actualName": "Disclosure",
         "exportName": "Disclosure"
       },
       "subcomponents": {
         "DisclosureTrigger": {
           "name": "DisclosureTrigger",
-          "path": "D:\\wt\\sp1647\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1651\\packages\\ui\\src\\index.ts",
           "import": "import { DisclosureTrigger } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "DisclosureTrigger",
-            "definedInFile": "D:\\wt\\sp1647\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1651\\packages\\ui\\src\\server.tsx",
             "actualName": "DisclosureTrigger",
             "exportName": "DisclosureTrigger"
           }
         },
         "Menu": {
           "name": "Menu",
-          "path": "D:\\wt\\sp1647\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1651\\packages\\ui\\src\\index.ts",
           "import": "import { Menu } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Menu",
-            "definedInFile": "D:\\wt\\sp1647\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1651\\packages\\ui\\src\\server.tsx",
             "actualName": "Menu",
             "exportName": "Menu"
           }
         },
         "MenuItem": {
           "name": "MenuItem",
-          "path": "D:\\wt\\sp1647\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1651\\packages\\ui\\src\\index.ts",
           "import": "import { MenuItem } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "MenuItem",
-            "definedInFile": "D:\\wt\\sp1647\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1651\\packages\\ui\\src\\server.tsx",
             "actualName": "MenuItem",
             "exportName": "MenuItem"
           }
         },
         "Pagination": {
           "name": "Pagination",
-          "path": "D:\\wt\\sp1647\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1651\\packages\\ui\\src\\index.ts",
           "import": "import { Pagination } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Pagination",
-            "definedInFile": "D:\\wt\\sp1647\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1651\\packages\\ui\\src\\server.tsx",
             "actualName": "Pagination",
             "exportName": "Pagination",
             "props": {
@@ -3909,28 +3909,28 @@
         },
         "PaginationList": {
           "name": "PaginationList",
-          "path": "D:\\wt\\sp1647\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1651\\packages\\ui\\src\\index.ts",
           "import": "import { PaginationList } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "PaginationList",
-            "definedInFile": "D:\\wt\\sp1647\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1651\\packages\\ui\\src\\server.tsx",
             "actualName": "PaginationList",
             "exportName": "PaginationList"
           }
         },
         "PaginationLink": {
           "name": "PaginationLink",
-          "path": "D:\\wt\\sp1647\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1651\\packages\\ui\\src\\index.ts",
           "import": "import { PaginationLink } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "PaginationLink",
-            "definedInFile": "D:\\wt\\sp1647\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1651\\packages\\ui\\src\\server.tsx",
             "actualName": "PaginationLink",
             "exportName": "PaginationLink",
             "props": {
@@ -3953,14 +3953,14 @@
         },
         "Tooltip": {
           "name": "Tooltip",
-          "path": "D:\\wt\\sp1647\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1651\\packages\\ui\\src\\index.ts",
           "import": "import { Tooltip } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Tooltip",
-            "definedInFile": "D:\\wt\\sp1647\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1651\\packages\\ui\\src\\server.tsx",
             "actualName": "Tooltip",
             "exportName": "Tooltip",
             "props": {
@@ -4013,7 +4013,7 @@
         "description": "",
         "methods": [],
         "displayName": "Card",
-        "definedInFile": "D:\\wt\\sp1647\\packages\\ui\\src\\server.tsx",
+        "definedInFile": "D:\\wt\\sp1651\\packages\\ui\\src\\server.tsx",
         "actualName": "Card",
         "exportName": "Card",
         "props": {
@@ -4051,70 +4051,70 @@
       "subcomponents": {
         "CardHeader": {
           "name": "CardHeader",
-          "path": "D:\\wt\\sp1647\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1651\\packages\\ui\\src\\index.ts",
           "import": "import { CardHeader } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "CardHeader",
-            "definedInFile": "D:\\wt\\sp1647\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1651\\packages\\ui\\src\\server.tsx",
             "actualName": "CardHeader",
             "exportName": "CardHeader"
           }
         },
         "CardTitle": {
           "name": "CardTitle",
-          "path": "D:\\wt\\sp1647\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1651\\packages\\ui\\src\\index.ts",
           "import": "import { CardTitle } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "CardTitle",
-            "definedInFile": "D:\\wt\\sp1647\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1651\\packages\\ui\\src\\server.tsx",
             "actualName": "CardTitle",
             "exportName": "CardTitle"
           }
         },
         "CardDescription": {
           "name": "CardDescription",
-          "path": "D:\\wt\\sp1647\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1651\\packages\\ui\\src\\index.ts",
           "import": "import { CardDescription } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "CardDescription",
-            "definedInFile": "D:\\wt\\sp1647\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1651\\packages\\ui\\src\\server.tsx",
             "actualName": "CardDescription",
             "exportName": "CardDescription"
           }
         },
         "CardContent": {
           "name": "CardContent",
-          "path": "D:\\wt\\sp1647\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1651\\packages\\ui\\src\\index.ts",
           "import": "import { CardContent } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "CardContent",
-            "definedInFile": "D:\\wt\\sp1647\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1651\\packages\\ui\\src\\server.tsx",
             "actualName": "CardContent",
             "exportName": "CardContent"
           }
         },
         "Panel": {
           "name": "Panel",
-          "path": "D:\\wt\\sp1647\\packages\\ui\\src\\index.ts",
+          "path": "D:\\wt\\sp1651\\packages\\ui\\src\\index.ts",
           "import": "import { Panel } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Panel",
-            "definedInFile": "D:\\wt\\sp1647\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "D:\\wt\\sp1651\\packages\\ui\\src\\server.tsx",
             "actualName": "Panel",
             "exportName": "Panel",
             "props": {
@@ -4174,7 +4174,7 @@
         "description": "",
         "methods": [],
         "displayName": "Tabs",
-        "definedInFile": "D:\\wt\\sp1647\\packages\\ui\\src\\client.tsx",
+        "definedInFile": "D:\\wt\\sp1651\\packages\\ui\\src\\client.tsx",
         "actualName": "Tabs",
         "exportName": "Tabs",
         "props": {
@@ -4219,14 +4219,14 @@
       "subcomponents": {
         "TabList": {
           "name": "TabList",
-          "path": "D:\\wt\\sp1647\\packages\\ui\\src\\client.tsx",
+          "path": "D:\\wt\\sp1651\\packages\\ui\\src\\client.tsx",
           "import": "import { TabList } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "TabList",
-            "definedInFile": "D:\\wt\\sp1647\\packages\\ui\\src\\client.tsx",
+            "definedInFile": "D:\\wt\\sp1651\\packages\\ui\\src\\client.tsx",
             "actualName": "TabList",
             "exportName": "TabList",
             "props": {
@@ -4242,14 +4242,14 @@
         },
         "Tab": {
           "name": "Tab",
-          "path": "D:\\wt\\sp1647\\packages\\ui\\src\\client.tsx",
+          "path": "D:\\wt\\sp1651\\packages\\ui\\src\\client.tsx",
           "import": "import { Tab } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Tab",
-            "definedInFile": "D:\\wt\\sp1647\\packages\\ui\\src\\client.tsx",
+            "definedInFile": "D:\\wt\\sp1651\\packages\\ui\\src\\client.tsx",
             "actualName": "Tab",
             "exportName": "Tab",
             "props": {
@@ -4265,14 +4265,14 @@
         },
         "TabPanel": {
           "name": "TabPanel",
-          "path": "D:\\wt\\sp1647\\packages\\ui\\src\\client.tsx",
+          "path": "D:\\wt\\sp1651\\packages\\ui\\src\\client.tsx",
           "import": "import { TabPanel } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "TabPanel",
-            "definedInFile": "D:\\wt\\sp1647\\packages\\ui\\src\\client.tsx",
+            "definedInFile": "D:\\wt\\sp1651\\packages\\ui\\src\\client.tsx",
             "actualName": "TabPanel",
             "exportName": "TabPanel",
             "props": {
@@ -4305,7 +4305,7 @@
         "description": "",
         "methods": [],
         "displayName": "Accordion",
-        "definedInFile": "D:\\wt\\sp1647\\packages\\ui\\src\\client.tsx",
+        "definedInFile": "D:\\wt\\sp1651\\packages\\ui\\src\\client.tsx",
         "actualName": "Accordion",
         "exportName": "Accordion",
         "props": {
@@ -4335,14 +4335,14 @@
       "subcomponents": {
         "ThemeProvider": {
           "name": "ThemeProvider",
-          "path": "D:\\wt\\sp1647\\packages\\ui\\src\\client.tsx",
+          "path": "D:\\wt\\sp1651\\packages\\ui\\src\\client.tsx",
           "import": "import { ThemeProvider } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Accordion",
-            "definedInFile": "D:\\wt\\sp1647\\packages\\ui\\src\\client.tsx",
+            "definedInFile": "D:\\wt\\sp1651\\packages\\ui\\src\\client.tsx",
             "actualName": "Accordion",
             "exportName": "Accordion",
             "props": {
@@ -4550,7 +4550,7 @@
         "description": "",
         "methods": [],
         "displayName": "InstaticSpecimenStory",
-        "definedInFile": "D:\\wt\\sp1647\\apps\\design-system\\src\\instatic\\InstaticSpecimen.tsx",
+        "definedInFile": "D:\\wt\\sp1651\\apps\\design-system\\src\\instatic\\InstaticSpecimen.tsx",
         "actualName": "InstaticSpecimenStory",
         "exportName": "InstaticSpecimenStory",
         "props": {
@@ -4624,7 +4624,7 @@
         "description": "",
         "methods": [],
         "displayName": "InstaticSpecimenStory",
-        "definedInFile": "D:\\wt\\sp1647\\apps\\design-system\\src\\instatic\\InstaticSpecimen.tsx",
+        "definedInFile": "D:\\wt\\sp1651\\apps\\design-system\\src\\instatic\\InstaticSpecimen.tsx",
         "actualName": "InstaticSpecimenStory",
         "exportName": "InstaticSpecimenStory",
         "props": {
@@ -4718,7 +4718,7 @@
         "description": "",
         "methods": [],
         "displayName": "InstaticSpecimenStory",
-        "definedInFile": "D:\\wt\\sp1647\\apps\\design-system\\src\\instatic\\InstaticSpecimen.tsx",
+        "definedInFile": "D:\\wt\\sp1651\\apps\\design-system\\src\\instatic\\InstaticSpecimen.tsx",
         "actualName": "InstaticSpecimenStory",
         "exportName": "InstaticSpecimenStory",
         "props": {
@@ -4807,7 +4807,7 @@
         "description": "",
         "methods": [],
         "displayName": "InstaticSpecimenStory",
-        "definedInFile": "D:\\wt\\sp1647\\apps\\design-system\\src\\instatic\\InstaticSpecimen.tsx",
+        "definedInFile": "D:\\wt\\sp1651\\apps\\design-system\\src\\instatic\\InstaticSpecimen.tsx",
         "actualName": "InstaticSpecimenStory",
         "exportName": "InstaticSpecimenStory",
         "props": {
@@ -4856,7 +4856,7 @@
         "description": "",
         "methods": [],
         "displayName": "InstaticSpecimenStory",
-        "definedInFile": "D:\\wt\\sp1647\\apps\\design-system\\src\\instatic\\InstaticSpecimen.tsx",
+        "definedInFile": "D:\\wt\\sp1651\\apps\\design-system\\src\\instatic\\InstaticSpecimen.tsx",
         "actualName": "InstaticSpecimenStory",
         "exportName": "InstaticSpecimenStory",
         "props": {
@@ -5105,7 +5105,7 @@
         "description": "",
         "methods": [],
         "displayName": "InstaticSpecimenStory",
-        "definedInFile": "D:\\wt\\sp1647\\apps\\design-system\\src\\instatic\\InstaticSpecimen.tsx",
+        "definedInFile": "D:\\wt\\sp1651\\apps\\design-system\\src\\instatic\\InstaticSpecimen.tsx",
         "actualName": "InstaticSpecimenStory",
         "exportName": "InstaticSpecimenStory",
         "props": {
@@ -5199,7 +5199,7 @@
         "description": "",
         "methods": [],
         "displayName": "InstaticSpecimenStory",
-        "definedInFile": "D:\\wt\\sp1647\\apps\\design-system\\src\\instatic\\InstaticSpecimen.tsx",
+        "definedInFile": "D:\\wt\\sp1651\\apps\\design-system\\src\\instatic\\InstaticSpecimen.tsx",
         "actualName": "InstaticSpecimenStory",
         "exportName": "InstaticSpecimenStory",
         "props": {
@@ -5273,7 +5273,7 @@
         "description": "",
         "methods": [],
         "displayName": "InstaticSpecimenStory",
-        "definedInFile": "D:\\wt\\sp1647\\apps\\design-system\\src\\instatic\\InstaticSpecimen.tsx",
+        "definedInFile": "D:\\wt\\sp1651\\apps\\design-system\\src\\instatic\\InstaticSpecimen.tsx",
         "actualName": "InstaticSpecimenStory",
         "exportName": "InstaticSpecimenStory",
         "props": {
@@ -5342,7 +5342,7 @@
         "description": "",
         "methods": [],
         "displayName": "InstaticSpecimenStory",
-        "definedInFile": "D:\\wt\\sp1647\\apps\\design-system\\src\\instatic\\InstaticSpecimen.tsx",
+        "definedInFile": "D:\\wt\\sp1651\\apps\\design-system\\src\\instatic\\InstaticSpecimen.tsx",
         "actualName": "InstaticSpecimenStory",
         "exportName": "InstaticSpecimenStory",
         "props": {
@@ -5411,7 +5411,7 @@
         "description": "",
         "methods": [],
         "displayName": "InstaticSpecimenStory",
-        "definedInFile": "D:\\wt\\sp1647\\apps\\design-system\\src\\instatic\\InstaticSpecimen.tsx",
+        "definedInFile": "D:\\wt\\sp1651\\apps\\design-system\\src\\instatic\\InstaticSpecimen.tsx",
         "actualName": "InstaticSpecimenStory",
         "exportName": "InstaticSpecimenStory",
         "props": {
@@ -5470,7 +5470,7 @@
         "description": "",
         "methods": [],
         "displayName": "InstaticSpecimenStory",
-        "definedInFile": "D:\\wt\\sp1647\\apps\\design-system\\src\\instatic\\InstaticSpecimen.tsx",
+        "definedInFile": "D:\\wt\\sp1651\\apps\\design-system\\src\\instatic\\InstaticSpecimen.tsx",
         "actualName": "InstaticSpecimenStory",
         "exportName": "InstaticSpecimenStory",
         "props": {
@@ -5539,7 +5539,7 @@
         "description": "",
         "methods": [],
         "displayName": "InstaticSpecimenStory",
-        "definedInFile": "D:\\wt\\sp1647\\apps\\design-system\\src\\instatic\\InstaticSpecimen.tsx",
+        "definedInFile": "D:\\wt\\sp1651\\apps\\design-system\\src\\instatic\\InstaticSpecimen.tsx",
         "actualName": "InstaticSpecimenStory",
         "exportName": "InstaticSpecimenStory",
         "props": {
@@ -5693,7 +5693,7 @@
         "description": "",
         "methods": [],
         "displayName": "InstaticSpecimenStory",
-        "definedInFile": "D:\\wt\\sp1647\\apps\\design-system\\src\\instatic\\InstaticSpecimen.tsx",
+        "definedInFile": "D:\\wt\\sp1651\\apps\\design-system\\src\\instatic\\InstaticSpecimen.tsx",
         "actualName": "InstaticSpecimenStory",
         "exportName": "InstaticSpecimenStory",
         "props": {
@@ -6593,7 +6593,7 @@
       "jsDocTags": {},
       "error": {
         "name": "No component found",
-        "message": "We could not detect the component from your story file. Specify meta.component.\n  107 | }\n  108 |\n> 109 | const meta = {\n      | ^\n  110 |   id: \"products-shared-surfaces-form-gallery\",\n  111 |   title: \"Forms/Form gallery\",\n  112 |   tags: [\"autodocs\"],\n\n./src/stories/FormGallery.stories.tsx:\nimport type { Meta, StoryObj } from \"@storybook/react-vite\";\nimport { useState } from \"react\";\nimport { Badge, Button, Checkbox, Field, FieldDescription, FieldError, FieldLabel, FormStatus, KeyValueItem, KeyValueList, Notice, Panel, Radio, Select, TextInput } from \"@creator-signal/ui\";\nimport { useTheme } from \"@creator-signal/ui/client\";\nimport formInventory from \"../../../../design-system/form-surfaces.json\";\nimport { referencePath } from \"../reference-path\";\n\ntype FormJourney = {\n  id: string;\n  label: string;\n  owner: string;\n  source: string;\n  storybook: { coverage: \"contract\" | \"excluded\" | \"rendered\"; storyId: string; themePreferences?: Array<\"system\" | \"light\" | \"dark\"> };\n  allowedFixtureData: string[];\n  providerBoundary: string;\n  acceptance: string;\n};\n\nconst inventory = formInventory as { journeys: FormJourney[] };\n\nfunction GalleryShell({ children, title }: { children: React.ReactNode; title: string }) {\n  return <main className=\"cs-story-shell\"><p className=\"cs-story-eyebrow\">Canonical form gallery · synthetic only · no submission</p><h1 className=\"cs-story-title\">{title}</h1><p className=\"cs-story-lede\">This is a review projection of governed primitives, source-owned product journeys and honest provider limits. Storybook has no form runtime dependency, provider access or customer data.</p>{children}</main>;\n}\n\nfunction JourneyContract({ journey }: { journey: FormJourney }) {\n  const coverage = journey.storybook.coverage;\n  return <Panel className=\"cs-reference-card\"><Badge tone={coverage === \"rendered\" ? \"success\" : coverage === \"excluded\" ? \"warning\" : \"info\"}>{coverage === \"excluded\" ? \"Tested exclusion\" : coverage === \"rendered\" ? \"Rendered reference\" : \"Integration contract\"}</Badge><h2>{journey.label}</h2><KeyValueList><KeyValueItem label=\"Owner\" value={journey.owner} /><KeyValueItem label=\"Owned source\" value={<code>{journey.source}</code>} /><KeyValueItem label=\"Fixture boundary\" value={journey.allowedFixtureData.join(\", \")} /><KeyValueItem label=\"Acceptance\" value={journey.acceptance} /></KeyValueList><p><strong>Provider boundary:</strong> {journey.providerBoundary}</p></Panel>;\n}\n\nfunction SharedWorkflowStatesView() {\n  return <GalleryShell title=\"Shared workflow states\"><section className=\"cs-story-section cs-reference-grid\"><Panel className=\"cs-reference-card\"><h2>Required and invalid</h2><Field><FieldLabel htmlFor=\"gallery-email\">Email address</FieldLabel><FieldDescription id=\"gallery-email-help\">Synthetic account identity only.</FieldDescription><TextInput id=\"gallery-email\" aria-describedby=\"gallery-email-help gallery-email-error\" aria-invalid=\"true\" defaultValue=\"maya@example.test\" type=\"email\" /><FieldError id=\"gallery-email-error\">Enter a valid email address.</FieldError></Field></Panel><Panel className=\"cs-reference-card\"><h2>Disabled and read-only</h2><Field><FieldLabel htmlFor=\"gallery-readonly\">Workspace reference</FieldLabel><TextInput id=\"gallery-readonly\" readOnly value=\"fixture-workspace-001\" /></Field><Button disabled>Unavailable while checking</Button></Panel><Panel className=\"cs-reference-card\"><h2>Async and outcomes</h2><Button busy>Checking synthetic file</Button><FormStatus tone=\"success\">Synthetic check complete. Nothing was uploaded.</FormStatus><FormStatus tone=\"error\">Synthetic request failed. No change was saved.</FormStatus></Panel><Panel className=\"cs-reference-card\"><h2>Choice controls</h2><Checkbox defaultChecked label=\"Use this synthetic preference\" description=\"No preference is stored.\" /><Radio defaultChecked label=\"Weekly summary\" name=\"gallery-cadence\" /><Radio label=\"Monthly summary\" name=\"gallery-cadence\" /></Panel></section></GalleryShell>;\n}\n\nfunction SearchAndFileSelectionView() {\n  return <GalleryShell title=\"Search and file selection\"><section className=\"cs-story-section cs-reference-grid\"><Panel className=\"cs-reference-card\"><h2>Accessible search</h2><Field><FieldLabel htmlFor=\"gallery-search\">Search synthetic media</FieldLabel><FieldDescription id=\"gallery-search-help\">Filtering is illustrative only; no account or media request is made.</FieldDescription><TextInput id=\"gallery-search\" aria-describedby=\"gallery-search-help\" defaultValue=\"blue fern\" type=\"search\" /></Field><FormStatus>One synthetic result would match this query.</FormStatus></Panel><Panel className=\"cs-reference-card\"><h2>File selection</h2><Field><FieldLabel htmlFor=\"gallery-file\">Select a statement file</FieldLabel><FieldDescription id=\"gallery-file-help\">CSV, TSV and text file types are presented by the owning import journey. This fixture never reads or uploads a file.</FieldDescription><TextInput id=\"gallery-file\" aria-describedby=\"gallery-file-help\" accept=\".csv,.tsv,.txt,text/csv,text/plain,text/tab-separated-values\" type=\"file\" /></Field><Button variant=\"secondary\">Check selected files</Button></Panel></section></GalleryShell>;\n}\n\nfunction StatementImportView() {\n  return <GalleryShell title=\"Statement import integration contract\"><section className=\"cs-story-section\"><Notice heading=\"Owned route, not copied workflow\" tone=\"info\"><p>The production component owns drag and drop, preview/import requests, quota calculations and result details. This projection validates the shared field, file-selection, pending and status states without sending a file or duplicating its route logic.</p></Notice></section><section className=\"cs-story-section cs-reference-grid\">{inventory.journeys.filter(({ id }) => id === \"sales-pulse.statement-import\").map((journey) => <JourneyContract key={journey.id} journey={journey} />)}</section></GalleryShell>;\n}\n\nfunction LegalConsentView() {\n  return <GalleryShell title=\"Legal acceptance integration contract\"><section className=\"cs-story-section\"><Panel className=\"cs-reference-card\"><h2>Revisioned consent</h2><p>Policy revision: <code>fixture-policy-v1</code></p><Checkbox label=\"I have read the synthetic policy summary\" description=\"This control does not record consent.\" /><Button>Continue</Button></Panel></section></GalleryShell>;\n}\n\nconst sellingTenureOptions = [\n  [\"prefer_not_to_say\", \"Prefer not to say\"],\n  [\"less_than_6_months\", \"Less than 6 months\"],\n  [\"6_months_to_1_year\", \"6 months to a year\"],\n  [\"1_to_3_years\", \"1 to 3 years\"],\n  [\"3_years_or_more\", \"3 years or more\"],\n] as const;\n\nconst salesTrackingOptions = [\n  [\"prefer_not_to_say\", \"Prefer not to say\"],\n  [\"does_not_track\", \"I don't track it\"],\n  [\"spoonflower_dashboard\", \"Just Spoonflower's own dashboard\"],\n  [\"manual_notes_or_addition\", \"Manual notes or addition\"],\n  [\"spreadsheet\", \"Spreadsheet with formulas\"],\n  [\"ai_tool\", \"An AI tool (like ChatGPT)\"],\n  [\"other\", \"Other\"],\n] as const;\n\nfunction IntakeSelect({ id, label, onChange, options }: { id: string; label: string; onChange?: React.ChangeEventHandler<HTMLSelectElement>; options: ReadonlyArray<readonly [string, string]> }) {\n  return <Field><FieldLabel htmlFor={id}>{label}</FieldLabel><Select id={id} name={id} onChange={onChange}><option value=\"\">Prefer not to say</option>{options.filter(([value]) => value !== \"prefer_not_to_say\").map(([value, optionLabel]) => <option key={value} value={value}>{optionLabel}</option>)}</Select></Field>;\n}\n\nfunction IntakeText({ className, id, label, placeholder, required = false, type = \"text\" }: { className?: string; id: string; label: string; placeholder: string; required?: boolean; type?: \"email\" | \"text\" }) {\n  return <Field className={className}><FieldLabel htmlFor={id}>{label}</FieldLabel><TextInput id={id} name={id} placeholder={placeholder} required={required} type={type} /></Field>;\n}\n\nfunction IntakeShell({ children, intro, note, submitted, title }: { children: React.ReactNode; intro: string; note?: string; submitted: boolean; title: string }) {\n  const { preference, resolvedTheme } = useTheme();\n  const widthClass = title === \"Join the waitlist\" ? \"cs-intake-card--waitlist\" : \"cs-intake-card--beta\";\n  const logoSurface = resolvedTheme === \"dark\" ? \"dark-background\" : \"light-background\";\n  return <GalleryShell title={`${title} · Mautic design reference`}><section className=\"cs-story-section cs-intake-reference\" data-cs-theme={resolvedTheme} data-cs-theme-preference={preference}><Panel className={`cs-intake-card ${widthClass}`}><header className=\"cs-intake-heading\"><img alt=\"Creator Signal\" className=\"cs-intake-logo\" src={referencePath(`/brand-assets/delivery/creator-signal-logo-stacked/${logoSurface}.svg`)} /><h2>{title}</h2><p>{intro}</p>{note ? <p className=\"cs-intake-note\">{note}</p> : null}</header>{submitted ? <FormStatus tone=\"success\">Synthetic Storybook state only. Nothing was submitted or saved.</FormStatus> : children}</Panel></section></GalleryShell>;\n}\n\nfunction WaitlistView() {\n  const [tracking, setTracking] = useState(\"\");\n  const [discovery, setDiscovery] = useState(\"\");\n  const [otherHelp, setOtherHelp] = useState(false);\n  const [submitted, setSubmitted] = useState(false);\n  return <IntakeShell intro=\"Be the first to know when Creator Signal is ready.\" submitted={submitted} title=\"Join the waitlist\"><form className=\"cs-intake-form\" onSubmit={(event) => { event.preventDefault(); setSubmitted(true); }}><IntakeText id=\"waitlist-first-name\" label=\"First name\" placeholder=\"Your first name\" required /><IntakeText id=\"waitlist-email\" label=\"Email\" placeholder={\"you\\u0040example.com\"} required type=\"email\" /><fieldset className=\"cs-intake-optional\"><legend>Tell us a bit more <span>(optional)</span></legend><FieldDescription>Totally optional, but it helps us know who we&apos;re building for.</FieldDescription><IntakeText id=\"waitlist-shop-name\" label=\"Spoonflower shop name\" placeholder=\"Your shop name\" /><IntakeSelect id=\"waitlist-selling-tenure\" label=\"How long have you been selling on Spoonflower?\" options={sellingTenureOptions} /><IntakeSelect id=\"waitlist-tracking-method\" label=\"How do you currently track your sales?\" onChange={(event) => setTracking(event.currentTarget.value)} options={salesTrackingOptions} />{tracking === \"other\" ? <IntakeText id=\"waitlist-tracking-method-other\" label=\"Tell us how\" placeholder=\"Tell us how\" /> : null}<IntakeSelect id=\"waitlist-discovery-source\" label=\"How did you hear about us?\" onChange={(event) => setDiscovery(event.currentTarget.value)} options={[\n    [\"instagram\", \"Instagram\"], [\"facebook_group\", \"A Facebook group\"], [\"friend_or_designer\", \"A friend or fellow designer\"], [\"google_search\", \"Google search\"], [\"other\", \"Other\"],\n  ]} />{discovery === \"other\" ? <IntakeText id=\"waitlist-discovery-source-other\" label=\"Tell us where\" placeholder=\"Tell us where\" /> : null}<fieldset className=\"cs-intake-choices\"><legend>What would help you most right now?</legend><Checkbox label=\"Seeing what's actually selling in my shop\" name=\"waitlist-help\" value=\"see_what_sells\" /><Checkbox label=\"Knowing when to upload seasonal designs\" name=\"waitlist-help\" value=\"seasonal_timing\" /><Checkbox label=\"Seeing which category (wallpaper, fabric, home decor) does best\" name=\"waitlist-help\" value=\"category_breakdown\" /><Checkbox label=\"Knowing if people are buying from me again\" name=\"waitlist-help\" value=\"repeat_customers\" /><Checkbox label=\"Just feeling less like I'm guessing\" name=\"waitlist-help\" value=\"stop_guessing\" /><Checkbox checked={otherHelp} label=\"Something else\" name=\"waitlist-help\" onChange={(event) => setOtherHelp(event.currentTarget.checked)} value=\"other\" />{otherHelp ? <IntakeText id=\"waitlist-help-other\" label=\"Tell us what\" placeholder=\"Tell us what\" /> : null}</fieldset></fieldset><fieldset className=\"cs-intake-permission\"><legend>Permission to contact you</legend><Checkbox label=\"Email me one or more updates about Creator Signal launch availability and this waitlist request\" name=\"waitlist-permission\" required value=\"1\" /></fieldset><Button type=\"submit\">Join the Waitlist</Button><p className=\"cs-intake-fineprint\">Free to join. This permission is only for Creator Signal launch availability and this waitlist request. <a href=\"/legal/privacy\">Read the Privacy Policy</a>.</p></form></IntakeShell>;\n}\n\nfunction BetaApplicationView() {\n  const [tracking, setTracking] = useState(\"\");\n  const [submitted, setSubmitted] = useState(false);\n  return <IntakeShell intro=\"Help us test Creator Signal before anyone else.\" note=\"This just means trying it early and telling us what you think, no tech experience needed.\" submitted={submitted} title=\"Try it early\"><form className=\"cs-intake-form\" onSubmit={(event) => { event.preventDefault(); setSubmitted(true); }}><div className=\"cs-intake-two-column\"><IntakeText id=\"beta-first-name\" label=\"First name\" placeholder=\"First name\" required /><IntakeText id=\"beta-last-name\" label=\"Last name\" placeholder=\"Last name\" required /></div><IntakeText id=\"beta-email\" label=\"Email\" placeholder={\"you\\u0040example.com\"} required type=\"email\" /><div className=\"cs-intake-section-heading\"><h3>A bit about your shop <span>(all optional)</span></h3><p>We ask so we can spread testers across every experience level, from just starting out to top sellers.</p></div><IntakeText id=\"beta-shop-name\" label=\"Spoonflower shop name\" placeholder=\"Your shop name\" /><IntakeSelect id=\"beta-design-count\" label=\"How many designs do you have for sale?\" options={[\n    [\"under_25\", \"Under 25\"], [\"25_to_99\", \"25 to 99\"], [\"100_to_299\", \"100 to 299\"], [\"300_or_more\", \"300 or more\"],\n  ]} /><IntakeSelect id=\"beta-selling-tenure\" label=\"How long have you been selling on Spoonflower?\" options={sellingTenureOptions} /><IntakeSelect id=\"beta-monthly-earnings\" label=\"On average, what do you make on Spoonflower per month?\" options={[\n    [\"under_300_usd\", \"Under $300 USD\"], [\"300_to_999_usd\", \"$300 to $999 USD\"], [\"1000_to_1499_usd\", \"$1,000 to $1,499 USD\"], [\"1500_usd_or_more\", \"$1,500 USD or more\"],\n  ]} /><IntakeSelect id=\"beta-tracking-method\" label=\"How do you currently track your sales?\" onChange={(event) => setTracking(event.currentTarget.value)} options={salesTrackingOptions} />{tracking === \"other\" ? <IntakeText id=\"beta-tracking-method-other\" label=\"Tell us how\" placeholder=\"Tell us how\" /> : null}<fieldset className=\"cs-intake-permission\"><legend>Permission to contact you</legend><Checkbox label=\"Email me about this Creator Signal beta application and early testing\" name=\"beta-follow-up-permission\" required value=\"1\" /></fieldset><fieldset className=\"cs-intake-permission\"><legend>Optional testimonial permission</legend><Checkbox label=\"I'm happy to be quoted (first name only) if Creator Signal helps me out\" name=\"beta-testimonial-permission\" value=\"1\" /></fieldset><Button type=\"submit\">Apply to Test It Early</Button><p className=\"cs-intake-fineprint\">Free, no pressure, no commitment. This permission is only for your beta application and early testing. <a href=\"/legal/privacy\">Read the Privacy Policy</a>.</p></form></IntakeShell>;\n}\n\nfunction ProviderContract({ id, title }: { id: string; title: string }) {\n  const journey = inventory.journeys.find((candidate) => candidate.id === id);\n  if (!journey) throw new Error(`missing form journey ${id}`);\n  return <GalleryShell title={title}><section className=\"cs-story-section\"><JourneyContract journey={journey} /></section></GalleryShell>;\n}\n\nfunction CatalogueView() {\n  return <GalleryShell title=\"Form journey catalogue\"><section className=\"cs-story-section\"><Notice heading=\"Synthetic fixtures only\" tone=\"info\"><p>Each entry identifies the real owner, source, Storybook coverage and acceptance boundary. Provider output is never impersonated.</p></Notice></section><section className=\"cs-story-section cs-reference-grid\">{inventory.journeys.map((journey) => <JourneyContract key={journey.id} journey={journey} />)}</section></GalleryShell>;\n}\n\nconst meta = {\n  id: \"products-shared-surfaces-form-gallery\",\n  title: \"Forms/Form gallery\",\n  tags: [\"autodocs\"],\n  parameters: { docs: { description: { component: \"Canonical register-driven form gallery. Reusable primitives render from @creator-signal/ui; product and provider journeys retain their owning implementation and explicit acceptance boundaries.\" } } }\n} satisfies Meta;\n\nexport default meta;\ntype Story = StoryObj<typeof meta>;\n\nexport const Catalogue: Story = { render: () => <CatalogueView /> };\nexport const SharedWorkflowStates: Story = { render: () => <SharedWorkflowStatesView /> };\nexport const SearchAndFileSelection: Story = { render: () => <SearchAndFileSelectionView /> };\nexport const StatementImport: Story = { render: () => <StatementImportView /> };\nexport const LegalConsent: Story = { render: () => <LegalConsentView /> };\nexport const Waitlist: Story = { render: () => <WaitlistView /> };\nexport const BetaApplication: Story = { render: () => <BetaApplicationView /> };\nexport const MauticProviderContract: Story = { render: () => <ProviderContract id=\"mautic.governed-public-forms\" title=\"Mautic provider contract\" /> };\nexport const IdentityProviderContract: Story = { render: () => <ProviderContract id=\"zitadel.identity-journeys\" title=\"ZITADEL identity provider contract\" /> };\nexport const StripeProviderContract: Story = { render: () => <ProviderContract id=\"stripe.billing-and-portal\" title=\"Stripe provider contract\" /> };\nexport const AdminExclusion: Story = { render: () => <ProviderContract id=\"sales-pulse.admin-privileged-controls\" title=\"Admin privileged control exclusion\" /> };\n"
+        "message": "We could not detect the component from your story file. Specify meta.component.\n   99 | }\n  100 |\n> 101 | const meta = {\n      | ^\n  102 |   id: \"products-shared-surfaces-form-gallery\",\n  103 |   title: \"Forms/Form gallery\",\n  104 |   tags: [\"autodocs\"],\n\n./src/stories/FormGallery.stories.tsx:\nimport type { Meta, StoryObj } from \"@storybook/react-vite\";\nimport { useState } from \"react\";\nimport { Badge, Button, Checkbox, Field, FieldDescription, FieldLabel, FormStatus, KeyValueItem, KeyValueList, LinkButton, Notice, Panel, Select, TextInput } from \"@creator-signal/ui\";\nimport { useTheme } from \"@creator-signal/ui/client\";\nimport formInventory from \"../../../../design-system/form-surfaces.json\";\nimport { referencePath } from \"../reference-path\";\nimport { WorkflowStatesPreview, SearchAndFilePreview, StatementImportPreview, LegalConsentPreview } from \"../form-gallery-workflow-previews\";\nimport { MauticFormsPreview, IdentityFormsPreview, BillingFormsPreview, AdminFormsPreview } from \"../form-gallery-provider-previews\";\nimport \"../form-gallery-previews.css\";\n\ntype FormJourney = {\n  id: string;\n  label: string;\n  owner: string;\n  source: string;\n  storybook: { coverage: \"contract\" | \"excluded\" | \"rendered\"; storyId: string; themePreferences?: Array<\"system\" | \"light\" | \"dark\"> };\n  allowedFixtureData: string[];\n  providerBoundary: string;\n  acceptance: string;\n};\n\nconst inventory = formInventory as { journeys: FormJourney[] };\n\nfunction GalleryShell({ children, title }: { children: React.ReactNode; title: string }) {\n  return <main className=\"cs-story-shell cs-form-gallery\"><p className=\"cs-story-eyebrow\">Form gallery · interactive previews</p><h1 className=\"cs-story-title\">{title}</h1><p className=\"cs-story-lede\">Try the fields, validation and outcomes with sample data. Nothing is sent or saved.</p>{children}</main>;\n}\n\nfunction JourneyContract({ journey }: { journey: FormJourney }) {\n  const coverage = journey.storybook.coverage;\n  return <Panel className=\"cs-reference-card\"><Badge tone={coverage === \"rendered\" ? \"success\" : coverage === \"excluded\" ? \"warning\" : \"info\"}>{coverage === \"excluded\" ? \"Tested exclusion\" : coverage === \"rendered\" ? \"Rendered reference\" : \"Integration contract\"}</Badge><h2>{journey.label}</h2><p><a href={referencePath(`/?path=/story/${journey.storybook.storyId}`)} target=\"_top\">Open form preview</a></p><KeyValueList><KeyValueItem label=\"Owner\" value={journey.owner} /><KeyValueItem label=\"Owned source\" value={<code>{journey.source}</code>} /><KeyValueItem label=\"Fixture boundary\" value={journey.allowedFixtureData.join(\", \")} /><KeyValueItem label=\"Acceptance\" value={journey.acceptance} /></KeyValueList><p><strong>Provider boundary:</strong> {journey.providerBoundary}</p></Panel>;\n}\n\nfunction SharedWorkflowStatesView() { return <GalleryShell title=\"Shared workflow states\"><WorkflowStatesPreview /></GalleryShell>; }\nfunction SearchAndFileSelectionView() { return <GalleryShell title=\"Media search and account backup\"><SearchAndFilePreview /></GalleryShell>; }\nfunction StatementImportView() { return <GalleryShell title=\"Statement import\"><StatementImportPreview /></GalleryShell>; }\nfunction LegalConsentView() { return <GalleryShell title=\"Policy acceptance\"><LegalConsentPreview /></GalleryShell>; }\n\nconst sellingTenureOptions = [\n  [\"prefer_not_to_say\", \"Prefer not to say\"],\n  [\"less_than_6_months\", \"Less than 6 months\"],\n  [\"6_months_to_1_year\", \"6 months to a year\"],\n  [\"1_to_3_years\", \"1 to 3 years\"],\n  [\"3_years_or_more\", \"3 years or more\"],\n] as const;\n\nconst salesTrackingOptions = [\n  [\"prefer_not_to_say\", \"Prefer not to say\"],\n  [\"does_not_track\", \"I don't track it\"],\n  [\"spoonflower_dashboard\", \"Just Spoonflower's own dashboard\"],\n  [\"manual_notes_or_addition\", \"Manual notes or addition\"],\n  [\"spreadsheet\", \"Spreadsheet with formulas\"],\n  [\"ai_tool\", \"An AI tool (like ChatGPT)\"],\n  [\"other\", \"Other\"],\n] as const;\n\nfunction IntakeSelect({ id, label, onChange, options }: { id: string; label: string; onChange?: React.ChangeEventHandler<HTMLSelectElement>; options: ReadonlyArray<readonly [string, string]> }) {\n  return <Field><FieldLabel htmlFor={id}>{label}</FieldLabel><Select id={id} name={id} onChange={onChange}><option value=\"\">Prefer not to say</option>{options.filter(([value]) => value !== \"prefer_not_to_say\").map(([value, optionLabel]) => <option key={value} value={value}>{optionLabel}</option>)}</Select></Field>;\n}\n\nfunction IntakeText({ className, id, label, placeholder, required = false, type = \"text\" }: { className?: string; id: string; label: string; placeholder: string; required?: boolean; type?: \"email\" | \"text\" }) {\n  return <Field className={className}><FieldLabel htmlFor={id}>{label}</FieldLabel><TextInput id={id} name={id} placeholder={placeholder} required={required} type={type} /></Field>;\n}\n\nfunction IntakeShell({ children, intro, note, submitted, title }: { children: React.ReactNode; intro: string; note?: string; submitted: boolean; title: string }) {\n  const { preference, resolvedTheme } = useTheme();\n  const widthClass = title === \"Join the waitlist\" ? \"cs-intake-card--waitlist\" : \"cs-intake-card--beta\";\n  const logoSurface = resolvedTheme === \"dark\" ? \"dark-background\" : \"light-background\";\n  return <GalleryShell title={`${title} · Mautic design reference`}><section className=\"cs-story-section cs-intake-reference\" data-cs-theme={resolvedTheme} data-cs-theme-preference={preference}><Panel className={`cs-intake-card ${widthClass}`}><header className=\"cs-intake-heading\"><img alt=\"Creator Signal\" className=\"cs-intake-logo\" src={referencePath(`/brand-assets/delivery/creator-signal-logo-stacked/${logoSurface}.svg`)} /><h2>{title}</h2><p>{intro}</p>{note ? <p className=\"cs-intake-note\">{note}</p> : null}</header>{submitted ? <FormStatus tone=\"success\">Synthetic Storybook state only. Nothing was submitted or saved.</FormStatus> : children}</Panel></section></GalleryShell>;\n}\n\nfunction WaitlistView() {\n  const [tracking, setTracking] = useState(\"\");\n  const [discovery, setDiscovery] = useState(\"\");\n  const [otherHelp, setOtherHelp] = useState(false);\n  const [submitted, setSubmitted] = useState(false);\n  return <IntakeShell intro=\"Be the first to know when Creator Signal is ready.\" submitted={submitted} title=\"Join the waitlist\"><form aria-label=\"Intake form\" className=\"cs-intake-form\" onSubmit={(event) => { event.preventDefault(); setSubmitted(true); }}><IntakeText id=\"waitlist-first-name\" label=\"First name\" placeholder=\"Your first name\" required /><IntakeText id=\"waitlist-email\" label=\"Email\" placeholder={\"you\\u0040example.com\"} required type=\"email\" /><fieldset className=\"cs-intake-optional\"><legend>Tell us a bit more <span>(optional)</span></legend><FieldDescription>Totally optional, but it helps us know who we&apos;re building for.</FieldDescription><IntakeText id=\"waitlist-shop-name\" label=\"Spoonflower shop name\" placeholder=\"Your shop name\" /><IntakeSelect id=\"waitlist-selling-tenure\" label=\"How long have you been selling on Spoonflower?\" options={sellingTenureOptions} /><IntakeSelect id=\"waitlist-tracking-method\" label=\"How do you currently track your sales?\" onChange={(event) => setTracking(event.currentTarget.value)} options={salesTrackingOptions} />{tracking === \"other\" ? <IntakeText id=\"waitlist-tracking-method-other\" label=\"Tell us how\" placeholder=\"Tell us how\" /> : null}<IntakeSelect id=\"waitlist-discovery-source\" label=\"How did you hear about us?\" onChange={(event) => setDiscovery(event.currentTarget.value)} options={[\n    [\"instagram\", \"Instagram\"], [\"facebook_group\", \"A Facebook group\"], [\"friend_or_designer\", \"A friend or fellow designer\"], [\"google_search\", \"Google search\"], [\"other\", \"Other\"],\n  ]} />{discovery === \"other\" ? <IntakeText id=\"waitlist-discovery-source-other\" label=\"Tell us where\" placeholder=\"Tell us where\" /> : null}<fieldset className=\"cs-intake-choices\"><legend>What would help you most right now?</legend><Checkbox label=\"Seeing what's actually selling in my shop\" name=\"waitlist-help\" value=\"see_what_sells\" /><Checkbox label=\"Knowing when to upload seasonal designs\" name=\"waitlist-help\" value=\"seasonal_timing\" /><Checkbox label=\"Seeing which category (wallpaper, fabric, home decor) does best\" name=\"waitlist-help\" value=\"category_breakdown\" /><Checkbox label=\"Knowing if people are buying from me again\" name=\"waitlist-help\" value=\"repeat_customers\" /><Checkbox label=\"Just feeling less like I'm guessing\" name=\"waitlist-help\" value=\"stop_guessing\" /><Checkbox checked={otherHelp} label=\"Something else\" name=\"waitlist-help\" onChange={(event) => setOtherHelp(event.currentTarget.checked)} value=\"other\" />{otherHelp ? <IntakeText id=\"waitlist-help-other\" label=\"Tell us what\" placeholder=\"Tell us what\" /> : null}</fieldset></fieldset><fieldset className=\"cs-intake-permission\"><legend>Permission to contact you</legend><Checkbox label=\"Email me one or more updates about Creator Signal launch availability and this waitlist request\" name=\"waitlist-permission\" required value=\"1\" /></fieldset><Button type=\"submit\">Join the Waitlist</Button><p className=\"cs-intake-fineprint\">Free to join. This permission is only for Creator Signal launch availability and this waitlist request. <LinkButton href=\"https://creatorsignal.me/legal/privacy\" target=\"_blank\" rel=\"noopener noreferrer\" variant=\"ghost\" className=\"cs-intake-policy-link\">Read the Privacy Policy</LinkButton>.</p></form></IntakeShell>;\n}\n\nfunction BetaApplicationView() {\n  const [tracking, setTracking] = useState(\"\");\n  const [submitted, setSubmitted] = useState(false);\n  return <IntakeShell intro=\"Help us test Creator Signal before anyone else.\" note=\"This just means trying it early and telling us what you think, no tech experience needed.\" submitted={submitted} title=\"Try it early\"><form aria-label=\"Intake form\" className=\"cs-intake-form\" onSubmit={(event) => { event.preventDefault(); setSubmitted(true); }}><div className=\"cs-intake-two-column\"><IntakeText id=\"beta-first-name\" label=\"First name\" placeholder=\"First name\" required /><IntakeText id=\"beta-last-name\" label=\"Last name\" placeholder=\"Last name\" required /></div><IntakeText id=\"beta-email\" label=\"Email\" placeholder={\"you\\u0040example.com\"} required type=\"email\" /><div className=\"cs-intake-section-heading\"><h3>A bit about your shop <span>(all optional)</span></h3><p>We ask so we can spread testers across every experience level, from just starting out to top sellers.</p></div><IntakeText id=\"beta-shop-name\" label=\"Spoonflower shop name\" placeholder=\"Your shop name\" /><IntakeSelect id=\"beta-design-count\" label=\"How many designs do you have for sale?\" options={[\n    [\"under_25\", \"Under 25\"], [\"25_to_99\", \"25 to 99\"], [\"100_to_299\", \"100 to 299\"], [\"300_or_more\", \"300 or more\"],\n  ]} /><IntakeSelect id=\"beta-selling-tenure\" label=\"How long have you been selling on Spoonflower?\" options={sellingTenureOptions} /><IntakeSelect id=\"beta-monthly-earnings\" label=\"On average, what do you make on Spoonflower per month?\" options={[\n    [\"under_300_usd\", \"Under $300 USD\"], [\"300_to_999_usd\", \"$300 to $999 USD\"], [\"1000_to_1499_usd\", \"$1,000 to $1,499 USD\"], [\"1500_usd_or_more\", \"$1,500 USD or more\"],\n  ]} /><IntakeSelect id=\"beta-tracking-method\" label=\"How do you currently track your sales?\" onChange={(event) => setTracking(event.currentTarget.value)} options={salesTrackingOptions} />{tracking === \"other\" ? <IntakeText id=\"beta-tracking-method-other\" label=\"Tell us how\" placeholder=\"Tell us how\" /> : null}<fieldset className=\"cs-intake-permission\"><legend>Permission to contact you</legend><Checkbox label=\"Email me about this Creator Signal beta application and early testing\" name=\"beta-follow-up-permission\" required value=\"1\" /></fieldset><fieldset className=\"cs-intake-permission\"><legend>Optional testimonial permission</legend><Checkbox label=\"I'm happy to be quoted (first name only) if Creator Signal helps me out\" name=\"beta-testimonial-permission\" value=\"1\" /></fieldset><Button type=\"submit\">Apply to Test It Early</Button><p className=\"cs-intake-fineprint\">Free, no pressure, no commitment. This permission is only for your beta application and early testing. <LinkButton href=\"https://creatorsignal.me/legal/privacy\" target=\"_blank\" rel=\"noopener noreferrer\" variant=\"ghost\" className=\"cs-intake-policy-link\">Read the Privacy Policy</LinkButton>.</p></form></IntakeShell>;\n}\n\nfunction ProviderContract({ id, title, children }: { id: string; title: string; children: React.ReactNode }) {\n  const journey = inventory.journeys.find((candidate) => candidate.id === id);\n  if (!journey) throw new Error(`missing form journey ${id}`);\n  return <GalleryShell title={title}>{children}<details className=\"cs-form-boundary\"><summary>About this preview</summary><JourneyContract journey={journey} /></details></GalleryShell>;\n}\n\nfunction CatalogueView() {\n  return <GalleryShell title=\"Form journey catalogue\"><section className=\"cs-story-section\"><Notice heading=\"Synthetic fixtures only\" tone=\"info\"><p>Each entry identifies the real owner, source, Storybook coverage and acceptance boundary. Provider output is never impersonated.</p></Notice></section><section className=\"cs-story-section cs-reference-grid\">{inventory.journeys.map((journey) => <JourneyContract key={journey.id} journey={journey} />)}</section></GalleryShell>;\n}\n\nconst meta = {\n  id: \"products-shared-surfaces-form-gallery\",\n  title: \"Forms/Form gallery\",\n  tags: [\"autodocs\"],\n  parameters: { docs: { description: { component: \"Canonical register-driven form gallery. Reusable primitives render from @creator-signal/ui; product and provider journeys retain their owning implementation and explicit acceptance boundaries.\" } } }\n} satisfies Meta;\n\nexport default meta;\ntype Story = StoryObj<typeof meta>;\n\nexport const Catalogue: Story = { render: () => <CatalogueView /> };\nexport const SharedWorkflowStates: Story = { name: \"Shared workflow states\", render: () => <SharedWorkflowStatesView /> };\nexport const SearchAndFileSelection: Story = { name: \"Media search and backup\", render: () => <SearchAndFileSelectionView /> };\nexport const StatementImport: Story = { name: \"Statement import\", render: () => <StatementImportView /> };\nexport const LegalConsent: Story = { name: \"Policy acceptance\", render: () => <LegalConsentView /> };\nexport const Waitlist: Story = { render: () => <WaitlistView /> };\nexport const BetaApplication: Story = { name: \"Beta application\", render: () => <BetaApplicationView /> };\nexport const MauticProviderContract: Story = { name: \"Mautic public forms\", render: () => <ProviderContract id=\"mautic.governed-public-forms\" title=\"Mautic public forms\"><MauticFormsPreview /></ProviderContract> };\nexport const IdentityProviderContract: Story = { name: \"Sign-in and account forms\", render: () => <ProviderContract id=\"zitadel.identity-journeys\" title=\"Sign-in and account forms\"><IdentityFormsPreview /></ProviderContract> };\nexport const StripeProviderContract: Story = { name: \"Billing and subscription\", render: () => <ProviderContract id=\"stripe.billing-and-portal\" title=\"Billing and subscription\"><BillingFormsPreview /></ProviderContract> };\nexport const AdminExclusion: Story = { name: \"Admin operator controls\", render: () => <ProviderContract id=\"sales-pulse.admin-privileged-controls\" title=\"Admin operator controls\"><AdminFormsPreview /></ProviderContract> };\n"
       },
       "stories": [
         {
@@ -6603,22 +6603,22 @@
         },
         {
           "id": "products-shared-surfaces-form-gallery--shared-workflow-states",
-          "name": "Shared Workflow States",
+          "name": "Shared workflow states",
           "snippet": "const SharedWorkflowStates = () => <SharedWorkflowStatesView />;"
         },
         {
           "id": "products-shared-surfaces-form-gallery--search-and-file-selection",
-          "name": "Search And File Selection",
+          "name": "Media search and backup",
           "snippet": "const SearchAndFileSelection = () => <SearchAndFileSelectionView />;"
         },
         {
           "id": "products-shared-surfaces-form-gallery--statement-import",
-          "name": "Statement Import",
+          "name": "Statement import",
           "snippet": "const StatementImport = () => <StatementImportView />;"
         },
         {
           "id": "products-shared-surfaces-form-gallery--legal-consent",
-          "name": "Legal Consent",
+          "name": "Policy acceptance",
           "snippet": "const LegalConsent = () => <LegalConsentView />;"
         },
         {
@@ -6628,31 +6628,31 @@
         },
         {
           "id": "products-shared-surfaces-form-gallery--beta-application",
-          "name": "Beta Application",
+          "name": "Beta application",
           "snippet": "const BetaApplication = () => <BetaApplicationView />;"
         },
         {
           "id": "products-shared-surfaces-form-gallery--mautic-provider-contract",
-          "name": "Mautic Provider Contract",
-          "snippet": "const MauticProviderContract = () => <ProviderContract id=\"mautic.governed-public-forms\" title=\"Mautic provider contract\" />;"
+          "name": "Mautic public forms",
+          "snippet": "const MauticProviderContract = () => <ProviderContract id=\"mautic.governed-public-forms\" title=\"Mautic public forms\"><MauticFormsPreview /></ProviderContract>;"
         },
         {
           "id": "products-shared-surfaces-form-gallery--identity-provider-contract",
-          "name": "Identity Provider Contract",
-          "snippet": "const IdentityProviderContract = () => <ProviderContract id=\"zitadel.identity-journeys\" title=\"ZITADEL identity provider contract\" />;"
+          "name": "Sign-in and account forms",
+          "snippet": "const IdentityProviderContract = () => <ProviderContract id=\"zitadel.identity-journeys\" title=\"Sign-in and account forms\"><IdentityFormsPreview /></ProviderContract>;"
         },
         {
           "id": "products-shared-surfaces-form-gallery--stripe-provider-contract",
-          "name": "Stripe Provider Contract",
-          "snippet": "const StripeProviderContract = () => <ProviderContract id=\"stripe.billing-and-portal\" title=\"Stripe provider contract\" />;"
+          "name": "Billing and subscription",
+          "snippet": "const StripeProviderContract = () => <ProviderContract id=\"stripe.billing-and-portal\" title=\"Billing and subscription\"><BillingFormsPreview /></ProviderContract>;"
         },
         {
           "id": "products-shared-surfaces-form-gallery--admin-exclusion",
-          "name": "Admin Exclusion",
-          "snippet": "const AdminExclusion = () => <ProviderContract id=\"sales-pulse.admin-privileged-controls\" title=\"Admin privileged control exclusion\" />;"
+          "name": "Admin operator controls",
+          "snippet": "const AdminExclusion = () => <ProviderContract id=\"sales-pulse.admin-privileged-controls\" title=\"Admin operator controls\"><AdminFormsPreview /></ProviderContract>;"
         }
       ],
-      "import": "import {\r\n    Badge,\r\n    Button,\r\n    Checkbox,\r\n    Field,\r\n    FieldDescription,\r\n    FieldError,\r\n    FieldLabel,\r\n    FormStatus,\r\n    KeyValueItem,\r\n    KeyValueList,\r\n    Notice,\r\n    Panel,\r\n    Radio,\r\n    Select,\r\n    TextInput,\r\n} from \"@creator-signal/design-system-reference\";"
+      "import": "import {\r\n    AdminFormsPreview,\r\n    Badge,\r\n    BillingFormsPreview,\r\n    Button,\r\n    Checkbox,\r\n    Field,\r\n    FieldDescription,\r\n    FieldLabel,\r\n    FormStatus,\r\n    IdentityFormsPreview,\r\n    KeyValueItem,\r\n    KeyValueList,\r\n    LegalConsentPreview,\r\n    LinkButton,\r\n    MauticFormsPreview,\r\n    Notice,\r\n    Panel,\r\n    SearchAndFilePreview,\r\n    Select,\r\n    StatementImportPreview,\r\n    TextInput,\r\n    WorkflowStatesPreview,\r\n} from \"@creator-signal/design-system-reference\";"
     },
     "products-planned-helper-simplified": {
       "id": "products-planned-helper-simplified",
@@ -6819,6 +6819,6 @@
   },
   "meta": {
     "docgen": "react-docgen",
-    "durationMs": 1540
+    "durationMs": 1669
   }
 }
