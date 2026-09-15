@@ -234,7 +234,7 @@
         "description": "",
         "methods": [],
         "displayName": "Button",
-        "definedInFile": "D:\\wt\\sp1655\\packages\\ui\\src\\server.tsx",
+        "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/server.tsx",
         "actualName": "Button",
         "exportName": "Button",
         "props": {
@@ -308,14 +308,14 @@
       "subcomponents": {
         "Badge": {
           "name": "Badge",
-          "path": "D:\\wt\\sp1655\\packages\\ui\\src\\index.ts",
+          "path": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/index.ts",
           "import": "import { Badge } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Badge",
-            "definedInFile": "D:\\wt\\sp1655\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/server.tsx",
             "actualName": "Badge",
             "exportName": "Badge",
             "props": {
@@ -361,14 +361,14 @@
         },
         "Card": {
           "name": "Card",
-          "path": "D:\\wt\\sp1655\\packages\\ui\\src\\index.ts",
+          "path": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/index.ts",
           "import": "import { Card } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Card",
-            "definedInFile": "D:\\wt\\sp1655\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/server.tsx",
             "actualName": "Card",
             "exportName": "Card",
             "props": {
@@ -406,84 +406,84 @@
         },
         "CardContent": {
           "name": "CardContent",
-          "path": "D:\\wt\\sp1655\\packages\\ui\\src\\index.ts",
+          "path": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/index.ts",
           "import": "import { CardContent } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "CardContent",
-            "definedInFile": "D:\\wt\\sp1655\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/server.tsx",
             "actualName": "CardContent",
             "exportName": "CardContent"
           }
         },
         "CardDescription": {
           "name": "CardDescription",
-          "path": "D:\\wt\\sp1655\\packages\\ui\\src\\index.ts",
+          "path": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/index.ts",
           "import": "import { CardDescription } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "CardDescription",
-            "definedInFile": "D:\\wt\\sp1655\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/server.tsx",
             "actualName": "CardDescription",
             "exportName": "CardDescription"
           }
         },
         "CardHeader": {
           "name": "CardHeader",
-          "path": "D:\\wt\\sp1655\\packages\\ui\\src\\index.ts",
+          "path": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/index.ts",
           "import": "import { CardHeader } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "CardHeader",
-            "definedInFile": "D:\\wt\\sp1655\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/server.tsx",
             "actualName": "CardHeader",
             "exportName": "CardHeader"
           }
         },
         "CardTitle": {
           "name": "CardTitle",
-          "path": "D:\\wt\\sp1655\\packages\\ui\\src\\index.ts",
+          "path": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/index.ts",
           "import": "import { CardTitle } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "CardTitle",
-            "definedInFile": "D:\\wt\\sp1655\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/server.tsx",
             "actualName": "CardTitle",
             "exportName": "CardTitle"
           }
         },
         "ChartLegend": {
           "name": "ChartLegend",
-          "path": "D:\\wt\\sp1655\\packages\\ui\\src\\index.ts",
+          "path": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/index.ts",
           "import": "import { ChartLegend } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "ChartLegend",
-            "definedInFile": "D:\\wt\\sp1655\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/server.tsx",
             "actualName": "ChartLegend",
             "exportName": "ChartLegend"
           }
         },
         "ChartLegendItem": {
           "name": "ChartLegendItem",
-          "path": "D:\\wt\\sp1655\\packages\\ui\\src\\index.ts",
+          "path": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/index.ts",
           "import": "import { ChartLegendItem } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "ChartLegendItem",
-            "definedInFile": "D:\\wt\\sp1655\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/server.tsx",
             "actualName": "ChartLegendItem",
             "exportName": "ChartLegendItem",
             "props": {
@@ -536,14 +536,14 @@
         },
         "Checkbox": {
           "name": "Checkbox",
-          "path": "D:\\wt\\sp1655\\packages\\ui\\src\\index.ts",
+          "path": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/index.ts",
           "import": "import { Checkbox } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Checkbox",
-            "definedInFile": "D:\\wt\\sp1655\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/server.tsx",
             "actualName": "Checkbox",
             "exportName": "Checkbox",
             "props": {
@@ -569,14 +569,14 @@
         },
         "EmptyState": {
           "name": "EmptyState",
-          "path": "D:\\wt\\sp1655\\packages\\ui\\src\\index.ts",
+          "path": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/index.ts",
           "import": "import { EmptyState } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "EmptyState",
-            "definedInFile": "D:\\wt\\sp1655\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/server.tsx",
             "actualName": "EmptyState",
             "exportName": "EmptyState",
             "props": {
@@ -616,14 +616,14 @@
         },
         "ErrorState": {
           "name": "ErrorState",
-          "path": "D:\\wt\\sp1655\\packages\\ui\\src\\index.ts",
+          "path": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/index.ts",
           "import": "import { ErrorState } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "ErrorState",
-            "definedInFile": "D:\\wt\\sp1655\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/server.tsx",
             "actualName": "ErrorState",
             "exportName": "ErrorState",
             "props": {
@@ -642,70 +642,70 @@
         },
         "Field": {
           "name": "Field",
-          "path": "D:\\wt\\sp1655\\packages\\ui\\src\\index.ts",
+          "path": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/index.ts",
           "import": "import { Field } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Field",
-            "definedInFile": "D:\\wt\\sp1655\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/server.tsx",
             "actualName": "Field",
             "exportName": "Field"
           }
         },
         "FieldDescription": {
           "name": "FieldDescription",
-          "path": "D:\\wt\\sp1655\\packages\\ui\\src\\index.ts",
+          "path": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/index.ts",
           "import": "import { FieldDescription } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "FieldDescription",
-            "definedInFile": "D:\\wt\\sp1655\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/server.tsx",
             "actualName": "FieldDescription",
             "exportName": "FieldDescription"
           }
         },
         "FieldError": {
           "name": "FieldError",
-          "path": "D:\\wt\\sp1655\\packages\\ui\\src\\index.ts",
+          "path": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/index.ts",
           "import": "import { FieldError } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "FieldError",
-            "definedInFile": "D:\\wt\\sp1655\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/server.tsx",
             "actualName": "FieldError",
             "exportName": "FieldError"
           }
         },
         "FieldLabel": {
           "name": "FieldLabel",
-          "path": "D:\\wt\\sp1655\\packages\\ui\\src\\index.ts",
+          "path": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/index.ts",
           "import": "import { FieldLabel } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "FieldLabel",
-            "definedInFile": "D:\\wt\\sp1655\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/server.tsx",
             "actualName": "FieldLabel",
             "exportName": "FieldLabel"
           }
         },
         "FormStatus": {
           "name": "FormStatus",
-          "path": "D:\\wt\\sp1655\\packages\\ui\\src\\index.ts",
+          "path": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/index.ts",
           "import": "import { FormStatus } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "FormStatus",
-            "definedInFile": "D:\\wt\\sp1655\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/server.tsx",
             "actualName": "FormStatus",
             "exportName": "FormStatus",
             "props": {
@@ -751,14 +751,14 @@
         },
         "IconButton": {
           "name": "IconButton",
-          "path": "D:\\wt\\sp1655\\packages\\ui\\src\\index.ts",
+          "path": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/index.ts",
           "import": "import { IconButton } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "IconButton",
-            "definedInFile": "D:\\wt\\sp1655\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/server.tsx",
             "actualName": "IconButton",
             "exportName": "IconButton",
             "props": {
@@ -784,14 +784,14 @@
         },
         "KeyValueItem": {
           "name": "KeyValueItem",
-          "path": "D:\\wt\\sp1655\\packages\\ui\\src\\index.ts",
+          "path": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/index.ts",
           "import": "import { KeyValueItem } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "KeyValueItem",
-            "definedInFile": "D:\\wt\\sp1655\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/server.tsx",
             "actualName": "KeyValueItem",
             "exportName": "KeyValueItem",
             "props": {
@@ -814,28 +814,28 @@
         },
         "KeyValueList": {
           "name": "KeyValueList",
-          "path": "D:\\wt\\sp1655\\packages\\ui\\src\\index.ts",
+          "path": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/index.ts",
           "import": "import { KeyValueList } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "KeyValueList",
-            "definedInFile": "D:\\wt\\sp1655\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/server.tsx",
             "actualName": "KeyValueList",
             "exportName": "KeyValueList"
           }
         },
         "LinkButton": {
           "name": "LinkButton",
-          "path": "D:\\wt\\sp1655\\packages\\ui\\src\\index.ts",
+          "path": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/index.ts",
           "import": "import { LinkButton } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "LinkButton",
-            "definedInFile": "D:\\wt\\sp1655\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/server.tsx",
             "actualName": "LinkButton",
             "exportName": "LinkButton",
             "props": {
@@ -909,14 +909,14 @@
         },
         "LoadingIndicator": {
           "name": "LoadingIndicator",
-          "path": "D:\\wt\\sp1655\\packages\\ui\\src\\index.ts",
+          "path": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/index.ts",
           "import": "import { LoadingIndicator } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "LoadingIndicator",
-            "definedInFile": "D:\\wt\\sp1655\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/server.tsx",
             "actualName": "LoadingIndicator",
             "exportName": "LoadingIndicator",
             "props": {
@@ -939,42 +939,42 @@
         },
         "Menu": {
           "name": "Menu",
-          "path": "D:\\wt\\sp1655\\packages\\ui\\src\\index.ts",
+          "path": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/index.ts",
           "import": "import { Menu } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Menu",
-            "definedInFile": "D:\\wt\\sp1655\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/server.tsx",
             "actualName": "Menu",
             "exportName": "Menu"
           }
         },
         "MenuItem": {
           "name": "MenuItem",
-          "path": "D:\\wt\\sp1655\\packages\\ui\\src\\index.ts",
+          "path": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/index.ts",
           "import": "import { MenuItem } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "MenuItem",
-            "definedInFile": "D:\\wt\\sp1655\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/server.tsx",
             "actualName": "MenuItem",
             "exportName": "MenuItem"
           }
         },
         "Notice": {
           "name": "Notice",
-          "path": "D:\\wt\\sp1655\\packages\\ui\\src\\index.ts",
+          "path": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/index.ts",
           "import": "import { Notice } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Notice",
-            "definedInFile": "D:\\wt\\sp1655\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/server.tsx",
             "actualName": "Notice",
             "exportName": "Notice",
             "props": {
@@ -1037,14 +1037,14 @@
         },
         "Pagination": {
           "name": "Pagination",
-          "path": "D:\\wt\\sp1655\\packages\\ui\\src\\index.ts",
+          "path": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/index.ts",
           "import": "import { Pagination } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Pagination",
-            "definedInFile": "D:\\wt\\sp1655\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/server.tsx",
             "actualName": "Pagination",
             "exportName": "Pagination",
             "props": {
@@ -1060,14 +1060,14 @@
         },
         "PaginationLink": {
           "name": "PaginationLink",
-          "path": "D:\\wt\\sp1655\\packages\\ui\\src\\index.ts",
+          "path": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/index.ts",
           "import": "import { PaginationLink } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "PaginationLink",
-            "definedInFile": "D:\\wt\\sp1655\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/server.tsx",
             "actualName": "PaginationLink",
             "exportName": "PaginationLink",
             "props": {
@@ -1090,28 +1090,28 @@
         },
         "PaginationList": {
           "name": "PaginationList",
-          "path": "D:\\wt\\sp1655\\packages\\ui\\src\\index.ts",
+          "path": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/index.ts",
           "import": "import { PaginationList } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "PaginationList",
-            "definedInFile": "D:\\wt\\sp1655\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/server.tsx",
             "actualName": "PaginationList",
             "exportName": "PaginationList"
           }
         },
         "Panel": {
           "name": "Panel",
-          "path": "D:\\wt\\sp1655\\packages\\ui\\src\\index.ts",
+          "path": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/index.ts",
           "import": "import { Panel } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Panel",
-            "definedInFile": "D:\\wt\\sp1655\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/server.tsx",
             "actualName": "Panel",
             "exportName": "Panel",
             "props": {
@@ -1149,14 +1149,14 @@
         },
         "Radio": {
           "name": "Radio",
-          "path": "D:\\wt\\sp1655\\packages\\ui\\src\\index.ts",
+          "path": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/index.ts",
           "import": "import { Radio } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Radio",
-            "definedInFile": "D:\\wt\\sp1655\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/server.tsx",
             "actualName": "Radio",
             "exportName": "Radio",
             "props": {
@@ -1182,14 +1182,14 @@
         },
         "ResponsiveTable": {
           "name": "ResponsiveTable",
-          "path": "D:\\wt\\sp1655\\packages\\ui\\src\\index.ts",
+          "path": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/index.ts",
           "import": "import { ResponsiveTable } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "ResponsiveTable",
-            "definedInFile": "D:\\wt\\sp1655\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/server.tsx",
             "actualName": "ResponsiveTable",
             "exportName": "ResponsiveTable",
             "props": {
@@ -1205,42 +1205,42 @@
         },
         "Select": {
           "name": "Select",
-          "path": "D:\\wt\\sp1655\\packages\\ui\\src\\index.ts",
+          "path": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/index.ts",
           "import": "import { Select } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Select",
-            "definedInFile": "D:\\wt\\sp1655\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/server.tsx",
             "actualName": "Select",
             "exportName": "Select"
           }
         },
         "Skeleton": {
           "name": "Skeleton",
-          "path": "D:\\wt\\sp1655\\packages\\ui\\src\\index.ts",
+          "path": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/index.ts",
           "import": "import { Skeleton } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Skeleton",
-            "definedInFile": "D:\\wt\\sp1655\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/server.tsx",
             "actualName": "Skeleton",
             "exportName": "Skeleton"
           }
         },
         "Stat": {
           "name": "Stat",
-          "path": "D:\\wt\\sp1655\\packages\\ui\\src\\index.ts",
+          "path": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/index.ts",
           "import": "import { Stat } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Stat",
-            "definedInFile": "D:\\wt\\sp1655\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/server.tsx",
             "actualName": "Stat",
             "exportName": "Stat",
             "props": {
@@ -1273,28 +1273,28 @@
         },
         "StatGroup": {
           "name": "StatGroup",
-          "path": "D:\\wt\\sp1655\\packages\\ui\\src\\index.ts",
+          "path": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/index.ts",
           "import": "import { StatGroup } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "StatGroup",
-            "definedInFile": "D:\\wt\\sp1655\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/server.tsx",
             "actualName": "StatGroup",
             "exportName": "StatGroup"
           }
         },
         "StatusIndicator": {
           "name": "StatusIndicator",
-          "path": "D:\\wt\\sp1655\\packages\\ui\\src\\index.ts",
+          "path": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/index.ts",
           "import": "import { StatusIndicator } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "StatusIndicator",
-            "definedInFile": "D:\\wt\\sp1655\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/server.tsx",
             "actualName": "StatusIndicator",
             "exportName": "StatusIndicator",
             "props": {
@@ -1346,14 +1346,14 @@
         },
         "Switch": {
           "name": "Switch",
-          "path": "D:\\wt\\sp1655\\packages\\ui\\src\\index.ts",
+          "path": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/index.ts",
           "import": "import { Switch } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Switch",
-            "definedInFile": "D:\\wt\\sp1655\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/server.tsx",
             "actualName": "Switch",
             "exportName": "Switch",
             "props": {
@@ -1393,126 +1393,126 @@
         },
         "Table": {
           "name": "Table",
-          "path": "D:\\wt\\sp1655\\packages\\ui\\src\\index.ts",
+          "path": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/index.ts",
           "import": "import { Table } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Table",
-            "definedInFile": "D:\\wt\\sp1655\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/server.tsx",
             "actualName": "Table",
             "exportName": "Table"
           }
         },
         "TableBody": {
           "name": "TableBody",
-          "path": "D:\\wt\\sp1655\\packages\\ui\\src\\index.ts",
+          "path": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/index.ts",
           "import": "import { TableBody } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "TableBody",
-            "definedInFile": "D:\\wt\\sp1655\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/server.tsx",
             "actualName": "TableBody",
             "exportName": "TableBody"
           }
         },
         "TableCaption": {
           "name": "TableCaption",
-          "path": "D:\\wt\\sp1655\\packages\\ui\\src\\index.ts",
+          "path": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/index.ts",
           "import": "import { TableCaption } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "TableCaption",
-            "definedInFile": "D:\\wt\\sp1655\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/server.tsx",
             "actualName": "TableCaption",
             "exportName": "TableCaption"
           }
         },
         "TableCell": {
           "name": "TableCell",
-          "path": "D:\\wt\\sp1655\\packages\\ui\\src\\index.ts",
+          "path": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/index.ts",
           "import": "import { TableCell } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "TableCell",
-            "definedInFile": "D:\\wt\\sp1655\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/server.tsx",
             "actualName": "TableCell",
             "exportName": "TableCell"
           }
         },
         "TableHead": {
           "name": "TableHead",
-          "path": "D:\\wt\\sp1655\\packages\\ui\\src\\index.ts",
+          "path": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/index.ts",
           "import": "import { TableHead } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "TableHead",
-            "definedInFile": "D:\\wt\\sp1655\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/server.tsx",
             "actualName": "TableHead",
             "exportName": "TableHead"
           }
         },
         "TableHeader": {
           "name": "TableHeader",
-          "path": "D:\\wt\\sp1655\\packages\\ui\\src\\index.ts",
+          "path": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/index.ts",
           "import": "import { TableHeader } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "TableHeader",
-            "definedInFile": "D:\\wt\\sp1655\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/server.tsx",
             "actualName": "TableHeader",
             "exportName": "TableHeader"
           }
         },
         "TableRow": {
           "name": "TableRow",
-          "path": "D:\\wt\\sp1655\\packages\\ui\\src\\index.ts",
+          "path": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/index.ts",
           "import": "import { TableRow } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "TableRow",
-            "definedInFile": "D:\\wt\\sp1655\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/server.tsx",
             "actualName": "TableRow",
             "exportName": "TableRow"
           }
         },
         "Textarea": {
           "name": "Textarea",
-          "path": "D:\\wt\\sp1655\\packages\\ui\\src\\index.ts",
+          "path": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/index.ts",
           "import": "import { Textarea } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Textarea",
-            "definedInFile": "D:\\wt\\sp1655\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/server.tsx",
             "actualName": "Textarea",
             "exportName": "Textarea"
           }
         },
         "TextInput": {
           "name": "TextInput",
-          "path": "D:\\wt\\sp1655\\packages\\ui\\src\\index.ts",
+          "path": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/index.ts",
           "import": "import { TextInput } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "TextInput",
-            "definedInFile": "D:\\wt\\sp1655\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/server.tsx",
             "actualName": "TextInput",
             "exportName": "TextInput"
           }
@@ -1620,7 +1620,7 @@
           "snippet": "const ChartLegendReference = () => <ComponentReference id=\"chart-legend\" />;"
         }
       ],
-      "import": "import {\r\n    Badge,\r\n    Button,\r\n    Card,\r\n    CardContent,\r\n    CardDescription,\r\n    CardHeader,\r\n    CardTitle,\r\n    ChartLegend,\r\n    ChartLegendItem,\r\n    Checkbox,\r\n    EmptyState,\r\n    ErrorState,\r\n    Field,\r\n    FieldDescription,\r\n    FieldError,\r\n    FieldLabel,\r\n    FormStatus,\r\n    IconButton,\r\n    KeyValueItem,\r\n    KeyValueList,\r\n    LinkButton,\r\n    LoadingIndicator,\r\n    Menu,\r\n    MenuItem,\r\n    Notice,\r\n    Pagination,\r\n    PaginationLink,\r\n    PaginationList,\r\n    Panel,\r\n    Radio,\r\n    ResponsiveTable,\r\n    Select,\r\n    Skeleton,\r\n    Stat,\r\n    StatGroup,\r\n    StatusIndicator,\r\n    Switch,\r\n    Table,\r\n    TableBody,\r\n    TableCaption,\r\n    TableCell,\r\n    TableHead,\r\n    TableHeader,\r\n    TableRow,\r\n    Textarea,\r\n    TextInput,\r\n} from \"@creator-signal/ui\";"
+      "import": "import {\n    Badge,\n    Button,\n    Card,\n    CardContent,\n    CardDescription,\n    CardHeader,\n    CardTitle,\n    ChartLegend,\n    ChartLegendItem,\n    Checkbox,\n    EmptyState,\n    ErrorState,\n    Field,\n    FieldDescription,\n    FieldError,\n    FieldLabel,\n    FormStatus,\n    IconButton,\n    KeyValueItem,\n    KeyValueList,\n    LinkButton,\n    LoadingIndicator,\n    Menu,\n    MenuItem,\n    Notice,\n    Pagination,\n    PaginationLink,\n    PaginationList,\n    Panel,\n    Radio,\n    ResponsiveTable,\n    Select,\n    Skeleton,\n    Stat,\n    StatGroup,\n    StatusIndicator,\n    Switch,\n    Table,\n    TableBody,\n    TableCaption,\n    TableCell,\n    TableHead,\n    TableHeader,\n    TableRow,\n    Textarea,\n    TextInput,\n} from \"@creator-signal/ui\";"
     },
     "dls-widgets": {
       "id": "dls-widgets",
@@ -1631,35 +1631,35 @@
         "description": "",
         "methods": [],
         "displayName": "Disclosure",
-        "definedInFile": "D:\\wt\\sp1655\\packages\\ui\\src\\server.tsx",
+        "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/server.tsx",
         "actualName": "Disclosure",
         "exportName": "Disclosure"
       },
       "subcomponents": {
         "DisclosureTrigger": {
           "name": "DisclosureTrigger",
-          "path": "D:\\wt\\sp1655\\packages\\ui\\src\\index.ts",
+          "path": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/index.ts",
           "import": "import { DisclosureTrigger } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "DisclosureTrigger",
-            "definedInFile": "D:\\wt\\sp1655\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/server.tsx",
             "actualName": "DisclosureTrigger",
             "exportName": "DisclosureTrigger"
           }
         },
         "Tooltip": {
           "name": "Tooltip",
-          "path": "D:\\wt\\sp1655\\packages\\ui\\src\\index.ts",
+          "path": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/index.ts",
           "import": "import { Tooltip } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Tooltip",
-            "definedInFile": "D:\\wt\\sp1655\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/server.tsx",
             "actualName": "Tooltip",
             "exportName": "Tooltip",
             "props": {
@@ -1685,14 +1685,14 @@
         },
         "Accordion": {
           "name": "Accordion",
-          "path": "D:\\wt\\sp1655\\packages\\ui\\src\\client.tsx",
+          "path": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/client.tsx",
           "import": "import { Accordion } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Accordion",
-            "definedInFile": "D:\\wt\\sp1655\\packages\\ui\\src\\client.tsx",
+            "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/client.tsx",
             "actualName": "Accordion",
             "exportName": "Accordion",
             "props": {
@@ -1722,14 +1722,14 @@
         },
         "AccordionItem": {
           "name": "AccordionItem",
-          "path": "D:\\wt\\sp1655\\packages\\ui\\src\\client.tsx",
+          "path": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/client.tsx",
           "import": "import { AccordionItem } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "AccordionItem",
-            "definedInFile": "D:\\wt\\sp1655\\packages\\ui\\src\\client.tsx",
+            "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/client.tsx",
             "actualName": "AccordionItem",
             "exportName": "AccordionItem",
             "props": {
@@ -1759,14 +1759,14 @@
         },
         "AccordionTrigger": {
           "name": "AccordionTrigger",
-          "path": "D:\\wt\\sp1655\\packages\\ui\\src\\client.tsx",
+          "path": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/client.tsx",
           "import": "import { AccordionTrigger } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "AccordionTrigger",
-            "definedInFile": "D:\\wt\\sp1655\\packages\\ui\\src\\client.tsx",
+            "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/client.tsx",
             "actualName": "AccordionTrigger",
             "exportName": "AccordionTrigger",
             "props": {
@@ -1812,28 +1812,28 @@
         },
         "AccordionPanel": {
           "name": "AccordionPanel",
-          "path": "D:\\wt\\sp1655\\packages\\ui\\src\\client.tsx",
+          "path": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/client.tsx",
           "import": "import { AccordionPanel } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "AccordionPanel",
-            "definedInFile": "D:\\wt\\sp1655\\packages\\ui\\src\\client.tsx",
+            "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/client.tsx",
             "actualName": "AccordionPanel",
             "exportName": "AccordionPanel"
           }
         },
         "Tabs": {
           "name": "Tabs",
-          "path": "D:\\wt\\sp1655\\packages\\ui\\src\\client.tsx",
+          "path": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/client.tsx",
           "import": "import { Tabs } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Tabs",
-            "definedInFile": "D:\\wt\\sp1655\\packages\\ui\\src\\client.tsx",
+            "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/client.tsx",
             "actualName": "Tabs",
             "exportName": "Tabs",
             "props": {
@@ -1878,14 +1878,14 @@
         },
         "TabList": {
           "name": "TabList",
-          "path": "D:\\wt\\sp1655\\packages\\ui\\src\\client.tsx",
+          "path": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/client.tsx",
           "import": "import { TabList } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "TabList",
-            "definedInFile": "D:\\wt\\sp1655\\packages\\ui\\src\\client.tsx",
+            "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/client.tsx",
             "actualName": "TabList",
             "exportName": "TabList",
             "props": {
@@ -1901,14 +1901,14 @@
         },
         "Tab": {
           "name": "Tab",
-          "path": "D:\\wt\\sp1655\\packages\\ui\\src\\client.tsx",
+          "path": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/client.tsx",
           "import": "import { Tab } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Tab",
-            "definedInFile": "D:\\wt\\sp1655\\packages\\ui\\src\\client.tsx",
+            "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/client.tsx",
             "actualName": "Tab",
             "exportName": "Tab",
             "props": {
@@ -1924,14 +1924,14 @@
         },
         "TabPanel": {
           "name": "TabPanel",
-          "path": "D:\\wt\\sp1655\\packages\\ui\\src\\client.tsx",
+          "path": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/client.tsx",
           "import": "import { TabPanel } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "TabPanel",
-            "definedInFile": "D:\\wt\\sp1655\\packages\\ui\\src\\client.tsx",
+            "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/client.tsx",
             "actualName": "TabPanel",
             "exportName": "TabPanel",
             "props": {
@@ -1947,14 +1947,14 @@
         },
         "Dialog": {
           "name": "Dialog",
-          "path": "D:\\wt\\sp1655\\packages\\ui\\src\\client.tsx",
+          "path": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/client.tsx",
           "import": "import { Dialog } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Dialog",
-            "definedInFile": "D:\\wt\\sp1655\\packages\\ui\\src\\client.tsx",
+            "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/client.tsx",
             "actualName": "Dialog",
             "exportName": "Dialog",
             "props": {
@@ -2003,14 +2003,14 @@
         },
         "ThemeControl": {
           "name": "ThemeControl",
-          "path": "D:\\wt\\sp1655\\packages\\ui\\src\\client.tsx",
+          "path": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/client.tsx",
           "import": "import { ThemeControl } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Accordion",
-            "definedInFile": "D:\\wt\\sp1655\\packages\\ui\\src\\client.tsx",
+            "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/client.tsx",
             "actualName": "Accordion",
             "exportName": "Accordion",
             "props": {
@@ -2066,7 +2066,7 @@
           "snippet": "const ThemeControlReference = () => <WidgetReference id=\"theme-control\" />;"
         }
       ],
-      "import": "import {\r\n    Accordion,\r\n    AccordionItem,\r\n    AccordionPanel,\r\n    AccordionTrigger,\r\n    Button,\r\n    Dialog,\r\n    Disclosure,\r\n    DisclosureTrigger,\r\n    Tab,\r\n    TabList,\r\n    TabPanel,\r\n    Tabs,\r\n    ThemeControl,\r\n    Tooltip,\r\n} from \"@creator-signal/ui\";"
+      "import": "import {\n    Accordion,\n    AccordionItem,\n    AccordionPanel,\n    AccordionTrigger,\n    Button,\n    Dialog,\n    Disclosure,\n    DisclosureTrigger,\n    Tab,\n    TabList,\n    TabPanel,\n    Tabs,\n    ThemeControl,\n    Tooltip,\n} from \"@creator-signal/ui\";"
     },
     "dls-widget-catalogue": {
       "id": "dls-widget-catalogue",
@@ -2094,7 +2094,7 @@
         "description": "",
         "methods": [],
         "displayName": "Accordion",
-        "definedInFile": "D:\\wt\\sp1655\\packages\\ui\\src\\client.tsx",
+        "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/client.tsx",
         "actualName": "Accordion",
         "exportName": "Accordion",
         "props": {
@@ -2124,14 +2124,14 @@
       "subcomponents": {
         "AccordionItem": {
           "name": "AccordionItem",
-          "path": "D:\\wt\\sp1655\\packages\\ui\\src\\client.tsx",
+          "path": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/client.tsx",
           "import": "import { AccordionItem } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "AccordionItem",
-            "definedInFile": "D:\\wt\\sp1655\\packages\\ui\\src\\client.tsx",
+            "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/client.tsx",
             "actualName": "AccordionItem",
             "exportName": "AccordionItem",
             "props": {
@@ -2161,14 +2161,14 @@
         },
         "AccordionTrigger": {
           "name": "AccordionTrigger",
-          "path": "D:\\wt\\sp1655\\packages\\ui\\src\\client.tsx",
+          "path": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/client.tsx",
           "import": "import { AccordionTrigger } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "AccordionTrigger",
-            "definedInFile": "D:\\wt\\sp1655\\packages\\ui\\src\\client.tsx",
+            "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/client.tsx",
             "actualName": "AccordionTrigger",
             "exportName": "AccordionTrigger",
             "props": {
@@ -2214,14 +2214,14 @@
         },
         "AccordionPanel": {
           "name": "AccordionPanel",
-          "path": "D:\\wt\\sp1655\\packages\\ui\\src\\client.tsx",
+          "path": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/client.tsx",
           "import": "import { AccordionPanel } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "AccordionPanel",
-            "definedInFile": "D:\\wt\\sp1655\\packages\\ui\\src\\client.tsx",
+            "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/client.tsx",
             "actualName": "AccordionPanel",
             "exportName": "AccordionPanel"
           }
@@ -2231,7 +2231,7 @@
         {
           "id": "dls-widgets-accordion-behaviour--state-and-keyboard",
           "name": "State And Keyboard",
-          "snippet": "const StateAndKeyboard = () => <main className=\"cs-story-shell\">\r\n    <h1>Accordion</h1>\r\n    <Accordion defaultValue=\"delivery\">\r\n        <AccordionItem value=\"delivery\">\r\n            <AccordionTrigger headingLevel={2}>Delivery evidence</AccordionTrigger>\r\n            <AccordionPanel>Source, Local browser and CI evidence stay distinct.</AccordionPanel>\r\n        </AccordionItem>\r\n        <AccordionItem value=\"recovery\">\r\n            <AccordionTrigger headingLevel={2}>Recovery evidence</AccordionTrigger>\r\n            <AccordionPanel>Forward-fix and rollback boundaries remain visible.</AccordionPanel>\r\n        </AccordionItem>\r\n    </Accordion>\r\n</main>;"
+          "snippet": "const StateAndKeyboard = () => <main className=\"cs-story-shell\">\n    <h1>Accordion</h1>\n    <Accordion defaultValue=\"delivery\">\n        <AccordionItem value=\"delivery\">\n            <AccordionTrigger headingLevel={2}>Delivery evidence</AccordionTrigger>\n            <AccordionPanel>Source, Local browser and CI evidence stay distinct.</AccordionPanel>\n        </AccordionItem>\n        <AccordionItem value=\"recovery\">\n            <AccordionTrigger headingLevel={2}>Recovery evidence</AccordionTrigger>\n            <AccordionPanel>Forward-fix and rollback boundaries remain visible.</AccordionPanel>\n        </AccordionItem>\n    </Accordion>\n</main>;"
         }
       ],
       "import": "import { Accordion, AccordionItem, AccordionPanel, AccordionTrigger } from \"@creator-signal/ui\";"
@@ -2281,7 +2281,7 @@
           "snippet": "const Workbench = () => <ExperienceWorkbench />;"
         }
       ],
-      "import": "import {\r\n    Badge,\r\n    Button,\r\n    Card,\r\n    EmptyState,\r\n    ErrorState,\r\n    KeyValueItem,\r\n    KeyValueList,\r\n    Notice,\r\n    Stat,\r\n    StatGroup,\r\n    StatusIndicator,\r\n    Tab,\r\n    TabList,\r\n    TabPanel,\r\n    Tabs,\r\n} from \"@creator-signal/design-system-reference\";"
+      "import": "import {\n    Badge,\n    Button,\n    Card,\n    EmptyState,\n    ErrorState,\n    KeyValueItem,\n    KeyValueList,\n    Notice,\n    Stat,\n    StatGroup,\n    StatusIndicator,\n    Tab,\n    TabList,\n    TabPanel,\n    Tabs,\n} from \"@creator-signal/design-system-reference\";"
     },
     "dls-content": {
       "id": "dls-content",
@@ -2528,7 +2528,7 @@
           "snippet": "const InteractivePatterns = () => <InteractiveReview />;"
         }
       ],
-      "import": "import {\r\n    Badge,\r\n    Button,\r\n    Card,\r\n    ChartLegend,\r\n    ChartLegendItem,\r\n    Checkbox,\r\n    Dialog,\r\n    Disclosure,\r\n    DisclosureTrigger,\r\n    EmptyState,\r\n    ErrorState,\r\n    Field,\r\n    FieldDescription,\r\n    FieldError,\r\n    FieldLabel,\r\n    FormStatus,\r\n    IconButton,\r\n    KeyValueItem,\r\n    KeyValueList,\r\n    LinkButton,\r\n    LoadingIndicator,\r\n    Menu,\r\n    MenuItem,\r\n    Notice,\r\n    Pagination,\r\n    PaginationLink,\r\n    PaginationList,\r\n    Panel,\r\n    Radio,\r\n    ResponsiveTable,\r\n    Select,\r\n    Skeleton,\r\n    Stat,\r\n    StatGroup,\r\n    StatusIndicator,\r\n    Switch,\r\n    Tab,\r\n    Table,\r\n    TableBody,\r\n    TableCaption,\r\n    TableCell,\r\n    TableHead,\r\n    TableHeader,\r\n    TableRow,\r\n    TabList,\r\n    TabPanel,\r\n    Tabs,\r\n    Textarea,\r\n    TextInput,\r\n    Tooltip,\r\n} from \"@creator-signal/design-system-reference\";"
+      "import": "import {\n    Badge,\n    Button,\n    Card,\n    ChartLegend,\n    ChartLegendItem,\n    Checkbox,\n    Dialog,\n    Disclosure,\n    DisclosureTrigger,\n    EmptyState,\n    ErrorState,\n    Field,\n    FieldDescription,\n    FieldError,\n    FieldLabel,\n    FormStatus,\n    IconButton,\n    KeyValueItem,\n    KeyValueList,\n    LinkButton,\n    LoadingIndicator,\n    Menu,\n    MenuItem,\n    Notice,\n    Pagination,\n    PaginationLink,\n    PaginationList,\n    Panel,\n    Radio,\n    ResponsiveTable,\n    Select,\n    Skeleton,\n    Stat,\n    StatGroup,\n    StatusIndicator,\n    Switch,\n    Tab,\n    Table,\n    TableBody,\n    TableCaption,\n    TableCell,\n    TableHead,\n    TableHeader,\n    TableRow,\n    TabList,\n    TabPanel,\n    Tabs,\n    Textarea,\n    TextInput,\n    Tooltip,\n} from \"@creator-signal/design-system-reference\";"
     },
     "dls-components-actions-button": {
       "id": "dls-components-actions-button",
@@ -2539,7 +2539,7 @@
         "description": "",
         "methods": [],
         "displayName": "Button",
-        "definedInFile": "D:\\wt\\sp1655\\packages\\ui\\src\\server.tsx",
+        "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/server.tsx",
         "actualName": "Button",
         "exportName": "Button",
         "props": {
@@ -2613,14 +2613,14 @@
       "subcomponents": {
         "LinkButton": {
           "name": "LinkButton",
-          "path": "D:\\wt\\sp1655\\packages\\ui\\src\\index.ts",
+          "path": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/index.ts",
           "import": "import { LinkButton } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "LinkButton",
-            "definedInFile": "D:\\wt\\sp1655\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/server.tsx",
             "actualName": "LinkButton",
             "exportName": "LinkButton",
             "props": {
@@ -2694,14 +2694,14 @@
         },
         "IconButton": {
           "name": "IconButton",
-          "path": "D:\\wt\\sp1655\\packages\\ui\\src\\index.ts",
+          "path": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/index.ts",
           "import": "import { IconButton } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "IconButton",
-            "definedInFile": "D:\\wt\\sp1655\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/server.tsx",
             "actualName": "IconButton",
             "exportName": "IconButton",
             "props": {
@@ -2774,7 +2774,7 @@
         "description": "",
         "methods": [],
         "displayName": "ResponsiveTable",
-        "definedInFile": "D:\\wt\\sp1655\\packages\\ui\\src\\server.tsx",
+        "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/server.tsx",
         "actualName": "ResponsiveTable",
         "exportName": "ResponsiveTable",
         "props": {
@@ -2790,126 +2790,126 @@
       "subcomponents": {
         "Table": {
           "name": "Table",
-          "path": "D:\\wt\\sp1655\\packages\\ui\\src\\index.ts",
+          "path": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/index.ts",
           "import": "import { Table } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Table",
-            "definedInFile": "D:\\wt\\sp1655\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/server.tsx",
             "actualName": "Table",
             "exportName": "Table"
           }
         },
         "TableCaption": {
           "name": "TableCaption",
-          "path": "D:\\wt\\sp1655\\packages\\ui\\src\\index.ts",
+          "path": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/index.ts",
           "import": "import { TableCaption } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "TableCaption",
-            "definedInFile": "D:\\wt\\sp1655\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/server.tsx",
             "actualName": "TableCaption",
             "exportName": "TableCaption"
           }
         },
         "TableHead": {
           "name": "TableHead",
-          "path": "D:\\wt\\sp1655\\packages\\ui\\src\\index.ts",
+          "path": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/index.ts",
           "import": "import { TableHead } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "TableHead",
-            "definedInFile": "D:\\wt\\sp1655\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/server.tsx",
             "actualName": "TableHead",
             "exportName": "TableHead"
           }
         },
         "TableBody": {
           "name": "TableBody",
-          "path": "D:\\wt\\sp1655\\packages\\ui\\src\\index.ts",
+          "path": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/index.ts",
           "import": "import { TableBody } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "TableBody",
-            "definedInFile": "D:\\wt\\sp1655\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/server.tsx",
             "actualName": "TableBody",
             "exportName": "TableBody"
           }
         },
         "TableRow": {
           "name": "TableRow",
-          "path": "D:\\wt\\sp1655\\packages\\ui\\src\\index.ts",
+          "path": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/index.ts",
           "import": "import { TableRow } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "TableRow",
-            "definedInFile": "D:\\wt\\sp1655\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/server.tsx",
             "actualName": "TableRow",
             "exportName": "TableRow"
           }
         },
         "TableHeader": {
           "name": "TableHeader",
-          "path": "D:\\wt\\sp1655\\packages\\ui\\src\\index.ts",
+          "path": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/index.ts",
           "import": "import { TableHeader } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "TableHeader",
-            "definedInFile": "D:\\wt\\sp1655\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/server.tsx",
             "actualName": "TableHeader",
             "exportName": "TableHeader"
           }
         },
         "TableCell": {
           "name": "TableCell",
-          "path": "D:\\wt\\sp1655\\packages\\ui\\src\\index.ts",
+          "path": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/index.ts",
           "import": "import { TableCell } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "TableCell",
-            "definedInFile": "D:\\wt\\sp1655\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/server.tsx",
             "actualName": "TableCell",
             "exportName": "TableCell"
           }
         },
         "KeyValueList": {
           "name": "KeyValueList",
-          "path": "D:\\wt\\sp1655\\packages\\ui\\src\\index.ts",
+          "path": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/index.ts",
           "import": "import { KeyValueList } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "KeyValueList",
-            "definedInFile": "D:\\wt\\sp1655\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/server.tsx",
             "actualName": "KeyValueList",
             "exportName": "KeyValueList"
           }
         },
         "KeyValueItem": {
           "name": "KeyValueItem",
-          "path": "D:\\wt\\sp1655\\packages\\ui\\src\\index.ts",
+          "path": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/index.ts",
           "import": "import { KeyValueItem } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "KeyValueItem",
-            "definedInFile": "D:\\wt\\sp1655\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/server.tsx",
             "actualName": "KeyValueItem",
             "exportName": "KeyValueItem",
             "props": {
@@ -2932,28 +2932,28 @@
         },
         "StatGroup": {
           "name": "StatGroup",
-          "path": "D:\\wt\\sp1655\\packages\\ui\\src\\index.ts",
+          "path": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/index.ts",
           "import": "import { StatGroup } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "StatGroup",
-            "definedInFile": "D:\\wt\\sp1655\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/server.tsx",
             "actualName": "StatGroup",
             "exportName": "StatGroup"
           }
         },
         "Stat": {
           "name": "Stat",
-          "path": "D:\\wt\\sp1655\\packages\\ui\\src\\index.ts",
+          "path": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/index.ts",
           "import": "import { Stat } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Stat",
-            "definedInFile": "D:\\wt\\sp1655\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/server.tsx",
             "actualName": "Stat",
             "exportName": "Stat",
             "props": {
@@ -2986,28 +2986,28 @@
         },
         "ChartLegend": {
           "name": "ChartLegend",
-          "path": "D:\\wt\\sp1655\\packages\\ui\\src\\index.ts",
+          "path": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/index.ts",
           "import": "import { ChartLegend } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "ChartLegend",
-            "definedInFile": "D:\\wt\\sp1655\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/server.tsx",
             "actualName": "ChartLegend",
             "exportName": "ChartLegend"
           }
         },
         "ChartLegendItem": {
           "name": "ChartLegendItem",
-          "path": "D:\\wt\\sp1655\\packages\\ui\\src\\index.ts",
+          "path": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/index.ts",
           "import": "import { ChartLegendItem } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "ChartLegendItem",
-            "definedInFile": "D:\\wt\\sp1655\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/server.tsx",
             "actualName": "ChartLegendItem",
             "exportName": "ChartLegendItem",
             "props": {
@@ -3076,7 +3076,7 @@
           "snippet": "const ChartLegendHelpers = () => <ChartLegend><ChartLegendItem label=\"Organic\" tone=\"series-1\" value=\"48%\" /><ChartLegendItem label=\"Email\" tone=\"series-2\" value=\"32%\" /><ChartLegendItem label=\"Direct\" tone=\"series-3\" value=\"20%\" /></ChartLegend>;"
         }
       ],
-      "import": "import {\r\n    ChartLegend,\r\n    ChartLegendItem,\r\n    KeyValueItem,\r\n    KeyValueList,\r\n    ResponsiveTable,\r\n    Stat,\r\n    StatGroup,\r\n    StatusIndicator,\r\n    Table,\r\n    TableBody,\r\n    TableCaption,\r\n    TableCell,\r\n    TableHead,\r\n    TableHeader,\r\n    TableRow,\r\n} from \"@creator-signal/ui\";"
+      "import": "import {\n    ChartLegend,\n    ChartLegendItem,\n    KeyValueItem,\n    KeyValueList,\n    ResponsiveTable,\n    Stat,\n    StatGroup,\n    StatusIndicator,\n    Table,\n    TableBody,\n    TableCaption,\n    TableCell,\n    TableHead,\n    TableHeader,\n    TableRow,\n} from \"@creator-signal/ui\";"
     },
     "dls-widgets-dialog-behaviour": {
       "id": "dls-widgets-dialog-behaviour",
@@ -3087,7 +3087,7 @@
         "description": "",
         "methods": [],
         "displayName": "Dialog",
-        "definedInFile": "D:\\wt\\sp1655\\packages\\ui\\src\\client.tsx",
+        "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/client.tsx",
         "actualName": "Dialog",
         "exportName": "Dialog",
         "props": {
@@ -3137,7 +3137,7 @@
         {
           "id": "dls-widgets-dialog-behaviour--confirmation",
           "name": "Confirmation",
-          "snippet": "const Confirmation = () => <main className=\"cs-story-shell\"><h1>Dialog</h1><Dialog\r\n        title=\"Archive this report?\"\r\n        trigger=\"Archive report\"\r\n        description=\"The report leaves your dashboard but can be restored later.\"\r\n        actions={<Button variant=\"danger\">Archive</Button>}><p>No source marketplace data will be deleted.</p></Dialog></main>;"
+          "snippet": "const Confirmation = () => <main className=\"cs-story-shell\"><h1>Dialog</h1><Dialog\n        title=\"Archive this report?\"\n        trigger=\"Archive report\"\n        description=\"The report leaves your dashboard but can be restored later.\"\n        actions={<Button variant=\"danger\">Archive</Button>}><p>No source marketplace data will be deleted.</p></Dialog></main>;"
         }
       ],
       "import": "import { Button, Dialog } from \"@creator-signal/ui\";"
@@ -3151,7 +3151,7 @@
         "description": "",
         "methods": [],
         "displayName": "Notice",
-        "definedInFile": "D:\\wt\\sp1655\\packages\\ui\\src\\server.tsx",
+        "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/server.tsx",
         "actualName": "Notice",
         "exportName": "Notice",
         "props": {
@@ -3214,14 +3214,14 @@
       "subcomponents": {
         "Badge": {
           "name": "Badge",
-          "path": "D:\\wt\\sp1655\\packages\\ui\\src\\index.ts",
+          "path": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/index.ts",
           "import": "import { Badge } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Badge",
-            "definedInFile": "D:\\wt\\sp1655\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/server.tsx",
             "actualName": "Badge",
             "exportName": "Badge",
             "props": {
@@ -3267,14 +3267,14 @@
         },
         "StatusIndicator": {
           "name": "StatusIndicator",
-          "path": "D:\\wt\\sp1655\\packages\\ui\\src\\index.ts",
+          "path": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/index.ts",
           "import": "import { StatusIndicator } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "StatusIndicator",
-            "definedInFile": "D:\\wt\\sp1655\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/server.tsx",
             "actualName": "StatusIndicator",
             "exportName": "StatusIndicator",
             "props": {
@@ -3326,14 +3326,14 @@
         },
         "FormStatus": {
           "name": "FormStatus",
-          "path": "D:\\wt\\sp1655\\packages\\ui\\src\\index.ts",
+          "path": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/index.ts",
           "import": "import { FormStatus } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "FormStatus",
-            "definedInFile": "D:\\wt\\sp1655\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/server.tsx",
             "actualName": "FormStatus",
             "exportName": "FormStatus",
             "props": {
@@ -3379,14 +3379,14 @@
         },
         "LoadingIndicator": {
           "name": "LoadingIndicator",
-          "path": "D:\\wt\\sp1655\\packages\\ui\\src\\index.ts",
+          "path": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/index.ts",
           "import": "import { LoadingIndicator } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "LoadingIndicator",
-            "definedInFile": "D:\\wt\\sp1655\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/server.tsx",
             "actualName": "LoadingIndicator",
             "exportName": "LoadingIndicator",
             "props": {
@@ -3409,28 +3409,28 @@
         },
         "Skeleton": {
           "name": "Skeleton",
-          "path": "D:\\wt\\sp1655\\packages\\ui\\src\\index.ts",
+          "path": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/index.ts",
           "import": "import { Skeleton } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Skeleton",
-            "definedInFile": "D:\\wt\\sp1655\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/server.tsx",
             "actualName": "Skeleton",
             "exportName": "Skeleton"
           }
         },
         "EmptyState": {
           "name": "EmptyState",
-          "path": "D:\\wt\\sp1655\\packages\\ui\\src\\index.ts",
+          "path": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/index.ts",
           "import": "import { EmptyState } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "EmptyState",
-            "definedInFile": "D:\\wt\\sp1655\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/server.tsx",
             "actualName": "EmptyState",
             "exportName": "EmptyState",
             "props": {
@@ -3470,14 +3470,14 @@
         },
         "ErrorState": {
           "name": "ErrorState",
-          "path": "D:\\wt\\sp1655\\packages\\ui\\src\\index.ts",
+          "path": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/index.ts",
           "import": "import { ErrorState } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "ErrorState",
-            "definedInFile": "D:\\wt\\sp1655\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/server.tsx",
             "actualName": "ErrorState",
             "exportName": "ErrorState",
             "props": {
@@ -3532,7 +3532,7 @@
           "snippet": "const EmptyAndErrorStates = () => <div className=\"cs-ui-review-grid\"><EmptyState title=\"No reports\" description=\"Create the first report.\" actions={<Button>Create report</Button>} /><ErrorState title=\"Could not load\" description=\"Saved reports are safe.\" retry={<Button variant=\"secondary\">Try again</Button>} /></div>;"
         }
       ],
-      "import": "import {\r\n    Badge,\r\n    Button,\r\n    EmptyState,\r\n    ErrorState,\r\n    FormStatus,\r\n    LoadingIndicator,\r\n    Notice,\r\n    Skeleton,\r\n    StatusIndicator,\r\n} from \"@creator-signal/ui\";"
+      "import": "import {\n    Badge,\n    Button,\n    EmptyState,\n    ErrorState,\n    FormStatus,\n    LoadingIndicator,\n    Notice,\n    Skeleton,\n    StatusIndicator,\n} from \"@creator-signal/ui\";"
     },
     "dls-components-forms-field": {
       "id": "dls-components-forms-field",
@@ -3543,105 +3543,105 @@
         "description": "",
         "methods": [],
         "displayName": "Field",
-        "definedInFile": "D:\\wt\\sp1655\\packages\\ui\\src\\server.tsx",
+        "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/server.tsx",
         "actualName": "Field",
         "exportName": "Field"
       },
       "subcomponents": {
         "FieldLabel": {
           "name": "FieldLabel",
-          "path": "D:\\wt\\sp1655\\packages\\ui\\src\\index.ts",
+          "path": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/index.ts",
           "import": "import { FieldLabel } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "FieldLabel",
-            "definedInFile": "D:\\wt\\sp1655\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/server.tsx",
             "actualName": "FieldLabel",
             "exportName": "FieldLabel"
           }
         },
         "FieldDescription": {
           "name": "FieldDescription",
-          "path": "D:\\wt\\sp1655\\packages\\ui\\src\\index.ts",
+          "path": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/index.ts",
           "import": "import { FieldDescription } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "FieldDescription",
-            "definedInFile": "D:\\wt\\sp1655\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/server.tsx",
             "actualName": "FieldDescription",
             "exportName": "FieldDescription"
           }
         },
         "FieldError": {
           "name": "FieldError",
-          "path": "D:\\wt\\sp1655\\packages\\ui\\src\\index.ts",
+          "path": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/index.ts",
           "import": "import { FieldError } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "FieldError",
-            "definedInFile": "D:\\wt\\sp1655\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/server.tsx",
             "actualName": "FieldError",
             "exportName": "FieldError"
           }
         },
         "TextInput": {
           "name": "TextInput",
-          "path": "D:\\wt\\sp1655\\packages\\ui\\src\\index.ts",
+          "path": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/index.ts",
           "import": "import { TextInput } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "TextInput",
-            "definedInFile": "D:\\wt\\sp1655\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/server.tsx",
             "actualName": "TextInput",
             "exportName": "TextInput"
           }
         },
         "Textarea": {
           "name": "Textarea",
-          "path": "D:\\wt\\sp1655\\packages\\ui\\src\\index.ts",
+          "path": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/index.ts",
           "import": "import { Textarea } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Textarea",
-            "definedInFile": "D:\\wt\\sp1655\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/server.tsx",
             "actualName": "Textarea",
             "exportName": "Textarea"
           }
         },
         "Select": {
           "name": "Select",
-          "path": "D:\\wt\\sp1655\\packages\\ui\\src\\index.ts",
+          "path": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/index.ts",
           "import": "import { Select } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Select",
-            "definedInFile": "D:\\wt\\sp1655\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/server.tsx",
             "actualName": "Select",
             "exportName": "Select"
           }
         },
         "Checkbox": {
           "name": "Checkbox",
-          "path": "D:\\wt\\sp1655\\packages\\ui\\src\\index.ts",
+          "path": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/index.ts",
           "import": "import { Checkbox } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Checkbox",
-            "definedInFile": "D:\\wt\\sp1655\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/server.tsx",
             "actualName": "Checkbox",
             "exportName": "Checkbox",
             "props": {
@@ -3667,14 +3667,14 @@
         },
         "Radio": {
           "name": "Radio",
-          "path": "D:\\wt\\sp1655\\packages\\ui\\src\\index.ts",
+          "path": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/index.ts",
           "import": "import { Radio } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Radio",
-            "definedInFile": "D:\\wt\\sp1655\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/server.tsx",
             "actualName": "Radio",
             "exportName": "Radio",
             "props": {
@@ -3700,14 +3700,14 @@
         },
         "Switch": {
           "name": "Switch",
-          "path": "D:\\wt\\sp1655\\packages\\ui\\src\\index.ts",
+          "path": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/index.ts",
           "import": "import { Switch } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Switch",
-            "definedInFile": "D:\\wt\\sp1655\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/server.tsx",
             "actualName": "Switch",
             "exportName": "Switch",
             "props": {
@@ -3747,14 +3747,14 @@
         },
         "FormStatus": {
           "name": "FormStatus",
-          "path": "D:\\wt\\sp1655\\packages\\ui\\src\\index.ts",
+          "path": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/index.ts",
           "import": "import { FormStatus } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "FormStatus",
-            "definedInFile": "D:\\wt\\sp1655\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/server.tsx",
             "actualName": "FormStatus",
             "exportName": "FormStatus",
             "props": {
@@ -3826,7 +3826,7 @@
           "snippet": "const SelectAndStatus = () => <main className=\"cs-story-shell\"><h1 className=\"cs-story-title\">Select affordance and status</h1><p className=\"cs-story-lede\">The governed chevron stays separate from the native value, keyboard, validation and form-submission semantics.</p><form className=\"cs-ui-review-form cs-story-section\" onSubmit={(event) => event.preventDefault()}><div className=\"cs-ui-review-grid\"><Field><FieldLabel htmlFor=\"field-period\">Reporting period</FieldLabel><Select id=\"field-period\" defaultValue=\"30\"><option value=\"7\">Last 7 days</option><option value=\"30\">Last 30 days</option></Select></Field><Field><FieldLabel htmlFor=\"field-period-disabled\">Unavailable period</FieldLabel><Select id=\"field-period-disabled\" defaultValue=\"30\" disabled><option value=\"30\">Last 30 days</option></Select></Field><Field dir=\"rtl\"><FieldLabel htmlFor=\"field-period-rtl\">RTL reporting period</FieldLabel><Select id=\"field-period-rtl\" defaultValue=\"30\"><option value=\"7\">آخر 7 أيام</option><option value=\"30\">آخر 30 يومًا</option></Select></Field></div><FormStatus tone=\"success\">Draft saved locally.</FormStatus><Button type=\"submit\">Continue</Button></form></main>;"
         }
       ],
-      "import": "import {\r\n    Button,\r\n    Checkbox,\r\n    Field,\r\n    FieldDescription,\r\n    FieldError,\r\n    FieldLabel,\r\n    FormStatus,\r\n    Radio,\r\n    Select,\r\n    Switch,\r\n    Textarea,\r\n    TextInput,\r\n} from \"@creator-signal/ui\";"
+      "import": "import {\n    Button,\n    Checkbox,\n    Field,\n    FieldDescription,\n    FieldError,\n    FieldLabel,\n    FormStatus,\n    Radio,\n    Select,\n    Switch,\n    Textarea,\n    TextInput,\n} from \"@creator-signal/ui\";"
     },
     "dls-components-navigation-examples": {
       "id": "dls-components-navigation-examples",
@@ -3837,63 +3837,63 @@
         "description": "",
         "methods": [],
         "displayName": "Disclosure",
-        "definedInFile": "D:\\wt\\sp1655\\packages\\ui\\src\\server.tsx",
+        "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/server.tsx",
         "actualName": "Disclosure",
         "exportName": "Disclosure"
       },
       "subcomponents": {
         "DisclosureTrigger": {
           "name": "DisclosureTrigger",
-          "path": "D:\\wt\\sp1655\\packages\\ui\\src\\index.ts",
+          "path": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/index.ts",
           "import": "import { DisclosureTrigger } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "DisclosureTrigger",
-            "definedInFile": "D:\\wt\\sp1655\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/server.tsx",
             "actualName": "DisclosureTrigger",
             "exportName": "DisclosureTrigger"
           }
         },
         "Menu": {
           "name": "Menu",
-          "path": "D:\\wt\\sp1655\\packages\\ui\\src\\index.ts",
+          "path": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/index.ts",
           "import": "import { Menu } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Menu",
-            "definedInFile": "D:\\wt\\sp1655\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/server.tsx",
             "actualName": "Menu",
             "exportName": "Menu"
           }
         },
         "MenuItem": {
           "name": "MenuItem",
-          "path": "D:\\wt\\sp1655\\packages\\ui\\src\\index.ts",
+          "path": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/index.ts",
           "import": "import { MenuItem } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "MenuItem",
-            "definedInFile": "D:\\wt\\sp1655\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/server.tsx",
             "actualName": "MenuItem",
             "exportName": "MenuItem"
           }
         },
         "Pagination": {
           "name": "Pagination",
-          "path": "D:\\wt\\sp1655\\packages\\ui\\src\\index.ts",
+          "path": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/index.ts",
           "import": "import { Pagination } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Pagination",
-            "definedInFile": "D:\\wt\\sp1655\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/server.tsx",
             "actualName": "Pagination",
             "exportName": "Pagination",
             "props": {
@@ -3909,28 +3909,28 @@
         },
         "PaginationList": {
           "name": "PaginationList",
-          "path": "D:\\wt\\sp1655\\packages\\ui\\src\\index.ts",
+          "path": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/index.ts",
           "import": "import { PaginationList } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "PaginationList",
-            "definedInFile": "D:\\wt\\sp1655\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/server.tsx",
             "actualName": "PaginationList",
             "exportName": "PaginationList"
           }
         },
         "PaginationLink": {
           "name": "PaginationLink",
-          "path": "D:\\wt\\sp1655\\packages\\ui\\src\\index.ts",
+          "path": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/index.ts",
           "import": "import { PaginationLink } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "PaginationLink",
-            "definedInFile": "D:\\wt\\sp1655\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/server.tsx",
             "actualName": "PaginationLink",
             "exportName": "PaginationLink",
             "props": {
@@ -3953,14 +3953,14 @@
         },
         "Tooltip": {
           "name": "Tooltip",
-          "path": "D:\\wt\\sp1655\\packages\\ui\\src\\index.ts",
+          "path": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/index.ts",
           "import": "import { Tooltip } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Tooltip",
-            "definedInFile": "D:\\wt\\sp1655\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/server.tsx",
             "actualName": "Tooltip",
             "exportName": "Tooltip",
             "props": {
@@ -4002,7 +4002,7 @@
           "snippet": "const FocusableTooltip = () => <Tooltip content=\"Calculated after refunds and marketplace fees.\" triggerLabel=\"Explain net revenue\">What is net revenue?</Tooltip>;"
         }
       ],
-      "import": "import {\r\n    Disclosure,\r\n    DisclosureTrigger,\r\n    Menu,\r\n    MenuItem,\r\n    Pagination,\r\n    PaginationLink,\r\n    PaginationList,\r\n    Tooltip,\r\n} from \"@creator-signal/ui\";"
+      "import": "import {\n    Disclosure,\n    DisclosureTrigger,\n    Menu,\n    MenuItem,\n    Pagination,\n    PaginationLink,\n    PaginationList,\n    Tooltip,\n} from \"@creator-signal/ui\";"
     },
     "dls-components-surfaces-card": {
       "id": "dls-components-surfaces-card",
@@ -4013,7 +4013,7 @@
         "description": "",
         "methods": [],
         "displayName": "Card",
-        "definedInFile": "D:\\wt\\sp1655\\packages\\ui\\src\\server.tsx",
+        "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/server.tsx",
         "actualName": "Card",
         "exportName": "Card",
         "props": {
@@ -4051,70 +4051,70 @@
       "subcomponents": {
         "CardHeader": {
           "name": "CardHeader",
-          "path": "D:\\wt\\sp1655\\packages\\ui\\src\\index.ts",
+          "path": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/index.ts",
           "import": "import { CardHeader } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "CardHeader",
-            "definedInFile": "D:\\wt\\sp1655\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/server.tsx",
             "actualName": "CardHeader",
             "exportName": "CardHeader"
           }
         },
         "CardTitle": {
           "name": "CardTitle",
-          "path": "D:\\wt\\sp1655\\packages\\ui\\src\\index.ts",
+          "path": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/index.ts",
           "import": "import { CardTitle } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "CardTitle",
-            "definedInFile": "D:\\wt\\sp1655\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/server.tsx",
             "actualName": "CardTitle",
             "exportName": "CardTitle"
           }
         },
         "CardDescription": {
           "name": "CardDescription",
-          "path": "D:\\wt\\sp1655\\packages\\ui\\src\\index.ts",
+          "path": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/index.ts",
           "import": "import { CardDescription } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "CardDescription",
-            "definedInFile": "D:\\wt\\sp1655\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/server.tsx",
             "actualName": "CardDescription",
             "exportName": "CardDescription"
           }
         },
         "CardContent": {
           "name": "CardContent",
-          "path": "D:\\wt\\sp1655\\packages\\ui\\src\\index.ts",
+          "path": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/index.ts",
           "import": "import { CardContent } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "CardContent",
-            "definedInFile": "D:\\wt\\sp1655\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/server.tsx",
             "actualName": "CardContent",
             "exportName": "CardContent"
           }
         },
         "Panel": {
           "name": "Panel",
-          "path": "D:\\wt\\sp1655\\packages\\ui\\src\\index.ts",
+          "path": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/index.ts",
           "import": "import { Panel } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Panel",
-            "definedInFile": "D:\\wt\\sp1655\\packages\\ui\\src\\server.tsx",
+            "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/server.tsx",
             "actualName": "Panel",
             "exportName": "Panel",
             "props": {
@@ -4155,7 +4155,7 @@
         {
           "id": "dls-components-surfaces-card--raised-card",
           "name": "Raised Card",
-          "snippet": "const RaisedCard = () => <Card><>\r\n      <CardHeader>\r\n        <CardTitle>Creator overview</CardTitle>\r\n        <CardDescription>Cards group one related concept without replacing semantic page structure.</CardDescription>\r\n      </CardHeader>\r\n      <CardContent><p>Current status and related actions stay together.</p></CardContent>\r\n    </></Card>;"
+          "snippet": "const RaisedCard = () => <Card><>\n      <CardHeader>\n        <CardTitle>Creator overview</CardTitle>\n        <CardDescription>Cards group one related concept without replacing semantic page structure.</CardDescription>\n      </CardHeader>\n      <CardContent><p>Current status and related actions stay together.</p></CardContent>\n    </></Card>;"
         },
         {
           "id": "dls-components-surfaces-card--inset-panel",
@@ -4174,7 +4174,7 @@
         "description": "",
         "methods": [],
         "displayName": "Tabs",
-        "definedInFile": "D:\\wt\\sp1655\\packages\\ui\\src\\client.tsx",
+        "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/client.tsx",
         "actualName": "Tabs",
         "exportName": "Tabs",
         "props": {
@@ -4219,14 +4219,14 @@
       "subcomponents": {
         "TabList": {
           "name": "TabList",
-          "path": "D:\\wt\\sp1655\\packages\\ui\\src\\client.tsx",
+          "path": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/client.tsx",
           "import": "import { TabList } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "TabList",
-            "definedInFile": "D:\\wt\\sp1655\\packages\\ui\\src\\client.tsx",
+            "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/client.tsx",
             "actualName": "TabList",
             "exportName": "TabList",
             "props": {
@@ -4242,14 +4242,14 @@
         },
         "Tab": {
           "name": "Tab",
-          "path": "D:\\wt\\sp1655\\packages\\ui\\src\\client.tsx",
+          "path": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/client.tsx",
           "import": "import { Tab } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Tab",
-            "definedInFile": "D:\\wt\\sp1655\\packages\\ui\\src\\client.tsx",
+            "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/client.tsx",
             "actualName": "Tab",
             "exportName": "Tab",
             "props": {
@@ -4265,14 +4265,14 @@
         },
         "TabPanel": {
           "name": "TabPanel",
-          "path": "D:\\wt\\sp1655\\packages\\ui\\src\\client.tsx",
+          "path": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/client.tsx",
           "import": "import { TabPanel } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "TabPanel",
-            "definedInFile": "D:\\wt\\sp1655\\packages\\ui\\src\\client.tsx",
+            "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/client.tsx",
             "actualName": "TabPanel",
             "exportName": "TabPanel",
             "props": {
@@ -4305,7 +4305,7 @@
         "description": "",
         "methods": [],
         "displayName": "Accordion",
-        "definedInFile": "D:\\wt\\sp1655\\packages\\ui\\src\\client.tsx",
+        "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/client.tsx",
         "actualName": "Accordion",
         "exportName": "Accordion",
         "props": {
@@ -4335,14 +4335,14 @@
       "subcomponents": {
         "ThemeProvider": {
           "name": "ThemeProvider",
-          "path": "D:\\wt\\sp1655\\packages\\ui\\src\\client.tsx",
+          "path": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/client.tsx",
           "import": "import { ThemeProvider } from \"@creator-signal/ui\";",
           "jsDocTags": {},
           "reactDocgen": {
             "description": "",
             "methods": [],
             "displayName": "Accordion",
-            "definedInFile": "D:\\wt\\sp1655\\packages\\ui\\src\\client.tsx",
+            "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/packages/ui/src/client.tsx",
             "actualName": "Accordion",
             "exportName": "Accordion",
             "props": {
@@ -4478,7 +4478,7 @@
           }
         }
       ],
-      "import": "import {\r\n    Button,\r\n    DashboardChartFrame,\r\n    DashboardDataRegion,\r\n    DashboardFilterBar,\r\n    DashboardImage,\r\n    DashboardKpis,\r\n    DashboardPage,\r\n    DashboardPeriodControl,\r\n    DashboardSection,\r\n    Field,\r\n    FieldLabel,\r\n    Select,\r\n} from \"@creator-signal/design-system-reference\";"
+      "import": "import {\n    Button,\n    DashboardChartFrame,\n    DashboardDataRegion,\n    DashboardFilterBar,\n    DashboardImage,\n    DashboardKpis,\n    DashboardPage,\n    DashboardPeriodControl,\n    DashboardSection,\n    Field,\n    FieldLabel,\n    Select,\n} from \"@creator-signal/design-system-reference\";"
     },
     "dls-patterns-examples": {
       "id": "dls-patterns-examples",
@@ -4521,7 +4521,7 @@
           "snippet": "const DataTableAnalyticsRecommendation = () => <AnalyticsAndRecommendation />;"
         }
       ],
-      "import": "import {\r\n    Badge,\r\n    Button,\r\n    Card,\r\n    Checkbox,\r\n    Dialog,\r\n    EmptyState,\r\n    ErrorState,\r\n    Field,\r\n    FieldDescription,\r\n    FieldError,\r\n    FieldLabel,\r\n    FormStatus,\r\n    KeyValueItem,\r\n    KeyValueList,\r\n    Notice,\r\n    Panel,\r\n    ResponsiveTable,\r\n    Stat,\r\n    StatGroup,\r\n    StatusIndicator,\r\n    Table,\r\n    TableBody,\r\n    TableCaption,\r\n    TableCell,\r\n    TableHead,\r\n    TableHeader,\r\n    TableRow,\r\n    TextInput,\r\n} from \"@creator-signal/design-system-reference\";"
+      "import": "import {\n    Badge,\n    Button,\n    Card,\n    Checkbox,\n    Dialog,\n    EmptyState,\n    ErrorState,\n    Field,\n    FieldDescription,\n    FieldError,\n    FieldLabel,\n    FormStatus,\n    KeyValueItem,\n    KeyValueList,\n    Notice,\n    Panel,\n    ResponsiveTable,\n    Stat,\n    StatGroup,\n    StatusIndicator,\n    Table,\n    TableBody,\n    TableCaption,\n    TableCell,\n    TableHead,\n    TableHeader,\n    TableRow,\n    TextInput,\n} from \"@creator-signal/design-system-reference\";"
     },
     "consumers-instatic-component-library": {
       "id": "consumers-instatic-component-library",
@@ -4550,7 +4550,7 @@
         "description": "",
         "methods": [],
         "displayName": "InstaticSpecimenStory",
-        "definedInFile": "D:\\wt\\sp1655\\apps\\design-system\\src\\instatic\\InstaticSpecimen.tsx",
+        "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/apps/design-system/src/instatic/InstaticSpecimen.tsx",
         "actualName": "InstaticSpecimenStory",
         "exportName": "InstaticSpecimenStory",
         "props": {
@@ -4595,17 +4595,17 @@
         {
           "id": "consumers-instatic-component-library-built-in-content--creator-signal-site-catalogue-shared-content-fragment",
           "name": "Shared Content Fragment · creator-signal.site.catalogue.shared-content-fragment",
-          "snippet": "const CreatorSignalSiteCatalogueSharedContentFragment = () => <InstaticSpecimenStory\r\n    entryId=\"creator-signal.site.catalogue.shared-content-fragment\"\r\n    scenarioId=\"default\" />;"
+          "snippet": "const CreatorSignalSiteCatalogueSharedContentFragment = () => <InstaticSpecimenStory\n    entryId=\"creator-signal.site.catalogue.shared-content-fragment\"\n    scenarioId=\"default\" />;"
         },
         {
           "id": "consumers-instatic-component-library-built-in-content--creator-signal-site-catalogue-structured-content",
           "name": "Structured Content · creator-signal.site.catalogue.structured-content",
-          "snippet": "const CreatorSignalSiteCatalogueStructuredContent = () => <InstaticSpecimenStory\r\n    entryId=\"creator-signal.site.catalogue.structured-content\"\r\n    scenarioId=\"default\" />;"
+          "snippet": "const CreatorSignalSiteCatalogueStructuredContent = () => <InstaticSpecimenStory\n    entryId=\"creator-signal.site.catalogue.structured-content\"\n    scenarioId=\"default\" />;"
         },
         {
           "id": "consumers-instatic-component-library-built-in-content--creator-signal-site-catalogue-structured-content-list",
           "name": "Structured Content List · creator-signal.site.catalogue.structured-content-list",
-          "snippet": "const CreatorSignalSiteCatalogueStructuredContentList = () => <InstaticSpecimenStory\r\n    entryId=\"creator-signal.site.catalogue.structured-content-list\"\r\n    scenarioId=\"default\" />;"
+          "snippet": "const CreatorSignalSiteCatalogueStructuredContentList = () => <InstaticSpecimenStory\n    entryId=\"creator-signal.site.catalogue.structured-content-list\"\n    scenarioId=\"default\" />;"
         },
         {
           "id": "consumers-instatic-component-library-built-in-content--creator-signal-site-catalogue-table",
@@ -4624,7 +4624,7 @@
         "description": "",
         "methods": [],
         "displayName": "InstaticSpecimenStory",
-        "definedInFile": "D:\\wt\\sp1655\\apps\\design-system\\src\\instatic\\InstaticSpecimen.tsx",
+        "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/apps/design-system/src/instatic/InstaticSpecimen.tsx",
         "actualName": "InstaticSpecimenStory",
         "exportName": "InstaticSpecimenStory",
         "props": {
@@ -4664,7 +4664,7 @@
         {
           "id": "consumers-instatic-component-library-built-in-design--creator-signal-site-catalogue-comparison-table",
           "name": "Comparison Table · creator-signal.site.catalogue.comparison-table",
-          "snippet": "const CreatorSignalSiteCatalogueComparisonTable = () => <InstaticSpecimenStory\r\n    entryId=\"creator-signal.site.catalogue.comparison-table\"\r\n    scenarioId=\"default\" />;"
+          "snippet": "const CreatorSignalSiteCatalogueComparisonTable = () => <InstaticSpecimenStory\n    entryId=\"creator-signal.site.catalogue.comparison-table\"\n    scenarioId=\"default\" />;"
         },
         {
           "id": "consumers-instatic-component-library-built-in-design--creator-signal-site-catalogue-empty-state",
@@ -4718,7 +4718,7 @@
         "description": "",
         "methods": [],
         "displayName": "InstaticSpecimenStory",
-        "definedInFile": "D:\\wt\\sp1655\\apps\\design-system\\src\\instatic\\InstaticSpecimen.tsx",
+        "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/apps/design-system/src/instatic/InstaticSpecimen.tsx",
         "actualName": "InstaticSpecimenStory",
         "exportName": "InstaticSpecimenStory",
         "props": {
@@ -4783,7 +4783,7 @@
         {
           "id": "consumers-instatic-component-library-built-in-editorial--creator-signal-site-catalogue-person-profile",
           "name": "Person Profile · creator-signal.site.catalogue.person-profile",
-          "snippet": "const CreatorSignalSiteCataloguePersonProfile = () => <InstaticSpecimenStory\r\n    entryId=\"creator-signal.site.catalogue.person-profile\"\r\n    scenarioId=\"default\" />;"
+          "snippet": "const CreatorSignalSiteCataloguePersonProfile = () => <InstaticSpecimenStory\n    entryId=\"creator-signal.site.catalogue.person-profile\"\n    scenarioId=\"default\" />;"
         },
         {
           "id": "consumers-instatic-component-library-built-in-editorial--creator-signal-site-catalogue-quote",
@@ -4807,7 +4807,7 @@
         "description": "",
         "methods": [],
         "displayName": "InstaticSpecimenStory",
-        "definedInFile": "D:\\wt\\sp1655\\apps\\design-system\\src\\instatic\\InstaticSpecimen.tsx",
+        "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/apps/design-system/src/instatic/InstaticSpecimen.tsx",
         "actualName": "InstaticSpecimenStory",
         "exportName": "InstaticSpecimenStory",
         "props": {
@@ -4856,7 +4856,7 @@
         "description": "",
         "methods": [],
         "displayName": "InstaticSpecimenStory",
-        "definedInFile": "D:\\wt\\sp1655\\apps\\design-system\\src\\instatic\\InstaticSpecimen.tsx",
+        "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/apps/design-system/src/instatic/InstaticSpecimen.tsx",
         "actualName": "InstaticSpecimenStory",
         "exportName": "InstaticSpecimenStory",
         "props": {
@@ -4891,17 +4891,17 @@
         {
           "id": "consumers-instatic-component-library-built-in-forms--creator-signal-site-catalogue-captcha",
           "name": "CAPTCHA · creator-signal.site.catalogue.captcha",
-          "snippet": "const CreatorSignalSiteCatalogueCaptcha = () => <InstaticSpecimenStory\r\n    entryId=\"creator-signal.site.catalogue.captcha\"\r\n    scenarioId=\"provider-unavailable\" />;"
+          "snippet": "const CreatorSignalSiteCatalogueCaptcha = () => <InstaticSpecimenStory\n    entryId=\"creator-signal.site.catalogue.captcha\"\n    scenarioId=\"provider-unavailable\" />;"
         },
         {
           "id": "consumers-instatic-component-library-built-in-forms--creator-signal-site-catalogue-checkbox",
           "name": "Checkbox · creator-signal.site.catalogue.checkbox",
-          "snippet": "const CreatorSignalSiteCatalogueCheckbox = () => <InstaticSpecimenStory\r\n    entryId=\"creator-signal.site.catalogue.checkbox\"\r\n    scenarioId=\"required-checked\" />;"
+          "snippet": "const CreatorSignalSiteCatalogueCheckbox = () => <InstaticSpecimenStory\n    entryId=\"creator-signal.site.catalogue.checkbox\"\n    scenarioId=\"required-checked\" />;"
         },
         {
           "id": "consumers-instatic-component-library-built-in-forms--creator-signal-site-catalogue-checkbox-group",
           "name": "Checkbox Group · creator-signal.site.catalogue.checkbox-group",
-          "snippet": "const CreatorSignalSiteCatalogueCheckboxGroup = () => <InstaticSpecimenStory\r\n    entryId=\"creator-signal.site.catalogue.checkbox-group\"\r\n    scenarioId=\"default\" />;"
+          "snippet": "const CreatorSignalSiteCatalogueCheckboxGroup = () => <InstaticSpecimenStory\n    entryId=\"creator-signal.site.catalogue.checkbox-group\"\n    scenarioId=\"default\" />;"
         },
         {
           "id": "consumers-instatic-component-library-built-in-forms--creator-signal-site-catalogue-date-input",
@@ -4921,27 +4921,27 @@
         {
           "id": "consumers-instatic-component-library-built-in-forms--creator-signal-site-catalogue-file-attachment",
           "name": "File Attachment · creator-signal.site.catalogue.file-attachment",
-          "snippet": "const CreatorSignalSiteCatalogueFileAttachment = () => <InstaticSpecimenStory\r\n    entryId=\"creator-signal.site.catalogue.file-attachment\"\r\n    scenarioId=\"required-local-scan\" />;"
+          "snippet": "const CreatorSignalSiteCatalogueFileAttachment = () => <InstaticSpecimenStory\n    entryId=\"creator-signal.site.catalogue.file-attachment\"\n    scenarioId=\"required-local-scan\" />;"
         },
         {
           "id": "consumers-instatic-component-library-built-in-forms--creator-signal-site-catalogue-form-accordion",
           "name": "Form Accordion · creator-signal.site.catalogue.form-accordion",
-          "snippet": "const CreatorSignalSiteCatalogueFormAccordion = () => <InstaticSpecimenStory\r\n    entryId=\"creator-signal.site.catalogue.form-accordion\"\r\n    scenarioId=\"default\" />;"
+          "snippet": "const CreatorSignalSiteCatalogueFormAccordion = () => <InstaticSpecimenStory\n    entryId=\"creator-signal.site.catalogue.form-accordion\"\n    scenarioId=\"default\" />;"
         },
         {
           "id": "consumers-instatic-component-library-built-in-forms--creator-signal-site-catalogue-form-actions",
           "name": "Form Actions · creator-signal.site.catalogue.form-actions",
-          "snippet": "const CreatorSignalSiteCatalogueFormActions = () => <InstaticSpecimenStory\r\n    entryId=\"creator-signal.site.catalogue.form-actions\"\r\n    scenarioId=\"default-disabled-pending\" />;"
+          "snippet": "const CreatorSignalSiteCatalogueFormActions = () => <InstaticSpecimenStory\n    entryId=\"creator-signal.site.catalogue.form-actions\"\n    scenarioId=\"default-disabled-pending\" />;"
         },
         {
           "id": "consumers-instatic-component-library-built-in-forms--creator-signal-site-catalogue-form-container",
           "name": "Form Container · creator-signal.site.catalogue.form-container",
-          "snippet": "const CreatorSignalSiteCatalogueFormContainer = () => <InstaticSpecimenStory\r\n    entryId=\"creator-signal.site.catalogue.form-container\"\r\n    scenarioId=\"default-session-recovery\" />;"
+          "snippet": "const CreatorSignalSiteCatalogueFormContainer = () => <InstaticSpecimenStory\n    entryId=\"creator-signal.site.catalogue.form-container\"\n    scenarioId=\"default-session-recovery\" />;"
         },
         {
           "id": "consumers-instatic-component-library-built-in-forms--creator-signal-site-catalogue-form-embed",
           "name": "Form Embed · creator-signal.site.catalogue.form-embed",
-          "snippet": "const CreatorSignalSiteCatalogueFormEmbed = () => <InstaticSpecimenStory\r\n    entryId=\"creator-signal.site.catalogue.form-embed\"\r\n    scenarioId=\"responsive\" />;"
+          "snippet": "const CreatorSignalSiteCatalogueFormEmbed = () => <InstaticSpecimenStory\n    entryId=\"creator-signal.site.catalogue.form-embed\"\n    scenarioId=\"responsive\" />;"
         },
         {
           "id": "consumers-instatic-component-library-built-in-forms--creator-signal-site-catalogue-form-error",
@@ -4951,7 +4951,7 @@
         {
           "id": "consumers-instatic-component-library-built-in-forms--creator-signal-site-catalogue-form-field-group",
           "name": "Form Field Group · creator-signal.site.catalogue.form-field-group",
-          "snippet": "const CreatorSignalSiteCatalogueFormFieldGroup = () => <InstaticSpecimenStory\r\n    entryId=\"creator-signal.site.catalogue.form-field-group\"\r\n    scenarioId=\"label-help-error\" />;"
+          "snippet": "const CreatorSignalSiteCatalogueFormFieldGroup = () => <InstaticSpecimenStory\n    entryId=\"creator-signal.site.catalogue.form-field-group\"\n    scenarioId=\"label-help-error\" />;"
         },
         {
           "id": "consumers-instatic-component-library-built-in-forms--creator-signal-site-catalogue-form-help",
@@ -4981,7 +4981,7 @@
         {
           "id": "consumers-instatic-component-library-built-in-forms--creator-signal-site-catalogue-form-summary-review",
           "name": "Summary / Review · creator-signal.site.catalogue.form-summary-review",
-          "snippet": "const CreatorSignalSiteCatalogueFormSummaryReview = () => <InstaticSpecimenStory\r\n    entryId=\"creator-signal.site.catalogue.form-summary-review\"\r\n    scenarioId=\"default\" />;"
+          "snippet": "const CreatorSignalSiteCatalogueFormSummaryReview = () => <InstaticSpecimenStory\n    entryId=\"creator-signal.site.catalogue.form-summary-review\"\n    scenarioId=\"default\" />;"
         },
         {
           "id": "consumers-instatic-component-library-built-in-forms--creator-signal-site-catalogue-form-tabs",
@@ -5001,7 +5001,7 @@
         {
           "id": "consumers-instatic-component-library-built-in-forms--creator-signal-site-catalogue-number-input",
           "name": "Number Input · creator-signal.site.catalogue.number-input",
-          "snippet": "const CreatorSignalSiteCatalogueNumberInput = () => <InstaticSpecimenStory\r\n    entryId=\"creator-signal.site.catalogue.number-input\"\r\n    scenarioId=\"required\" />;"
+          "snippet": "const CreatorSignalSiteCatalogueNumberInput = () => <InstaticSpecimenStory\n    entryId=\"creator-signal.site.catalogue.number-input\"\n    scenarioId=\"required\" />;"
         },
         {
           "id": "consumers-instatic-component-library-built-in-forms--creator-signal-site-catalogue-option",
@@ -5016,17 +5016,17 @@
         {
           "id": "consumers-instatic-component-library-built-in-forms--creator-signal-site-catalogue-previous-next-actions",
           "name": "Previous / Next Actions · creator-signal.site.catalogue.previous-next-actions",
-          "snippet": "const CreatorSignalSiteCataloguePreviousNextActions = () => <InstaticSpecimenStory\r\n    entryId=\"creator-signal.site.catalogue.previous-next-actions\"\r\n    scenarioId=\"default\" />;"
+          "snippet": "const CreatorSignalSiteCataloguePreviousNextActions = () => <InstaticSpecimenStory\n    entryId=\"creator-signal.site.catalogue.previous-next-actions\"\n    scenarioId=\"default\" />;"
         },
         {
           "id": "consumers-instatic-component-library-built-in-forms--creator-signal-site-catalogue-previous-step",
           "name": "Previous Step · creator-signal.site.catalogue.previous-step",
-          "snippet": "const CreatorSignalSiteCataloguePreviousStep = () => <InstaticSpecimenStory\r\n    entryId=\"creator-signal.site.catalogue.previous-step\"\r\n    scenarioId=\"default\" />;"
+          "snippet": "const CreatorSignalSiteCataloguePreviousStep = () => <InstaticSpecimenStory\n    entryId=\"creator-signal.site.catalogue.previous-step\"\n    scenarioId=\"default\" />;"
         },
         {
           "id": "consumers-instatic-component-library-built-in-forms--creator-signal-site-catalogue-radio",
           "name": "Radio · creator-signal.site.catalogue.radio",
-          "snippet": "const CreatorSignalSiteCatalogueRadio = () => <InstaticSpecimenStory\r\n    entryId=\"creator-signal.site.catalogue.radio\"\r\n    scenarioId=\"required-checked\" />;"
+          "snippet": "const CreatorSignalSiteCatalogueRadio = () => <InstaticSpecimenStory\n    entryId=\"creator-signal.site.catalogue.radio\"\n    scenarioId=\"required-checked\" />;"
         },
         {
           "id": "consumers-instatic-component-library-built-in-forms--creator-signal-site-catalogue-radio-group",
@@ -5041,7 +5041,7 @@
         {
           "id": "consumers-instatic-component-library-built-in-forms--creator-signal-site-catalogue-reusable-form-fragment",
           "name": "Reusable Form Fragment · creator-signal.site.catalogue.reusable-form-fragment",
-          "snippet": "const CreatorSignalSiteCatalogueReusableFormFragment = () => <InstaticSpecimenStory\r\n    entryId=\"creator-signal.site.catalogue.reusable-form-fragment\"\r\n    scenarioId=\"binding-prefix\" />;"
+          "snippet": "const CreatorSignalSiteCatalogueReusableFormFragment = () => <InstaticSpecimenStory\n    entryId=\"creator-signal.site.catalogue.reusable-form-fragment\"\n    scenarioId=\"binding-prefix\" />;"
         },
         {
           "id": "consumers-instatic-component-library-built-in-forms--creator-signal-site-catalogue-save-draft",
@@ -5061,17 +5061,17 @@
         {
           "id": "consumers-instatic-component-library-built-in-forms--creator-signal-site-catalogue-switch",
           "name": "Switch · creator-signal.site.catalogue.switch",
-          "snippet": "const CreatorSignalSiteCatalogueSwitch = () => <InstaticSpecimenStory\r\n    entryId=\"creator-signal.site.catalogue.switch\"\r\n    scenarioId=\"required-checked\" />;"
+          "snippet": "const CreatorSignalSiteCatalogueSwitch = () => <InstaticSpecimenStory\n    entryId=\"creator-signal.site.catalogue.switch\"\n    scenarioId=\"required-checked\" />;"
         },
         {
           "id": "consumers-instatic-component-library-built-in-forms--creator-signal-site-catalogue-telephone-input",
           "name": "Telephone Input · creator-signal.site.catalogue.telephone-input",
-          "snippet": "const CreatorSignalSiteCatalogueTelephoneInput = () => <InstaticSpecimenStory\r\n    entryId=\"creator-signal.site.catalogue.telephone-input\"\r\n    scenarioId=\"required\" />;"
+          "snippet": "const CreatorSignalSiteCatalogueTelephoneInput = () => <InstaticSpecimenStory\n    entryId=\"creator-signal.site.catalogue.telephone-input\"\n    scenarioId=\"required\" />;"
         },
         {
           "id": "consumers-instatic-component-library-built-in-forms--creator-signal-site-catalogue-terms-and-conditions",
           "name": "Terms and Conditions · creator-signal.site.catalogue.terms-and-conditions",
-          "snippet": "const CreatorSignalSiteCatalogueTermsAndConditions = () => <InstaticSpecimenStory\r\n    entryId=\"creator-signal.site.catalogue.terms-and-conditions\"\r\n    scenarioId=\"default\" />;"
+          "snippet": "const CreatorSignalSiteCatalogueTermsAndConditions = () => <InstaticSpecimenStory\n    entryId=\"creator-signal.site.catalogue.terms-and-conditions\"\n    scenarioId=\"default\" />;"
         },
         {
           "id": "consumers-instatic-component-library-built-in-forms--creator-signal-site-catalogue-text-area",
@@ -5105,7 +5105,7 @@
         "description": "",
         "methods": [],
         "displayName": "InstaticSpecimenStory",
-        "definedInFile": "D:\\wt\\sp1655\\apps\\design-system\\src\\instatic\\InstaticSpecimen.tsx",
+        "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/apps/design-system/src/instatic/InstaticSpecimen.tsx",
         "actualName": "InstaticSpecimenStory",
         "exportName": "InstaticSpecimenStory",
         "props": {
@@ -5145,7 +5145,7 @@
         {
           "id": "consumers-instatic-component-library-built-in-interactive--creator-signal-site-catalogue-accordion-item",
           "name": "Accordion Item · creator-signal.site.catalogue.accordion-item",
-          "snippet": "const CreatorSignalSiteCatalogueAccordionItem = () => <InstaticSpecimenStory\r\n    entryId=\"creator-signal.site.catalogue.accordion-item\"\r\n    scenarioId=\"default\" />;"
+          "snippet": "const CreatorSignalSiteCatalogueAccordionItem = () => <InstaticSpecimenStory\n    entryId=\"creator-signal.site.catalogue.accordion-item\"\n    scenarioId=\"default\" />;"
         },
         {
           "id": "consumers-instatic-component-library-built-in-interactive--creator-signal-site-catalogue-button",
@@ -5199,7 +5199,7 @@
         "description": "",
         "methods": [],
         "displayName": "InstaticSpecimenStory",
-        "definedInFile": "D:\\wt\\sp1655\\apps\\design-system\\src\\instatic\\InstaticSpecimen.tsx",
+        "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/apps/design-system/src/instatic/InstaticSpecimen.tsx",
         "actualName": "InstaticSpecimenStory",
         "exportName": "InstaticSpecimenStory",
         "props": {
@@ -5259,7 +5259,7 @@
         {
           "id": "consumers-instatic-component-library-built-in-media--creator-signal-site-catalogue-youtube-embed",
           "name": "YouTube Embed · creator-signal.site.catalogue.youtube-embed",
-          "snippet": "const CreatorSignalSiteCatalogueYoutubeEmbed = () => <InstaticSpecimenStory\r\n    entryId=\"creator-signal.site.catalogue.youtube-embed\"\r\n    scenarioId=\"default\" />;"
+          "snippet": "const CreatorSignalSiteCatalogueYoutubeEmbed = () => <InstaticSpecimenStory\n    entryId=\"creator-signal.site.catalogue.youtube-embed\"\n    scenarioId=\"default\" />;"
         }
       ],
       "import": "import { InstaticSpecimenStory } from \"@creator-signal/design-system-reference\";"
@@ -5273,7 +5273,7 @@
         "description": "",
         "methods": [],
         "displayName": "InstaticSpecimenStory",
-        "definedInFile": "D:\\wt\\sp1655\\apps\\design-system\\src\\instatic\\InstaticSpecimen.tsx",
+        "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/apps/design-system/src/instatic/InstaticSpecimen.tsx",
         "actualName": "InstaticSpecimenStory",
         "exportName": "InstaticSpecimenStory",
         "props": {
@@ -5313,7 +5313,7 @@
         {
           "id": "consumers-instatic-component-library-built-in-navigation--creator-signal-site-catalogue-language-navigation",
           "name": "Language Navigation · creator-signal.site.catalogue.language-navigation",
-          "snippet": "const CreatorSignalSiteCatalogueLanguageNavigation = () => <InstaticSpecimenStory\r\n    entryId=\"creator-signal.site.catalogue.language-navigation\"\r\n    scenarioId=\"default\" />;"
+          "snippet": "const CreatorSignalSiteCatalogueLanguageNavigation = () => <InstaticSpecimenStory\n    entryId=\"creator-signal.site.catalogue.language-navigation\"\n    scenarioId=\"default\" />;"
         },
         {
           "id": "consumers-instatic-component-library-built-in-navigation--creator-signal-site-catalogue-navigation",
@@ -5328,7 +5328,7 @@
         {
           "id": "consumers-instatic-component-library-built-in-navigation--creator-signal-site-catalogue-table-of-contents",
           "name": "Table of Contents · creator-signal.site.catalogue.table-of-contents",
-          "snippet": "const CreatorSignalSiteCatalogueTableOfContents = () => <InstaticSpecimenStory\r\n    entryId=\"creator-signal.site.catalogue.table-of-contents\"\r\n    scenarioId=\"default\" />;"
+          "snippet": "const CreatorSignalSiteCatalogueTableOfContents = () => <InstaticSpecimenStory\n    entryId=\"creator-signal.site.catalogue.table-of-contents\"\n    scenarioId=\"default\" />;"
         }
       ],
       "import": "import { InstaticSpecimenStory } from \"@creator-signal/design-system-reference\";"
@@ -5342,7 +5342,7 @@
         "description": "",
         "methods": [],
         "displayName": "InstaticSpecimenStory",
-        "definedInFile": "D:\\wt\\sp1655\\apps\\design-system\\src\\instatic\\InstaticSpecimen.tsx",
+        "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/apps/design-system/src/instatic/InstaticSpecimen.tsx",
         "actualName": "InstaticSpecimenStory",
         "exportName": "InstaticSpecimenStory",
         "props": {
@@ -5387,7 +5387,7 @@
         {
           "id": "consumers-instatic-component-library-built-in-structure--creator-signal-site-catalogue-reusable-section",
           "name": "Reusable Section · creator-signal.site.catalogue.reusable-section",
-          "snippet": "const CreatorSignalSiteCatalogueReusableSection = () => <InstaticSpecimenStory\r\n    entryId=\"creator-signal.site.catalogue.reusable-section\"\r\n    scenarioId=\"default\" />;"
+          "snippet": "const CreatorSignalSiteCatalogueReusableSection = () => <InstaticSpecimenStory\n    entryId=\"creator-signal.site.catalogue.reusable-section\"\n    scenarioId=\"default\" />;"
         },
         {
           "id": "consumers-instatic-component-library-built-in-structure--creator-signal-site-catalogue-section",
@@ -5411,7 +5411,7 @@
         "description": "",
         "methods": [],
         "displayName": "InstaticSpecimenStory",
-        "definedInFile": "D:\\wt\\sp1655\\apps\\design-system\\src\\instatic\\InstaticSpecimen.tsx",
+        "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/apps/design-system/src/instatic/InstaticSpecimen.tsx",
         "actualName": "InstaticSpecimenStory",
         "exportName": "InstaticSpecimenStory",
         "props": {
@@ -5446,17 +5446,17 @@
         {
           "id": "consumers-instatic-component-library-built-in-template--creator-signal-site-catalogue-template-footer",
           "name": "Footer · creator-signal.site.catalogue.template-footer",
-          "snippet": "const CreatorSignalSiteCatalogueTemplateFooter = () => <InstaticSpecimenStory\r\n    entryId=\"creator-signal.site.catalogue.template-footer\"\r\n    scenarioId=\"default\" />;"
+          "snippet": "const CreatorSignalSiteCatalogueTemplateFooter = () => <InstaticSpecimenStory\n    entryId=\"creator-signal.site.catalogue.template-footer\"\n    scenarioId=\"default\" />;"
         },
         {
           "id": "consumers-instatic-component-library-built-in-template--creator-signal-site-catalogue-template-header",
           "name": "Header · creator-signal.site.catalogue.template-header",
-          "snippet": "const CreatorSignalSiteCatalogueTemplateHeader = () => <InstaticSpecimenStory\r\n    entryId=\"creator-signal.site.catalogue.template-header\"\r\n    scenarioId=\"default\" />;"
+          "snippet": "const CreatorSignalSiteCatalogueTemplateHeader = () => <InstaticSpecimenStory\n    entryId=\"creator-signal.site.catalogue.template-header\"\n    scenarioId=\"default\" />;"
         },
         {
           "id": "consumers-instatic-component-library-built-in-template--creator-signal-site-catalogue-template-skip-link",
           "name": "Skip Link · creator-signal.site.catalogue.template-skip-link",
-          "snippet": "const CreatorSignalSiteCatalogueTemplateSkipLink = () => <InstaticSpecimenStory\r\n    entryId=\"creator-signal.site.catalogue.template-skip-link\"\r\n    scenarioId=\"default\" />;"
+          "snippet": "const CreatorSignalSiteCatalogueTemplateSkipLink = () => <InstaticSpecimenStory\n    entryId=\"creator-signal.site.catalogue.template-skip-link\"\n    scenarioId=\"default\" />;"
         }
       ],
       "import": "import { InstaticSpecimenStory } from \"@creator-signal/design-system-reference\";"
@@ -5470,7 +5470,7 @@
         "description": "",
         "methods": [],
         "displayName": "InstaticSpecimenStory",
-        "definedInFile": "D:\\wt\\sp1655\\apps\\design-system\\src\\instatic\\InstaticSpecimen.tsx",
+        "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/apps/design-system/src/instatic/InstaticSpecimen.tsx",
         "actualName": "InstaticSpecimenStory",
         "exportName": "InstaticSpecimenStory",
         "props": {
@@ -5525,7 +5525,7 @@
         {
           "id": "consumers-instatic-component-library-built-in-typography--creator-signal-site-catalogue-semantic-list",
           "name": "Simple List · creator-signal.site.catalogue.semantic-list",
-          "snippet": "const CreatorSignalSiteCatalogueSemanticList = () => <InstaticSpecimenStory\r\n    entryId=\"creator-signal.site.catalogue.semantic-list\"\r\n    scenarioId=\"default\" />;"
+          "snippet": "const CreatorSignalSiteCatalogueSemanticList = () => <InstaticSpecimenStory\n    entryId=\"creator-signal.site.catalogue.semantic-list\"\n    scenarioId=\"default\" />;"
         }
       ],
       "import": "import { InstaticSpecimenStory } from \"@creator-signal/design-system-reference\";"
@@ -5539,7 +5539,7 @@
         "description": "",
         "methods": [],
         "displayName": "InstaticSpecimenStory",
-        "definedInFile": "D:\\wt\\sp1655\\apps\\design-system\\src\\instatic\\InstaticSpecimen.tsx",
+        "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/apps/design-system/src/instatic/InstaticSpecimen.tsx",
         "actualName": "InstaticSpecimenStory",
         "exportName": "InstaticSpecimenStory",
         "props": {
@@ -5693,7 +5693,7 @@
         "description": "",
         "methods": [],
         "displayName": "InstaticSpecimenStory",
-        "definedInFile": "D:\\wt\\sp1655\\apps\\design-system\\src\\instatic\\InstaticSpecimen.tsx",
+        "definedInFile": "/home/sales-pulse-recovery/actions-runner/_work/sales-pulse/sales-pulse/apps/design-system/src/instatic/InstaticSpecimen.tsx",
         "actualName": "InstaticSpecimenStory",
         "exportName": "InstaticSpecimenStory",
         "props": {
@@ -5728,12 +5728,12 @@
         {
           "id": "consumers-instatic-component-library-creator-signal-patterns--creator-signal-site-pattern-article-content-page",
           "name": "Article or Content Page · creator-signal.site.pattern.article-content-page",
-          "snippet": "const CreatorSignalSitePatternArticleContentPage = () => <InstaticSpecimenStory\r\n    entryId=\"creator-signal.site.pattern.article-content-page\"\r\n    scenarioId=\"default\" />;"
+          "snippet": "const CreatorSignalSitePatternArticleContentPage = () => <InstaticSpecimenStory\n    entryId=\"creator-signal.site.pattern.article-content-page\"\n    scenarioId=\"default\" />;"
         },
         {
           "id": "consumers-instatic-component-library-creator-signal-patterns--creator-signal-site-pattern-comparison-section",
           "name": "Comparison Section · creator-signal.site.pattern.comparison-section",
-          "snippet": "const CreatorSignalSitePatternComparisonSection = () => <InstaticSpecimenStory\r\n    entryId=\"creator-signal.site.pattern.comparison-section\"\r\n    scenarioId=\"default\" />;"
+          "snippet": "const CreatorSignalSitePatternComparisonSection = () => <InstaticSpecimenStory\n    entryId=\"creator-signal.site.pattern.comparison-section\"\n    scenarioId=\"default\" />;"
         },
         {
           "id": "consumers-instatic-component-library-creator-signal-patterns--creator-signal-site-pattern-contact-page",
@@ -5748,7 +5748,7 @@
         {
           "id": "consumers-instatic-component-library-creator-signal-patterns--creator-signal-site-pattern-early-access-page",
           "name": "Early Access Page · creator-signal.site.pattern.early-access-page",
-          "snippet": "const CreatorSignalSitePatternEarlyAccessPage = () => <InstaticSpecimenStory\r\n    entryId=\"creator-signal.site.pattern.early-access-page\"\r\n    scenarioId=\"default\" />;"
+          "snippet": "const CreatorSignalSitePatternEarlyAccessPage = () => <InstaticSpecimenStory\n    entryId=\"creator-signal.site.pattern.early-access-page\"\n    scenarioId=\"default\" />;"
         },
         {
           "id": "consumers-instatic-component-library-creator-signal-patterns--creator-signal-site-pattern-empty-state",
@@ -5778,12 +5778,12 @@
         {
           "id": "consumers-instatic-component-library-creator-signal-patterns--creator-signal-site-pattern-legal-trust-page",
           "name": "Legal or Trust Page · creator-signal.site.pattern.legal-trust-page",
-          "snippet": "const CreatorSignalSitePatternLegalTrustPage = () => <InstaticSpecimenStory\r\n    entryId=\"creator-signal.site.pattern.legal-trust-page\"\r\n    scenarioId=\"default\" />;"
+          "snippet": "const CreatorSignalSitePatternLegalTrustPage = () => <InstaticSpecimenStory\n    entryId=\"creator-signal.site.pattern.legal-trust-page\"\n    scenarioId=\"default\" />;"
         },
         {
           "id": "consumers-instatic-component-library-creator-signal-patterns--creator-signal-site-pattern-not-found-state",
           "name": "Not Found Page · creator-signal.site.pattern.not-found-state",
-          "snippet": "const CreatorSignalSitePatternNotFoundState = () => <InstaticSpecimenStory\r\n    entryId=\"creator-signal.site.pattern.not-found-state\"\r\n    scenarioId=\"default\" />;"
+          "snippet": "const CreatorSignalSitePatternNotFoundState = () => <InstaticSpecimenStory\n    entryId=\"creator-signal.site.pattern.not-found-state\"\n    scenarioId=\"default\" />;"
         },
         {
           "id": "consumers-instatic-component-library-creator-signal-patterns--creator-signal-site-pattern-offline-state",
@@ -5837,7 +5837,7 @@
           "snippet": "const MonitoringUnavailable = () => <UnavailablePreview />;"
         }
       ],
-      "import": "import {\r\n    Badge,\r\n    Button,\r\n    Card,\r\n    CardContent,\r\n    CardDescription,\r\n    CardHeader,\r\n    CardTitle,\r\n    Field,\r\n    FieldDescription,\r\n    FieldLabel,\r\n    LinkButton,\r\n    Notice,\r\n    ResponsiveTable,\r\n    Table,\r\n    TableBody,\r\n    TableCaption,\r\n    TableCell,\r\n    TableHead,\r\n    TableHeader,\r\n    TableRow,\r\n    TextInput,\r\n    ThemeControl,\r\n} from \"@creator-signal/design-system-reference\";"
+      "import": "import {\n    Badge,\n    Button,\n    Card,\n    CardContent,\n    CardDescription,\n    CardHeader,\n    CardTitle,\n    Field,\n    FieldDescription,\n    FieldLabel,\n    LinkButton,\n    Notice,\n    ResponsiveTable,\n    Table,\n    TableBody,\n    TableCaption,\n    TableCell,\n    TableHead,\n    TableHeader,\n    TableRow,\n    TextInput,\n    ThemeControl,\n} from \"@creator-signal/design-system-reference\";"
     },
     "products-surface-translations": {
       "id": "products-surface-translations",
@@ -5880,7 +5880,7 @@
           "snippet": "const StripeLikeProviderSample = () => <ConstrainedProvider />;"
         }
       ],
-      "import": "import {\r\n    Badge,\r\n    Button,\r\n    Card,\r\n    Checkbox,\r\n    Field,\r\n    FieldDescription,\r\n    FieldLabel,\r\n    KeyValueItem,\r\n    KeyValueList,\r\n    Notice,\r\n    Panel,\r\n    Stat,\r\n    StatGroup,\r\n    TextInput,\r\n} from \"@creator-signal/design-system-reference\";"
+      "import": "import {\n    Badge,\n    Button,\n    Card,\n    Checkbox,\n    Field,\n    FieldDescription,\n    FieldLabel,\n    KeyValueItem,\n    KeyValueList,\n    Notice,\n    Panel,\n    Stat,\n    StatGroup,\n    TextInput,\n} from \"@creator-signal/design-system-reference\";"
     },
     "products-sales-pulse-state-matrix": {
       "id": "products-sales-pulse-state-matrix",
@@ -5978,7 +5978,7 @@
           }
         }
       ],
-      "import": "import {\r\n    Badge,\r\n    ResponsiveTable,\r\n    Table,\r\n    TableBody,\r\n    TableCaption,\r\n    TableCell,\r\n    TableHead,\r\n    TableHeader,\r\n    TableRow,\r\n} from \"@creator-signal/design-system-reference\";"
+      "import": "import {\n    Badge,\n    ResponsiveTable,\n    Table,\n    TableBody,\n    TableCaption,\n    TableCell,\n    TableHead,\n    TableHeader,\n    TableRow,\n} from \"@creator-signal/design-system-reference\";"
     },
     "products-sales-pulse-dashboard-explainability": {
       "id": "products-sales-pulse-dashboard-explainability",
@@ -6044,7 +6044,7 @@
           "snippet": "const Stale = () => <WidgetReference {...registeredCustomers!} state=\"stale\" />;"
         }
       ],
-      "import": "import {\r\n    Badge,\r\n    EmptyState,\r\n    ErrorState,\r\n    KeyValueItem,\r\n    KeyValueList,\r\n    LoadingIndicator,\r\n    Notice,\r\n    Panel,\r\n    Skeleton,\r\n    Stat,\r\n    StatGroup,\r\n} from \"@creator-signal/design-system-reference\";"
+      "import": "import {\n    Badge,\n    EmptyState,\n    ErrorState,\n    KeyValueItem,\n    KeyValueList,\n    LoadingIndicator,\n    Notice,\n    Panel,\n    Skeleton,\n    Stat,\n    StatGroup,\n} from \"@creator-signal/design-system-reference\";"
     },
     "governance-using-the-design-system": {
       "id": "governance-using-the-design-system",
@@ -6652,7 +6652,7 @@
           "snippet": "const AdminExclusion = () => <ProviderContract id=\"sales-pulse.admin-privileged-controls\" title=\"Admin operator controls\"><AdminFormsPreview /></ProviderContract>;"
         }
       ],
-      "import": "import {\r\n    AdminFormsPreview,\r\n    Badge,\r\n    BillingFormsPreview,\r\n    Button,\r\n    Checkbox,\r\n    Field,\r\n    FieldDescription,\r\n    FieldLabel,\r\n    FormStatus,\r\n    IdentityFormsPreview,\r\n    KeyValueItem,\r\n    KeyValueList,\r\n    LegalConsentPreview,\r\n    LinkButton,\r\n    MauticFormsPreview,\r\n    Notice,\r\n    Panel,\r\n    SearchAndFilePreview,\r\n    Select,\r\n    StatementImportPreview,\r\n    TextInput,\r\n    WorkflowStatesPreview,\r\n} from \"@creator-signal/design-system-reference\";"
+      "import": "import {\n    AdminFormsPreview,\n    Badge,\n    BillingFormsPreview,\n    Button,\n    Checkbox,\n    Field,\n    FieldDescription,\n    FieldLabel,\n    FormStatus,\n    IdentityFormsPreview,\n    KeyValueItem,\n    KeyValueList,\n    LegalConsentPreview,\n    LinkButton,\n    MauticFormsPreview,\n    Notice,\n    Panel,\n    SearchAndFilePreview,\n    Select,\n    StatementImportPreview,\n    TextInput,\n    WorkflowStatesPreview,\n} from \"@creator-signal/design-system-reference\";"
     },
     "products-planned-helper-simplified": {
       "id": "products-planned-helper-simplified",
@@ -6819,6 +6819,6 @@
   },
   "meta": {
     "docgen": "react-docgen",
-    "durationMs": 3198
+    "durationMs": 1671
   }
 }
