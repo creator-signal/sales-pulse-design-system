@@ -1,7 +1,7 @@
 {
   "schemaVersion": "creator-signal.design-system-copy-page/v1",
   "issue": 1414,
-  "sourceRevision": "d370d11c7b3ade8d3ce414f72868586f1bdd86f5",
+  "sourceRevision": "ae4b63180219db1de705da6bf78f02c584fdb488",
   "entries": [
     {
       "id": "widget.accordion",
@@ -1002,6 +1002,16 @@
       "url": "/sales-pulse-design-system/?path=/story/dls-start-here-current-and-planned--overview",
       "docsUrl": "/sales-pulse-design-system/?path=/docs/dls-start-here-current-and-planned--docs",
       "copyText": "Current and planned\nStory: /sales-pulse-design-system/?path=/story/dls-start-here-current-and-planned--overview\nDocs and source: /sales-pulse-design-system/?path=/docs/dls-start-here-current-and-planned--docs\nAuthority: apps/design-system/planned-items.json"
+    },
+    {
+      "id": "planned.helper-welcome-toolbar-v2",
+      "label": "Planned: Helper floating toolbar V2",
+      "kind": "planned",
+      "storyId": "products-planned-helper-toolbar-v2--importing-signed-out",
+      "sourcePath": "apps/design-system/src/stories/planned/HelperToolbarV2.stories.tsx",
+      "url": "/sales-pulse-design-system/?path=/story/products-planned-helper-toolbar-v2--importing-signed-out",
+      "docsUrl": "/sales-pulse-design-system/?path=/docs/products-planned-helper-toolbar-v2--docs",
+      "copyText": "Planned: Helper floating toolbar V2\nStory: /sales-pulse-design-system/?path=/story/products-planned-helper-toolbar-v2--importing-signed-out\nDocs and source: /sales-pulse-design-system/?path=/docs/products-planned-helper-toolbar-v2--docs\nAuthority: apps/design-system/src/stories/planned/HelperToolbarV2.stories.tsx"
     },
     {
       "id": "planned.helper-welcome-toolbar",

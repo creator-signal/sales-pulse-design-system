@@ -1,7 +1,7 @@
 {
   "schemaVersion": "creator-signal.design-system-search/v1",
   "issue": 1414,
-  "sourceRevision": "d370d11c7b3ade8d3ce414f72868586f1bdd86f5",
+  "sourceRevision": "ae4b63180219db1de705da6bf78f02c584fdb488",
   "records": [
     {
       "id": "widget.accordion",
@@ -1715,6 +1715,23 @@
       ],
       "url": "/sales-pulse-design-system/?path=/story/dls-start-here-current-and-planned--overview",
       "docsUrl": "/sales-pulse-design-system/?path=/docs/dls-start-here-current-and-planned--docs"
+    },
+    {
+      "id": "planned.helper-welcome-toolbar-v2",
+      "kind": "planned",
+      "label": "Planned: Helper floating toolbar V2",
+      "description": "A fixed-height floating toolbar with a compact status lane, synthetic account state, and an anchored Activity, Documentation, Position and Theme submenu. Showcase only. It does not implement extension authentication, account images, preference persistence, activity navigation, provider actions or background work.",
+      "storyId": "products-planned-helper-toolbar-v2--importing-signed-out",
+      "sourcePath": "apps/design-system/src/stories/planned/HelperToolbarV2.stories.tsx",
+      "lifecycle": "planned",
+      "keywords": [
+        "Sales Pulse Helper",
+        "planned",
+        "proposal"
+      ],
+      "ownerIssue": 1695,
+      "url": "/sales-pulse-design-system/?path=/story/products-planned-helper-toolbar-v2--importing-signed-out",
+      "docsUrl": "/sales-pulse-design-system/?path=/docs/products-planned-helper-toolbar-v2--docs"
     },
     {
       "id": "planned.helper-welcome-toolbar",

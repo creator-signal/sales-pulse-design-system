@@ -1,7 +1,7 @@
 {
   "schemaVersion": "creator-signal.design-system-manifest/v1",
   "issue": 1414,
-  "sourceRevision": "d370d11c7b3ade8d3ce414f72868586f1bdd86f5",
+  "sourceRevision": "ae4b63180219db1de705da6bf78f02c584fdb488",
   "basePath": "/sales-pulse-design-system/",
   "authority": {
     "runtimeImportAllowed": false,
@@ -266,6 +266,6 @@
     "patterns": 6,
     "experiences": 10,
     "guidanceEntries": 43,
-    "searchableRecords": 102
+    "searchableRecords": 103
   }
 }
