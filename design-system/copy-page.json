@@ -1,7 +1,7 @@
 {
   "schemaVersion": "creator-signal.design-system-copy-page/v1",
   "issue": 1414,
-  "sourceRevision": "ef2f12fcb5e25855c9f87174818ea9a6fe4d7973",
+  "sourceRevision": "0287a50bb8901a4c03a54c76d1e3e92c895c466d",
   "entries": [
     {
       "id": "widget.accordion",
@@ -1004,24 +1004,24 @@
       "copyText": "Current and planned\nStory: /sales-pulse-design-system/?path=/story/dls-start-here-current-and-planned--overview\nDocs and source: /sales-pulse-design-system/?path=/docs/dls-start-here-current-and-planned--docs\nAuthority: apps/design-system/planned-items.json"
     },
     {
-      "id": "planned.helper-welcome-toolbar-v2",
-      "label": "Planned: Helper floating toolbar V2",
-      "kind": "planned",
+      "id": "supporting.helper-toolbar",
+      "label": "Helper toolbar",
+      "kind": "supporting",
       "storyId": "products-planned-helper-toolbar-v2--importing-signed-out",
-      "sourcePath": "apps/design-system/src/stories/planned/HelperToolbarV2.stories.tsx",
+      "sourcePath": "apps/design-system/src/stories/HelperToolbar.stories.tsx",
       "url": "/sales-pulse-design-system/?path=/story/products-planned-helper-toolbar-v2--importing-signed-out",
       "docsUrl": "/sales-pulse-design-system/?path=/docs/products-planned-helper-toolbar-v2--docs",
-      "copyText": "Planned: Helper floating toolbar V2\nStory: /sales-pulse-design-system/?path=/story/products-planned-helper-toolbar-v2--importing-signed-out\nDocs and source: /sales-pulse-design-system/?path=/docs/products-planned-helper-toolbar-v2--docs\nAuthority: apps/design-system/src/stories/planned/HelperToolbarV2.stories.tsx"
+      "copyText": "Helper toolbar\nStory: /sales-pulse-design-system/?path=/story/products-planned-helper-toolbar-v2--importing-signed-out\nDocs and source: /sales-pulse-design-system/?path=/docs/products-planned-helper-toolbar-v2--docs\nAuthority: apps/design-system/src/stories/HelperToolbar.stories.tsx"
     },
     {
       "id": "planned.helper-welcome-toolbar",
-      "label": "Planned: Helper welcome and floating toolbar",
+      "label": "Planned: Helper welcome",
       "kind": "planned",
       "storyId": "products-planned-helper-welcome-and-toolbar--first-visit",
       "sourcePath": "apps/design-system/src/stories/planned/HelperWelcome.stories.tsx",
       "url": "/sales-pulse-design-system/?path=/story/products-planned-helper-welcome-and-toolbar--first-visit",
       "docsUrl": "/sales-pulse-design-system/?path=/docs/products-planned-helper-welcome-and-toolbar--docs",
-      "copyText": "Planned: Helper welcome and floating toolbar\nStory: /sales-pulse-design-system/?path=/story/products-planned-helper-welcome-and-toolbar--first-visit\nDocs and source: /sales-pulse-design-system/?path=/docs/products-planned-helper-welcome-and-toolbar--docs\nAuthority: apps/design-system/src/stories/planned/HelperWelcome.stories.tsx"
+      "copyText": "Planned: Helper welcome\nStory: /sales-pulse-design-system/?path=/story/products-planned-helper-welcome-and-toolbar--first-visit\nDocs and source: /sales-pulse-design-system/?path=/docs/products-planned-helper-welcome-and-toolbar--docs\nAuthority: apps/design-system/src/stories/planned/HelperWelcome.stories.tsx"
     },
     {
       "id": "planned.helper-installation-welcome",
