@@ -594,7 +594,7 @@
 <main>
   <div class="wrap">
     <div class="note info" style="margin-bottom: 16px;">
-            <strong>Tip:</strong> You are using <code>react-docgen</code> (the default). Generation took <strong>2.1s</strong>. For higher quality prop types, consider switching to <code>react-docgen-typescript</code> in your <code>main.ts</code>:
+            <strong>Tip:</strong> You are using <code>react-docgen</code> (the default). Generation took <strong>3.5s</strong>. For higher quality prop types, consider switching to <code>react-docgen-typescript</code> in your <code>main.ts</code>:
             <pre><code>typescript: {
   reactDocgen: 'react-docgen-typescript',
 }</code></pre>
@@ -8040,13 +8040,13 @@ export const KeyboardMenu: Story = { args: { scenario: &quot;importing&quot;, si
     <div class="note err">
       <div class="note-title">Prop type error</div>
       <div class="note-body"><pre><code>No component file found for the &quot;HelperWelcome&quot; component.
-  124 | }
-  125 |
-&gt; 126 | const meta = {
+  143 | }
+  144 |
+&gt; 145 | const meta = {
       | ^
-  127 |   id: &quot;products-planned-helper-welcome-and-toolbar&quot;,
-  128 |   title: &quot;Planned/Helper welcome&quot;, component: HelperWelcome, tags: [&quot;autodocs&quot;],
-  129 |   parameters: { docs: { description: { component: &quot;Planned design #1607. Synthetic native modal with the current Helper toolbar composition, not an installed extension. View activity opens the real Creator Signal Activity page in a new tab; the displayed import data remains synthetic. No provider actions or persistence. Use the same reference&#39;s Current and planned index to compare delivery status.&quot; } } },
+  146 |   id: &quot;products-planned-helper-welcome-and-toolbar&quot;,
+  147 |   title: &quot;Planned/Helper welcome&quot;, component: HelperWelcome, tags: [&quot;autodocs&quot;],
+  148 |   parameters: { docs: { description: { component: &quot;Planned design #1607. Synthetic native modal with the current Helper toolbar composition, not an installed extension. View activity opens the real Creator Signal Activity page in a new tab; the displayed import data remains synthetic. No provider actions or persistence. Use the same reference&#39;s Current and planned index to compare delivery status.&quot; } } },
 
 ./src/stories/planned/HelperWelcome.stories.tsx:
 import { useEffect, useRef, useState } from &quot;react&quot;;
@@ -8075,6 +8075,7 @@ const steps = [&quot;Welcome&quot;, &quot;Your connections&quot;, &quot;Make it 
 function HelperWelcome({ firstVisit = true, scenario = &quot;importing&quot;, popupInitiallyOpen = false, immersive = false }: { firstVisit?: boolean; scenario?: Scenario; popupInitiallyOpen?: boolean; immersive?: boolean }) {
   const { resolvedTheme } = useTheme();
   const dialog = useRef&lt;HTMLDialogElement&gt;(null);
+  const demo = useRef&lt;HTMLDivElement&gt;(null);
   const replay = useRef&lt;HTMLButtonElement&gt;(null);
   const welcomeReturn = useRef&lt;HTMLButtonElement | null&gt;(null);
   const extensionToggle = useRef&lt;HTMLButtonElement&gt;(null);
@@ -8085,14 +8086,33 @@ function HelperWelcome({ firstVisit = true, scenario = &quot;importing&quot;, po
   const [finished, setFinished] = useState(false);
   const [selected, setSelected] = useState&lt;Scenario&gt;(scenario);
   const current = states[selected];
+  const fitWelcomeToDemo = () =&gt; {
+    if (!dialog.current || !demo.current) return;
+    // Native dialogs use the document top layer. Bound it to the visible demo,
+    // including its backdrop, without replacing native focus/Escape behavior.
+    const bounds = demo.current.getBoundingClientRect();
+    const left = Math.max(0, bounds.left);
+    const top = Math.max(0, bounds.top);
+    const right = Math.min(window.innerWidth, bounds.right);
+    const bottom = Math.min(window.innerHeight, bounds.bottom);
+    const values = { left, top, width: Math.max(0, right - left), height: Math.max(0, bottom - top), right: window.innerWidth - right, bottom: window.innerHeight - bottom };
+    for (const [key, value] of Object.entries(values)) dialog.current.style.setProperty(`--cs-ph-frame-${key}`, `${value}px`);
+  };
   useEffect(() =&gt; setSelected(scenario), [scenario]);
   useEffect(() =&gt; {
+    const observer = new ResizeObserver(fitWelcomeToDemo);
+    if (demo.current) observer.observe(demo.current);
+    window.addEventListener(&quot;resize&quot;, fitWelcomeToDemo);
+    window.addEventListener(&quot;scroll&quot;, fitWelcomeToDemo, true);
+    return () =&gt; { observer.disconnect(); window.removeEventListener(&quot;resize&quot;, fitWelcomeToDemo); window.removeEventListener(&quot;scroll&quot;, fitWelcomeToDemo, true); };
+  }, []);
+  useEffect(() =&gt; {
     const element = dialog.current;
-    if (firstVisit &amp;&amp; element &amp;&amp; !element.open) element.showModal();
+    if (firstVisit &amp;&amp; element &amp;&amp; !element.open) { fitWelcomeToDemo(); element.showModal(); }
     return () =&gt; element?.close();
   }, [firstVisit]);
 
-  const openWelcome = () =&gt; { welcomeReturn.current = null; setStep(0); dialog.current?.showModal(); };
+  const openWelcome = () =&gt; { welcomeReturn.current = null; setStep(0); demo.current?.scrollIntoView({ block: &quot;nearest&quot; }); fitWelcomeToDemo(); dialog.current?.showModal(); };
   const closeWelcome = () =&gt; dialog.current?.close();
   const hide = () =&gt; { setVisibility(&quot;tab&quot;); (immersive ? extensionToggle.current : replay.current)?.focus(); };
   const badgeTone = current.tone;
@@ -8111,7 +8131,7 @@ function HelperWelcome({ firstVisit = true, scenario = &quot;importing&quot;, po
 
 
     &lt;/&gt;}
-    &lt;div className=&quot;cs-ph-page&quot; aria-label=&quot;Spoonflower page preview&quot;&gt;
+    &lt;div className=&quot;cs-ph-page&quot; ref={demo} aria-label=&quot;Spoonflower page preview&quot;&gt;
       {immersive &amp;&amp; &lt;button className=&quot;cs-ui-button cs-ui-button--secondary cs-ph-extension-launcher&quot; ref={extensionToggle} aria-expanded={popupOpen} aria-controls=&quot;cs-ph-extension-popup&quot; onClick={() =&gt; setPopupOpen(!popupOpen)}&gt;Open extension popup&lt;/button&gt;}
       &lt;img className=&quot;cs-ph-backdrop&quot; src={spoonflowerBackdrop} alt=&quot;&quot; hidden={backdropFailed} onError={() =&gt; setBackdropFailed(true)} /&gt;
       {backdropFailed &amp;&amp; &lt;p className=&quot;cs-ph-backdrop-fallback&quot; role=&quot;status&quot;&gt;Spoonflower screenshot unavailable. Helper controls are still available.&lt;/p&gt;}
@@ -8146,9 +8166,6 @@ function HelperWelcome({ firstVisit = true, scenario = &quot;importing&quot;, po
     &lt;/section&gt;}
       {visibility === &quot;tab&quot; &amp;&amp; &lt;Button className=&quot;cs-ph-edge-tab&quot; variant=&quot;secondary&quot; onClick={() =&gt; setVisibility(&quot;shown&quot;)}&gt;Helper · {current.label} · Show&lt;/Button&gt;}
       {visibility === &quot;shown&quot; &amp;&amp; &lt;HelperToolbarReference scenario={toolbarScenarios[selected]} status={{ title: current.label, detail: current.detail }} signedIn={selected !== &quot;signIn&quot;} label=&quot;Helper toolbar&quot; onHide={hide} onWelcome={openWelcome} /&gt;}
-    &lt;/div&gt;
-    {!immersive &amp;&amp; &lt;footer className=&quot;cs-ph-boundary&quot;&gt;&lt;Badge tone={badgeTone}&gt;{finished ? &quot;Tour completed in this preview&quot; : &quot;Design proposal&quot;}&lt;/Badge&gt;&lt;p&gt;Position and visibility survive changes within this preview only. Reload resets setup. The installed design would remember preferences and show onboarding once across tabs. Closing or finishing never starts an import.&lt;/p&gt;&lt;a href={referencePath(&quot;/?path=/story/products-sales-pulse-helper--connected&quot;)} target=&quot;_top&quot;&gt;Compare the current Helper popup&lt;/a&gt; · &lt;a href=&quot;https://github.com/creator-signal/sales-pulse/issues/1607&quot;&gt;Design #1607&lt;/a&gt;&lt;/footer&gt;}
-
     &lt;dialog className=&quot;cs-ph-welcome&quot; ref={dialog} aria-labelledby=&quot;cs-ph-welcome-title&quot; aria-describedby=&quot;cs-ph-welcome-description&quot; onClose={() =&gt; (welcomeReturn.current ?? (immersive ? extensionToggle.current : replay.current))?.focus()}&gt;
       &lt;div className=&quot;cs-ph-welcome-grid&quot;&gt;
         &lt;aside className=&quot;cs-ph-welcome-nav&quot;&gt;&lt;p className=&quot;cs-ph-eyebrow&quot;&gt;SALES PULSE HELPER&lt;/p&gt;&lt;h2 id=&quot;cs-ph-welcome-title&quot;&gt;A helping hand&lt;br /&gt; for your shop.&lt;/h2&gt;&lt;p id=&quot;cs-ph-welcome-description&quot;&gt;Get connected. Stay informed.&lt;br /&gt;Keep creating.&lt;/p&gt;&lt;nav aria-label=&quot;Welcome steps&quot;&gt;{steps.map((label, index) =&gt; &lt;button key={label} aria-current={index === step ? &quot;step&quot; : undefined} onClick={() =&gt; setStep(index)}&gt;&lt;span&gt;{String(index + 1).padStart(2, &quot;0&quot;)}&lt;/span&gt;{label}&lt;/button&gt;)}&lt;/nav&gt;&lt;small&gt;Planned experience · sample data&lt;/small&gt;&lt;/aside&gt;
@@ -8171,6 +8188,8 @@ function HelperWelcome({ firstVisit = true, scenario = &quot;importing&quot;, po
         &lt;/div&gt;
       &lt;/div&gt;
     &lt;/dialog&gt;
+    &lt;/div&gt;
+    {!immersive &amp;&amp; &lt;footer className=&quot;cs-ph-boundary&quot;&gt;&lt;Badge tone={badgeTone}&gt;{finished ? &quot;Tour completed in this preview&quot; : &quot;Design proposal&quot;}&lt;/Badge&gt;&lt;p&gt;Position and visibility survive changes within this preview only. Reload resets setup. The installed design would remember preferences and show onboarding once across tabs. Closing or finishing never starts an import.&lt;/p&gt;&lt;a href={referencePath(&quot;/?path=/story/products-sales-pulse-helper--connected&quot;)} target=&quot;_top&quot;&gt;Compare the current Helper popup&lt;/a&gt; · &lt;a href=&quot;https://github.com/creator-signal/sales-pulse/issues/1607&quot;&gt;Design #1607&lt;/a&gt;&lt;/footer&gt;}
   &lt;/main&gt;;
 }
 
@@ -18659,13 +18678,13 @@ export const KeyboardMenu: Story = { args: { scenario: &quot;importing&quot;, si
     <div class="note err">
       <div class="note-title">Prop type error</div>
       <div class="note-body"><pre><code>No component file found for the &quot;HelperWelcome&quot; component.
-  124 | }
-  125 |
-&gt; 126 | const meta = {
+  143 | }
+  144 |
+&gt; 145 | const meta = {
       | ^
-  127 |   id: &quot;products-planned-helper-welcome-and-toolbar&quot;,
-  128 |   title: &quot;Planned/Helper welcome&quot;, component: HelperWelcome, tags: [&quot;autodocs&quot;],
-  129 |   parameters: { docs: { description: { component: &quot;Planned design #1607. Synthetic native modal with the current Helper toolbar composition, not an installed extension. View activity opens the real Creator Signal Activity page in a new tab; the displayed import data remains synthetic. No provider actions or persistence. Use the same reference&#39;s Current and planned index to compare delivery status.&quot; } } },
+  146 |   id: &quot;products-planned-helper-welcome-and-toolbar&quot;,
+  147 |   title: &quot;Planned/Helper welcome&quot;, component: HelperWelcome, tags: [&quot;autodocs&quot;],
+  148 |   parameters: { docs: { description: { component: &quot;Planned design #1607. Synthetic native modal with the current Helper toolbar composition, not an installed extension. View activity opens the real Creator Signal Activity page in a new tab; the displayed import data remains synthetic. No provider actions or persistence. Use the same reference&#39;s Current and planned index to compare delivery status.&quot; } } },
 
 ./src/stories/planned/HelperWelcome.stories.tsx:
 import { useEffect, useRef, useState } from &quot;react&quot;;
@@ -18694,6 +18713,7 @@ const steps = [&quot;Welcome&quot;, &quot;Your connections&quot;, &quot;Make it 
 function HelperWelcome({ firstVisit = true, scenario = &quot;importing&quot;, popupInitiallyOpen = false, immersive = false }: { firstVisit?: boolean; scenario?: Scenario; popupInitiallyOpen?: boolean; immersive?: boolean }) {
   const { resolvedTheme } = useTheme();
   const dialog = useRef&lt;HTMLDialogElement&gt;(null);
+  const demo = useRef&lt;HTMLDivElement&gt;(null);
   const replay = useRef&lt;HTMLButtonElement&gt;(null);
   const welcomeReturn = useRef&lt;HTMLButtonElement | null&gt;(null);
   const extensionToggle = useRef&lt;HTMLButtonElement&gt;(null);
@@ -18704,14 +18724,33 @@ function HelperWelcome({ firstVisit = true, scenario = &quot;importing&quot;, po
   const [finished, setFinished] = useState(false);
   const [selected, setSelected] = useState&lt;Scenario&gt;(scenario);
   const current = states[selected];
+  const fitWelcomeToDemo = () =&gt; {
+    if (!dialog.current || !demo.current) return;
+    // Native dialogs use the document top layer. Bound it to the visible demo,
+    // including its backdrop, without replacing native focus/Escape behavior.
+    const bounds = demo.current.getBoundingClientRect();
+    const left = Math.max(0, bounds.left);
+    const top = Math.max(0, bounds.top);
+    const right = Math.min(window.innerWidth, bounds.right);
+    const bottom = Math.min(window.innerHeight, bounds.bottom);
+    const values = { left, top, width: Math.max(0, right - left), height: Math.max(0, bottom - top), right: window.innerWidth - right, bottom: window.innerHeight - bottom };
+    for (const [key, value] of Object.entries(values)) dialog.current.style.setProperty(`--cs-ph-frame-${key}`, `${value}px`);
+  };
   useEffect(() =&gt; setSelected(scenario), [scenario]);
   useEffect(() =&gt; {
+    const observer = new ResizeObserver(fitWelcomeToDemo);
+    if (demo.current) observer.observe(demo.current);
+    window.addEventListener(&quot;resize&quot;, fitWelcomeToDemo);
+    window.addEventListener(&quot;scroll&quot;, fitWelcomeToDemo, true);
+    return () =&gt; { observer.disconnect(); window.removeEventListener(&quot;resize&quot;, fitWelcomeToDemo); window.removeEventListener(&quot;scroll&quot;, fitWelcomeToDemo, true); };
+  }, []);
+  useEffect(() =&gt; {
     const element = dialog.current;
-    if (firstVisit &amp;&amp; element &amp;&amp; !element.open) element.showModal();
+    if (firstVisit &amp;&amp; element &amp;&amp; !element.open) { fitWelcomeToDemo(); element.showModal(); }
     return () =&gt; element?.close();
   }, [firstVisit]);
 
-  const openWelcome = () =&gt; { welcomeReturn.current = null; setStep(0); dialog.current?.showModal(); };
+  const openWelcome = () =&gt; { welcomeReturn.current = null; setStep(0); demo.current?.scrollIntoView({ block: &quot;nearest&quot; }); fitWelcomeToDemo(); dialog.current?.showModal(); };
   const closeWelcome = () =&gt; dialog.current?.close();
   const hide = () =&gt; { setVisibility(&quot;tab&quot;); (immersive ? extensionToggle.current : replay.current)?.focus(); };
   const badgeTone = current.tone;
@@ -18730,7 +18769,7 @@ function HelperWelcome({ firstVisit = true, scenario = &quot;importing&quot;, po
 
 
     &lt;/&gt;}
-    &lt;div className=&quot;cs-ph-page&quot; aria-label=&quot;Spoonflower page preview&quot;&gt;
+    &lt;div className=&quot;cs-ph-page&quot; ref={demo} aria-label=&quot;Spoonflower page preview&quot;&gt;
       {immersive &amp;&amp; &lt;button className=&quot;cs-ui-button cs-ui-button--secondary cs-ph-extension-launcher&quot; ref={extensionToggle} aria-expanded={popupOpen} aria-controls=&quot;cs-ph-extension-popup&quot; onClick={() =&gt; setPopupOpen(!popupOpen)}&gt;Open extension popup&lt;/button&gt;}
       &lt;img className=&quot;cs-ph-backdrop&quot; src={spoonflowerBackdrop} alt=&quot;&quot; hidden={backdropFailed} onError={() =&gt; setBackdropFailed(true)} /&gt;
       {backdropFailed &amp;&amp; &lt;p className=&quot;cs-ph-backdrop-fallback&quot; role=&quot;status&quot;&gt;Spoonflower screenshot unavailable. Helper controls are still available.&lt;/p&gt;}
@@ -18765,9 +18804,6 @@ function HelperWelcome({ firstVisit = true, scenario = &quot;importing&quot;, po
     &lt;/section&gt;}
       {visibility === &quot;tab&quot; &amp;&amp; &lt;Button className=&quot;cs-ph-edge-tab&quot; variant=&quot;secondary&quot; onClick={() =&gt; setVisibility(&quot;shown&quot;)}&gt;Helper · {current.label} · Show&lt;/Button&gt;}
       {visibility === &quot;shown&quot; &amp;&amp; &lt;HelperToolbarReference scenario={toolbarScenarios[selected]} status={{ title: current.label, detail: current.detail }} signedIn={selected !== &quot;signIn&quot;} label=&quot;Helper toolbar&quot; onHide={hide} onWelcome={openWelcome} /&gt;}
-    &lt;/div&gt;
-    {!immersive &amp;&amp; &lt;footer className=&quot;cs-ph-boundary&quot;&gt;&lt;Badge tone={badgeTone}&gt;{finished ? &quot;Tour completed in this preview&quot; : &quot;Design proposal&quot;}&lt;/Badge&gt;&lt;p&gt;Position and visibility survive changes within this preview only. Reload resets setup. The installed design would remember preferences and show onboarding once across tabs. Closing or finishing never starts an import.&lt;/p&gt;&lt;a href={referencePath(&quot;/?path=/story/products-sales-pulse-helper--connected&quot;)} target=&quot;_top&quot;&gt;Compare the current Helper popup&lt;/a&gt; · &lt;a href=&quot;https://github.com/creator-signal/sales-pulse/issues/1607&quot;&gt;Design #1607&lt;/a&gt;&lt;/footer&gt;}
-
     &lt;dialog className=&quot;cs-ph-welcome&quot; ref={dialog} aria-labelledby=&quot;cs-ph-welcome-title&quot; aria-describedby=&quot;cs-ph-welcome-description&quot; onClose={() =&gt; (welcomeReturn.current ?? (immersive ? extensionToggle.current : replay.current))?.focus()}&gt;
       &lt;div className=&quot;cs-ph-welcome-grid&quot;&gt;
         &lt;aside className=&quot;cs-ph-welcome-nav&quot;&gt;&lt;p className=&quot;cs-ph-eyebrow&quot;&gt;SALES PULSE HELPER&lt;/p&gt;&lt;h2 id=&quot;cs-ph-welcome-title&quot;&gt;A helping hand&lt;br /&gt; for your shop.&lt;/h2&gt;&lt;p id=&quot;cs-ph-welcome-description&quot;&gt;Get connected. Stay informed.&lt;br /&gt;Keep creating.&lt;/p&gt;&lt;nav aria-label=&quot;Welcome steps&quot;&gt;{steps.map((label, index) =&gt; &lt;button key={label} aria-current={index === step ? &quot;step&quot; : undefined} onClick={() =&gt; setStep(index)}&gt;&lt;span&gt;{String(index + 1).padStart(2, &quot;0&quot;)}&lt;/span&gt;{label}&lt;/button&gt;)}&lt;/nav&gt;&lt;small&gt;Planned experience · sample data&lt;/small&gt;&lt;/aside&gt;
@@ -18790,6 +18826,8 @@ function HelperWelcome({ firstVisit = true, scenario = &quot;importing&quot;, po
         &lt;/div&gt;
       &lt;/div&gt;
     &lt;/dialog&gt;
+    &lt;/div&gt;
+    {!immersive &amp;&amp; &lt;footer className=&quot;cs-ph-boundary&quot;&gt;&lt;Badge tone={badgeTone}&gt;{finished ? &quot;Tour completed in this preview&quot; : &quot;Design proposal&quot;}&lt;/Badge&gt;&lt;p&gt;Position and visibility survive changes within this preview only. Reload resets setup. The installed design would remember preferences and show onboarding once across tabs. Closing or finishing never starts an import.&lt;/p&gt;&lt;a href={referencePath(&quot;/?path=/story/products-sales-pulse-helper--connected&quot;)} target=&quot;_top&quot;&gt;Compare the current Helper popup&lt;/a&gt; · &lt;a href=&quot;https://github.com/creator-signal/sales-pulse/issues/1607&quot;&gt;Design #1607&lt;/a&gt;&lt;/footer&gt;}
   &lt;/main&gt;;
 }
 
