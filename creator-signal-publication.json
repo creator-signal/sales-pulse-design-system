@@ -1,14 +1,14 @@
 {
   "schema": "creator-signal.design-system-github-pages-publication/v1",
   "sourceRepository": "creator-signal/sales-pulse",
-  "sourceRevision": "80acced3b761a31611d79981f9b6fa0b3900ecf7",
+  "sourceRevision": "825b9b9757c0069a6a86d83173a174ee8b5947fe",
   "sourceArtifact": "apps/design-system/storybook-static",
   "basePath": "/sales-pulse-design-system/",
   "syntheticReference": true,
   "sourceBranch": "develop",
-  "sourcePullRequest": 2208,
-  "sourceMergedAt": "2026-10-05T11:08:18Z",
-  "executorRevision": "80acced3b761a31611d79981f9b6fa0b3900ecf7",
+  "sourcePullRequest": 2211,
+  "sourceMergedAt": "2026-10-05T14:47:51Z",
+  "executorRevision": "825b9b9757c0069a6a86d83173a174ee8b5947fe",
   "targetRepository": "creator-signal/sales-pulse-design-system",
   "targetBranch": "develop",
   "verification": "public-pages",
@@ -16,14 +16,14 @@
   "sourceEvent": "merge",
   "executor": "github-actions",
   "workflow": ".github/workflows/design-system.yml",
-  "runId": "37301001927",
+  "runId": "37327622003",
   "runAttempt": "1",
-  "sourceHeadRevision": "9e7249b306ce754599c951008ab91d08990ad57c",
-  "sourceBaseRevision": "1c54f58957c37c0d8933b9a22d0a4f76981a62ea",
-  "sourceTree": "479df4ff787f709c2c7f4b5385026c17e24c4a09",
+  "sourceHeadRevision": "7afa8f7ad0675e9fa1365afdd90493198d88d7cf",
+  "sourceBaseRevision": "4b7f452c17eecd14666bdc79256d7fc9e9713500",
+  "sourceTree": "88a8a1648c438d4dbf372dbe7cf08fe2d4e1e93d",
   "outputIdentity": {
     "algorithm": "sha256-path-size-content/v1",
-    "digest": "c265d9cd88f7addfcdaf0909f1aecbe7ed37ff5b13357e23a2e407165ba70042",
+    "digest": "5eac42fcd77db7869edba0276a918661de12f8d1408944d61921edaa6ea243f6",
     "files": 466
   }
 }
