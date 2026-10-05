@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Map — default</title>
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="http://127.0.0.1/specimens/creator-signal.site.catalogue.map/default">
+  <meta property="og:title" content="Map — default">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="http://127.0.0.1/specimens/creator-signal.site.catalogue.map/default">
+  <meta property="og:site_name" content="Instatic non-form Component Library specimens">
+  <meta property="og:locale" content="en_AU">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Map — default">
+  <style>
+:where(*, *::before, *::after) { box-sizing: border-box; }
+:where(*) { margin: 0; padding: 0; }
+:where(body) { line-height: 1.5; font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+:where(img, picture, video, canvas, svg) { display: block; max-width: 100%; height: auto; }
+:where(input, button, textarea, select) { font: inherit; color: inherit; }
+:where(button) { background: none; border: 0; cursor: pointer; }
+:where(p, h1, h2, h3, h4, h5, h6) { overflow-wrap: break-word; }
+:where(ol, ul, menu) { list-style: none; }
+:where(a) { color: inherit; text-decoration: inherit; }
+:where(table) { border-collapse: collapse; }
+  </style>
+  <link rel="stylesheet" href="/sales-pulse-design-system/assets/design-system/tokens.css" data-instatic-design-system-asset="tokens">
+  <link rel="stylesheet" href="/sales-pulse-design-system/assets/design-system/typography.css" data-instatic-design-system-asset="typography">
+  <link rel="stylesheet" href="/sales-pulse-design-system/assets/design-system/theme-runtime.css" data-instatic-design-system-asset="theme">
+  <script src="/sales-pulse-design-system/assets/design-system/theme-bootstrap.js" data-instatic-design-system-asset="theme-bootstrap"></script>
+<link rel="stylesheet" href="/sales-pulse-design-system/assets/design-system/tokens.css" data-instatic-current-design-system="tokens">
+<link rel="stylesheet" href="/sales-pulse-design-system/assets/design-system/typography.css" data-instatic-current-design-system="typography">
+<link rel="stylesheet" href="/sales-pulse-design-system/assets/design-system/theme-runtime.css" data-instatic-current-design-system="theme">
+<script src="/sales-pulse-design-system/assets/design-system/theme-bootstrap.js" data-instatic-current-design-system="theme-bootstrap"></script>
+</head>
+<body data-instatic-specimen-entry="creator-signal.site.catalogue.map" data-instatic-specimen-scenario="default">
+<div uid="creator-signal-site-catalogue-map--default--001--creator-signal-site-catalogue-map" data-instatic-provider-embed data-instatic-provider-adapter="maps.openstreetmap" data-instatic-provider-consent="preferences" data-instatic-provider-src="https://www.openstreetmap.org/export/embed.html?bbox=151.20%2C-33.88%2C151.22%2C-33.86" data-instatic-provider-title="Map" data-instatic-provider-sandbox="allow-popups allow-popups-to-escape-sandbox allow-scripts" data-instatic-provider-referrer="no-referrer" data-instatic-provider-allow="" data-instatic-provider-aspect="4 / 3" data-instatic-provider-height-mode="responsive" data-instatic-provider-height="480"><button type="button" data-instatic-provider-load>Load OpenStreetMap</button><p>Map unavailable.</p></div>
+<script data-instatic-pinned-module>
+(() => {
+  if (window.__instaticProviderEmbedRuntimeLoaded) return;
+  window.__instaticProviderEmbedRuntimeLoaded = true;
+
+  const SELECTOR = '[data-instatic-provider-embed]';
+  for (const host of document.querySelectorAll(SELECTOR)) attach(host);
+
+  document.addEventListener('click', (event) => {
+    const button = event.target && event.target.closest
+      ? event.target.closest('[data-instatic-provider-load]')
+      : null;
+    if (!button) return;
+    const host = button.closest(SELECTOR);
+    if (!host) return;
+    event.preventDefault();
+    load(host);
+  });
+
+  document.addEventListener('focusin', (event) => {
+    const host = event.target && event.target.closest ? event.target.closest(SELECTOR) : null;
+    if (host) attach(host);
+  });
+
+  document.addEventListener('instatic:consent-changed', (event) => {
+    if (event.detail && Array.isArray(event.detail.categories)) {
+      window.__instaticConsentCategories = event.detail.categories;
+    }
+    for (const host of document.querySelectorAll(SELECTOR)) attach(host);
+  });
+
+  function attach(host) {
+    if (host.getAttribute('data-instatic-provider-loaded') === 'true') return;
+    const category = host.getAttribute('data-instatic-provider-consent') || 'essential';
+    if (category === 'essential' || consentCategories().includes(category)) load(host);
+  }
+
+  function consentCategories() {
+    return Array.isArray(window.__instaticConsentCategories)
+      ? window.__instaticConsentCategories.map(String)
+      : [];
+  }
+
+  function load(host) {
+    if (host.getAttribute('data-instatic-provider-loaded') === 'true') return;
+    const src = host.getAttribute('data-instatic-provider-src') || '';
+    if (!src) return;
+    const frame = document.createElement('iframe');
+    frame.src = src;
+    frame.title = host.getAttribute('data-instatic-provider-title') || 'Provider content';
+    frame.loading = 'lazy';
+    frame.setAttribute('sandbox', host.getAttribute('data-instatic-provider-sandbox') || '');
+    frame.referrerPolicy = host.getAttribute('data-instatic-provider-referrer') || 'no-referrer';
+    const allow = host.getAttribute('data-instatic-provider-allow') || '';
+    if (allow) frame.setAttribute('allow', allow);
+    frame.setAttribute('allowfullscreen', '');
+    const aspectRatio = host.getAttribute('data-instatic-provider-aspect') || '16 / 9';
+    const heightMode = host.getAttribute('data-instatic-provider-height-mode') || 'responsive';
+    const height = Number(host.getAttribute('data-instatic-provider-height') || '480');
+    frame.style.width = '100%';
+    if (heightMode === 'responsive') frame.style.aspectRatio = aspectRatio;
+    else frame.style.height = Math.max(160, Math.min(2000, height || 480)) + 'px';
+    if (heightMode === 'content-driven') frame.setAttribute('data-instatic-content-driven-height', '');
+    host.replaceChildren(frame);
+    host.setAttribute('data-instatic-provider-loaded', 'true');
+  }
+})();
+</script>
+</body>
+</html>
