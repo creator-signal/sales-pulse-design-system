@@ -1,7 +1,7 @@
 {
   "schemaVersion": "creator-signal.design-system-search/v1",
   "issue": 1414,
-  "sourceRevision": "8096757c3ed6c8df89f2c10142962817014784ca",
+  "sourceRevision": "88bbd01c6422942aa32ef60c3efb2c9d5c747fd4",
   "records": [
     {
       "id": "widget.accordion",
@@ -1717,27 +1717,26 @@
       "docsUrl": "/sales-pulse-design-system/?path=/docs/dls-start-here-current-and-planned--docs"
     },
     {
-      "id": "planned.helper-welcome-toolbar-v2",
-      "kind": "planned",
-      "label": "Planned: Helper floating toolbar V2",
-      "description": "A fixed-height floating toolbar with a compact status lane, synthetic account state, and an anchored Activity, Documentation, Position and Theme submenu. Showcase only. It does not implement extension authentication, account images, preference persistence, activity navigation, provider actions or background work.",
+      "id": "supporting.helper-toolbar",
+      "kind": "supporting",
+      "label": "Helper toolbar",
+      "description": "The selected fixed-height Helper toolbar with an anchored menu, account, activity and recovery states. Welcome examples reuse this synthetic reference composition.",
       "storyId": "products-planned-helper-toolbar-v2--importing-signed-out",
-      "sourcePath": "apps/design-system/src/stories/planned/HelperToolbarV2.stories.tsx",
-      "lifecycle": "planned",
+      "sourcePath": "apps/design-system/src/stories/HelperToolbar.stories.tsx",
+      "lifecycle": "supported",
       "keywords": [
-        "Sales Pulse Helper",
-        "planned",
-        "proposal"
+        "current",
+        "helper",
+        "toolbar"
       ],
-      "ownerIssue": 1695,
       "url": "/sales-pulse-design-system/?path=/story/products-planned-helper-toolbar-v2--importing-signed-out",
       "docsUrl": "/sales-pulse-design-system/?path=/docs/products-planned-helper-toolbar-v2--docs"
     },
     {
       "id": "planned.helper-welcome-toolbar",
       "kind": "planned",
-      "label": "Planned: Helper welcome and floating toolbar",
-      "description": "First-use welcome overlay on Spoonflower with a movable toolbar, hide and restore, truthful activity and recovery states. No installed extension behavior, permission changes, provider actions or persistent preferences are implemented by this preview.",
+      "label": "Planned: Helper welcome",
+      "description": "First-use welcome overlay on Spoonflower with a current Helper toolbar, hide and restore, truthful activity and recovery states. No installed extension behavior, permission changes, provider actions or persistent preferences are implemented by this preview.",
       "storyId": "products-planned-helper-welcome-and-toolbar--first-visit",
       "sourcePath": "apps/design-system/src/stories/planned/HelperWelcome.stories.tsx",
       "lifecycle": "planned",
@@ -1754,7 +1753,7 @@
       "id": "planned.helper-installation-welcome",
       "kind": "planned",
       "label": "Planned: Helper installation welcome",
-      "description": "Selected installation welcome with connection cards, Meet your Helper, the compact toolbar, recovery scenarios and typography comparison. Showcase only. No extension install event, account connection, permissions or persistent onboarding state is implemented.",
+      "description": "Selected installation welcome with connection cards, Meet your Helper, the current Helper toolbar, recovery scenarios and typography comparison. Showcase only. No extension install event, account connection, permissions or persistent onboarding state is implemented.",
       "storyId": "products-planned-helper-simplified--installation",
       "sourcePath": "apps/design-system/src/stories/planned/HelperInstalled.stories.tsx",
       "lifecycle": "planned",
