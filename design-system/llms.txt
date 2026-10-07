@@ -1,6 +1,6 @@
 # Creator Signal Design Language System
 
-Source revision: e77c62ce5a4e06010d2e1af3bc75fbb8e0cc1069
+Source revision: cd549b508e5c2cf77d9a1c89982208e7f3dc5340
 Base path: /sales-pulse-design-system/
 Runtime applications must not import or depend on this rendered reference.
 
